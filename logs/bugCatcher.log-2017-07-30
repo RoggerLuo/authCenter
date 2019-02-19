@@ -1,0 +1,518 @@
+[2017-07-30 14:38:50.718] [INFO] console - Express server listening on :8090, in development mode
+[2017-07-30 14:38:50.747] [INFO] console - mongo连接成功
+[2017-07-30 14:38:50.755] [INFO] console - mongo连接打开
+[2017-07-30 14:43:11.943] [INFO] console - ******** getResFn error ******** 
+[2017-07-30 14:43:11.944] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-07-30 14:43:11.967] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:43:23\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:40:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-07-30 14:43:29.196] [INFO] console - ******** getResFn error ******** 
+[2017-07-30 14:43:29.198] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:77:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:74:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+[2017-07-30 14:43:29.224] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:77:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:74:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7 'Error: e_params\n    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10\n    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)\n    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:77:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at login (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:74:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7'
+[2017-07-30 14:43:29.459] [INFO] console - ******** getResFn error ******** 
+[2017-07-30 14:43:29.460] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:77:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:74:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+[2017-07-30 14:43:29.466] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:77:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:74:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7 'Error: e_params\n    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10\n    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)\n    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:77:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at login (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:74:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7'
+[2017-07-30 14:43:44.324] [INFO] console - ******** getResFn error ******** 
+[2017-07-30 14:43:44.324] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:77:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:74:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+[2017-07-30 14:43:44.328] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:77:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:74:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7 'Error: e_params\n    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10\n    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)\n    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:77:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at login (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:74:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7'
+[2017-07-30 14:45:58.042] [INFO] console - Express server listening on :8090, in development mode
+[2017-07-30 14:45:58.297] [INFO] console - mongo连接成功
+[2017-07-30 14:45:58.341] [INFO] console - mongo连接打开
+[2017-07-30 14:46:04.317] [ERROR] console - { AssertionError: domainId不能为空
+    at checkParam (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:19:3)
+    at createSession (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:25:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+  name: 'AssertionError',
+  actual: undefined,
+  expected: true,
+  operator: '==',
+  message: 'domainId不能为空',
+  generatedMessage: false }
+[2017-07-30 14:46:04.358] [INFO] console - ******** getResFn error ******** 
+[2017-07-30 14:46:04.358] [INFO] console - Error: e_params
+    at createSession (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:28:15)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:127:14)
+[2017-07-30 14:46:04.455] [ERROR] console - Error: e_params
+    at createSession (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:28:15)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:127:14) 'Error: e_params\n    at createSession (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:28:15)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:127:14)'
+[2017-07-30 14:47:58.073] [INFO] console - Express server listening on :8090, in development mode
+[2017-07-30 14:47:58.097] [INFO] console - mongo连接成功
+[2017-07-30 14:47:58.108] [INFO] console - mongo连接打开
+[2017-07-30 14:48:57.195] [INFO] console - *******进来进来进来进来***
+[2017-07-30 14:48:57.206] [ERROR] console - { AssertionError: domainId不能为空
+    at checkParam (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:20:3)
+    at createSession (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:26:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+  name: 'AssertionError',
+  actual: undefined,
+  expected: true,
+  operator: '==',
+  message: 'domainId不能为空',
+  generatedMessage: false }
+[2017-07-30 14:48:57.424] [INFO] console - ******** getResFn error ******** 
+[2017-07-30 14:48:57.424] [INFO] console - Error: e_params
+    at createSession (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:29:15)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:127:14)
+[2017-07-30 14:48:57.450] [ERROR] console - Error: e_params
+    at createSession (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:29:15)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:127:14) 'Error: e_params\n    at createSession (/Users/RogersMac/Sites/Gibbon/server/apps/session_app.js:29:15)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:127:14)'
+[2017-07-30 14:51:01.284] [INFO] console - Express server listening on :8090, in development mode
+[2017-07-30 14:51:01.376] [INFO] console - mongo连接成功
+[2017-07-30 14:51:01.402] [INFO] console - mongo连接打开
+[2017-07-30 14:51:25.114] [INFO] console - *******进来进来进来进来********
+[2017-07-30 14:51:25.120] [INFO] console -  ********* 验证ticket ********* 
+[2017-07-30 14:51:25.122] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'http://120.236.169.14:7081/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-07-30 14:51:25.425] [INFO] console - 没有token，直接申请
+[2017-07-30 14:51:25.427] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'http://120.236.169.14:7081/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-07-30 14:51:25.591] [INFO] console - 申请token响应是 { status: 202102, message: '没有对应的应用', result: {} }
+[2017-07-30 14:51:25.595] [ERROR] console - token服务器返回非0，申请失败
+[2017-07-30 14:51:25.596] [INFO] console - ******** getResFn error ******** 
+[2017-07-30 14:51:25.597] [INFO] console - Error: token_error
+    at Request.request [as _callback] (/Users/RogersMac/Sites/Gibbon/server/node_modules/atwork/lib/standard_token.js:22:15)
+    at Request.self.callback (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:286:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-07-30 14:51:25.615] [ERROR] console - Error: token_error
+    at Request.request [as _callback] (/Users/RogersMac/Sites/Gibbon/server/node_modules/atwork/lib/standard_token.js:22:15)
+    at Request.self.callback (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:286:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: token_error\n    at Request.request [as _callback] (/Users/RogersMac/Sites/Gibbon/server/node_modules/atwork/lib/standard_token.js:22:15)\n    at Request.self.callback (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:188:22)\n    at emitTwo (events.js:106:13)\n    at Request.emit (events.js:191:7)\n    at Request.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1171:10)\n    at emitOne (events.js:96:13)\n    at Request.emit (events.js:188:7)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1091:12)\n    at IncomingMessage.g (events.js:286:16)\n    at emitNone (events.js:91:20)\n    at IncomingMessage.emit (events.js:185:7)\n    at endReadableNT (_stream_readable.js:974:12)\n    at _combinedTickCallback (internal/process/next_tick.js:74:11)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-07-30 14:51:54.223] [INFO] console - *******进来进来进来进来********
+[2017-07-30 14:51:54.224] [INFO] console -  ********* 验证ticket ********* 
+[2017-07-30 14:51:54.224] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'http://120.236.169.14:7081/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-07-30 14:51:54.229] [INFO] console - 没有token，直接申请
+[2017-07-30 14:51:54.230] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'http://120.236.169.14:7081/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-07-30 14:51:54.369] [INFO] console - 申请token响应是 { status: 202102, message: '没有对应的应用', result: {} }
+[2017-07-30 14:51:54.370] [ERROR] console - token服务器返回非0，申请失败
+[2017-07-30 14:51:54.371] [INFO] console - ******** getResFn error ******** 
+[2017-07-30 14:51:54.371] [INFO] console - Error: token_error
+    at Request.request [as _callback] (/Users/RogersMac/Sites/Gibbon/server/node_modules/atwork/lib/standard_token.js:22:15)
+    at Request.self.callback (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:286:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-07-30 14:51:54.376] [ERROR] console - Error: token_error
+    at Request.request [as _callback] (/Users/RogersMac/Sites/Gibbon/server/node_modules/atwork/lib/standard_token.js:22:15)
+    at Request.self.callback (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:286:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: token_error\n    at Request.request [as _callback] (/Users/RogersMac/Sites/Gibbon/server/node_modules/atwork/lib/standard_token.js:22:15)\n    at Request.self.callback (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:188:22)\n    at emitTwo (events.js:106:13)\n    at Request.emit (events.js:191:7)\n    at Request.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1171:10)\n    at emitOne (events.js:96:13)\n    at Request.emit (events.js:188:7)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1091:12)\n    at IncomingMessage.g (events.js:286:16)\n    at emitNone (events.js:91:20)\n    at IncomingMessage.emit (events.js:185:7)\n    at endReadableNT (_stream_readable.js:974:12)\n    at _combinedTickCallback (internal/process/next_tick.js:74:11)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-07-30 14:54:42.010] [INFO] console - Express server listening on :8090, in development mode
+[2017-07-30 14:54:42.041] [INFO] console - mongo连接成功
+[2017-07-30 14:54:42.050] [INFO] console - mongo连接打开
+[2017-07-30 14:55:58.769] [INFO] console - Express server listening on :8090, in development mode
+[2017-07-30 14:55:58.794] [INFO] console - mongo连接成功
+[2017-07-30 14:55:58.806] [INFO] console - mongo连接打开
+[2017-07-30 14:56:02.367] [INFO] console - *******进来进来进来进来********
+[2017-07-30 14:56:02.369] [INFO] console -  ********* 验证ticket ********* 
+[2017-07-30 14:56:02.370] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'http://120.236.169.14:7081/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-07-30 14:56:02.454] [INFO] console - 没有token，直接申请
+[2017-07-30 14:56:02.455] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'http://120.236.169.14:7081/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-07-30 14:56:02.686] [INFO] console - 申请token响应是 { status: 202102, message: '没有对应的应用', result: {} }
+[2017-07-30 14:56:02.689] [ERROR] console - token服务器返回非0，申请失败
+[2017-07-30 14:56:02.691] [INFO] console - ******** getResFn error ******** 
+[2017-07-30 14:56:02.691] [INFO] console - Error: token_error
+    at Request.request [as _callback] (/Users/RogersMac/Sites/Gibbon/server/node_modules/atwork/lib/standard_token.js:22:15)
+    at Request.self.callback (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:286:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-07-30 14:56:02.704] [ERROR] console - Error: token_error
+    at Request.request [as _callback] (/Users/RogersMac/Sites/Gibbon/server/node_modules/atwork/lib/standard_token.js:22:15)
+    at Request.self.callback (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:286:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: token_error\n    at Request.request [as _callback] (/Users/RogersMac/Sites/Gibbon/server/node_modules/atwork/lib/standard_token.js:22:15)\n    at Request.self.callback (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:188:22)\n    at emitTwo (events.js:106:13)\n    at Request.emit (events.js:191:7)\n    at Request.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1171:10)\n    at emitOne (events.js:96:13)\n    at Request.emit (events.js:188:7)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/request/request.js:1091:12)\n    at IncomingMessage.g (events.js:286:16)\n    at emitNone (events.js:91:20)\n    at IncomingMessage.emit (events.js:185:7)\n    at endReadableNT (_stream_readable.js:974:12)\n    at _combinedTickCallback (internal/process/next_tick.js:74:11)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'

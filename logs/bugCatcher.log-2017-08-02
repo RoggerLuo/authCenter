@@ -1,0 +1,1858 @@
+[2017-08-02 10:40:43.321] [INFO] console - ******** getResFn error ******** 
+[2017-08-02 10:40:43.521] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-02 10:40:44.252] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-02 10:40:47.865] [INFO] console - ******** getResFn error ******** 
+[2017-08-02 10:40:47.870] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-02 10:40:48.034] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-02 10:47:25.683] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-02 10:47:25.690] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 10:47:25.700] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '3172aee2829f4567bc80d5a6aa8b2867',
+        refresh_token: '40527da2e769490ebee41e8442cc6785',
+        issued_time: 1501581822200,
+        expire_time: 1504173822200,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-02 10:47:25.702] [INFO] console - 已经获得token，开始发送请求 3172aee2829f4567bc80d5a6aa8b2867
+[2017-08-02 10:47:25.706] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/8f8e814980934b5281320d1fc4e4ff61?access_token=3172aee2829f4567bc80d5a6aa8b2867',
+  json: true,
+  timeout: 10000 }
+[2017-08-02 10:47:26.071] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-02 10:47:26.075] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '3172aee2829f4567bc80d5a6aa8b2867',
+        refresh_token: '40527da2e769490ebee41e8442cc6785',
+        issued_time: 1501581822200,
+        expire_time: 1504173822200,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-02 10:47:26.077] [INFO] console - 已经获得token，开始发送请求 3172aee2829f4567bc80d5a6aa8b2867
+[2017-08-02 10:47:26.084] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=3172aee2829f4567bc80d5a6aa8b2867',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-02 10:47:26.512] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-02 10:47:26.520] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-02 10:47:26.796] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 11:10:45.085] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 11:13:29.455] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 11:13:48.290] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 14:13:34.975] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 14:13:35.007] [INFO] console - mongo连接成功
+[2017-08-02 14:13:35.018] [INFO] console - mongo连接打开
+[2017-08-02 14:13:51.229] [INFO] console - ********uploaduploadupload********
+[2017-08-02 14:13:51.233] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 14:13:51.234] [INFO] console - ******** getResFn error ******** 
+[2017-08-02 14:13:51.234] [INFO] console - ReferenceError: req is not defined
+    at uploadMediaServer (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:14:16)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:64:28
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-08-02 14:13:51.243] [ERROR] console - ReferenceError: req is not defined
+    at uploadMediaServer (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:14:16)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:64:28
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7) 'ReferenceError: req is not defined\n    at uploadMediaServer (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:14:16)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:64:28\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at process._tickCallback (internal/process/next_tick.js:103:7)'
+[2017-08-02 14:14:28.845] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 14:14:28.865] [INFO] console - mongo连接成功
+[2017-08-02 14:14:28.874] [INFO] console - mongo连接打开
+[2017-08-02 14:14:37.584] [INFO] console - ********uploaduploadupload********
+[2017-08-02 14:14:37.586] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 14:14:37.587] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 14:14:37.623] [INFO] console - 没有token，直接申请
+[2017-08-02 14:14:37.624] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 14:14:37.956] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '0de2b0b83a794ce8940274227a4f0a5e',
+     refresh_token: 'aff790a7938b4b3a84d5998a6b3578ac',
+     issued_time: 1501654474554,
+     expire_time: 1504246474554,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 14:14:37.959] [INFO] console - 已经获得token，开始发送请求 0de2b0b83a794ce8940274227a4f0a5e
+[2017-08-02 14:14:37.963] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=13999&access_token=0de2b0b83a794ce8940274227a4f0a5e',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/pnAp3J7nLJDGaUtb3J9C1wHB.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 14:14:38.157] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQmJjZUFHMU9QQUFBMnJ5QTlBTDQ5Mi5qcGVn' }
+[2017-08-02 14:14:38.159] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'false',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: 'horse.jpeg',
+  fileType: 'image/jpeg',
+  fileSize: 13999,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQmJjZUFHMU9QQUFBMnJ5QTlBTDQ5Mi5qcGVn',
+  isHtml: false,
+  getBugs: [Function: getBugs],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-02 14:14:38.179] [ERROR] console - (node:1711) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 14:27:33.603] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 14:27:33.623] [INFO] console - mongo连接成功
+[2017-08-02 14:27:33.631] [INFO] console - mongo连接打开
+[2017-08-02 14:36:22.870] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 14:36:22.897] [INFO] console - mongo连接成功
+[2017-08-02 14:36:22.907] [INFO] console - mongo连接打开
+[2017-08-02 14:38:02.393] [INFO] console - 延长登录时间
+[2017-08-02 14:38:03.001] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 14:38:03.079] [ERROR] console - (node:1807) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 14:40:23.166] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:40:23.189] [INFO] console - ******** getResFn error ******** 
+[2017-08-02 14:40:23.189] [INFO] console - ReferenceError: rParams is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:16:31
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at getFileList (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:13:2)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at ApplicationDao.getAppById.then.app (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:112:6)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-08-02 14:40:23.198] [ERROR] console - ReferenceError: rParams is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:16:31
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at getFileList (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:13:2)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at ApplicationDao.getAppById.then.app (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:112:6)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'ReferenceError: rParams is not defined\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:16:31\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at getFileList (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:13:2)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at ApplicationDao.getAppById.then.app (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:112:6)\n    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-08-02 14:40:57.807] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 14:40:57.843] [INFO] console - mongo连接成功
+[2017-08-02 14:40:57.859] [INFO] console - mongo连接打开
+[2017-08-02 14:41:11.134] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:41:11.194] [ERROR] console - (node:1869) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 14:41:11.208] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 14:41:11.209] [INFO] console - {}
+[2017-08-02 14:41:11.209] [INFO] console - condition { appId: undefined }
+[2017-08-02 14:41:11.210] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 14:41:11.210] [INFO] console - 查询条件是 { appId: undefined }
+[2017-08-02 14:42:19.058] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 14:42:19.085] [INFO] console - mongo连接成功
+[2017-08-02 14:42:19.096] [INFO] console - mongo连接打开
+[2017-08-02 14:42:32.356] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:42:32.399] [ERROR] console - (node:1871) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 14:42:32.444] [INFO] console - ******** getResFn error ******** 
+[2017-08-02 14:42:32.444] [INFO] console - ReferenceError: params is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:18:45
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at getFileList (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:13:2)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at ApplicationDao.getAppById.then.app (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:112:6)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-08-02 14:42:32.450] [ERROR] console - ReferenceError: params is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:18:45
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at getFileList (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:13:2)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at ApplicationDao.getAppById.then.app (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:112:6)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'ReferenceError: params is not defined\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:18:45\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at getFileList (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:13:2)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at ApplicationDao.getAppById.then.app (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:112:6)\n    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-08-02 14:42:49.919] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 14:42:49.950] [INFO] console - mongo连接成功
+[2017-08-02 14:42:49.965] [INFO] console - mongo连接打开
+[2017-08-02 14:43:01.935] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:43:01.994] [ERROR] console - (node:1873) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 14:43:02.015] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 14:43:02.016] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:43:02.017] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:43:02.017] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 14:43:02.018] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:56:43.094] [INFO] console - ******** getResFn error ******** 
+[2017-08-02 14:56:43.097] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-02 14:56:43.126] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-02 14:59:25.105] [INFO] console - 延长登录时间
+[2017-08-02 14:59:25.627] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 14:59:30.981] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:59:30.987] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 14:59:30.987] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:59:30.988] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:59:30.989] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 14:59:30.990] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:59:31.651] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:59:31.658] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 14:59:31.659] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:59:31.659] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 14:59:31.660] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 14:59:31.660] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:01:04.846] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:01:04.857] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:01:04.858] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:01:04.858] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:01:04.858] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:01:04.859] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:01:28.784] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:01:28.788] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:01:28.788] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:01:28.791] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:01:28.791] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:01:28.791] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:04.322] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:04.345] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:03:04.347] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:04.350] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:04.351] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:03:04.351] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:30.276] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:30.322] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:03:30.323] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:30.324] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:30.325] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:03:30.325] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:48.379] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:48.406] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:03:48.406] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:48.407] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:03:48.407] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:03:48.407] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:08:01.077] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:08:01.109] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:08:01.110] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:08:01.110] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:08:01.111] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:08:01.111] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:14:13.752] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:14:13.778] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:14:13.778] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:14:13.791] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:14:13.792] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:14:13.792] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:15:12.288] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:15:12.297] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:15:12.298] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:15:12.300] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:15:12.301] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:15:12.301] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:16:12.881] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:16:12.892] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:16:12.893] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:16:12.893] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:16:12.894] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:16:12.896] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:18:09.125] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:18:09.180] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:18:09.180] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:18:09.183] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:18:09.189] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:18:09.189] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:19:10.940] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:19:10.958] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:19:10.958] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:19:10.959] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:19:10.959] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:19:10.959] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:23:03.158] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:23:03.170] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:23:03.170] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:23:03.171] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:23:03.172] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:23:03.172] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:33:34.143] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:33:34.182] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:33:34.183] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:33:34.183] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:33:34.184] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:33:34.184] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:33:47.233] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:33:47.272] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:33:47.272] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:33:47.275] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:33:47.277] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:33:47.278] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:34:15.587] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:34:15.612] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:34:15.612] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:34:15.630] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:34:15.630] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:34:15.630] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:34:31.119] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:34:31.134] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:34:31.134] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:34:31.135] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:34:31.136] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:34:31.136] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:35:15.681] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:35:15.696] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:35:15.696] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:35:15.697] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:35:15.697] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:35:15.697] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:37:48.711] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:37:48.775] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:37:48.806] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:37:48.863] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:37:48.865] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 15:37:48.865] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 15:39:43.635] [INFO] console - ********uploaduploadupload********
+[2017-08-02 15:39:43.660] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 15:39:43.685] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 15:39:43.713] [INFO] console - 没有token，直接申请
+[2017-08-02 15:39:43.714] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 15:39:44.078] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '9ce5caab90a04481954935b455235040',
+     refresh_token: 'b2c87ba08ba449ef9c63b87997903918',
+     issued_time: 1501659580701,
+     expire_time: 1504251580701,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 15:39:44.079] [INFO] console - 已经获得token，开始发送请求 9ce5caab90a04481954935b455235040
+[2017-08-02 15:39:44.088] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=1333153&access_token=9ce5caab90a04481954935b455235040',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/brMM60CcAsn5f7JcQkUn8IbY.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 15:39:46.146] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmdidUFIRW02QUJSWG9TeldzQWc5NC5qcGVn' }
+[2017-08-02 15:39:46.148] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'empty',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: '35b416f308a6fa39f25cb4ccc110b057.jpeg',
+  fileType: 'image/jpeg',
+  fileSize: 1333153,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmdidUFIRW02QUJSWG9TeldzQWc5NC5qcGVn',
+  isHtml: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-02 16:52:01.485] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 16:52:01.513] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 16:52:01.513] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 16:52:01.514] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 16:52:01.514] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 16:52:01.515] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 16:59:04.739] [INFO] console - ********uploaduploadupload********
+[2017-08-02 16:59:04.748] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 16:59:04.758] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 16:59:04.762] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '9ce5caab90a04481954935b455235040',
+        refresh_token: 'b2c87ba08ba449ef9c63b87997903918',
+        issued_time: 1501659580701,
+        expire_time: 1504251580701,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-02 16:59:04.764] [INFO] console - 已经获得token，开始发送请求 9ce5caab90a04481954935b455235040
+[2017-08-02 16:59:04.772] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=332664&access_token=9ce5caab90a04481954935b455235040',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/SkAWH6fFoTDMVBeQ2uMO-8cW.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 16:59:06.504] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmxGZUFMemNWQUFVVGVINTZjX3cxMS5qcGVn' }
+[2017-08-02 16:59:06.506] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'empty',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: 'd79c5fac11bd6c3d95e36de046af510b.jpeg',
+  fileType: 'image/jpeg',
+  fileSize: 332664,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmxGZUFMemNWQUFVVGVINTZjX3cxMS5qcGVn',
+  isHtml: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-02 17:02:54.680] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:02:54.699] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:02:54.700] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:02:54.700] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:02:54.700] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:02:54.701] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:05:52.530] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:05:52.576] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:05:52.577] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:05:52.578] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:05:52.578] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:05:52.599] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:07:06.529] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:07:06.532] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:07:06.533] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:07:06.603] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '9ce5caab90a04481954935b455235040',
+        refresh_token: 'b2c87ba08ba449ef9c63b87997903918',
+        issued_time: 1501659580701,
+        expire_time: 1504251580701,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-02 17:07:06.650] [INFO] console - 已经获得token，开始发送请求 9ce5caab90a04481954935b455235040
+[2017-08-02 17:07:06.675] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=186967&access_token=9ce5caab90a04481954935b455235040',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/8AlvPJFJxjrlUpZoJUzpYWkX.jpg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:07:07.771] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmxqaUFJM25pQUFMYVYzX3ZQbTQ0NjUuanBn' }
+[2017-08-02 17:07:07.786] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'empty',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: 'IMG_1485_1024.jpg',
+  fileType: 'image/jpeg',
+  fileSize: 186967,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmxqaUFJM25pQUFMYVYzX3ZQbTQ0NjUuanBn',
+  isHtml: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-02 17:09:54.005] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:09:54.030] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:09:54.030] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:09:54.031] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:09:54.031] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:09:54.031] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:10:26.112] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:10:26.126] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:10:26.126] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:10:26.127] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:10:26.127] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:10:26.127] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:10:50.268] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:10:50.270] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:10:50.270] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:10:50.271] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '9ce5caab90a04481954935b455235040',
+        refresh_token: 'b2c87ba08ba449ef9c63b87997903918',
+        issued_time: 1501659580701,
+        expire_time: 1504251580701,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-02 17:10:50.273] [INFO] console - 已经获得token，开始发送请求 9ce5caab90a04481954935b455235040
+[2017-08-02 17:10:50.280] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=44597880&access_token=9ce5caab90a04481954935b455235040',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/qnV9B0JOLm-tMCIyrneb9g64.dmg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/x-apple-diskimage' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:11:09.402] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 17:11:09.455] [INFO] console - mongo连接成功
+[2017-08-02 17:11:09.473] [INFO] console - mongo连接打开
+[2017-08-02 17:11:17.754] [INFO] console - 延长登录时间
+[2017-08-02 17:11:18.508] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 17:11:18.578] [ERROR] console - (node:3080) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 17:12:08.484] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:12:08.522] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:12:08.523] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:12:08.524] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:12:08.524] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:12:08.525] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:12:08.776] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:12:08.780] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:12:08.781] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:12:08.781] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:12:08.782] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:12:08.783] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:12:28.048] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:12:28.059] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:12:28.063] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:12:28.076] [INFO] console - 没有token，直接申请
+[2017-08-02 17:12:28.076] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 17:12:28.964] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '338cde76b46840749a85e2a2f9f5b3f4',
+     refresh_token: '082bedafe84746b0ab80090f96dcaffc',
+     issued_time: 1501665148811,
+     expire_time: 1504257148811,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 17:12:28.965] [INFO] console - 已经获得token，开始发送请求 338cde76b46840749a85e2a2f9f5b3f4
+[2017-08-02 17:12:28.976] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=13999&access_token=338cde76b46840749a85e2a2f9f5b3f4',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/zIz1hGFFFLMt1e4DzyRJ-7b6.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:12:29.463] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmwzcUFCRHc3QUFBMnJ5QTlBTDQ3NC5qcGVn' }
+[2017-08-02 17:12:29.465] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'empty',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: 'horse.jpeg',
+  fileType: 'image/jpeg',
+  fileSize: 13999,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmwzcUFCRHc3QUFBMnJ5QTlBTDQ3NC5qcGVn',
+  isHtml: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-02 17:12:58.183] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:12:58.226] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:12:58.227] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:12:58.232] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '338cde76b46840749a85e2a2f9f5b3f4',
+        refresh_token: '082bedafe84746b0ab80090f96dcaffc',
+        issued_time: 1501665148811,
+        expire_time: 1504257148811,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-02 17:12:58.233] [INFO] console - 已经获得token，开始发送请求 338cde76b46840749a85e2a2f9f5b3f4
+[2017-08-02 17:12:58.266] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=139909&access_token=338cde76b46840749a85e2a2f9f5b3f4',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/RWGUxmxuEg3EwgHjhp4-ttXw.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:12:58.643] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmw1ZUFNRHZiQUFJaWhmX2NZODQ0NS5qcGVn' }
+[2017-08-02 17:12:58.646] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'empty',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: 'bg.jpeg',
+  fileType: 'image/jpeg',
+  fileSize: 139909,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmw1ZUFNRHZiQUFJaWhmX2NZODQ0NS5qcGVn',
+  isHtml: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-02 17:13:03.693] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:13:03.702] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:13:03.702] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:13:03.703] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:13:03.703] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:13:03.704] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:13:11.929] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:13:11.929] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:13:11.930] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:13:11.933] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '338cde76b46840749a85e2a2f9f5b3f4',
+        refresh_token: '082bedafe84746b0ab80090f96dcaffc',
+        issued_time: 1501665148811,
+        expire_time: 1504257148811,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-02 17:13:11.935] [INFO] console - 已经获得token，开始发送请求 338cde76b46840749a85e2a2f9f5b3f4
+[2017-08-02 17:13:11.938] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=252529&access_token=338cde76b46840749a85e2a2f9f5b3f4',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/5_5eISlxwu7H3Fu9SBPQJ4G4.jpg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:13:12.522] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmw2V0FLZmpPQUFQYWNSVDkyYTAwMjcuanBn' }
+[2017-08-02 17:13:12.524] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'empty',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: '328.jpg',
+  fileType: 'image/jpeg',
+  fileSize: 252529,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQmw2V0FLZmpPQUFQYWNSVDkyYTAwMjcuanBn',
+  isHtml: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-02 17:13:51.496] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:13:51.500] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:13:51.501] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:13:51.502] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '338cde76b46840749a85e2a2f9f5b3f4',
+        refresh_token: '082bedafe84746b0ab80090f96dcaffc',
+        issued_time: 1501665148811,
+        expire_time: 1504257148811,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-02 17:13:51.503] [INFO] console - 已经获得token，开始发送请求 338cde76b46840749a85e2a2f9f5b3f4
+[2017-08-02 17:13:51.506] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=44597880&access_token=338cde76b46840749a85e2a2f9f5b3f4',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/U32bClyfUogD5btcyM6XEX4C.dmg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/x-apple-diskimage' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:15:06.141] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 17:15:06.173] [INFO] console - mongo连接成功
+[2017-08-02 17:15:06.185] [INFO] console - mongo连接打开
+[2017-08-02 17:15:10.359] [INFO] console - 延长登录时间
+[2017-08-02 17:15:10.812] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 17:15:10.866] [ERROR] console - (node:3410) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 17:15:15.853] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:15:15.873] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:15:15.874] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:15:15.875] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:15:15.876] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:15:15.876] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:15:16.529] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:15:16.537] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:15:16.537] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:15:16.537] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:15:16.540] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:15:16.541] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:15:22.998] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:15:23.015] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:15:23.020] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:15:23.220] [INFO] console - 没有token，直接申请
+[2017-08-02 17:15:23.221] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 17:15:23.797] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'e99b57d694d2463a823f51ddc34cb359',
+     refresh_token: '2e39d7c7a3744e7ab0f12ba9d5604b2b',
+     issued_time: 1501665323746,
+     expire_time: 1504257323746,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 17:15:23.799] [INFO] console - 已经获得token，开始发送请求 e99b57d694d2463a823f51ddc34cb359
+[2017-08-02 17:15:23.809] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=44597880&access_token=e99b57d694d2463a823f51ddc34cb359',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/976F1GxVtfANj8GEWNIbhd23.dmg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/x-apple-diskimage' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:16:20.552] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 17:16:20.735] [INFO] console - mongo连接成功
+[2017-08-02 17:16:20.765] [INFO] console - mongo连接打开
+[2017-08-02 17:16:24.939] [INFO] console - 延长登录时间
+[2017-08-02 17:16:25.490] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 17:16:25.575] [ERROR] console - (node:3455) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 17:16:38.609] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:16:38.628] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:16:38.629] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:16:38.629] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:16:38.630] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:16:38.630] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:16:46.804] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:16:46.808] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:16:46.810] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:16:46.842] [INFO] console - 没有token，直接申请
+[2017-08-02 17:16:46.843] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 17:16:47.487] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '615996b2e01f4b30aa62a6026ebccf97',
+     refresh_token: 'fa13417a4776498294a68df72ae4bac7',
+     issued_time: 1501665407434,
+     expire_time: 1504257407434,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 17:16:47.504] [INFO] console - 已经获得token，开始发送请求 615996b2e01f4b30aa62a6026ebccf97
+[2017-08-02 17:16:47.514] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=44597880&access_token=615996b2e01f4b30aa62a6026ebccf97',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/x-lDrbpkJ6MmiAh-jWPMpn0H.dmg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/x-apple-diskimage' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:17:22.016] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 17:17:22.068] [INFO] console - mongo连接成功
+[2017-08-02 17:17:22.099] [INFO] console - mongo连接打开
+[2017-08-02 17:17:27.925] [INFO] console - 延长登录时间
+[2017-08-02 17:17:28.883] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 17:17:29.002] [ERROR] console - (node:3462) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 17:17:36.838] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:17:36.856] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:17:36.856] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:17:36.857] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:17:36.858] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:17:36.858] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:17:47.325] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:17:47.329] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:17:47.339] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:17:47.370] [INFO] console - 没有token，直接申请
+[2017-08-02 17:17:47.372] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 17:17:48.275] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'a2c0288ba4ce449d93a74045acfa9f1c',
+     refresh_token: '003ce31aea1c4d7aa8e77821dc021465',
+     issued_time: 1501665468151,
+     expire_time: 1504257468151,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 17:17:48.279] [INFO] console - 已经获得token，开始发送请求 a2c0288ba4ce449d93a74045acfa9f1c
+[2017-08-02 17:17:48.310] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=44597880&access_token=a2c0288ba4ce449d93a74045acfa9f1c',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/pHbJHrsbB2tX9pxewA_M7uXC.dmg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/x-apple-diskimage' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:18:06.010] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 17:18:06.344] [INFO] console - mongo连接成功
+[2017-08-02 17:18:06.377] [INFO] console - mongo连接打开
+[2017-08-02 17:19:32.924] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 17:19:32.960] [INFO] console - mongo连接成功
+[2017-08-02 17:19:33.048] [INFO] console - mongo连接打开
+[2017-08-02 17:19:36.467] [INFO] console - 延长登录时间
+[2017-08-02 17:19:37.308] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 17:19:37.369] [ERROR] console - (node:3514) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 17:19:43.574] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:19:43.587] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:19:43.588] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:19:43.588] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:19:43.589] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:19:43.589] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:20:03.136] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:20:03.156] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:20:03.159] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:20:03.172] [INFO] console - 没有token，直接申请
+[2017-08-02 17:20:03.174] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 17:20:03.514] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '6cad999d71f74a4f8762a8dd4ffcf09b',
+     refresh_token: '0578df0bc0274aacb37f3a520ad0ccd5',
+     issued_time: 1501665603459,
+     expire_time: 1504257603459,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 17:20:03.522] [INFO] console - 已经获得token，开始发送请求 6cad999d71f74a4f8762a8dd4ffcf09b
+[2017-08-02 17:20:03.532] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=44597880&access_token=6cad999d71f74a4f8762a8dd4ffcf09b',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/p53bhkiQctI3eHOwqM7pZlUP.dmg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/x-apple-diskimage' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:20:10.092] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 17:20:10.114] [INFO] console - mongo连接成功
+[2017-08-02 17:20:10.124] [INFO] console - mongo连接打开
+[2017-08-02 17:24:09.497] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:24:09.635] [ERROR] console - (node:3522) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 17:24:09.689] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:24:09.690] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:24:09.690] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:24:09.691] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:24:09.692] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:24:22.717] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:24:22.735] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:24:22.741] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:24:22.756] [INFO] console - 没有token，直接申请
+[2017-08-02 17:24:22.757] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 17:24:23.414] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '1b63970465a6415e86f649f2abb75742',
+     refresh_token: 'ce04867c70f44aab9f6153d47d84a2f9',
+     issued_time: 1501665863292,
+     expire_time: 1504257863292,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 17:24:23.418] [INFO] console - 已经获得token，开始发送请求 1b63970465a6415e86f649f2abb75742
+[2017-08-02 17:24:23.423] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=44597880&access_token=1b63970465a6415e86f649f2abb75742',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/99h-EAe7ocMwsj4OhbN-vGX7.dmg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/x-apple-diskimage' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:24:48.791] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 17:24:48.867] [INFO] console - mongo连接成功
+[2017-08-02 17:24:48.923] [INFO] console - mongo连接打开
+[2017-08-02 17:24:52.094] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:24:52.138] [ERROR] console - (node:3601) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 17:24:52.149] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:24:52.150] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:24:52.150] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:24:52.151] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:24:52.151] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:24:58.511] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:24:58.514] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:24:58.516] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:24:58.531] [INFO] console - 没有token，直接申请
+[2017-08-02 17:24:58.532] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 17:24:58.780] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '4c2a1f1aa8e0426a94eee3e7b6803912',
+     refresh_token: '1304caa5e23841589bfae604327caca1',
+     issued_time: 1501665898732,
+     expire_time: 1504257898732,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 17:24:58.782] [INFO] console - 已经获得token，开始发送请求 4c2a1f1aa8e0426a94eee3e7b6803912
+[2017-08-02 17:24:58.786] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=44597880&access_token=4c2a1f1aa8e0426a94eee3e7b6803912',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/ZHta9gTVdzF0hmk4t2E5VEvS.dmg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/x-apple-diskimage' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:34:17.322] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-02 17:34:17.348] [INFO] console - mongo连接成功
+[2017-08-02 17:34:17.364] [INFO] console - mongo连接打开
+[2017-08-02 17:38:11.857] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:38:11.920] [ERROR] console - (node:3616) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-02 17:38:11.961] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:38:11.961] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:38:11.962] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:38:11.962] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:38:11.964] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:39:44.696] [INFO] console - ********uploaduploadupload********
+[2017-08-02 17:39:44.702] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-02 17:39:44.716] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-02 17:39:44.759] [INFO] console - 没有token，直接申请
+[2017-08-02 17:39:44.761] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-02 17:39:45.054] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '1df5e2bc9a0c49409bc0590f464745c4',
+     refresh_token: 'eda39810efc3432a9712ed91d97ae1e7',
+     issued_time: 1501666785009,
+     expire_time: 1504258785009,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-02 17:39:45.057] [INFO] console - 已经获得token，开始发送请求 1df5e2bc9a0c49409bc0590f464745c4
+[2017-08-02 17:39:45.063] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=98755&access_token=1df5e2bc9a0c49409bc0590f464745c4',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/RwmZTk5AQrgQGG88dE0o-fVy.jpg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-02 17:39:45.391] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQm5kMkFOLThDQUFHQncwTWZ3SVU2ODQuanBn' }
+[2017-08-02 17:39:45.393] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'empty',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: '1641a8c8aff709407e3e6f30.jpg',
+  fileType: 'image/jpeg',
+  fileSize: 98755,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMS9DaTh4Q0ZtQm5kMkFOLThDQUFHQncwTWZ3SVU2ODQuanBn',
+  isHtml: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-02 17:57:57.649] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 17:57:57.678] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-02 17:58:46.344] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:58:46.352] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:58:46.352] [INFO] console - { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:58:46.357] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8' }
+[2017-08-02 17:58:46.358] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-02 17:58:46.358] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8' }

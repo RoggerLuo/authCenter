@@ -1,0 +1,866 @@
+[2017-06-28 16:28:51.530] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-28 16:28:51.559] [INFO] console - mongo连接成功
+[2017-06-28 16:28:51.570] [INFO] console - mongo连接打开
+[2017-06-28 16:32:49.344] [INFO] console - ******** getResFn error ******** 
+[2017-06-28 16:32:49.347] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-06-28 16:32:49.362] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:23\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:40:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/bug-catcher/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-06-28 16:34:06.360] [INFO] console - 查询条件是 { mobile: '123' }
+[2017-06-28 16:34:06.406] [ERROR] console - (node:57453) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-28 16:34:06.424] [INFO] console - ******** getResFn error ******** 
+[2017-06-28 16:34:06.424] [INFO] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-06-28 16:34:06.429] [ERROR] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: e_not_found\n    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)\n    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-06-28 16:34:14.782] [INFO] console - ******** getResFn error ******** 
+[2017-06-28 16:34:14.783] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-06-28 16:34:14.786] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:23\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:40:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/bug-catcher/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-06-28 16:34:19.898] [INFO] console - 查询条件是 { mobile: '123' }
+[2017-06-28 16:34:19.907] [INFO] console - ******** getResFn error ******** 
+[2017-06-28 16:34:19.907] [INFO] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-06-28 16:34:19.909] [ERROR] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: e_not_found\n    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)\n    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-06-28 16:34:29.943] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-28 16:34:30.161] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 16:34:30.185] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T16:34:30.000Z,
+     '$gte': 2017-06-27T16:34:30.000Z } }
+[2017-06-28 16:34:38.299] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:34:38.305] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:34:38.309] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 16:34:38.310] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:34:38.312] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:34:38.315] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 16:34:38.315] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:34:38.319] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 16:34:38.320] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:34:38.320] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:34:38.320] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 16:34:38.321] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:34:39.722] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 16:34:39.731] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T16:34:39.000Z,
+     '$gte': 2017-06-27T16:34:39.000Z } }
+[2017-06-28 16:38:30.644] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 16:38:30.659] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T16:38:30.000Z,
+     '$gte': 2017-06-27T16:38:30.000Z } }
+[2017-06-28 16:38:35.101] [INFO] console - ******** getResFn error ******** 
+[2017-06-28 16:38:35.105] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-06-28 16:38:35.112] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:23
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:40:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/bug-catcher/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:23\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:40:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/bug-catcher/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-06-28 16:38:38.921] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-28 16:38:38.990] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 16:38:38.996] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T16:38:38.000Z,
+     '$gte': 2017-06-27T16:38:38.000Z } }
+[2017-06-28 16:38:41.369] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:38:41.373] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 16:38:41.374] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:38:41.374] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:38:41.374] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 16:38:41.374] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:38:41.376] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:38:41.395] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 16:38:41.395] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:38:41.395] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:38:41.396] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 16:38:41.396] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 16:38:57.407] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 16:38:57.410] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T16:38:57.000Z,
+     '$gte': 2017-06-27T16:38:57.000Z } }
+[2017-06-28 16:58:55.522] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-28 16:58:55.546] [INFO] console - mongo连接成功
+[2017-06-28 16:58:55.558] [INFO] console - mongo连接打开
+[2017-06-28 16:59:00.932] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 16:59:00.979] [ERROR] console - (node:59141) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-28 17:02:50.739] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-28 17:02:50.761] [INFO] console - mongo连接成功
+[2017-06-28 17:02:50.769] [INFO] console - mongo连接打开
+[2017-06-28 17:03:10.425] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:03:10.491] [ERROR] console - (node:59148) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-28 17:03:10.508] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:03:10.000Z,
+     '$gte': 2017-06-27T17:03:10.000Z } }
+[2017-06-28 17:03:10.526] [INFO] console - []
+[2017-06-28 17:06:37.727] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-28 17:06:37.747] [INFO] console - mongo连接成功
+[2017-06-28 17:06:37.755] [INFO] console - mongo连接打开
+[2017-06-28 17:08:20.309] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-28 17:08:20.331] [INFO] console - mongo连接成功
+[2017-06-28 17:08:20.340] [INFO] console - mongo连接打开
+[2017-06-28 17:08:26.288] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:08:26.321] [ERROR] console - (node:59154) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-28 17:08:26.338] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:08:26.000Z,
+     '$gte': 2017-06-27T17:08:26.000Z } }
+[2017-06-28 17:08:26.342] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:08:26.000Z,
+     '$gte': 2017-06-27T17:08:26.000Z } }
+[2017-06-28 17:08:26.347] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:08:26.000Z,
+     '$gte': 2017-06-27T17:08:26.000Z } }
+[2017-06-28 17:09:36.134] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:09:36.148] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:09:36.000Z,
+     '$gte': 2017-06-27T17:09:36.000Z } }
+[2017-06-28 17:09:36.150] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:09:36.000Z,
+     '$gte': 2017-06-27T17:09:36.000Z } }
+[2017-06-28 17:09:36.152] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:09:36.000Z,
+     '$gte': 2017-06-27T17:09:36.000Z } }
+[2017-06-28 17:10:53.235] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:10:53.245] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:10:53.000Z,
+     '$gte': 2017-06-27T17:10:53.000Z } }
+[2017-06-28 17:10:53.247] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:10:53.000Z,
+     '$gte': 2017-06-27T17:10:53.000Z } }
+[2017-06-28 17:10:53.249] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:10:53.000Z,
+     '$gte': 2017-06-27T17:10:53.000Z } }
+[2017-06-28 17:11:36.217] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:11:36.296] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:11:36.000Z,
+     '$gte': 2017-06-27T17:11:36.000Z } }
+[2017-06-28 17:11:36.300] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:11:36.000Z,
+     '$gte': 2017-06-27T17:11:36.000Z } }
+[2017-06-28 17:11:36.311] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:11:36.000Z,
+     '$gte': 2017-06-27T17:11:36.000Z } }
+[2017-06-28 17:12:24.073] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:12:24.084] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:24.000Z,
+     '$gte': 2017-06-27T17:12:24.000Z } }
+[2017-06-28 17:12:24.086] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:24.000Z,
+     '$gte': 2017-06-27T17:12:24.000Z } }
+[2017-06-28 17:12:24.087] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:24.000Z,
+     '$gte': 2017-06-27T17:12:24.000Z } }
+[2017-06-28 17:12:25.157] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:12:25.171] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:25.172] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:12:25.173] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:12:25.178] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:25.179] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:12:25.187] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:12:25.196] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:25.196] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:12:25.197] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:12:25.199] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:25.203] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:12:26.653] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:12:26.657] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:26.000Z,
+     '$gte': 2017-06-27T17:12:26.000Z } }
+[2017-06-28 17:12:26.659] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:26.000Z,
+     '$gte': 2017-06-27T17:12:26.000Z } }
+[2017-06-28 17:12:26.661] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:26.000Z,
+     '$gte': 2017-06-27T17:12:26.000Z } }
+[2017-06-28 17:12:27.665] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:27.668] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:27.671] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:27.673] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:27.674] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:27.674] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:27.675] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:27.711] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:27.712] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:27.714] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:27.714] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:27.714] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:29.286] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:12:29.289] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:29.000Z,
+     '$gte': 2017-06-27T17:12:29.000Z } }
+[2017-06-28 17:12:29.290] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:29.000Z,
+     '$gte': 2017-06-27T17:12:29.000Z } }
+[2017-06-28 17:12:29.294] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:29.000Z,
+     '$gte': 2017-06-27T17:12:29.000Z } }
+[2017-06-28 17:12:29.918] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:29.923] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:29.924] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:29.924] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:29.924] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:29.925] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:29.926] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:29.937] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:29.937] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:29.938] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:29.943] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:12:29.944] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:12:33.940] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:12:33.944] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:33.000Z,
+     '$gte': 2017-06-27T17:12:33.000Z } }
+[2017-06-28 17:12:33.945] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:33.000Z,
+     '$gte': 2017-06-27T17:12:33.000Z } }
+[2017-06-28 17:12:33.947] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:12:33.000Z,
+     '$gte': 2017-06-27T17:12:33.000Z } }
+[2017-06-28 17:13:28.470] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-28 17:13:28.498] [INFO] console - mongo连接成功
+[2017-06-28 17:13:28.511] [INFO] console - mongo连接打开
+[2017-06-28 17:13:32.126] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:13:32.178] [ERROR] console - (node:59343) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-28 17:13:32.222] [INFO] console - [ { _id: 594c8c35a5fa18187ccbbc78,
+    account: 5947890af97761e6442e800e,
+    __v: 0,
+    createDate: 2017-06-23T03:34:13.685Z,
+    modifyDate: 2017-06-23T03:34:13.685Z,
+    key: '',
+    description: '',
+    name: 'Test' },
+  { _id: 594c81fe10dc9010b8a20dc0,
+    account: 5947890af97761e6442e800e,
+    __v: 0,
+    createDate: 2017-06-23T02:50:38.964Z,
+    modifyDate: 2017-06-23T02:50:38.964Z,
+    key: '',
+    description: '',
+    name: 'asdfasdf' },
+  { _id: 59488e4b513694f4a1d54e39,
+    account: 5947890af97761e6442e800e,
+    __v: 0,
+    createDate: 2017-06-20T02:54:03.792Z,
+    modifyDate: 2017-06-20T02:54:03.792Z,
+    key: '',
+    description: 'ddddd',
+    name: 'fromPostman' } ]
+[2017-06-28 17:13:32.227] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:13:32.000Z,
+     '$gte': 2017-06-27T17:13:32.000Z } }
+[2017-06-28 17:13:32.231] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:13:32.000Z,
+     '$gte': 2017-06-27T17:13:32.000Z } }
+[2017-06-28 17:13:32.234] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:13:32.000Z,
+     '$gte': 2017-06-27T17:13:32.000Z } }
+[2017-06-28 17:14:19.907] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-28 17:14:19.928] [INFO] console - mongo连接成功
+[2017-06-28 17:14:19.938] [INFO] console - mongo连接打开
+[2017-06-28 17:14:22.573] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:14:22.618] [ERROR] console - (node:59397) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-28 17:14:22.634] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:14:22.000Z,
+     '$gte': 2017-06-27T17:14:22.000Z } }
+[2017-06-28 17:14:22.640] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:14:22.000Z,
+     '$gte': 2017-06-27T17:14:22.000Z } }
+[2017-06-28 17:14:22.650] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:14:22.000Z,
+     '$gte': 2017-06-27T17:14:22.000Z } }
+[2017-06-28 17:14:22.674] [INFO] console - 594c8c35a5fa18187ccbbc78
+[2017-06-28 17:14:22.674] [INFO] console - 0
+[2017-06-28 17:14:22.677] [INFO] console - 594c81fe10dc9010b8a20dc0
+[2017-06-28 17:14:22.679] [INFO] console - 0
+[2017-06-28 17:14:22.680] [INFO] console - 59488e4b513694f4a1d54e39
+[2017-06-28 17:14:22.682] [INFO] console - 0
+[2017-06-28 17:14:40.705] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:14:40.715] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:14:40.716] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:14:40.716] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:14:40.717] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:14:40.717] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:14:40.804] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:14:40.809] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:14:40.809] [INFO] console - { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:14:40.809] [INFO] console - condition { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:14:40.810] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:14:40.810] [INFO] console - 查询条件是 { appId: '594c8c35a5fa18187ccbbc78' }
+[2017-06-28 17:14:48.500] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:14:48.507] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:14:48.000Z,
+     '$gte': 2017-06-27T17:14:48.000Z } }
+[2017-06-28 17:14:48.508] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:14:48.000Z,
+     '$gte': 2017-06-27T17:14:48.000Z } }
+[2017-06-28 17:14:48.511] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:14:48.000Z,
+     '$gte': 2017-06-27T17:14:48.000Z } }
+[2017-06-28 17:14:48.514] [INFO] console - 594c81fe10dc9010b8a20dc0
+[2017-06-28 17:14:48.514] [INFO] console - 0
+[2017-06-28 17:14:48.515] [INFO] console - 594c8c35a5fa18187ccbbc78
+[2017-06-28 17:14:48.515] [INFO] console - 0
+[2017-06-28 17:14:48.516] [INFO] console - 59488e4b513694f4a1d54e39
+[2017-06-28 17:14:48.516] [INFO] console - 0
+[2017-06-28 17:16:07.824] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:16:07.863] [INFO] console - 创建对象 { appId: '594c81fe10dc9010b8a20dc0',
+  url: 'file:///Users/RogersMac/Sites/test.html',
+  type: 'Safari$10',
+  name: 'ReferenceError',
+  description: 'global code@file:///Users/RogersMac/Sites/test.html:27:15',
+  line: 27,
+  column: 15,
+  visitPage: 
+   { url: 'file:///Users/RogersMac/Sites/test.html',
+     name: 'React Starter Kit',
+     time: 1498641367758 },
+  stack: 
+   [ { functionName: 'global',
+       errLocation: 'codefile:///Users/RogersMac/Sites/test.html:27:15' } ],
+  errText: '{"line":27,"column":15,"sourceURL":"file:///Users/RogersMac/Sites/test.html"}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4',
+     browser: { name: 'Safari', version: '10.1.1', major: '10' },
+     engine: { version: '603.2.4', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-28 17:16:13.901] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:16:13.906] [INFO] console - 创建对象 { appId: '594c81fe10dc9010b8a20dc0',
+  url: 'file:///Users/RogersMac/Sites/test.html',
+  type: 'Safari$10',
+  name: 'ReferenceError',
+  description: 'insideFunc@file:///Users/RogersMac/Sites/test.html:30:26\nwhenChange@file:///Users/RogersMac/Sites/test.html:35:21\nonkeydown@file:///Users/RogersMac/Sites/test.html:71:11',
+  line: 30,
+  column: 26,
+  visitPage: 
+   { url: 'file:///Users/RogersMac/Sites/test.html',
+     name: 'React Starter Kit',
+     time: 1498641373884 },
+  stack: 
+   [ { functionName: 'insideFunc',
+       errLocation: 'file:///Users/RogersMac/Sites/test.html:30:26' } ],
+  errText: '{"line":30,"column":26,"sourceURL":"file:///Users/RogersMac/Sites/test.html"}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4',
+     browser: { name: 'Safari', version: '10.1.1', major: '10' },
+     engine: { version: '603.2.4', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-28 17:16:14.696] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:16:14.701] [INFO] console - 创建对象 { appId: '594c81fe10dc9010b8a20dc0',
+  url: 'file:///Users/RogersMac/Sites/test.html',
+  type: 'Safari$10',
+  name: 'ReferenceError',
+  description: 'insideFunc@file:///Users/RogersMac/Sites/test.html:30:26\nwhenChange@file:///Users/RogersMac/Sites/test.html:35:21\nonkeydown@file:///Users/RogersMac/Sites/test.html:71:11',
+  line: 30,
+  column: 26,
+  visitPage: 
+   { url: 'file:///Users/RogersMac/Sites/test.html',
+     name: 'React Starter Kit',
+     time: 1498641374681 },
+  stack: 
+   [ { functionName: 'insideFunc',
+       errLocation: 'file:///Users/RogersMac/Sites/test.html:30:26' } ],
+  errText: '{"line":30,"column":26,"sourceURL":"file:///Users/RogersMac/Sites/test.html"}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4',
+     browser: { name: 'Safari', version: '10.1.1', major: '10' },
+     engine: { version: '603.2.4', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-28 17:16:15.816] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:16:15.820] [INFO] console - 创建对象 { appId: '594c81fe10dc9010b8a20dc0',
+  url: 'file:///Users/RogersMac/Sites/test.html',
+  type: 'Safari$10',
+  name: 'ReferenceError',
+  description: 'insideFunc@file:///Users/RogersMac/Sites/test.html:30:26\nwhenChange@file:///Users/RogersMac/Sites/test.html:35:21\nonkeydown@file:///Users/RogersMac/Sites/test.html:71:11',
+  line: 30,
+  column: 26,
+  visitPage: 
+   { url: 'file:///Users/RogersMac/Sites/test.html',
+     name: 'React Starter Kit',
+     time: 1498641375807 },
+  stack: 
+   [ { functionName: 'insideFunc',
+       errLocation: 'file:///Users/RogersMac/Sites/test.html:30:26' } ],
+  errText: '{"line":30,"column":26,"sourceURL":"file:///Users/RogersMac/Sites/test.html"}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4',
+     browser: { name: 'Safari', version: '10.1.1', major: '10' },
+     engine: { version: '603.2.4', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-28 17:16:34.425] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:16:34.444] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:16:34.000Z,
+     '$gte': 2017-06-27T17:16:34.000Z } }
+[2017-06-28 17:16:34.449] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:16:34.000Z,
+     '$gte': 2017-06-27T17:16:34.000Z } }
+[2017-06-28 17:16:34.482] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:16:34.000Z,
+     '$gte': 2017-06-27T17:16:34.000Z } }
+[2017-06-28 17:16:34.514] [INFO] console - 594c81fe10dc9010b8a20dc0
+[2017-06-28 17:16:34.516] [INFO] console - 4
+[2017-06-28 17:16:34.516] [INFO] console - 594c8c35a5fa18187ccbbc78
+[2017-06-28 17:16:34.516] [INFO] console - 0
+[2017-06-28 17:16:34.521] [INFO] console - 59488e4b513694f4a1d54e39
+[2017-06-28 17:16:34.522] [INFO] console - 0
+[2017-06-28 17:16:38.334] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:16:38.338] [INFO] console - 创建对象 { appId: '594c81fe10dc9010b8a20dc0',
+  url: 'file:///Users/RogersMac/Sites/test.html',
+  type: 'Safari$10',
+  name: 'ReferenceError',
+  description: 'insideFunc@file:///Users/RogersMac/Sites/test.html:30:26\nwhenChange@file:///Users/RogersMac/Sites/test.html:35:21\nonkeydown@file:///Users/RogersMac/Sites/test.html:71:11',
+  line: 30,
+  column: 26,
+  visitPage: 
+   { url: 'file:///Users/RogersMac/Sites/test.html',
+     name: 'React Starter Kit',
+     time: 1498641398326 },
+  stack: 
+   [ { functionName: 'insideFunc',
+       errLocation: 'file:///Users/RogersMac/Sites/test.html:30:26' } ],
+  errText: '{"line":30,"column":26,"sourceURL":"file:///Users/RogersMac/Sites/test.html"}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4',
+     browser: { name: 'Safari', version: '10.1.1', major: '10' },
+     engine: { version: '603.2.4', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.5' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-28 17:19:45.056] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-28 17:19:45.248] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-28 17:19:45.253] [INFO] console - 查询条件是 { appId: 594c8c35a5fa18187ccbbc78,
+  createDate: 
+   { '$lte': 2017-06-28T17:19:45.000Z,
+     '$gte': 2017-06-27T17:19:45.000Z } }
+[2017-06-28 17:19:45.255] [INFO] console - 查询条件是 { appId: 594c81fe10dc9010b8a20dc0,
+  createDate: 
+   { '$lte': 2017-06-28T17:19:45.000Z,
+     '$gte': 2017-06-27T17:19:45.000Z } }
+[2017-06-28 17:19:45.258] [INFO] console - 查询条件是 { appId: 59488e4b513694f4a1d54e39,
+  createDate: 
+   { '$lte': 2017-06-28T17:19:45.000Z,
+     '$gte': 2017-06-27T17:19:45.000Z } }
+[2017-06-28 17:19:45.275] [INFO] console - 594c8c35a5fa18187ccbbc78
+[2017-06-28 17:19:45.276] [INFO] console - 0
+[2017-06-28 17:19:45.280] [INFO] console - 594c81fe10dc9010b8a20dc0
+[2017-06-28 17:19:45.280] [INFO] console - 5
+[2017-06-28 17:19:45.281] [INFO] console - 59488e4b513694f4a1d54e39
+[2017-06-28 17:19:45.286] [INFO] console - 0
+[2017-06-28 17:23:59.592] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:23:59.612] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:23:59.621] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:23:59.622] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:23:59.622] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:23:59.623] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:23:59.623] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:23:59.629] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:23:59.630] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:23:59.630] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:23:59.631] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:23:59.631] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:24:04.439] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:24:04.444] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:24:04.444] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:24:04.445] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:24:04.445] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:24:04.446] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:24:06.096] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:24:06.098] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:24:06.099] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0',
+  type: 'undefined$undefined' }
+[2017-06-28 17:24:06.099] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0',
+  type: 'undefined$undefined' }
+[2017-06-28 17:24:06.100] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:24:06.100] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0',
+  type: 'undefined$undefined' }
+[2017-06-28 17:29:51.435] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:51.447] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:29:51.448] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:51.448] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:51.448] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:29:51.449] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:51.451] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:51.471] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:29:51.471] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:51.472] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:51.472] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:29:51.472] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:55.738] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:55.743] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:29:55.746] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:29:55.747] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:29:55.747] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:29:55.747] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:29:58.777] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:29:58.783] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:29:58.784] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:29:58.784] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:29:58.784] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:29:58.785] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:30:00.114] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594c81fe10dc9010b8a20dc0' }
+[2017-06-28 17:30:00.117] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:30:00.117] [INFO] console - { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:30:00.117] [INFO] console - condition { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 17:30:00.118] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-28 17:30:00.118] [INFO] console - 查询条件是 { appId: '594c81fe10dc9010b8a20dc0', type: 'Safari$10' }
+[2017-06-28 20:50:21.202] [ERROR] console - mongo连接断开
+[2017-06-28 20:50:21.217] [ERROR] console - mongo连接关闭

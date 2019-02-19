@@ -1,0 +1,1885 @@
+[2017-08-12 00:06:43.468] [ERROR] console - (node:2603) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-08-12 00:06:43.473] [INFO] console - Express server listening on :9291, in development mode
+[2017-08-12 00:06:43.492] [INFO] console - mongo连接成功
+[2017-08-12 00:06:43.502] [INFO] console - mongo连接打开
+[2017-08-12 00:14:33.356] [ERROR] console - (node:1143) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-08-12 00:14:33.361] [INFO] console - Express server listening on :9291, in development mode
+[2017-08-12 00:14:33.379] [INFO] console - mongo连接成功
+[2017-08-12 00:14:33.389] [INFO] console - mongo连接打开
+[2017-08-12 00:14:35.364] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:14:35.365] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:14:35.371] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:14:36.472] [INFO] console - 查询条件是 {}
+[2017-08-12 00:14:36.485] [ERROR] console - (node:1143) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-12 00:16:40.928] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:16:40.929] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:16:40.931] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:16:42.254] [INFO] console - 查询条件是 {}
+[2017-08-12 00:16:44.837] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:16:44.838] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:16:44.840] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:16:44.842] [INFO] console - 查询条件是 {}
+[2017-08-12 00:17:08.000] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:17:08.000] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:17:08.003] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:17:08.006] [INFO] console - 查询条件是 {}
+[2017-08-12 00:17:28.396] [ERROR] console - (node:12054) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-08-12 00:17:28.401] [INFO] console - Express server listening on :9291, in development mode
+[2017-08-12 00:17:28.420] [INFO] console - mongo连接成功
+[2017-08-12 00:17:28.430] [INFO] console - mongo连接打开
+[2017-08-12 00:17:29.060] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:17:29.061] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:17:29.066] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:17:29.071] [INFO] console - 查询条件是 {}
+[2017-08-12 00:17:29.084] [ERROR] console - (node:12054) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-12 00:40:32.587] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:40:32.588] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:40:32.590] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:40:33.842] [INFO] console - 查询条件是 {}
+[2017-08-12 00:42:25.962] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:42:25.962] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:42:25.964] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:42:27.689] [INFO] console - 查询条件是 {}
+[2017-08-12 00:42:29.430] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:42:29.430] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:42:29.438] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:42:30.959] [INFO] console - 查询条件是 {}
+[2017-08-12 00:42:53.478] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:42:53.479] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:42:53.480] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:42:54.954] [INFO] console - 查询条件是 {}
+[2017-08-12 00:43:14.160] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 00:43:14.160] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-12 00:43:14.162] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-12 00:43:15.678] [INFO] console - 查询条件是 {}
+[2017-08-12 00:43:28.852] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-12 00:43:28.853] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 00:43:28.859] [INFO] console - 没有token，直接申请
+[2017-08-12 00:43:28.859] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'jj_l-3ZZEjlKHh3SnuLgm6',
+     client_secret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+     org_id: '108f826f-4a36-4742-a124-6ade824c85ed' } }
+[2017-08-12 00:43:29.097] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+     refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+     issued_time: 1502469809079,
+     expire_time: 1505061809079,
+     client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } }
+[2017-08-12 00:43:29.099] [INFO] console - 已经获得token，开始发送请求 00563700bd1442aa80fc0a4d42e09d7f
+[2017-08-12 00:43:29.100] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/f4f690a7a49946d5ad3199ac61ab5abd?access_token=00563700bd1442aa80fc0a4d42e09d7f',
+  json: true,
+  timeout: 10000 }
+[2017-08-12 00:43:29.234] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: '108f826f-4a36-4742-a124-6ade824c85ed',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-12 00:43:29.239] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 00:43:29.240] [INFO] console - 已经获得token，开始发送请求 00563700bd1442aa80fc0a4d42e09d7f
+[2017-08-12 00:43:29.242] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/108f826f-4a36-4742-a124-6ade824c85ed/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=00563700bd1442aa80fc0a4d42e09d7f',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-12 00:43:29.379] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: '108f826f-4a36-4742-a124-6ade824c85ed',
+     display_name: '罗捷',
+     employee_type_id: 24,
+     employee_type: '正式员工',
+     id: 221358,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 40, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-12 00:43:29.383] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: '108f826f-4a36-4742-a124-6ade824c85ed',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: '108f826f-4a36-4742-a124-6ade824c85ed',
+  display_name: '罗捷',
+  employee_type_id: 24,
+  employee_type: '正式员工',
+  id: 221358,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 40, name: '' },
+  positions: 
+   [ { employee_id: 221358,
+       org_id: 40,
+       org_name: '轻应用团队',
+       job_title: '',
+       path: '/40/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-12 00:43:29.488] [INFO] console - 查询条件是 {}
+[2017-08-12 09:12:33.881] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-12 09:12:33.882] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:12:33.883] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:12:33.884] [INFO] console - 已经获得token，开始发送请求 00563700bd1442aa80fc0a4d42e09d7f
+[2017-08-12 09:12:33.885] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/7d50611ed9f043ec852ff171c6d50675?access_token=00563700bd1442aa80fc0a4d42e09d7f',
+  json: true,
+  timeout: 10000 }
+[2017-08-12 09:12:34.189] [INFO] console - 
+服务器响应是
+ { status: 10016, message: 'ticket not found.', result: {} }
+[2017-08-12 09:12:34.190] [ERROR] console - 服务器返回值非0 10016
+[2017-08-12 09:12:34.191] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 09:12:34.191] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+[2017-08-12 09:12:34.194] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9) 'Error: api server error\n    at Object.statusIsNotZero (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:188:22)\n    at emitTwo (events.js:106:13)\n    at Request.emit (events.js:191:7)\n    at Request.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1171:10)\n    at emitOne (events.js:96:13)\n    at Request.emit (events.js:188:7)\n    at IncomingMessage.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1091:12)\n    at IncomingMessage.g (events.js:291:16)\n    at emitNone (events.js:91:20)\n    at IncomingMessage.emit (events.js:185:7)\n    at endReadableNT (_stream_readable.js:974:12)\n    at _combinedTickCallback (internal/process/next_tick.js:74:11)\n    at process._tickDomainCallback (internal/process/next_tick.js:122:9)'
+[2017-08-12 09:13:02.276] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-12 09:13:02.277] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:13:02.278] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:13:02.280] [INFO] console - 已经获得token，开始发送请求 00563700bd1442aa80fc0a4d42e09d7f
+[2017-08-12 09:13:02.281] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/7d50611ed9f043ec852ff171c6d50675?access_token=00563700bd1442aa80fc0a4d42e09d7f',
+  json: true,
+  timeout: 10000 }
+[2017-08-12 09:13:02.383] [INFO] console - 
+服务器响应是
+ { status: 10016, message: 'ticket not found.', result: {} }
+[2017-08-12 09:13:02.383] [ERROR] console - 服务器返回值非0 10016
+[2017-08-12 09:13:02.384] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 09:13:02.384] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+[2017-08-12 09:13:02.385] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1091:12)
+    at IncomingMessage.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9) 'Error: api server error\n    at Object.statusIsNotZero (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:188:22)\n    at emitTwo (events.js:106:13)\n    at Request.emit (events.js:191:7)\n    at Request.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1171:10)\n    at emitOne (events.js:96:13)\n    at Request.emit (events.js:188:7)\n    at IncomingMessage.<anonymous> (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/request/request.js:1091:12)\n    at IncomingMessage.g (events.js:291:16)\n    at emitNone (events.js:91:20)\n    at IncomingMessage.emit (events.js:185:7)\n    at endReadableNT (_stream_readable.js:974:12)\n    at _combinedTickCallback (internal/process/next_tick.js:74:11)\n    at process._tickDomainCallback (internal/process/next_tick.js:122:9)'
+[2017-08-12 09:13:16.507] [INFO] console - ******** getResFn error ******** 
+[2017-08-12 09:13:16.507] [INFO] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+[2017-08-12 09:13:16.509] [ERROR] console - Error: e_log_out
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7) 'Error: e_log_out\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:65:19)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)\n    at SendStream.emit (events.js:188:7)'
+[2017-08-12 09:13:17.946] [INFO] console - 查询条件是 {}
+[2017-08-12 09:13:55.273] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-12 09:13:55.274] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:13:55.275] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:13:55.277] [INFO] console - 已经获得token，开始发送请求 00563700bd1442aa80fc0a4d42e09d7f
+[2017-08-12 09:13:55.278] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/362c385bd1f0413fa2a0eaa3c2af7572?access_token=00563700bd1442aa80fc0a4d42e09d7f',
+  json: true,
+  timeout: 10000 }
+[2017-08-12 09:13:55.406] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: '8e4eca6bb62a4caea183ce66a2768682',
+     org_id: '108f826f-4a36-4742-a124-6ade824c85ed',
+     device_id: 'pcweb_device_id29d0211b-03e4-40f7-afa1-5b621d8c58cc' } }
+[2017-08-12 09:13:55.408] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:13:55.409] [INFO] console - 已经获得token，开始发送请求 00563700bd1442aa80fc0a4d42e09d7f
+[2017-08-12 09:13:55.410] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/108f826f-4a36-4742-a124-6ade824c85ed/employees/8e4eca6bb62a4caea183ce66a2768682?type=user&access_token=00563700bd1442aa80fc0a4d42e09d7f',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-12 09:13:55.556] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: '108f826f-4a36-4742-a124-6ade824c85ed',
+     display_name: '测试2',
+     employee_type_id: 24,
+     employee_type: '正式员工',
+     id: 83,
+     name: '测试2',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: '8e4eca6bb62a4caea183ce66a2768682',
+     username: '15912345678',
+     nickname: '高级测试',
+     status: 'ACTIVATED',
+     senior: false,
+     sn: '',
+     gender: 'UNKNOWN',
+     pinyin: 'ceshi2',
+     initial: 'cs2',
+     avatar: 'Z3JvdXAxL00wMC8wNi8xRi9DaTh4Q0ZsLXdIbUFOcFQzQUFCT0JETldMM2MxMTcudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15912345678',
+     email: '123@s.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 40, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-12 09:13:55.561] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: '8e4eca6bb62a4caea183ce66a2768682',
+  org_id: '108f826f-4a36-4742-a124-6ade824c85ed',
+  device_id: 'pcweb_device_id29d0211b-03e4-40f7-afa1-5b621d8c58cc',
+  org_code: '108f826f-4a36-4742-a124-6ade824c85ed',
+  display_name: '测试2',
+  employee_type_id: 24,
+  employee_type: '正式员工',
+  id: 83,
+  name: '测试2',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: '8e4eca6bb62a4caea183ce66a2768682',
+  username: '15912345678',
+  nickname: '高级测试',
+  status: 'ACTIVATED',
+  senior: false,
+  sn: '',
+  gender: 'UNKNOWN',
+  pinyin: 'ceshi2',
+  initial: 'cs2',
+  avatar: 'Z3JvdXAxL00wMC8wNi8xRi9DaTh4Q0ZsLXdIbUFOcFQzQUFCT0JETldMM2MxMTcudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15912345678',
+  email: '123@s.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 40, name: '' },
+  positions: 
+   [ { employee_id: 83,
+       org_id: 40,
+       org_name: '轻应用团队',
+       job_title: '吃饭',
+       path: '/40/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-12 09:13:55.727] [INFO] console - 查询条件是 {}
+[2017-08-12 09:14:08.445] [INFO] console - 创建对象 { name: '流程大师',
+  description: '',
+  ownerId: '8e4eca6bb62a4caea183ce66a2768682',
+  owner: '高级测试',
+  getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-08-12 09:14:08.545] [INFO] console - 查询条件是 {}
+[2017-08-12 09:14:10.245] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:14:10.246] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:14:10.247] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:14:10.247] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:14:10.247] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:14:10.251] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:14:10.252] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:14:10.256] [INFO] console - 查询条件是 {}
+[2017-08-12 09:14:10.332] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 09:14:46.792] [INFO] console - 创建对象 { link: 'https://app.zeplin.io/project.html#pid=58a65beac71f23b7924a1d60',
+  fileName: '流程大师移动端设计稿',
+  father: 'root',
+  appId: '598e5660d47d912f168bccf3',
+  ownerName: '高级测试',
+  ownerId: '8e4eca6bb62a4caea183ce66a2768682',
+  fileType: 'link',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-12 09:14:46.862] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:14:46.863] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:14:46.863] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:14:46.864] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:14:46.865] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:14:46.874] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:14:46.875] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:14:48.915] [INFO] console - 创建对象 { fileId: '598e5686d47d912f168bccf4',
+  appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682',
+  getLogs: [Function: getLogs],
+  insertLog: [Function: insertLog],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-12 09:15:12.573] [INFO] console - 创建对象 { fileId: '598e5686d47d912f168bccf4',
+  appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682',
+  getLogs: [Function: getLogs],
+  insertLog: [Function: insertLog],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-12 09:15:15.953] [INFO] console - 删除条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  _id: '598e5686d47d912f168bccf4',
+  ownerId: '8e4eca6bb62a4caea183ce66a2768682' }
+[2017-08-12 09:15:16.050] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:16.050] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:16.051] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:16.051] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:16.051] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:16.055] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:15:16.056] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:15:24.757] [INFO] console - 创建对象 { link: 'https://app.zeplin.io/project.html#pid=58a65beac71f23b7924a1d60',
+  fileName: '移动端设计稿',
+  father: 'root',
+  appId: '598e5660d47d912f168bccf3',
+  ownerName: '高级测试',
+  ownerId: '8e4eca6bb62a4caea183ce66a2768682',
+  fileType: 'link',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-12 09:15:24.831] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:24.831] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:24.832] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:24.832] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:24.832] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:24.835] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:15:24.836] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:15:38.606] [INFO] console - 创建对象 { link: 'https://www.zybuluo.com/xiaokaceng/note/636628',
+  fileName: '后台接口文档',
+  father: 'root',
+  appId: '598e5660d47d912f168bccf3',
+  ownerName: '高级测试',
+  ownerId: '8e4eca6bb62a4caea183ce66a2768682',
+  fileType: 'link',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-12 09:15:38.683] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:38.684] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:38.684] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:38.685] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:38.685] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:38.688] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:15:38.689] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:15:48.025] [INFO] console - 创建对象 { fileId: '598e56bad47d912f168bccf8',
+  appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682',
+  getLogs: [Function: getLogs],
+  insertLog: [Function: insertLog],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-12 09:15:53.492] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:53.493] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:53.494] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:53.494] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:53.494] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:15:53.502] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:15:53.504] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:15:53.511] [INFO] console - 查询条件是 {}
+[2017-08-12 09:15:53.515] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 09:15:54.096] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:54.096] [INFO] console - { appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682' }
+[2017-08-12 09:15:54.097] [INFO] console - condition { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T01:15:54.000Z } }
+[2017-08-12 09:15:54.097] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:54.098] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T01:15:54.000Z } }
+[2017-08-12 09:15:54.105] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:15:54.106] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00563700bd1442aa80fc0a4d42e09d7f',
+        refresh_token: 'fe28f5887cd24638b0d02963b80bbb8e',
+        issued_time: 1502469809079,
+        expire_time: 1505061809079,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 09:15:54.107] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:54.108] [INFO] console - { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 09:15:54.108] [INFO] console - condition { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 09:15:54.109] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:54.110] [INFO] console - 查询条件是 { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 09:15:54.111] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:54.111] [INFO] console - { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 09:15:54.111] [INFO] console - condition { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 09:15:54.112] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:15:54.112] [INFO] console - 查询条件是 { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 09:17:46.892] [INFO] console - ********uploaduploadupload********
+[2017-08-12 09:17:46.933] [ERROR] console - Error: invalid signature: 0x80014
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/unzip/lib/parse.js:59:13
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-08-12 09:17:48.151] [ERROR] console - (node:30189) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-08-12 09:17:48.155] [INFO] console - Express server listening on :9291, in development mode
+[2017-08-12 09:17:48.180] [INFO] console - mongo连接成功
+[2017-08-12 09:17:48.189] [INFO] console - mongo连接打开
+[2017-08-12 09:18:18.736] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:18:18.737] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:18:18.738] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:18:18.739] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:18:18.739] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 09:18:18.749] [ERROR] console - (node:30189) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-12 09:18:18.752] [INFO] console - 查询条件是 {}
+[2017-08-12 09:18:18.765] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:18:18.770] [INFO] console - 没有token，直接申请
+[2017-08-12 09:18:18.770] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'jj_l-3ZZEjlKHh3SnuLgm6',
+     client_secret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+     org_id: '108f826f-4a36-4742-a124-6ade824c85ed' } }
+[2017-08-12 09:18:18.781] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 09:18:18.906] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:18:18.906] [INFO] console - { appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682' }
+[2017-08-12 09:18:18.907] [INFO] console - condition { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T01:18:18.000Z } }
+[2017-08-12 09:18:18.908] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:18:18.908] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T01:18:18.000Z } }
+[2017-08-12 09:18:18.913] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 09:18:18.915] [WARN] console - 等待token申请完成，无需重新申请
+[2017-08-12 09:18:19.011] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'a9ba9a4615734526a7f98c7d7ae9390a',
+     refresh_token: 'd3cef9cb50d549e99ce591c8f7df9847',
+     issued_time: 1502500698995,
+     expire_time: 1505092698995,
+     client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } }
+[2017-08-12 09:18:21.915] [WARN] console - 等待完毕，使用别人申请到的token a9ba9a4615734526a7f98c7d7ae9390a
+[2017-08-12 09:18:21.916] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:18:21.916] [INFO] console - { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 09:18:21.917] [INFO] console - condition { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 09:18:21.917] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:18:21.917] [INFO] console - 查询条件是 { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 09:18:21.918] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:18:21.918] [INFO] console - { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 09:18:21.919] [INFO] console - condition { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 09:18:21.919] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 09:18:21.920] [INFO] console - 查询条件是 { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 09:18:55.497] [INFO] console - 创建对象 { dirId: '598e5660d47d912f168bccf3',
+  content: '上传文件不行',
+  anonymity: 'chrome59.0',
+  owner: '高级测试',
+  ownerId: '8e4eca6bb62a4caea183ce66a2768682',
+  getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-12 09:18:55.586] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 09:19:34.295] [INFO] console - 创建对象 { dirId: '598e5660d47d912f168bccf3',
+  content: '创建时间换行了，可以考虑不需要时分',
+  anonymity: 'chrome59.0',
+  owner: '高级测试',
+  ownerId: '8e4eca6bb62a4caea183ce66a2768682',
+  getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-12 09:19:34.363] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 11:26:41.063] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 11:26:41.064] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 11:26:41.065] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 11:26:41.065] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 11:26:41.065] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 11:26:41.070] [INFO] console - 查询条件是 {}
+[2017-08-12 11:26:41.072] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 11:26:41.073] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a9ba9a4615734526a7f98c7d7ae9390a',
+        refresh_token: 'd3cef9cb50d549e99ce591c8f7df9847',
+        issued_time: 1502500698995,
+        expire_time: 1505092698995,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 11:26:41.075] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 11:26:41.216] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 11:26:41.216] [INFO] console - { appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682' }
+[2017-08-12 11:26:41.217] [INFO] console - condition { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T03:26:41.000Z } }
+[2017-08-12 11:26:41.219] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 11:26:41.219] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T03:26:41.000Z } }
+[2017-08-12 11:26:41.223] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 11:26:41.223] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a9ba9a4615734526a7f98c7d7ae9390a',
+        refresh_token: 'd3cef9cb50d549e99ce591c8f7df9847',
+        issued_time: 1502500698995,
+        expire_time: 1505092698995,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 11:26:41.224] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 11:26:41.225] [INFO] console - { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 11:26:41.225] [INFO] console - condition { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 11:26:41.226] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 11:26:41.226] [INFO] console - 查询条件是 { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 11:26:41.226] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 11:26:41.226] [INFO] console - { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 11:26:41.227] [INFO] console - condition { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 11:26:41.227] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 11:26:41.227] [INFO] console - 查询条件是 { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 15:39:28.436] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 15:39:28.438] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 15:39:28.441] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 15:39:28.441] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 15:39:28.441] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 15:39:28.452] [INFO] console - 查询条件是 {}
+[2017-08-12 15:39:28.465] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 15:39:28.469] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a9ba9a4615734526a7f98c7d7ae9390a',
+        refresh_token: 'd3cef9cb50d549e99ce591c8f7df9847',
+        issued_time: 1502500698995,
+        expire_time: 1505092698995,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 15:39:28.473] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 15:39:28.582] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 15:39:28.582] [INFO] console - { appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682' }
+[2017-08-12 15:39:28.583] [INFO] console - condition { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T07:39:28.000Z } }
+[2017-08-12 15:39:28.583] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 15:39:28.583] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T07:39:28.000Z } }
+[2017-08-12 15:39:28.588] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 15:39:28.589] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a9ba9a4615734526a7f98c7d7ae9390a',
+        refresh_token: 'd3cef9cb50d549e99ce591c8f7df9847',
+        issued_time: 1502500698995,
+        expire_time: 1505092698995,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 15:39:28.590] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 15:39:28.592] [INFO] console - { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 15:39:28.592] [INFO] console - condition { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 15:39:28.592] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 15:39:28.592] [INFO] console - 查询条件是 { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 15:39:28.593] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 15:39:28.594] [INFO] console - { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 15:39:28.594] [INFO] console - condition { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 15:39:28.594] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 15:39:28.594] [INFO] console - 查询条件是 { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 15:58:48.699] [INFO] console - ********uploaduploadupload********
+[2017-08-12 15:58:48.736] [ERROR] console - Error: invalid signature: 0x80014
+    at /data/qingyingyong/workplus_v3.0/gibbon/Gibbon/server/node_modules/unzip/lib/parse.js:59:13
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-08-12 15:58:49.784] [ERROR] console - (node:26645) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-08-12 15:58:49.788] [INFO] console - Express server listening on :9291, in development mode
+[2017-08-12 15:58:49.803] [INFO] console - mongo连接成功
+[2017-08-12 15:58:49.811] [INFO] console - mongo连接打开
+[2017-08-12 16:05:48.351] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:48.351] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:05:48.353] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:05:48.353] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:48.354] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:05:48.363] [ERROR] console - (node:26645) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-12 16:05:48.375] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 16:05:48.380] [INFO] console - 没有token，直接申请
+[2017-08-12 16:05:48.380] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'jj_l-3ZZEjlKHh3SnuLgm6',
+     client_secret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+     org_id: '108f826f-4a36-4742-a124-6ade824c85ed' } }
+[2017-08-12 16:05:48.389] [INFO] console - 查询条件是 {}
+[2017-08-12 16:05:48.413] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 16:05:48.590] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:48.591] [INFO] console - { appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682' }
+[2017-08-12 16:05:48.592] [INFO] console - condition { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T08:05:48.000Z } }
+[2017-08-12 16:05:48.593] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:48.593] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T08:05:48.000Z } }
+[2017-08-12 16:05:48.600] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 16:05:48.601] [WARN] console - 等待token申请完成，无需重新申请
+[2017-08-12 16:05:48.710] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+     refresh_token: '31e077f3614b4e01ab900c21a731e082',
+     issued_time: 1502525148714,
+     expire_time: 1505117148714,
+     client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } }
+[2017-08-12 16:05:51.602] [WARN] console - 等待完毕，使用别人申请到的token a2f88ed909454a3f86d2d1e94be65227
+[2017-08-12 16:05:51.603] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:51.603] [INFO] console - { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 16:05:51.604] [INFO] console - condition { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 16:05:51.604] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:51.604] [INFO] console - 查询条件是 { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 16:05:51.605] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:51.605] [INFO] console - { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 16:05:51.606] [INFO] console - condition { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 16:05:51.606] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:51.607] [INFO] console - 查询条件是 { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 16:05:54.692] [INFO] console - ********uploaduploadupload********
+[2017-08-12 16:05:54.693] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-12 16:05:54.693] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 16:05:54.696] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 16:05:54.698] [INFO] console - 已经获得token，开始发送请求 a2f88ed909454a3f86d2d1e94be65227
+[2017-08-12 16:05:54.701] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=16723&access_token=a2f88ed909454a3f86d2d1e94be65227',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/tmp/sGyEZiO8fuJUXfCTzWrL2P8a.png',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/png' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-12 16:05:54.954] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8zNS9DaTh4Q0ZtT3R0LUFGbUxsQUFCQlU4SXJlSk0xMzcucG5n' }
+[2017-08-12 16:05:54.955] [INFO] console - 创建对象 { appId: '598e5660d47d912f168bccf3',
+  father: 'root',
+  ownerName: '高级测试',
+  ownerId: '8e4eca6bb62a4caea183ce66a2768682',
+  fileName: 'IM消息图标.png',
+  fileType: 'image/png',
+  fileSize: 16723,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zNS9DaTh4Q0ZtT3R0LUFGbUxsQUFCQlU4SXJlSk0xMzcucG5n',
+  isOnthedisk: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-12 16:05:55.092] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:55.093] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:05:55.093] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:05:55.094] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:05:55.095] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:05:55.099] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 16:05:55.100] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 16:06:14.273] [INFO] console - 创建对象 { fileId: '598eb6e2c1bfcf68159d3f8a',
+  appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682',
+  getLogs: [Function: getLogs],
+  insertLog: [Function: insertLog],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-12 16:06:42.397] [INFO] console - ********uploaduploadupload********
+[2017-08-12 16:06:42.398] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-12 16:06:42.398] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 16:06:42.401] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 16:06:42.402] [INFO] console - 已经获得token，开始发送请求 a2f88ed909454a3f86d2d1e94be65227
+[2017-08-12 16:06:42.405] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=4987998&access_token=a2f88ed909454a3f86d2d1e94be65227',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/tmp/PkC8t1JjTlUe9SLxqRPqybJm.docx',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-12 16:06:44.678] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8zNS9DaTh4Q0ZtT3R4R0FIRWFVQUV3Y1hzUThZN0UxOS5kb2N4' }
+[2017-08-12 16:06:44.679] [INFO] console - 创建对象 { appId: '598e5660d47d912f168bccf3',
+  father: 'root',
+  ownerName: '高级测试',
+  ownerId: '8e4eca6bb62a4caea183ce66a2768682',
+  fileName: '流程大师 系统需求文档-20170502.docx',
+  fileType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+  fileSize: 4987998,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zNS9DaTh4Q0ZtT3R4R0FIRWFVQUV3Y1hzUThZN0UxOS5kb2N4',
+  isOnthedisk: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-12 16:06:44.879] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:06:44.879] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:06:44.879] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:06:44.880] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:06:44.880] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:06:44.885] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 16:06:44.887] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 16:06:46.959] [INFO] console - 创建对象 { fileId: '598eb714c1bfcf68159d3f8c',
+  appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682',
+  getLogs: [Function: getLogs],
+  insertLog: [Function: insertLog],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-12 16:07:16.011] [INFO] console - 创建对象 { fileId: '598eb714c1bfcf68159d3f8c',
+  appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682',
+  getLogs: [Function: getLogs],
+  insertLog: [Function: insertLog],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-12 16:09:37.030] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.030] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:09:37.031] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:09:37.031] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.031] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 16:09:37.034] [INFO] console - 查询条件是 {}
+[2017-08-12 16:09:37.045] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 16:09:37.046] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 16:09:37.050] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 16:09:37.193] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.193] [INFO] console - { appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682' }
+[2017-08-12 16:09:37.194] [INFO] console - condition { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T08:09:37.000Z } }
+[2017-08-12 16:09:37.194] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.194] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T08:09:37.000Z } }
+[2017-08-12 16:09:37.200] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 16:09:37.200] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 16:09:37.201] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.201] [INFO] console - { _id: '598eb714c1bfcf68159d3f8c' }
+[2017-08-12 16:09:37.202] [INFO] console - condition { _id: '598eb714c1bfcf68159d3f8c' }
+[2017-08-12 16:09:37.203] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.203] [INFO] console - 查询条件是 { _id: '598eb714c1bfcf68159d3f8c' }
+[2017-08-12 16:09:37.204] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.204] [INFO] console - { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 16:09:37.204] [INFO] console - condition { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 16:09:37.206] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.206] [INFO] console - 查询条件是 { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 16:09:37.207] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.207] [INFO] console - { _id: '598eb6e2c1bfcf68159d3f8a' }
+[2017-08-12 16:09:37.207] [INFO] console - condition { _id: '598eb6e2c1bfcf68159d3f8a' }
+[2017-08-12 16:09:37.208] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.208] [INFO] console - 查询条件是 { _id: '598eb6e2c1bfcf68159d3f8a' }
+[2017-08-12 16:09:37.209] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.209] [INFO] console - { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 16:09:37.209] [INFO] console - condition { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 16:09:37.209] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 16:09:37.210] [INFO] console - 查询条件是 { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 17:05:07.628] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.629] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 17:05:07.629] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 17:05:07.630] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.630] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 17:05:07.636] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 17:05:07.637] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 17:05:07.640] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 17:05:07.641] [INFO] console - 查询条件是 {}
+[2017-08-12 17:05:07.779] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.779] [INFO] console - { appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682' }
+[2017-08-12 17:05:07.780] [INFO] console - condition { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T09:05:07.000Z } }
+[2017-08-12 17:05:07.780] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.780] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T09:05:07.000Z } }
+[2017-08-12 17:05:07.784] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 17:05:07.785] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 17:05:07.786] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.787] [INFO] console - { _id: '598eb714c1bfcf68159d3f8c' }
+[2017-08-12 17:05:07.788] [INFO] console - condition { _id: '598eb714c1bfcf68159d3f8c' }
+[2017-08-12 17:05:07.788] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.788] [INFO] console - 查询条件是 { _id: '598eb714c1bfcf68159d3f8c' }
+[2017-08-12 17:05:07.789] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.789] [INFO] console - { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 17:05:07.789] [INFO] console - condition { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 17:05:07.789] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.790] [INFO] console - 查询条件是 { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 17:05:07.790] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.791] [INFO] console - { _id: '598eb6e2c1bfcf68159d3f8a' }
+[2017-08-12 17:05:07.792] [INFO] console - condition { _id: '598eb6e2c1bfcf68159d3f8a' }
+[2017-08-12 17:05:07.796] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.797] [INFO] console - 查询条件是 { _id: '598eb6e2c1bfcf68159d3f8a' }
+[2017-08-12 17:05:07.798] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.798] [INFO] console - { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 17:05:07.799] [INFO] console - condition { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 17:05:07.799] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:05:07.799] [INFO] console - 查询条件是 { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 17:06:27.969] [INFO] console - 查询条件是 {}
+[2017-08-12 17:06:27.971] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:27.972] [INFO] console - { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 17:06:27.972] [INFO] console - condition { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 17:06:27.972] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:27.972] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3', father: 'root' }
+[2017-08-12 17:06:27.981] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 17:06:27.982] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 17:06:27.984] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createComment: [Function: createComment],
+  getListById: [Function: getListById],
+  deleteBugById: [Function: deleteBugById],
+  dirId: '598e5660d47d912f168bccf3' }
+[2017-08-12 17:06:28.134] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.134] [INFO] console - { appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682' }
+[2017-08-12 17:06:28.135] [INFO] console - condition { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T09:06:28.000Z } }
+[2017-08-12 17:06:28.135] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.135] [INFO] console - 查询条件是 { appId: '598e5660d47d912f168bccf3',
+  createDate: { '$gte': 2017-07-29T09:06:28.000Z } }
+[2017-08-12 17:06:28.140] [INFO] console - { clientId: 'jj_l-3ZZEjlKHh3SnuLgm6',
+  clientSecret: 'AWqckBqfy0xqsbMQmrGHdgF6DvVPS3Lx',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: '108f826f-4a36-4742-a124-6ade824c85ed',
+  sourceType: 'NATIVE' }
+[2017-08-12 17:06:28.140] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'a2f88ed909454a3f86d2d1e94be65227',
+        refresh_token: '31e077f3614b4e01ab900c21a731e082',
+        issued_time: 1502525148714,
+        expire_time: 1505117148714,
+        client_id: 'faa0b0a8-f9ef-4c0e-810f-c309547cd407' } } }
+[2017-08-12 17:06:28.141] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.142] [INFO] console - { _id: '598eb714c1bfcf68159d3f8c' }
+[2017-08-12 17:06:28.143] [INFO] console - condition { _id: '598eb714c1bfcf68159d3f8c' }
+[2017-08-12 17:06:28.143] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.143] [INFO] console - 查询条件是 { _id: '598eb714c1bfcf68159d3f8c' }
+[2017-08-12 17:06:28.144] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.144] [INFO] console - { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 17:06:28.145] [INFO] console - condition { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 17:06:28.146] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.146] [INFO] console - 查询条件是 { _id: '598e5686d47d912f168bccf4' }
+[2017-08-12 17:06:28.146] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.147] [INFO] console - { _id: '598eb6e2c1bfcf68159d3f8a' }
+[2017-08-12 17:06:28.147] [INFO] console - condition { _id: '598eb6e2c1bfcf68159d3f8a' }
+[2017-08-12 17:06:28.147] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.147] [INFO] console - 查询条件是 { _id: '598eb6e2c1bfcf68159d3f8a' }
+[2017-08-12 17:06:28.148] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.148] [INFO] console - { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 17:06:28.148] [INFO] console - condition { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 17:06:28.148] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-12 17:06:28.149] [INFO] console - 查询条件是 { _id: '598e56bad47d912f168bccf8' }
+[2017-08-12 17:06:30.426] [INFO] console - 创建对象 { fileId: '598eb714c1bfcf68159d3f8c',
+  appId: '598e5660d47d912f168bccf3',
+  userId: '8e4eca6bb62a4caea183ce66a2768682',
+  getLogs: [Function: getLogs],
+  insertLog: [Function: insertLog],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }

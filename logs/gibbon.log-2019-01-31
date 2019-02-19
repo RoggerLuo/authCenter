@@ -1,0 +1,568 @@
+[2019-01-31 15:43:59.028] [INFO] console - Express server listening on :9291, in development mode
+[2019-01-31 15:45:14.217] [ERROR] console - mongo连接断开
+[2019-01-31 15:45:14.218] [ERROR] console - mongo连接失败MongoError: connect ETIMEDOUT 10.10.10.44:27017
+[2019-01-31 15:46:05.947] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 15:46:05.958] [INFO] console - mongo连接成功
+[2019-01-31 15:46:05.962] [INFO] console - mongo连接打开
+[2019-01-31 15:52:30.868] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 15:52:30.877] [INFO] console - mongo连接成功
+[2019-01-31 15:52:30.880] [INFO] console - mongo连接打开
+[2019-01-31 15:54:28.272] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 15:54:28.281] [INFO] console - mongo连接成功
+[2019-01-31 15:54:28.284] [INFO] console - mongo连接打开
+[2019-01-31 15:54:30.127] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 15:54:30.127] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server/utils/validate.js:18:10
+    at arrayEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:516:11)
+    at Function.forEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:9344:14)
+    at Object.isParamsLost (/Users/roger/Work/bbs/server/utils/validate.js:13:11)
+    at /Users/roger/Work/bbs/server/apps/subject.js:37:18
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at create (/Users/roger/Work/bbs/server/apps/subject.js:35:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+[2019-01-31 15:54:30.134] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server/utils/validate.js:18:10
+    at arrayEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:516:11)
+    at Function.forEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:9344:14)
+    at Object.isParamsLost (/Users/roger/Work/bbs/server/utils/validate.js:13:11)
+    at /Users/roger/Work/bbs/server/apps/subject.js:37:18
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at create (/Users/roger/Work/bbs/server/apps/subject.js:35:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13) 'Error: e_params\n    at /Users/roger/Work/bbs/server/utils/validate.js:18:10\n    at arrayEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:516:11)\n    at Function.forEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:9344:14)\n    at Object.isParamsLost (/Users/roger/Work/bbs/server/utils/validate.js:13:11)\n    at /Users/roger/Work/bbs/server/apps/subject.js:37:18\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)\n    at create (/Users/roger/Work/bbs/server/apps/subject.js:35:2)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)'
+[2019-01-31 15:54:30.142] [ERROR] console - (node:87651) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 15:54:47.440] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 15:54:47.440] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server/utils/validate.js:18:10
+    at arrayEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:516:11)
+    at Function.forEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:9344:14)
+    at Object.isParamsLost (/Users/roger/Work/bbs/server/utils/validate.js:13:11)
+    at /Users/roger/Work/bbs/server/apps/subject.js:37:18
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at create (/Users/roger/Work/bbs/server/apps/subject.js:35:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+[2019-01-31 15:54:47.442] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server/utils/validate.js:18:10
+    at arrayEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:516:11)
+    at Function.forEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:9344:14)
+    at Object.isParamsLost (/Users/roger/Work/bbs/server/utils/validate.js:13:11)
+    at /Users/roger/Work/bbs/server/apps/subject.js:37:18
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at create (/Users/roger/Work/bbs/server/apps/subject.js:35:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13) 'Error: e_params\n    at /Users/roger/Work/bbs/server/utils/validate.js:18:10\n    at arrayEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:516:11)\n    at Function.forEach (/Users/roger/Work/bbs/server/node_modules/lodash/lodash.js:9344:14)\n    at Object.isParamsLost (/Users/roger/Work/bbs/server/utils/validate.js:13:11)\n    at /Users/roger/Work/bbs/server/apps/subject.js:37:18\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)\n    at create (/Users/roger/Work/bbs/server/apps/subject.js:35:2)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)'
+[2019-01-31 15:56:10.293] [INFO] console - 创建对象 { name: '测试板块1' }
+[2019-01-31 15:56:10.295] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 15:56:10.295] [INFO] console - TypeError: this.create is not a function
+    at Object.insertOne (/Users/roger/Work/bbs/server/utils/db_tool.js:21:21)
+    at Object.create (/Users/roger/Work/bbs/server/daos/subject.js:17:30)
+    at /Users/roger/Work/bbs/server/apps/subject.js:38:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-01-31 15:56:10.296] [ERROR] console - TypeError: this.create is not a function
+    at Object.insertOne (/Users/roger/Work/bbs/server/utils/db_tool.js:21:21)
+    at Object.create (/Users/roger/Work/bbs/server/daos/subject.js:17:30)
+    at /Users/roger/Work/bbs/server/apps/subject.js:38:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 'TypeError: this.create is not a function\n    at Object.insertOne (/Users/roger/Work/bbs/server/utils/db_tool.js:21:21)\n    at Object.create (/Users/roger/Work/bbs/server/daos/subject.js:17:30)\n    at /Users/roger/Work/bbs/server/apps/subject.js:38:25\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)'
+[2019-01-31 15:57:05.525] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 15:57:05.534] [INFO] console - mongo连接成功
+[2019-01-31 15:57:05.539] [INFO] console - mongo连接打开
+[2019-01-31 15:57:12.298] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 15:57:12.298] [INFO] console - TypeError: ops.insertOne is not a function
+    at Object.create (/Users/roger/Work/bbs/server/daos/subject.js:17:30)
+    at /Users/roger/Work/bbs/server/apps/subject.js:38:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-01-31 15:57:12.303] [ERROR] console - TypeError: ops.insertOne is not a function
+    at Object.create (/Users/roger/Work/bbs/server/daos/subject.js:17:30)
+    at /Users/roger/Work/bbs/server/apps/subject.js:38:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 'TypeError: ops.insertOne is not a function\n    at Object.create (/Users/roger/Work/bbs/server/daos/subject.js:17:30)\n    at /Users/roger/Work/bbs/server/apps/subject.js:38:25\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)'
+[2019-01-31 15:57:12.304] [ERROR] console - (node:88088) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 15:58:37.115] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 15:58:37.124] [INFO] console - mongo连接成功
+[2019-01-31 15:58:37.128] [INFO] console - mongo连接打开
+[2019-01-31 15:58:40.561] [INFO] console - 创建对象 { name: '测试板块1' }
+[2019-01-31 15:58:40.569] [ERROR] console - (node:88360) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-01-31 16:03:46.816] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:03:46.827] [INFO] console - mongo连接成功
+[2019-01-31 16:03:46.832] [INFO] console - mongo连接打开
+[2019-01-31 16:04:50.144] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 16:04:50.144] [INFO] console - TypeError: Cannot destructure property `url` of 'undefined' or 'null'.
+    at getQueryCondition (/Users/roger/Work/bbs/server/daos/subject.js:24:35)
+    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:35:23)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+[2019-01-31 16:04:50.150] [ERROR] console - TypeError: Cannot destructure property `url` of 'undefined' or 'null'.
+    at getQueryCondition (/Users/roger/Work/bbs/server/daos/subject.js:24:35)
+    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:35:23)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12) 'TypeError: Cannot destructure property `url` of \'undefined\' or \'null\'.\n    at getQueryCondition (/Users/roger/Work/bbs/server/daos/subject.js:24:35)\n    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:35:23)\n    at /Users/roger/Work/bbs/server/apps/subject.js:24:26\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)\n    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)'
+[2019-01-31 16:04:50.151] [ERROR] console - (node:89202) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 16:05:46.126] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:05:46.135] [INFO] console - mongo连接成功
+[2019-01-31 16:05:46.139] [INFO] console - mongo连接打开
+[2019-01-31 16:05:48.085] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:05:48.085] [INFO] console - condition { appId: undefined }
+[2019-01-31 16:05:48.087] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:05:48.087] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 16:05:48.087] [INFO] console - ReferenceError: find is not defined
+    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:42:2)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+[2019-01-31 16:05:48.093] [ERROR] console - ReferenceError: find is not defined
+    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:42:2)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10) 'ReferenceError: find is not defined\n    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:42:2)\n    at /Users/roger/Work/bbs/server/apps/subject.js:24:26\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)\n    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)'
+[2019-01-31 16:05:48.096] [ERROR] console - (node:89513) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 16:06:27.719] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:06:27.732] [INFO] console - mongo连接成功
+[2019-01-31 16:06:27.736] [INFO] console - mongo连接打开
+[2019-01-31 16:06:29.414] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:06:29.414] [INFO] console - condition { appId: undefined }
+[2019-01-31 16:06:29.416] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:06:29.416] [INFO] console - 查询条件是 { appId: undefined }
+[2019-01-31 16:06:29.423] [ERROR] console - (node:89637) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-01-31 16:07:31.645] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:07:31.653] [INFO] console - mongo连接成功
+[2019-01-31 16:07:31.657] [INFO] console - mongo连接打开
+[2019-01-31 16:07:33.678] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:07:33.678] [INFO] console - condition { appId: undefined }
+[2019-01-31 16:07:33.680] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:07:33.680] [INFO] console - 查询条件是 { appId: undefined }
+[2019-01-31 16:07:33.685] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 16:07:33.685] [INFO] console - TypeError: ops.find(...).sort(...).exec(...).toSimpleObject is not a function
+    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:44:11)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+[2019-01-31 16:07:33.692] [ERROR] console - TypeError: ops.find(...).sort(...).exec(...).toSimpleObject is not a function
+    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:44:11)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10) 'TypeError: ops.find(...).sort(...).exec(...).toSimpleObject is not a function\n    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:44:11)\n    at /Users/roger/Work/bbs/server/apps/subject.js:24:26\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)\n    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)'
+[2019-01-31 16:07:33.694] [ERROR] console - (node:89835) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 16:08:13.610] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:08:13.618] [INFO] console - mongo连接成功
+[2019-01-31 16:08:13.622] [INFO] console - mongo连接打开
+[2019-01-31 16:08:15.497] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:08:15.497] [INFO] console - condition { appId: undefined }
+[2019-01-31 16:08:15.500] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:08:15.500] [INFO] console - 查询条件是 { appId: undefined }
+[2019-01-31 16:08:15.506] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 16:08:15.506] [INFO] console - TypeError: ops.find(...).sort(...).exec(...).toSimpleObject is not a function
+    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:44:11)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+[2019-01-31 16:08:15.530] [ERROR] console - TypeError: ops.find(...).sort(...).exec(...).toSimpleObject is not a function
+    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:44:11)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10) 'TypeError: ops.find(...).sort(...).exec(...).toSimpleObject is not a function\n    at Object.getList (/Users/roger/Work/bbs/server/daos/subject.js:44:11)\n    at /Users/roger/Work/bbs/server/apps/subject.js:24:26\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)\n    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)'
+[2019-01-31 16:08:15.543] [ERROR] console - (node:89958) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 16:22:06.748] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:22:06.757] [INFO] console - mongo连接成功
+[2019-01-31 16:22:06.761] [INFO] console - mongo连接打开
+[2019-01-31 16:22:08.711] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:22:08.712] [INFO] console - condition { appId: undefined }
+[2019-01-31 16:22:08.713] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:22:08.713] [INFO] console - 查询条件是 { appId: undefined }
+[2019-01-31 16:22:08.720] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 16:22:08.720] [INFO] console - TypeError: ops.find(...).sort(...).exec(...).toSimpleObject is not a function
+    at getList (/Users/roger/Work/bbs/server/daos/subject.js:51:11)
+    at Object.params [as getList] (/Users/roger/Work/bbs/server/daos/subject.js:24:5)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+[2019-01-31 16:22:08.725] [ERROR] console - TypeError: ops.find(...).sort(...).exec(...).toSimpleObject is not a function
+    at getList (/Users/roger/Work/bbs/server/daos/subject.js:51:11)
+    at Object.params [as getList] (/Users/roger/Work/bbs/server/daos/subject.js:24:5)
+    at /Users/roger/Work/bbs/server/apps/subject.js:24:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12) 'TypeError: ops.find(...).sort(...).exec(...).toSimpleObject is not a function\n    at getList (/Users/roger/Work/bbs/server/daos/subject.js:51:11)\n    at Object.params [as getList] (/Users/roger/Work/bbs/server/daos/subject.js:24:5)\n    at /Users/roger/Work/bbs/server/apps/subject.js:24:26\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)\n    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)'
+[2019-01-31 16:22:08.726] [ERROR] console - (node:92336) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 16:22:27.414] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:22:27.424] [INFO] console - mongo连接成功
+[2019-01-31 16:22:27.427] [INFO] console - mongo连接打开
+[2019-01-31 16:22:29.025] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:22:29.026] [INFO] console - condition { appId: undefined }
+[2019-01-31 16:22:29.028] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:22:29.029] [INFO] console - 查询条件是 { appId: undefined }
+[2019-01-31 16:22:29.035] [ERROR] console - (node:92402) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-01-31 16:22:29.035] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 16:22:29.035] [INFO] console - TypeError: You may only yield a function, promise, generator, array, or object, but the following object was passed: "undefined"
+    at next (/Users/roger/Work/bbs/server/node_modules/co/index.js:101:25)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:69:7)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/roger/Work/bbs/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+[2019-01-31 16:22:29.041] [ERROR] console - TypeError: You may only yield a function, promise, generator, array, or object, but the following object was passed: "undefined"
+    at next (/Users/roger/Work/bbs/server/node_modules/co/index.js:101:25)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:69:7)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/roger/Work/bbs/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5) 'TypeError: You may only yield a function, promise, generator, array, or object, but the following object was passed: "undefined"\n    at next (/Users/roger/Work/bbs/server/node_modules/co/index.js:101:25)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:69:7)\n    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)\n    at getList (/Users/roger/Work/bbs/server/apps/subject.js:22:2)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at expressInit (/Users/roger/Work/bbs/server/node_modules/express/lib/middleware/init.js:40:5)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)'
+[2019-01-31 16:22:29.073] [ERROR] console - (node:92402) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 16:22:45.749] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:22:45.758] [INFO] console - mongo连接成功
+[2019-01-31 16:22:45.765] [INFO] console - mongo连接打开
+[2019-01-31 16:23:15.225] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:23:15.234] [INFO] console - mongo连接成功
+[2019-01-31 16:23:15.241] [INFO] console - mongo连接打开
+[2019-01-31 16:23:19.745] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:23:19.746] [INFO] console - condition { appId: undefined }
+[2019-01-31 16:23:19.748] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:23:19.748] [INFO] console - 查询条件是 { appId: undefined }
+[2019-01-31 16:23:19.754] [ERROR] console - (node:92552) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-01-31 16:29:05.304] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 16:29:05.336] [INFO] console - mongo连接成功
+[2019-01-31 16:29:05.339] [INFO] console - mongo连接打开
+[2019-01-31 16:29:06.828] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:29:06.828] [INFO] console - condition {}
+[2019-01-31 16:29:06.830] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 16:29:06.830] [INFO] console - 查询条件是 {}
+[2019-01-31 16:29:06.836] [ERROR] console - (node:93578) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-01-31 17:31:37.763] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 17:31:37.776] [INFO] console - mongo连接成功
+[2019-01-31 17:31:37.789] [INFO] console - mongo连接打开
+[2019-01-31 17:32:57.187] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 17:32:57.196] [INFO] console - mongo连接成功
+[2019-01-31 17:32:57.200] [INFO] console - mongo连接打开
+[2019-01-31 17:33:16.045] [INFO] console - 创建对象 { name: '测试板块12' }
+[2019-01-31 17:33:16.052] [ERROR] console - (node:2112) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-01-31 17:33:18.613] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:33:18.613] [INFO] console - condition {}
+[2019-01-31 17:33:18.613] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:33:18.613] [INFO] console - 查询条件是 {}
+[2019-01-31 17:34:05.568] [INFO] console - 删除条件是 { _id: '5c52c0dc93999e4008095769' }
+[2019-01-31 17:34:05.586] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 17:34:05.587] [INFO] console - TypeError: mongooseObj.toObject is not a function
+    at toSimpleObject (/Users/roger/Work/bbs/server/utils/toSimpleObject.js:8:22)
+    at newTickHandler (/Users/roger/Work/bbs/server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-01-31 17:34:05.588] [ERROR] console - TypeError: mongooseObj.toObject is not a function
+    at toSimpleObject (/Users/roger/Work/bbs/server/utils/toSimpleObject.js:8:22)
+    at newTickHandler (/Users/roger/Work/bbs/server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11) 'TypeError: mongooseObj.toObject is not a function\n    at toSimpleObject (/Users/roger/Work/bbs/server/utils/toSimpleObject.js:8:22)\n    at newTickHandler (/Users/roger/Work/bbs/server/node_modules/mpromise/lib/promise.js:234:18)\n    at process._tickCallback (internal/process/next_tick.js:61:11)'
+[2019-01-31 17:34:05.588] [ERROR] console - (node:2112) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 17:35:30.079] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 17:35:30.089] [INFO] console - mongo连接成功
+[2019-01-31 17:35:30.093] [INFO] console - mongo连接打开
+[2019-01-31 17:35:31.718] [INFO] console - 删除条件是 { _id: '5c52c0dc93999e4008095769' }
+[2019-01-31 17:35:31.727] [ERROR] console - (node:2487) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-01-31 17:35:51.077] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 17:35:51.089] [INFO] console - mongo连接成功
+[2019-01-31 17:35:51.094] [INFO] console - mongo连接打开
+[2019-01-31 17:35:53.966] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:35:53.966] [INFO] console - condition {}
+[2019-01-31 17:35:53.967] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:35:53.967] [INFO] console - 查询条件是 {}
+[2019-01-31 17:35:53.972] [ERROR] console - (node:2548) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-01-31 17:35:58.182] [INFO] console - 创建对象 { name: '测试板块1222' }
+[2019-01-31 17:36:00.127] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:36:00.127] [INFO] console - condition {}
+[2019-01-31 17:36:00.127] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:36:00.127] [INFO] console - 查询条件是 {}
+[2019-01-31 17:36:03.973] [INFO] console - 删除条件是 { _id: '5c52c17e7647f4f40939fcb5' }
+[2019-01-31 17:36:03.976] [INFO] console - ******** getResFn error ******** 
+[2019-01-31 17:36:03.976] [INFO] console - TypeError: mongooseObj.toObject is not a function
+    at toSimpleObject (/Users/roger/Work/bbs/server/utils/toSimpleObject.js:8:22)
+    at newTickHandler (/Users/roger/Work/bbs/server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-01-31 17:36:03.978] [ERROR] console - TypeError: mongooseObj.toObject is not a function
+    at toSimpleObject (/Users/roger/Work/bbs/server/utils/toSimpleObject.js:8:22)
+    at newTickHandler (/Users/roger/Work/bbs/server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11) 'TypeError: mongooseObj.toObject is not a function\n    at toSimpleObject (/Users/roger/Work/bbs/server/utils/toSimpleObject.js:8:22)\n    at newTickHandler (/Users/roger/Work/bbs/server/node_modules/mpromise/lib/promise.js:234:18)\n    at process._tickCallback (internal/process/next_tick.js:61:11)'
+[2019-01-31 17:36:03.979] [ERROR] console - (node:2548) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-31 17:36:09.478] [INFO] console - 删除条件是 { _id: '5c52c17e7647f4f40939fcb5' }
+[2019-01-31 17:37:01.958] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 17:37:01.974] [INFO] console - mongo连接成功
+[2019-01-31 17:37:01.978] [INFO] console - mongo连接打开
+[2019-01-31 17:37:05.498] [INFO] console - 创建对象 { name: '测试板块12223' }
+[2019-01-31 17:37:05.507] [ERROR] console - (node:2726) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-01-31 17:37:06.926] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:37:06.926] [INFO] console - condition {}
+[2019-01-31 17:37:06.926] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:37:06.926] [INFO] console - 查询条件是 {}
+[2019-01-31 17:37:11.895] [INFO] console - 删除条件是 { _id: '5c52c1c1c25f09a60a2915d0' }
+[2019-01-31 17:52:19.700] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:52:19.700] [INFO] console - condition {}
+[2019-01-31 17:52:19.700] [INFO] console -  ********** getQueryCondition ********** 
+[2019-01-31 17:52:19.700] [INFO] console - 查询条件是 {}
+[2019-01-31 18:01:15.581] [INFO] console - Express server listening on :8091, in development mode
+[2019-01-31 18:01:15.590] [INFO] console - mongo连接成功
+[2019-01-31 18:01:15.594] [INFO] console - mongo连接打开

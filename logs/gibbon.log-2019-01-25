@@ -1,0 +1,2216 @@
+[2018-11-27 09:43:14.620] [INFO] console - 延长登录时间
+[2018-11-27 09:43:15.113] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:43:15.114] [INFO] console - {}
+[2018-11-27 09:43:15.114] [INFO] console - condition { appId: undefined }
+[2018-11-27 09:43:15.116] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:43:15.117] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 09:43:15.124] [INFO] console - 查询条件是 {}
+[2018-11-27 09:43:31.631] [INFO] console - 延长登录时间
+[2018-11-27 09:43:32.006] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:43:32.009] [INFO] console - {}
+[2018-11-27 09:43:32.009] [INFO] console - condition { appId: undefined }
+[2018-11-27 09:43:32.010] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:43:32.011] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 09:43:32.023] [INFO] console - 查询条件是 {}
+[2018-11-27 09:43:37.503] [INFO] console - 延长登录时间
+[2018-11-27 09:43:37.610] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:43:37.610] [INFO] console - {}
+[2018-11-27 09:43:37.610] [INFO] console - condition { appId: undefined }
+[2018-11-27 09:43:37.611] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:43:37.611] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 09:43:37.615] [INFO] console - 查询条件是 {}
+[2018-11-27 09:43:57.929] [INFO] console - 延长登录时间
+[2018-11-27 09:43:58.115] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:43:58.115] [INFO] console - {}
+[2018-11-27 09:43:58.116] [INFO] console - condition { appId: undefined }
+[2018-11-27 09:43:58.116] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:43:58.116] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 09:43:58.122] [INFO] console - 查询条件是 {}
+[2018-11-27 09:56:17.345] [INFO] console - 延长登录时间
+[2018-11-27 09:56:17.418] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:56:17.418] [INFO] console - {}
+[2018-11-27 09:56:17.419] [INFO] console - condition { appId: undefined }
+[2018-11-27 09:56:17.419] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 09:56:17.419] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 09:56:17.453] [INFO] console - 查询条件是 {}
+[2018-11-27 10:03:25.839] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:03:25.879] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:03:25.940] [INFO] console - 没有token，直接申请
+[2018-11-27 10:03:25.942] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api4.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'workplus',
+     client_id: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+     client_secret: '48d8d92803364212b84976e0f7c6c08a',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2018-11-27 10:03:26.354] [INFO] console - 申请token响应是 { status: 0,
+  message: 'ok',
+  result: 
+   { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+     issued_time: 1543284206255,
+     expire_time: 1543889006255 } }
+[2018-11-27 10:03:26.355] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:03:26.364] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/1ec0d3cef74b474f82b2f9216c480169?access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:03:26.472] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: '',
+     domain_id: 'workplus',
+     client_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     org_id: '',
+     device_platform: '' } }
+[2018-11-27 10:03:26.474] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:03:26.475] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:03:26.476] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 10:03:26.583] [INFO] console - 
+服务器响应是
+ { status: 208002, message: '没有对应的雇员', result: {} }
+[2018-11-27 10:03:26.585] [ERROR] console - 服务器返回值非0 208002
+[2018-11-27 10:03:26.587] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:03:26.587] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 10:03:26.597] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 10:03:44.310] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:03:44.312] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:03:44.314] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:03:44.315] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:03:44.315] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/1ec0d3cef74b474f82b2f9216c480169?access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:03:44.455] [INFO] console - 
+服务器响应是
+ { status: 211404, message: '没有对应的Ticket', result: {} }
+[2018-11-27 10:03:44.463] [ERROR] console - 服务器返回值非0 211404
+[2018-11-27 10:03:44.464] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:03:44.464] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 10:03:44.468] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 10:04:49.158] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:04:49.159] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:04:49.161] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:04:49.163] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:04:49.163] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/b02d8654c847485b8e9be1bab22f9b47?access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:04:49.291] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: '',
+     domain_id: 'workplus',
+     client_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     org_id: '',
+     device_platform: '' } }
+[2018-11-27 10:04:49.295] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:04:49.296] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:04:49.296] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 10:04:49.404] [INFO] console - 
+服务器响应是
+ { status: 208002, message: '没有对应的雇员', result: {} }
+[2018-11-27 10:04:49.405] [ERROR] console - 服务器返回值非0 208002
+[2018-11-27 10:04:49.406] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:04:49.406] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 10:04:49.409] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 10:07:28.133] [INFO] console - 延长登录时间
+[2018-11-27 10:07:28.453] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 10:07:28.453] [INFO] console - {}
+[2018-11-27 10:07:28.454] [INFO] console - condition { appId: undefined }
+[2018-11-27 10:07:28.454] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 10:07:28.454] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 10:07:28.475] [INFO] console - 查询条件是 {}
+[2018-11-27 10:10:20.478] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:10:20.479] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7)
+[2018-11-27 10:10:20.486] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7) 'Error: e_log_out\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7)'
+[2018-11-27 10:10:32.736] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:10:32.737] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:10:32.740] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:10:32.748] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:10:32.750] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/6cd664564a804ed78a611e54789e3770?access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:10:32.943] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: '',
+     domain_id: 'workplus',
+     client_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     org_id: '',
+     device_platform: '' } }
+[2018-11-27 10:10:32.944] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:10:32.946] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:10:32.948] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 10:10:33.071] [INFO] console - 
+服务器响应是
+ { status: 208002, message: '没有对应的雇员', result: {} }
+[2018-11-27 10:10:33.072] [ERROR] console - 服务器返回值非0 208002
+[2018-11-27 10:10:33.072] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:10:33.073] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 10:10:33.077] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 10:11:29.083] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:11:29.085] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:11:29.087] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:11:29.088] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:11:29.088] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/aeb62e3e040c7545305703a9c3d02c7c173292d0?access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:11:29.190] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_platform: 'pcweb' } }
+[2018-11-27 10:11:29.192] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:11:29.193] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:11:29.194] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 10:11:29.354] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { id: '803',
+     domain_id: 'workplus',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     status: 'ACTIVATED',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas: [ [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1480493779715,
+     last_modified: 1532005441681,
+     root_org_info: 
+      { id: '284',
+        name: '恒拓测试',
+        type: 'O',
+        path: '/284/',
+        display: true } } }
+[2018-11-27 10:11:29.364] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_platform: 'pcweb',
+  id: '803',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  status: 'ACTIVATED',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions: 
+   [ { id: '943',
+       domain_id: 'workplus',
+       code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       employee_id: '803',
+       org_id: '284',
+       path: '/284/',
+       type: 'CORP',
+       job_title: '',
+       level: 1,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/恒拓测试/',
+       org_name: '恒拓测试',
+       corp_id: '',
+       corp_name: '' } ],
+  data_schemas: 
+   [ { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1480493779715,
+  last_modified: 1532005441681,
+  root_org_info: 
+   { id: '284',
+     name: '恒拓测试',
+     type: 'O',
+     path: '/284/',
+     display: true },
+  userId: 'c80250ac61534b178ffb9d001f537da7' }
+[2018-11-27 10:11:29.397] [INFO] console - 	req.session.userId:::
+[2018-11-27 10:11:29.398] [INFO] console - c80250ac61534b178ffb9d001f537da7
+[2018-11-27 10:11:30.141] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 10:11:30.142] [INFO] console - {}
+[2018-11-27 10:11:30.143] [INFO] console - condition { appId: undefined }
+[2018-11-27 10:11:30.143] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 10:11:30.146] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 10:11:30.153] [INFO] console - 查询条件是 {}
+[2018-11-27 10:12:51.902] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:12:51.903] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7)
+[2018-11-27 10:12:51.908] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7) 'Error: e_log_out\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7)'
+[2018-11-27 10:13:05.645] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:13:05.646] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:13:05.649] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:13:05.651] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:13:05.652] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/e17fbb4989b04f15bbc7f4d94a144ffc?access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:13:05.769] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: '',
+     domain_id: 'workplus',
+     client_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     org_id: '',
+     device_platform: '' } }
+[2018-11-27 10:13:05.770] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:13:05.770] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:13:05.771] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 10:13:05.911] [INFO] console - 
+服务器响应是
+ { status: 208002, message: '没有对应的雇员', result: {} }
+[2018-11-27 10:13:05.911] [ERROR] console - 服务器返回值非0 208002
+[2018-11-27 10:13:05.912] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:13:05.912] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 10:13:05.915] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 10:13:36.130] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:13:36.135] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:13:36.139] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:13:36.157] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:13:36.158] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/b67106242190b907e350258082370c3a7172dea9?access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:13:36.321] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_platform: 'pcweb' } }
+[2018-11-27 10:13:36.322] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+        issued_time: 1543284206255,
+        expire_time: 1543889006255 } } }
+[2018-11-27 10:13:36.323] [INFO] console - 已经获得token，开始发送请求 2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276
+[2018-11-27 10:13:36.323] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=2f15da43119d64a37719bd4fe6e14e551165960b8e337371d425cf1333533276',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 10:13:36.462] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { id: '803',
+     domain_id: 'workplus',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     status: 'ACTIVATED',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas: [ [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1480493779715,
+     last_modified: 1532005441681,
+     root_org_info: 
+      { id: '284',
+        name: '恒拓测试',
+        type: 'O',
+        path: '/284/',
+        display: true } } }
+[2018-11-27 10:13:36.463] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_platform: 'pcweb',
+  id: '803',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  status: 'ACTIVATED',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions: 
+   [ { id: '943',
+       domain_id: 'workplus',
+       code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       employee_id: '803',
+       org_id: '284',
+       path: '/284/',
+       type: 'CORP',
+       job_title: '',
+       level: 1,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/恒拓测试/',
+       org_name: '恒拓测试',
+       corp_id: '',
+       corp_name: '' } ],
+  data_schemas: 
+   [ { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1480493779715,
+  last_modified: 1532005441681,
+  root_org_info: 
+   { id: '284',
+     name: '恒拓测试',
+     type: 'O',
+     path: '/284/',
+     display: true },
+  userId: 'c80250ac61534b178ffb9d001f537da7' }
+[2018-11-27 10:13:36.492] [INFO] console - 	req.session.userId:::
+[2018-11-27 10:13:36.492] [INFO] console - c80250ac61534b178ffb9d001f537da7
+[2018-11-27 10:13:37.290] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 10:13:37.291] [INFO] console - {}
+[2018-11-27 10:13:37.292] [INFO] console - condition { appId: undefined }
+[2018-11-27 10:13:37.293] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 10:13:37.293] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 10:13:37.345] [INFO] console - 查询条件是 {}
+[2018-11-27 10:24:49.111] [INFO] console - Express server listening on :8091, in development mode
+[2018-11-27 10:24:49.148] [INFO] console - mongo连接成功
+[2018-11-27 10:24:49.157] [INFO] console - mongo连接打开
+[2018-11-27 10:26:33.530] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:26:33.539] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7)
+[2018-11-27 10:26:33.554] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7) 'Error: e_log_out\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7)'
+[2018-11-27 10:27:51.926] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:27:51.944] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:27:51.980] [INFO] console - 没有token，直接申请
+[2018-11-27 10:27:51.987] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api4.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'workplus',
+     client_id: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+     client_secret: '48d8d92803364212b84976e0f7c6c08a',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2018-11-27 10:27:52.308] [INFO] console - 申请token响应是 { status: 0,
+  message: 'ok',
+  result: 
+   { access_token: '098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa',
+     issued_time: 1543285672202,
+     expire_time: 1543890472202 } }
+[2018-11-27 10:27:52.312] [INFO] console - 已经获得token，开始发送请求 098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa
+[2018-11-27 10:27:52.318] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/4041eaf598004899ad7d63f969197b3e?access_token=098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:27:52.446] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: '',
+     domain_id: 'workplus',
+     client_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     org_id: '',
+     device_platform: '' } }
+[2018-11-27 10:50:19.300] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa',
+        issued_time: 1543285672202,
+        expire_time: 1543890472202 } } }
+[2018-11-27 10:50:19.318] [INFO] console - 已经获得token，开始发送请求 098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa
+[2018-11-27 10:50:19.324] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 10:50:19.429] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:50:19.433] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:50:41.046] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa',
+        issued_time: 1543285672202,
+        expire_time: 1543890472202 } } }
+[2018-11-27 10:50:41.052] [INFO] console - 已经获得token，开始发送请求 098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa
+[2018-11-27 10:50:41.056] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/4041eaf598004899ad7d63f969197b3e?access_token=098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:50:41.077] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:50:41.080] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:50:42.765] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa',
+        issued_time: 1543285672202,
+        expire_time: 1543890472202 } } }
+[2018-11-27 10:50:42.769] [INFO] console - 已经获得token，开始发送请求 098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa
+[2018-11-27 10:50:42.773] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/4041eaf598004899ad7d63f969197b3e?access_token=098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:50:42.884] [INFO] console - 
+服务器响应是
+ { status: 10011, message: 'token not found.', result: {} }
+[2018-11-27 10:50:42.886] [ERROR] console - token过期或者not found，准备删除旧token重新申请 { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=098c6c6303173a5789e4ff5700f49cba4b69f22c46902354ccb6e72f4c1d71aa',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 } 2
+[2018-11-27 10:50:42.889] [INFO] console - 没有token，直接申请
+[2018-11-27 10:50:42.891] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api4.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'workplus',
+     client_id: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+     client_secret: '48d8d92803364212b84976e0f7c6c08a',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2018-11-27 10:50:42.947] [INFO] console - 
+服务器响应是
+ { status: 211404, message: '没有对应的Ticket', result: {} }
+[2018-11-27 10:50:42.950] [ERROR] console - 服务器返回值非0 211404
+[2018-11-27 10:50:42.957] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:50:42.960] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 10:50:42.972] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 10:50:42.980] [INFO] console - 
+服务器响应是
+ { status: 211404, message: '没有对应的Ticket', result: {} }
+[2018-11-27 10:50:42.982] [ERROR] console - 服务器返回值非0 211404
+[2018-11-27 10:50:42.984] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:50:42.988] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 10:50:42.993] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 10:50:43.118] [INFO] console - 申请token响应是 { status: 0,
+  message: 'ok',
+  result: 
+   { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+     issued_time: 1543287043021,
+     expire_time: 1543891843021 } }
+[2018-11-27 10:50:43.120] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 10:50:43.121] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000,
+  isRetried: true }
+[2018-11-27 10:50:43.224] [INFO] console - 
+服务器响应是
+ { status: 208002, message: '没有对应的雇员', result: {} }
+[2018-11-27 10:50:43.225] [ERROR] console - 服务器返回值非0 208002
+[2018-11-27 10:50:43.227] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:50:43.229] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 10:50:43.233] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 10:50:58.245] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:50:58.251] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:51:13.559] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 10:51:13.563] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 10:51:13.567] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/b8fe7a3a2dae808a39c07ea43c616d47590bcdbd?access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:51:13.688] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_platform: 'pcweb' } }
+[2018-11-27 10:51:58.912] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 10:51:58.924] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 10:51:58.927] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 10:51:59.052] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { id: '803',
+     domain_id: 'workplus',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     status: 'ACTIVATED',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas: [ [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1480493779715,
+     last_modified: 1532005441681,
+     root_org_info: 
+      { id: '284',
+        name: '恒拓测试',
+        type: 'O',
+        path: '/284/',
+        display: true } } }
+[2018-11-27 10:51:59.064] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_platform: 'pcweb',
+  id: '803',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  status: 'ACTIVATED',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions: 
+   [ { id: '943',
+       domain_id: 'workplus',
+       code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       employee_id: '803',
+       org_id: '284',
+       path: '/284/',
+       type: 'CORP',
+       job_title: '',
+       level: 1,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/恒拓测试/',
+       org_name: '恒拓测试',
+       corp_id: '',
+       corp_name: '' } ],
+  data_schemas: 
+   [ { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1480493779715,
+  last_modified: 1532005441681,
+  root_org_info: 
+   { id: '284',
+     name: '恒拓测试',
+     type: 'O',
+     path: '/284/',
+     display: true },
+  userId: 'c80250ac61534b178ffb9d001f537da7' }
+[2018-11-27 10:51:59.084] [INFO] console - 	req.session.userId:::
+[2018-11-27 10:51:59.087] [INFO] console - c80250ac61534b178ffb9d001f537da7
+[2018-11-27 10:51:59.289] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 10:51:59.294] [INFO] console - {}
+[2018-11-27 10:51:59.297] [INFO] console - condition { appId: undefined }
+[2018-11-27 10:51:59.300] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 10:51:59.304] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 10:51:59.337] [ERROR] console - (node:43449) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2018-11-27 10:51:59.346] [INFO] console - 查询条件是 {}
+[2018-11-27 10:52:04.596] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:52:04.606] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7)
+[2018-11-27 10:52:04.618] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7) 'Error: e_log_out\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:41:25\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/old_Proj/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/serve-static/index.js:121:7)'
+[2018-11-27 10:52:15.848] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 10:52:15.855] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 10:52:43.813] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 10:52:43.823] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 10:52:43.826] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/bd14415bdd174e5ba96d09e65f9a62f9?access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 10:52:43.945] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: '',
+     domain_id: 'workplus',
+     client_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     org_id: '',
+     device_platform: '' } }
+[2018-11-27 10:53:01.243] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 10:53:01.247] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 10:53:01.250] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 10:53:01.396] [INFO] console - 
+服务器响应是
+ { status: 208002, message: '没有对应的雇员', result: {} }
+[2018-11-27 10:53:01.398] [ERROR] console - 服务器返回值非0 208002
+[2018-11-27 10:53:01.400] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 10:53:01.403] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 10:53:01.414] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 11:02:48.582] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 11:02:48.592] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 11:05:24.134] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 11:05:24.163] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 11:05:24.168] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/e124b00981d14fa1f278a960a3ad35834db3c02b?access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 11:05:24.214] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 11:05:24.219] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 11:05:25.242] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 11:05:25.247] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 11:05:25.250] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/a866adc89e774d44b148666a5f96aea6?access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 11:05:25.256] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 11:05:25.259] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 11:05:26.663] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 11:05:26.667] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 11:05:26.669] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/404e400c758647c0af3b5d535754b740?access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 11:05:26.682] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 11:05:26.685] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 11:05:29.640] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 11:05:29.643] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 11:05:29.647] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/404e400c758647c0af3b5d535754b740?access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 11:05:29.775] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_platform: 'pcweb' } }
+[2018-11-27 11:05:31.185] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 11:05:31.189] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 11:05:31.193] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 11:05:31.202] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: '',
+     domain_id: 'workplus',
+     client_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     org_id: '',
+     device_platform: '' } }
+[2018-11-27 11:05:32.521] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 11:05:32.525] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 11:05:32.527] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 11:05:32.532] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: '',
+     domain_id: 'workplus',
+     client_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     org_id: '',
+     device_platform: '' } }
+[2018-11-27 11:05:34.036] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 11:05:34.041] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 11:05:34.044] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/e63bf7a5-ce40-4c03-bd08-3204d33034ac?type=user&access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 11:05:34.054] [INFO] console - 
+服务器响应是
+ { status: 211404, message: '没有对应的Ticket', result: {} }
+[2018-11-27 11:05:34.055] [ERROR] console - 服务器返回值非0 211404
+[2018-11-27 11:05:34.057] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 11:05:34.061] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 11:05:34.069] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 11:05:34.189] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { id: '803',
+     domain_id: 'workplus',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     status: 'ACTIVATED',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas: [ [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1480493779715,
+     last_modified: 1532005441681,
+     root_org_info: 
+      { id: '284',
+        name: '恒拓测试',
+        type: 'O',
+        path: '/284/',
+        display: true } } }
+[2018-11-27 11:05:34.191] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_platform: 'pcweb',
+  id: '803',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  status: 'ACTIVATED',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions: 
+   [ { id: '943',
+       domain_id: 'workplus',
+       code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       employee_id: '803',
+       org_id: '284',
+       path: '/284/',
+       type: 'CORP',
+       job_title: '',
+       level: 1,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/恒拓测试/',
+       org_name: '恒拓测试',
+       corp_id: '',
+       corp_name: '' } ],
+  data_schemas: 
+   [ { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1480493779715,
+  last_modified: 1532005441681,
+  root_org_info: 
+   { id: '284',
+     name: '恒拓测试',
+     type: 'O',
+     path: '/284/',
+     display: true },
+  userId: 'c80250ac61534b178ffb9d001f537da7' }
+[2018-11-27 11:05:34.205] [INFO] console - 	req.session.userId:::
+[2018-11-27 11:05:34.209] [INFO] console - c80250ac61534b178ffb9d001f537da7
+[2018-11-27 11:05:34.230] [INFO] console - 
+服务器响应是
+ { status: 208002, message: '没有对应的雇员', result: {} }
+[2018-11-27 11:05:34.232] [ERROR] console - 服务器返回值非0 208002
+[2018-11-27 11:05:34.234] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 11:05:34.238] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 11:05:34.246] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 11:05:34.286] [INFO] console - 
+服务器响应是
+ { status: 208002, message: '没有对应的雇员', result: {} }
+[2018-11-27 11:05:34.288] [ERROR] console - 服务器返回值非0 208002
+[2018-11-27 11:05:34.291] [INFO] console - ******** getResFn error ******** 
+[2018-11-27 11:05:34.293] [INFO] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
+[2018-11-27 11:05:34.301] [ERROR] console - Error: api server error
+    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)
+    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)
+    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)
+    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)
+    at Request.emit (events.js:180:13)
+    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)
+    at Request.emit (events.js:180:13)
+    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:272:13)
+    at IncomingMessage.emit (events.js:185:15)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19) 'Error: api server error\n    at Object.statusIsNotZero (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:19:12)\n    at Object.parseServerResponse (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:37:19)\n    at Request.request [as _callback] (/Users/RogersMac/Sites/old_Proj/Gibbon/server/atwork/lib/send_request.js:88:26)\n    at Request.self.callback (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:188:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1171:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/Users/RogersMac/Sites/old_Proj/Gibbon/server/node_modules/request/request.js:1091:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1101:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)'
+[2018-11-27 11:05:53.834] [INFO] console -  ********* 验证ticket ********* 
+[2018-11-27 11:05:53.840] [INFO] console - { clientId: '9844ad9c7536b343bf48249de4bd4ad308c297bc',
+  clientSecret: '48d8d92803364212b84976e0f7c6c08a',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2018-11-27 11:05:55.689] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 11:05:55.693] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 11:05:55.705] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/tickets/b51f475156ccd3087dbe69a2c0f919c8d7ef5914?access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  timeout: 10000 }
+[2018-11-27 11:05:55.865] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_platform: 'pcweb' } }
+[2018-11-27 11:06:00.364] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'ok',
+     result: 
+      { access_token: '5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+        issued_time: 1543287043021,
+        expire_time: 1543891843021 } } }
+[2018-11-27 11:06:00.368] [INFO] console - 已经获得token，开始发送请求 5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a
+[2018-11-27 11:06:00.371] [INFO] console - 请求的参数是
+ { url: 'https://api4.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=5d507e8543b925ec5566597f666da6558229b042abe71771ca2edd875984bf6a',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2018-11-27 11:06:00.479] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result: 
+   { id: '803',
+     domain_id: 'workplus',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     status: 'ACTIVATED',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas: [ [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1480493779715,
+     last_modified: 1532005441681,
+     root_org_info: 
+      { id: '284',
+        name: '恒拓测试',
+        type: 'O',
+        path: '/284/',
+        display: true } } }
+[2018-11-27 11:06:00.483] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: 'pcweb_device_idcfd5de58-c7b8-45a3-aa94-bdf8669827e6',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_platform: 'pcweb',
+  id: '803',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  status: 'ACTIVATED',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar: 'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions: 
+   [ { id: '943',
+       domain_id: 'workplus',
+       code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       employee_id: '803',
+       org_id: '284',
+       path: '/284/',
+       type: 'CORP',
+       job_title: '',
+       level: 1,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/恒拓测试/',
+       org_name: '恒拓测试',
+       corp_id: '',
+       corp_name: '' } ],
+  data_schemas: 
+   [ { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1480493779715,
+  last_modified: 1532005441681,
+  root_org_info: 
+   { id: '284',
+     name: '恒拓测试',
+     type: 'O',
+     path: '/284/',
+     display: true },
+  userId: 'c80250ac61534b178ffb9d001f537da7' }
+[2018-11-27 11:06:00.493] [INFO] console - 	req.session.userId:::
+[2018-11-27 11:06:00.496] [INFO] console - c80250ac61534b178ffb9d001f537da7
+[2018-11-27 11:06:00.584] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 11:06:00.591] [INFO] console - {}
+[2018-11-27 11:06:00.604] [INFO] console - condition { appId: undefined }
+[2018-11-27 11:06:00.611] [INFO] console -  ********** getQueryCondition ********** 
+[2018-11-27 11:06:00.615] [INFO] console - 查询条件是 { appId: undefined }
+[2018-11-27 11:06:00.629] [INFO] console - 查询条件是 {}
+[2018-11-27 11:09:41.418] [ERROR] console - mongo连接断开
+[2018-11-27 11:09:41.444] [ERROR] console - mongo连接关闭
+[2019-01-25 17:24:19.088] [INFO] console - Express server listening on :9291, in development mode
+[2019-01-25 17:25:08.199] [INFO] console - Express server listening on :9291, in development mode
+[2019-01-25 17:25:17.879] [INFO] console - ******** getResFn error ******** 
+[2019-01-25 17:25:17.879] [INFO] console - Error: e_log_out
+    at /Users/roger/Work/bbs/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at info (/Users/roger/Work/bbs/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/roger/Work/bbs/server/node_modules/serve-static/index.js:121:7)
+[2019-01-25 17:25:17.882] [ERROR] console - Error: e_log_out
+    at /Users/roger/Work/bbs/server/apps/account_app.js:41:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)
+    at info (/Users/roger/Work/bbs/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/roger/Work/bbs/server/node_modules/serve-static/index.js:121:7) 'Error: e_log_out\n    at /Users/roger/Work/bbs/server/apps/account_app.js:41:25\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server/node_modules/co/index.js:50:10)\n    at info (/Users/roger/Work/bbs/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/roger/Work/bbs/server/node_modules/serve-static/index.js:121:7)'
+[2019-01-25 17:25:17.884] [ERROR] console - (node:59537) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-01-25 17:26:23.683] [ERROR] console - mongo连接断开
+[2019-01-25 17:26:23.683] [ERROR] console - mongo连接失败MongoError: connect ETIMEDOUT 10.10.10.44:27017
+[2019-01-25 17:37:15.971] [INFO] console - Express server listening on :9291, in development mode
+[2019-01-25 17:38:31.217] [ERROR] console - mongo连接断开
+[2019-01-25 17:38:31.218] [ERROR] console - mongo连接失败MongoError: connect ETIMEDOUT 10.10.10.44:27017

@@ -1,0 +1,9 @@
+[2017-06-05 16:08:18.367] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-05 16:08:18.374] [ERROR] console - mongo连接断开
+[2017-06-05 16:08:18.376] [ERROR] console - mongo连接失败MongoError: failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+[2017-06-05 16:16:40.665] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-05 16:16:40.680] [INFO] console - mongo连接成功
+[2017-06-05 16:16:40.682] [INFO] console - mongo连接打开
+[2017-06-05 16:54:00.933] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-05 16:54:00.948] [INFO] console - mongo连接成功
+[2017-06-05 16:54:00.950] [INFO] console - mongo连接打开

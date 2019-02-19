@@ -1,0 +1,12 @@
+[2019-01-26 10:31:22.329] [INFO] console - Express server listening on :9291, in development mode
+[2019-01-26 10:32:37.586] [ERROR] console - mongo连接断开
+[2019-01-26 10:32:37.587] [ERROR] console - mongo连接失败MongoError: connect ETIMEDOUT 10.10.10.44:27017
+[2019-01-26 10:40:37.432] [INFO] console - Express server listening on :9291, in development mode
+[2019-01-26 10:41:52.647] [ERROR] console - mongo连接断开
+[2019-01-26 10:41:52.648] [ERROR] console - mongo连接失败MongoError: connect ETIMEDOUT 10.10.10.44:27017
+[2019-01-26 10:43:33.723] [INFO] console - Express server listening on :9291, in development mode
+[2019-01-26 10:44:49.845] [ERROR] console - mongo连接断开
+[2019-01-26 10:44:49.846] [ERROR] console - mongo连接失败MongoError: connect ETIMEDOUT 10.10.10.44:27017
+[2019-01-26 10:51:30.232] [INFO] console - Express server listening on :9291, in development mode
+[2019-01-26 10:52:45.889] [ERROR] console - mongo连接断开
+[2019-01-26 10:52:45.890] [ERROR] console - mongo连接失败MongoError: connect ETIMEDOUT 10.10.10.44:27017

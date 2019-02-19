@@ -1,0 +1,574 @@
+[2017-06-20 10:37:44.562] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-20 10:37:44.589] [INFO] console - mongo连接成功
+[2017-06-20 10:37:44.657] [INFO] console - mongo连接打开
+[2017-06-20 10:37:52.503] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 10:37:52.571] [ERROR] console - (node:62538) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-20 10:37:52.594] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 10:40:54.478] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-20 10:40:54.500] [INFO] console - mongo连接成功
+[2017-06-20 10:40:54.510] [INFO] console - mongo连接打开
+[2017-06-20 10:41:18.711] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-20 10:41:18.745] [INFO] console - mongo连接成功
+[2017-06-20 10:41:18.759] [INFO] console - mongo连接打开
+[2017-06-20 10:41:22.270] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 10:41:22.304] [ERROR] console - (node:62556) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-20 10:41:22.324] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 10:41:22.326] [INFO] console - req.session.accountId:
+[2017-06-20 10:41:22.326] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 10:51:19.354] [INFO] console - 创建对象 { name: 'fromPostman',
+  description: 'ddddd',
+  getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-06-20 10:53:46.745] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-20 10:53:46.771] [INFO] console - mongo连接成功
+[2017-06-20 10:53:46.781] [INFO] console - mongo连接打开
+[2017-06-20 10:53:58.113] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 10:53:58.153] [ERROR] console - (node:62625) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-20 10:53:58.167] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 10:53:58.169] [INFO] console - req.session.accountId:
+[2017-06-20 10:53:58.169] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 10:54:03.789] [INFO] console - 创建对象 { name: 'fromPostman',
+  description: 'ddddd',
+  account: '5947890af97761e6442e800e',
+  getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-06-20 10:55:30.103] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-20 10:55:30.122] [INFO] console - mongo连接成功
+[2017-06-20 10:55:30.131] [INFO] console - mongo连接打开
+[2017-06-20 10:57:21.857] [INFO] console - condition
+[2017-06-20 10:57:21.858] [INFO] console - { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-06-20 10:57:21.880] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-06-20 10:57:21.892] [ERROR] console - (node:62632) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-20 11:08:19.865] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-20 11:08:19.895] [INFO] console - mongo连接成功
+[2017-06-20 11:08:19.904] [INFO] console - mongo连接打开
+[2017-06-20 11:08:24.918] [INFO] console - condition
+[2017-06-20 11:08:24.918] [INFO] console - { account: '5947890af97761e6442e800e' }
+[2017-06-20 11:08:24.944] [INFO] console - 查询条件是 { account: '5947890af97761e6442e800e' }
+[2017-06-20 11:08:24.962] [ERROR] console - (node:62701) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-20 16:35:44.388] [INFO] console - condition
+[2017-06-20 16:35:44.405] [INFO] console - { account: undefined }
+[2017-06-20 16:35:44.421] [INFO] console - 查询条件是 { account: undefined }
+[2017-06-20 16:42:25.224] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5943a979d3490cafcf96c755' }
+[2017-06-20 16:42:25.285] [INFO] console - 创建对象 { appId: '5943a979d3490cafcf96c755',
+  url: 'http://172.16.1.40:8889/bundle.a684de3d33c24dbb0713.js',
+  type: 'Mobile Safari$9',
+  name: 'ReferenceError',
+  description: 'Uncaught ReferenceError: cordova is not defined',
+  line: 12287,
+  column: 14,
+  visitPage: 
+   { url: 'http://172.16.1.40:8889/#',
+     name: '审批',
+     time: 1497948146552 },
+  stack: 
+   [ { functionName: 'Function.logout',
+       errLocation: 'http://172.16.1.40:8889/bundle.a684de3d33c24dbb0713.js:12287:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+     browser: { name: 'Mobile Safari', version: '9.0', major: '9' },
+     engine: { version: '601.1.46', name: 'WebKit' },
+     os: { name: 'iOS', version: '9.1' },
+     device: { model: 'iPhone', vendor: 'Apple', type: 'mobile' },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-20 16:42:26.383] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5943a979d3490cafcf96c755' }
+[2017-06-20 16:42:26.395] [INFO] console - 创建对象 { appId: '5943a979d3490cafcf96c755',
+  url: 'http://172.16.1.40:8889/bundle.a684de3d33c24dbb0713.js',
+  type: 'Mobile Safari$9',
+  name: 'ReferenceError',
+  description: 'Uncaught ReferenceError: cordova is not defined',
+  line: 12287,
+  column: 14,
+  visitPage: 
+   { url: 'http://172.16.1.40:8889/#',
+     name: '审批',
+     time: 1497948147834 },
+  stack: 
+   [ { functionName: 'Function.logout',
+       errLocation: 'http://172.16.1.40:8889/bundle.a684de3d33c24dbb0713.js:12287:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+     browser: { name: 'Mobile Safari', version: '9.0', major: '9' },
+     engine: { version: '601.1.46', name: 'WebKit' },
+     os: { name: 'iOS', version: '9.1' },
+     device: { model: 'iPhone', vendor: 'Apple', type: 'mobile' },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-20 17:20:35.434] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '594384aebc451ca89086b3b2' }
+[2017-06-20 17:20:35.480] [INFO] console - 创建对象 { appId: '594384aebc451ca89086b3b2',
+  url: 'http://localhost:8000/index.js',
+  type: 'Chrome$58',
+  name: 'ReferenceError',
+  description: 'Uncaught ReferenceError: dispatch is not defined',
+  line: 47607,
+  column: 6,
+  visitPage: 
+   { url: 'http://localhost:8000/#/?_k=4n444m',
+     name: 'Bug Catcher',
+     time: 1497950435402 },
+  stack: 
+   [ { functionName: 'handleSubmit',
+       errLocation: 'http://localhost:8000/index.js:47607:6' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+     browser: { name: 'Chrome', version: '58.0.3029.110', major: '58' },
+     engine: { version: '537.36', name: 'WebKit' },
+     os: { name: 'Mac OS', version: '10.12.0' },
+     device: { model: undefined, vendor: undefined, type: undefined },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-20 17:21:27.875] [INFO] console - 查询条件是 { mobile: '123' }
+[2017-06-20 17:21:27.926] [INFO] console - ******** getResFn error ******** 
+[2017-06-20 17:21:27.926] [INFO] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-06-20 17:21:27.958] [ERROR] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: e_not_found\n    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)\n    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-06-20 17:22:20.927] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 17:22:20.945] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 17:22:20.947] [INFO] console - req.session.accountId:
+[2017-06-20 17:22:20.947] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 17:33:26.934] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5943a979d3490cafcf96c755' }
+[2017-06-20 17:33:26.947] [INFO] console - 创建对象 { appId: '5943a979d3490cafcf96c755',
+  url: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js',
+  type: 'Mobile Safari$9',
+  name: 'ReferenceError',
+  description: 'Uncaught ReferenceError: cordova is not defined',
+  line: 12287,
+  column: 14,
+  visitPage: 
+   { url: 'http://172.16.1.40:8889/#',
+     name: '审批',
+     time: 1497951208391 },
+  stack: 
+   [ { functionName: 'Function.logout',
+       errLocation: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js:12287:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+     browser: { name: 'Mobile Safari', version: '9.0', major: '9' },
+     engine: { version: '601.1.46', name: 'WebKit' },
+     os: { name: 'iOS', version: '9.1' },
+     device: { model: 'iPhone', vendor: 'Apple', type: 'mobile' },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-20 17:33:27.510] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5943a979d3490cafcf96c755' }
+[2017-06-20 17:33:27.526] [INFO] console - 创建对象 { appId: '5943a979d3490cafcf96c755',
+  url: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js',
+  type: 'Mobile Safari$9',
+  name: 'ReferenceError',
+  description: 'Uncaught ReferenceError: cordova is not defined',
+  line: 12287,
+  column: 14,
+  visitPage: 
+   { url: 'http://172.16.1.40:8889/#',
+     name: '审批',
+     time: 1497951209007 },
+  stack: 
+   [ { functionName: 'Function.logout',
+       errLocation: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js:12287:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+     browser: { name: 'Mobile Safari', version: '9.0', major: '9' },
+     engine: { version: '601.1.46', name: 'WebKit' },
+     os: { name: 'iOS', version: '9.1' },
+     device: { model: 'iPhone', vendor: 'Apple', type: 'mobile' },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-20 17:33:54.790] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5943a979d3490cafcf96c755' }
+[2017-06-20 17:33:54.797] [INFO] console - 创建对象 { appId: '5943a979d3490cafcf96c755',
+  url: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js',
+  type: 'Mobile Safari$9',
+  name: 'ReferenceError',
+  description: 'Uncaught ReferenceError: cordova is not defined',
+  line: 12287,
+  column: 14,
+  visitPage: 
+   { url: 'http://172.16.1.40:8889/#',
+     name: '审批',
+     time: 1497951236259 },
+  stack: 
+   [ { functionName: 'Function.logout',
+       errLocation: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js:12287:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+     browser: { name: 'Mobile Safari', version: '9.0', major: '9' },
+     engine: { version: '601.1.46', name: 'WebKit' },
+     os: { name: 'iOS', version: '9.1' },
+     device: { model: 'iPhone', vendor: 'Apple', type: 'mobile' },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-20 17:33:55.288] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5943a979d3490cafcf96c755' }
+[2017-06-20 17:33:55.300] [INFO] console - 创建对象 { appId: '5943a979d3490cafcf96c755',
+  url: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js',
+  type: 'Mobile Safari$9',
+  name: 'ReferenceError',
+  description: 'Uncaught ReferenceError: cordova is not defined',
+  line: 12287,
+  column: 14,
+  visitPage: 
+   { url: 'http://172.16.1.40:8889/#',
+     name: '审批',
+     time: 1497951236787 },
+  stack: 
+   [ { functionName: 'Function.logout',
+       errLocation: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js:12287:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+     browser: { name: 'Mobile Safari', version: '9.0', major: '9' },
+     engine: { version: '601.1.46', name: 'WebKit' },
+     os: { name: 'iOS', version: '9.1' },
+     device: { model: 'iPhone', vendor: 'Apple', type: 'mobile' },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-20 17:35:20.336] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5943a979d3490cafcf96c755' }
+[2017-06-20 17:35:20.355] [INFO] console - 创建对象 { appId: '5943a979d3490cafcf96c755',
+  url: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js',
+  type: 'Mobile Safari$9',
+  name: 'ReferenceError',
+  description: 'Uncaught ReferenceError: cordova is not defined',
+  line: 12287,
+  column: 14,
+  visitPage: 
+   { url: 'http://172.16.1.40:8889/#',
+     name: '审批',
+     time: 1497951321802 },
+  stack: 
+   [ { functionName: 'Function.logout',
+       errLocation: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js:12287:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+     browser: { name: 'Mobile Safari', version: '9.0', major: '9' },
+     engine: { version: '601.1.46', name: 'WebKit' },
+     os: { name: 'iOS', version: '9.1' },
+     device: { model: 'iPhone', vendor: 'Apple', type: 'mobile' },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-20 17:35:20.936] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '5943a979d3490cafcf96c755' }
+[2017-06-20 17:35:20.946] [INFO] console - 创建对象 { appId: '5943a979d3490cafcf96c755',
+  url: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js',
+  type: 'Mobile Safari$9',
+  name: 'ReferenceError',
+  description: 'Uncaught ReferenceError: cordova is not defined',
+  line: 12287,
+  column: 14,
+  visitPage: 
+   { url: 'http://172.16.1.40:8889/#',
+     name: '审批',
+     time: 1497951322384 },
+  stack: 
+   [ { functionName: 'Function.logout',
+       errLocation: 'http://172.16.1.40:8889/bundle.b060da670a98079e4339.js:12287:14' } ],
+  errText: '{}',
+  userAgent: 
+   { ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+     browser: { name: 'Mobile Safari', version: '9.0', major: '9' },
+     engine: { version: '601.1.46', name: 'WebKit' },
+     os: { name: 'iOS', version: '9.1' },
+     device: { model: 'iPhone', vendor: 'Apple', type: 'mobile' },
+     cpu: { architecture: undefined } },
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-20 17:45:52.382] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 17:45:52.426] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 17:45:52.427] [INFO] console - req.session.accountId:
+[2017-06-20 17:45:52.427] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 17:45:52.831] [INFO] console - condition
+[2017-06-20 17:45:52.833] [INFO] console - { account: undefined }
+[2017-06-20 17:45:52.837] [INFO] console - 查询条件是 { account: undefined }
+[2017-06-20 17:46:03.084] [INFO] console - condition
+[2017-06-20 17:46:03.086] [INFO] console - { account: undefined }
+[2017-06-20 17:46:03.086] [INFO] console - 查询条件是 { account: undefined }
+[2017-06-20 17:46:10.730] [INFO] console - 查询条件是 { mobile: '123' }
+[2017-06-20 17:46:10.743] [INFO] console - ******** getResFn error ******** 
+[2017-06-20 17:46:10.743] [INFO] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-06-20 17:46:10.757] [ERROR] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: e_not_found\n    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)\n    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-06-20 17:46:13.388] [INFO] console - 查询条件是 { mobile: '123' }
+[2017-06-20 17:46:13.391] [INFO] console - ******** getResFn error ******** 
+[2017-06-20 17:46:13.391] [INFO] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-06-20 17:46:13.394] [ERROR] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: e_not_found\n    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)\n    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-06-20 17:55:34.877] [INFO] console - 查询条件是 { mobile: '123' }
+[2017-06-20 17:55:34.903] [INFO] console - ******** getResFn error ******** 
+[2017-06-20 17:55:34.903] [INFO] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-06-20 17:55:34.909] [ERROR] console - Error: e_not_found
+    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: e_not_found\n    at findOne.then.thisAccount (/Users/RogersMac/Sites/bug-catcher/server/daos/account_dao.js:18:19)\n    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-06-20 17:55:38.181] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 17:55:38.190] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 17:55:38.191] [INFO] console - req.session.accountId:
+[2017-06-20 17:55:38.191] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 17:55:38.416] [INFO] console - condition
+[2017-06-20 17:55:38.416] [INFO] console - { account: undefined }
+[2017-06-20 17:55:38.417] [INFO] console - 查询条件是 { account: undefined }
+[2017-06-20 17:56:36.253] [INFO] console - 创建对象 { name: 'test123123',
+  description: '123',
+  account: undefined,
+  getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-06-20 17:56:36.521] [INFO] console - condition
+[2017-06-20 17:56:36.522] [INFO] console - { account: undefined }
+[2017-06-20 17:56:36.522] [INFO] console - 查询条件是 { account: undefined }
+[2017-06-20 17:57:24.511] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 17:57:24.518] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 17:57:24.523] [INFO] console - req.session.accountId:
+[2017-06-20 17:57:24.524] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 17:57:24.679] [INFO] console - condition
+[2017-06-20 17:57:24.679] [INFO] console - { account: undefined }
+[2017-06-20 17:57:24.686] [INFO] console - 查询条件是 { account: undefined }
+[2017-06-20 18:11:09.719] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-20 18:11:09.744] [INFO] console - mongo连接成功
+[2017-06-20 18:11:09.753] [INFO] console - mongo连接打开
+[2017-06-20 18:11:24.045] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 18:11:24.102] [ERROR] console - (node:64174) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-20 18:11:24.126] [INFO] console - ******** getResFn error ******** 
+[2017-06-20 18:11:24.128] [INFO] console - ReferenceError: req is not defined
+    at Promise (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:11:5)
+    at regenSession (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:10:10)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:11
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-06-20 18:11:24.137] [ERROR] console - ReferenceError: req is not defined
+    at Promise (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:11:5)
+    at regenSession (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:10:10)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:11
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'ReferenceError: req is not defined\n    at Promise (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:11:5)\n    at regenSession (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:10:10)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:11\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-06-20 18:11:26.679] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 18:11:26.688] [INFO] console - ******** getResFn error ******** 
+[2017-06-20 18:11:26.688] [INFO] console - ReferenceError: req is not defined
+    at Promise (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:11:5)
+    at regenSession (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:10:10)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:11
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-06-20 18:11:26.693] [ERROR] console - ReferenceError: req is not defined
+    at Promise (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:11:5)
+    at regenSession (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:10:10)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:11
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'ReferenceError: req is not defined\n    at Promise (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:11:5)\n    at regenSession (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:10:10)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:43:11\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-06-20 18:12:08.364] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-20 18:12:08.390] [INFO] console - mongo连接成功
+[2017-06-20 18:12:08.403] [INFO] console - mongo连接打开
+[2017-06-20 18:12:13.142] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 18:12:13.180] [ERROR] console - (node:64184) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-20 18:12:13.212] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 18:12:13.215] [INFO] console - req.session.accountId:
+[2017-06-20 18:12:13.215] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 18:12:13.464] [INFO] console - condition
+[2017-06-20 18:12:13.464] [INFO] console - { account: undefined }
+[2017-06-20 18:12:13.465] [INFO] console - 查询条件是 { account: undefined }
+[2017-06-20 18:14:52.774] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 18:14:52.803] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 18:14:52.806] [INFO] console - req.session.accountId:
+[2017-06-20 18:14:52.806] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 18:14:53.004] [INFO] console - condition
+[2017-06-20 18:14:53.004] [INFO] console - { account: undefined }
+[2017-06-20 18:14:53.005] [INFO] console - 查询条件是 { account: undefined }
+[2017-06-20 18:27:50.822] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 18:27:50.864] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 18:27:50.870] [INFO] console - req.session.accountId:
+[2017-06-20 18:27:50.871] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 18:27:51.070] [INFO] console - condition
+[2017-06-20 18:27:51.070] [INFO] console - { account: undefined }
+[2017-06-20 18:27:51.071] [INFO] console - 查询条件是 { account: undefined }
+[2017-06-20 18:32:04.292] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-20 18:32:04.323] [INFO] console - { _id: 5947890af97761e6442e800e,
+  __v: 0,
+  mobile: '1233',
+  password: '1234',
+  username: 'test3' }
+[2017-06-20 18:32:04.330] [INFO] console - req.session.accountId:
+[2017-06-20 18:32:04.331] [INFO] console - 5947890af97761e6442e800e
+[2017-06-20 18:32:04.519] [INFO] console - condition
+[2017-06-20 18:32:04.520] [INFO] console - { account: undefined }
+[2017-06-20 18:32:04.520] [INFO] console - 查询条件是 { account: undefined }

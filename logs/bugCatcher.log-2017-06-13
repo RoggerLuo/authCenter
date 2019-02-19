@@ -1,0 +1,28 @@
+[2017-06-13 17:57:44.905] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '593f59692063d85ddb20b225' }
+[2017-06-13 17:57:44.931] [ERROR] console - (node:1132) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-13 17:57:44.937] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-13 17:57:44.938] [INFO] console - { appId: '593f59692063d85ddb20b225',
+  from: '2017-06-11',
+  to: '201706-12type=test',
+  url: 'http://cnodejs.org/topic/548e54d157fd3ae46b233502?id=2312',
+  start: '10' }
+[2017-06-13 17:57:44.938] [INFO] console - 2017-06-11T00:00:00.000Z 2017-06-11T00:00:00.000Z
+[2017-06-13 17:57:44.939] [INFO] console - condition { appId: '593f59692063d85ddb20b225',
+  createDate: 
+   { '$lte': 2017-06-11T00:00:00.000Z,
+     '$gte': 2017-06-11T00:00:00.000Z },
+  start: '10',
+  url: 'http://cnodejs.org/topic/548e54d157fd3ae46b233502?id=2312' }
+[2017-06-13 17:57:44.940] [INFO] console -  ********** getQueryCondition ********** 
+[2017-06-13 17:57:44.941] [INFO] console - 查询条件是 { appId: '593f59692063d85ddb20b225',
+  createDate: 
+   { '$lte': 2017-06-11T00:00:00.000Z,
+     '$gte': 2017-06-11T00:00:00.000Z },
+  start: '10',
+  url: 'http://cnodejs.org/topic/548e54d157fd3ae46b233502?id=2312' }

@@ -1,0 +1,3109 @@
+[2019-02-15 10:30:55.330] [INFO] console - deb41176729a4aa7883fa3531667b6cd2
+[2019-02-15 10:30:55.462] [INFO] console - done
+[2019-02-15 10:34:31.736] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:34:31.736] [INFO] console - condition {}
+[2019-02-15 10:34:31.738] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:34:31.738] [INFO] console - 查询条件是 {}
+[2019-02-15 10:34:31.746] [ERROR] console - (node:44919) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-15 10:34:54.891] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:34:54.891] [INFO] console - condition {}
+[2019-02-15 10:34:54.891] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:34:54.891] [INFO] console - 查询条件是 {}
+[2019-02-15 10:35:01.870] [INFO] console - deb41176729a4aa7883fa3531667b6cd
+[2019-02-15 10:35:02.306] [INFO] console - done
+[2019-02-15 10:38:09.422] [INFO] console - Express server listening on :8091, in development mode
+[2019-02-15 10:38:09.430] [INFO] console - mongo连接成功
+[2019-02-15 10:38:09.431] [INFO] console - mongo连接打开
+[2019-02-15 10:45:55.558] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:45:55.559] [INFO] console - condition {}
+[2019-02-15 10:45:55.559] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:45:55.559] [INFO] console - 查询条件是 {}
+[2019-02-15 10:45:55.564] [ERROR] console - (node:54477) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-15 10:45:56.748] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:45:56.748] [INFO] console - condition {}
+[2019-02-15 10:45:56.748] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:45:56.749] [INFO] console - 查询条件是 {}
+[2019-02-15 10:45:56.820] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:45:56.821] [INFO] console - condition {}
+[2019-02-15 10:45:56.821] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:45:56.821] [INFO] console - 查询条件是 {}
+[2019-02-15 10:46:15.456] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:46:15.456] [INFO] console - condition {}
+[2019-02-15 10:46:15.456] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:46:15.456] [INFO] console - 查询条件是 {}
+[2019-02-15 10:46:15.567] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:46:15.567] [INFO] console - condition {}
+[2019-02-15 10:46:15.568] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:46:15.568] [INFO] console - 查询条件是 {}
+[2019-02-15 10:50:10.470] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:50:10.470] [INFO] console - condition {}
+[2019-02-15 10:50:10.470] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:50:10.471] [INFO] console - 查询条件是 {}
+[2019-02-15 10:50:43.405] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:50:43.406] [INFO] console - condition {}
+[2019-02-15 10:50:43.406] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:50:43.406] [INFO] console - 查询条件是 {}
+[2019-02-15 10:50:47.333] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:50:47.333] [INFO] console - condition {}
+[2019-02-15 10:50:47.333] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:50:47.333] [INFO] console - 查询条件是 {}
+[2019-02-15 10:50:56.420] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:50:56.420] [INFO] console - condition {}
+[2019-02-15 10:50:56.420] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:50:56.420] [INFO] console - 查询条件是 {}
+[2019-02-15 10:51:00.314] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:51:00.314] [INFO] console - condition {}
+[2019-02-15 10:51:00.314] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:51:00.314] [INFO] console - 查询条件是 {}
+[2019-02-15 10:51:00.386] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:51:00.387] [INFO] console - condition {}
+[2019-02-15 10:51:00.387] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 10:51:00.387] [INFO] console - 查询条件是 {}
+[2019-02-15 11:09:42.217] [INFO] console - done
+[2019-02-15 11:10:06.387] [INFO] console - done
+[2019-02-15 11:11:47.875] [INFO] console - done
+[2019-02-15 14:35:29.174] [INFO] console - Express server listening on :8091, in development mode
+[2019-02-15 14:35:29.185] [INFO] console - mongo连接成功
+[2019-02-15 14:35:29.186] [INFO] console - mongo连接打开
+[2019-02-15 14:51:47.908] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:51:47.908] [INFO] console - condition {}
+[2019-02-15 14:51:47.909] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:51:47.909] [INFO] console - 查询条件是 {}
+[2019-02-15 14:51:47.913] [ERROR] console - (node:56584) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-15 14:52:06.862] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:52:06.862] [INFO] console - condition {}
+[2019-02-15 14:52:06.862] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:52:06.862] [INFO] console - 查询条件是 {}
+[2019-02-15 14:53:09.868] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:53:09.868] [INFO] console - condition {}
+[2019-02-15 14:53:09.868] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:53:09.868] [INFO] console - 查询条件是 {}
+[2019-02-15 14:54:11.548] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:54:11.548] [INFO] console - condition {}
+[2019-02-15 14:54:11.548] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:54:11.548] [INFO] console - 查询条件是 {}
+[2019-02-15 14:54:14.834] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:54:14.834] [INFO] console - condition {}
+[2019-02-15 14:54:14.834] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:54:14.834] [INFO] console - 查询条件是 {}
+[2019-02-15 14:54:23.830] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:54:23.830] [INFO] console - condition {}
+[2019-02-15 14:54:23.830] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 14:54:23.830] [INFO] console - 查询条件是 {}
+[2019-02-15 15:03:12.579] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:03:12.580] [INFO] console - condition {}
+[2019-02-15 15:03:12.580] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:03:12.580] [INFO] console - 查询条件是 {}
+[2019-02-15 15:07:11.928] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:07:11.928] [INFO] console - condition {}
+[2019-02-15 15:07:11.928] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:07:11.928] [INFO] console - 查询条件是 {}
+[2019-02-15 15:08:10.855] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:08:10.855] [INFO] console - condition {}
+[2019-02-15 15:08:10.855] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:08:10.855] [INFO] console - 查询条件是 {}
+[2019-02-15 15:10:34.445] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:10:34.446] [INFO] console - condition {}
+[2019-02-15 15:10:34.446] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:10:34.446] [INFO] console - 查询条件是 {}
+[2019-02-15 15:13:05.261] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:13:05.261] [INFO] console - { clientId: '907ed931b41398b0f07c1d551a14160ea6be3889',
+  clientSecret: '07379bd84d0f4785849069bf68ac0cd8',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  sourceType: 'NATIVE' }
+[2019-02-15 15:13:05.265] [INFO] console - 没有token，直接申请
+[2019-02-15 15:13:05.265] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api4.workplus.io/v1/token',
+  json: true,
+  body:
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'workplus',
+     client_id: '907ed931b41398b0f07c1d551a14160ea6be3889',
+     client_secret: '07379bd84d0f4785849069bf68ac0cd8',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f' } }
+[2019-02-15 15:13:05.503] [INFO] console - 申请token响应是 { status: 0,
+  message: 'ok',
+  result:
+   { access_token:
+      'aa8089481c4aecac22bf1b24d31406b83a5b8eeceac42bb190b36d6659db161b',
+     issued_time: 1550214785483,
+     expire_time: 1550819585483 } }
+[2019-02-15 15:13:05.503] [INFO] console - 已经获得token，开始发送请求 aa8089481c4aecac22bf1b24d31406b83a5b8eeceac42bb190b36d6659db161b
+[2019-02-15 15:13:05.503] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/tickets/e1e3617c28d6042f6eedca89637fc6e7b149a8f3?access_token=aa8089481c4aecac22bf1b24d31406b83a5b8eeceac42bb190b36d6659db161b',
+  json: true,
+  timeout: 10000 }
+[2019-02-15 15:13:05.591] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     device_platform: 'ios' } }
+[2019-02-15 15:13:05.591] [INFO] console - 使用缓存token { status: 'token ready',
+  token:
+   { status: 0,
+     message: 'ok',
+     result:
+      { access_token:
+         'aa8089481c4aecac22bf1b24d31406b83a5b8eeceac42bb190b36d6659db161b',
+        issued_time: 1550214785483,
+        expire_time: 1550819585483 } } }
+[2019-02-15 15:13:05.591] [INFO] console - 已经获得token，开始发送请求 aa8089481c4aecac22bf1b24d31406b83a5b8eeceac42bb190b36d6659db161b
+[2019-02-15 15:13:05.591] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/admin/organizations/c8522121-c038-4de1-8e8e-cb8ab6a6d32f/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=aa8089481c4aecac22bf1b24d31406b83a5b8eeceac42bb190b36d6659db161b',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2019-02-15 15:13:05.698] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { id: '440',
+     type: 'EMPLOYEE',
+     domain_id: 'workplus',
+     org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     gender: 'MALE',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '18620554823',
+     email: 'luojie@foreverht.com',
+     status: 'ACTIVATED',
+     sn: '94',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar:
+      'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas:
+      [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1478075028657,
+     last_modified: 1545141498218,
+     root_org_info:
+      { id: '8',
+        name: '深圳恒拓高科信息技术有限公司',
+        type: 'O',
+        path: '/8/',
+        display: true } } }
+[2019-02-15 15:13:05.699] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  device_platform: 'ios',
+  id: '440',
+  type: 'EMPLOYEE',
+  org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  gender: 'MALE',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '18620554823',
+  email: 'luojie@foreverht.com',
+  status: 'ACTIVATED',
+  sn: '94',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar:
+   'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions:
+   [ { id: '242794',
+       domain_id: 'workplus',
+       code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       employee_id: '440',
+       org_id: '41449',
+       path: '/8/39347/41449/',
+       type: 'DEPT',
+       job_title: '初级前端工程师',
+       level: 3,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/深圳恒拓高科信息技术有限公司/交付体系/项目部5/',
+       org_name: '项目部5',
+       corp_id: '8',
+       corp_name: '深圳恒拓高科信息技术有限公司' } ],
+  data_schemas:
+   [ { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       en_alias: 'Name',
+       tw_alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       en_alias: 'Position',
+       tw_alias: '職位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       en_alias: 'Senior',
+       tw_alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'rank',
+       property: 'employee_rank_name',
+       type: 'SELECT',
+       name: '职级',
+       alias: '职级',
+       en_alias: 'Rank',
+       tw_alias: '職級',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 7 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       en_alias: 'Mobile',
+       tw_alias: '手機',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       en_alias: 'Email',
+       tw_alias: '郵箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1478075028657,
+  last_modified: 1545141498218,
+  root_org_info:
+   { id: '8',
+     name: '深圳恒拓高科信息技术有限公司',
+     type: 'O',
+     path: '/8/',
+     display: true } }
+[2019-02-15 15:13:05.706] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:13:05.706] [INFO] console - ReferenceError: req is not defined
+    at generateSession (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:15:5)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:34:9
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 15:13:05.707] [ERROR] console - ReferenceError: req is not defined
+    at generateSession (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:15:5)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:34:9
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 'ReferenceError: req is not defined\n    at generateSession (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:15:5)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:34:9\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)'
+[2019-02-15 15:13:05.709] [ERROR] console - (node:56584) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-02-15 15:14:00.830] [INFO] console - Express server listening on :8091, in development mode
+[2019-02-15 15:14:00.839] [INFO] console - mongo连接成功
+[2019-02-15 15:14:00.840] [INFO] console - mongo连接打开
+[2019-02-15 15:14:10.601] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:14:10.601] [INFO] console - { clientId: '907ed931b41398b0f07c1d551a14160ea6be3889',
+  clientSecret: '07379bd84d0f4785849069bf68ac0cd8',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  sourceType: 'NATIVE' }
+[2019-02-15 15:14:10.605] [INFO] console - 没有token，直接申请
+[2019-02-15 15:14:10.605] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api4.workplus.io/v1/token',
+  json: true,
+  body:
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'workplus',
+     client_id: '907ed931b41398b0f07c1d551a14160ea6be3889',
+     client_secret: '07379bd84d0f4785849069bf68ac0cd8',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f' } }
+[2019-02-15 15:14:10.829] [INFO] console - 申请token响应是 { status: 0,
+  message: 'ok',
+  result:
+   { access_token:
+      '8deaae7c4f21a3af697cf388e3b3ee647c4730322661a8e1cf29fd92340960fc',
+     issued_time: 1550214850810,
+     expire_time: 1550819650810 } }
+[2019-02-15 15:14:10.830] [INFO] console - 已经获得token，开始发送请求 8deaae7c4f21a3af697cf388e3b3ee647c4730322661a8e1cf29fd92340960fc
+[2019-02-15 15:14:10.830] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/tickets/4fd38eaeb1981f9413db1a833eba887eb0dd85ca?access_token=8deaae7c4f21a3af697cf388e3b3ee647c4730322661a8e1cf29fd92340960fc',
+  json: true,
+  timeout: 10000 }
+[2019-02-15 15:14:10.918] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     device_platform: 'ios' } }
+[2019-02-15 15:14:10.919] [INFO] console - 使用缓存token { status: 'token ready',
+  token:
+   { status: 0,
+     message: 'ok',
+     result:
+      { access_token:
+         '8deaae7c4f21a3af697cf388e3b3ee647c4730322661a8e1cf29fd92340960fc',
+        issued_time: 1550214850810,
+        expire_time: 1550819650810 } } }
+[2019-02-15 15:14:10.919] [INFO] console - 已经获得token，开始发送请求 8deaae7c4f21a3af697cf388e3b3ee647c4730322661a8e1cf29fd92340960fc
+[2019-02-15 15:14:10.919] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/admin/organizations/c8522121-c038-4de1-8e8e-cb8ab6a6d32f/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=8deaae7c4f21a3af697cf388e3b3ee647c4730322661a8e1cf29fd92340960fc',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2019-02-15 15:14:11.026] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { id: '440',
+     type: 'EMPLOYEE',
+     domain_id: 'workplus',
+     org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     gender: 'MALE',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '18620554823',
+     email: 'luojie@foreverht.com',
+     status: 'ACTIVATED',
+     sn: '94',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar:
+      'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas:
+      [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1478075028657,
+     last_modified: 1545141498218,
+     root_org_info:
+      { id: '8',
+        name: '深圳恒拓高科信息技术有限公司',
+        type: 'O',
+        path: '/8/',
+        display: true } } }
+[2019-02-15 15:14:11.027] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  device_platform: 'ios',
+  id: '440',
+  type: 'EMPLOYEE',
+  org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  gender: 'MALE',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '18620554823',
+  email: 'luojie@foreverht.com',
+  status: 'ACTIVATED',
+  sn: '94',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar:
+   'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions:
+   [ { id: '242794',
+       domain_id: 'workplus',
+       code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       employee_id: '440',
+       org_id: '41449',
+       path: '/8/39347/41449/',
+       type: 'DEPT',
+       job_title: '初级前端工程师',
+       level: 3,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/深圳恒拓高科信息技术有限公司/交付体系/项目部5/',
+       org_name: '项目部5',
+       corp_id: '8',
+       corp_name: '深圳恒拓高科信息技术有限公司' } ],
+  data_schemas:
+   [ { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       en_alias: 'Name',
+       tw_alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       en_alias: 'Position',
+       tw_alias: '職位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       en_alias: 'Senior',
+       tw_alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'rank',
+       property: 'employee_rank_name',
+       type: 'SELECT',
+       name: '职级',
+       alias: '职级',
+       en_alias: 'Rank',
+       tw_alias: '職級',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 7 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       en_alias: 'Mobile',
+       tw_alias: '手機',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       en_alias: 'Email',
+       tw_alias: '郵箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1478075028657,
+  last_modified: 1545141498218,
+  root_org_info:
+   { id: '8',
+     name: '深圳恒拓高科信息技术有限公司',
+     type: 'O',
+     path: '/8/',
+     display: true } }
+[2019-02-15 15:14:50.686] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:14:50.686] [INFO] console - condition {}
+[2019-02-15 15:14:50.686] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:14:50.687] [INFO] console - 查询条件是 {}
+[2019-02-15 15:14:50.691] [ERROR] console - (node:57360) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-15 15:14:51.985] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:14:51.985] [INFO] console - condition {}
+[2019-02-15 15:14:51.985] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:14:51.985] [INFO] console - 查询条件是 {}
+[2019-02-15 15:18:07.627] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:18:07.627] [INFO] console - condition {}
+[2019-02-15 15:18:07.628] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:18:07.628] [INFO] console - 查询条件是 {}
+[2019-02-15 15:18:08.032] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:18:08.033] [INFO] console - condition {}
+[2019-02-15 15:18:08.033] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 15:18:08.033] [INFO] console - 查询条件是 {}
+[2019-02-15 15:21:00.647] [INFO] console - Express server listening on :8091, in development mode
+[2019-02-15 15:21:00.658] [INFO] console - mongo连接成功
+[2019-02-15 15:21:00.659] [INFO] console - mongo连接打开
+[2019-02-15 15:21:11.716] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:21:11.716] [INFO] console - { clientId: '907ed931b41398b0f07c1d551a14160ea6be3889',
+  clientSecret: '07379bd84d0f4785849069bf68ac0cd8',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  sourceType: 'NATIVE' }
+[2019-02-15 15:21:11.718] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:21:11.720] [INFO] console - 没有token，直接申请
+[2019-02-15 15:21:11.720] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api4.workplus.io/v1/token',
+  json: true,
+  body:
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'workplus',
+     client_id: '907ed931b41398b0f07c1d551a14160ea6be3889',
+     client_secret: '07379bd84d0f4785849069bf68ac0cd8',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f' } }
+[2019-02-15 15:21:11.916] [INFO] console - 申请token响应是 { status: 0,
+  message: 'ok',
+  result:
+   { access_token:
+      'b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee',
+     issued_time: 1550215271897,
+     expire_time: 1550820071897 } }
+[2019-02-15 15:21:11.917] [INFO] console - 已经获得token，开始发送请求 b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee
+[2019-02-15 15:21:11.917] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/tickets/65650f52ca3b5865456ea39b7458cbff4caca7f8?access_token=b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee',
+  json: true,
+  timeout: 10000 }
+[2019-02-15 15:21:12.018] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     device_platform: 'ios' } }
+[2019-02-15 15:21:12.019] [INFO] console - 使用缓存token { status: 'token ready',
+  token:
+   { status: 0,
+     message: 'ok',
+     result:
+      { access_token:
+         'b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee',
+        issued_time: 1550215271897,
+        expire_time: 1550820071897 } } }
+[2019-02-15 15:21:12.019] [INFO] console - 已经获得token，开始发送请求 b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee
+[2019-02-15 15:21:12.019] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/admin/organizations/c8522121-c038-4de1-8e8e-cb8ab6a6d32f/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2019-02-15 15:21:12.126] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { id: '440',
+     type: 'EMPLOYEE',
+     domain_id: 'workplus',
+     org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     gender: 'MALE',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '18620554823',
+     email: 'luojie@foreverht.com',
+     status: 'ACTIVATED',
+     sn: '94',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar:
+      'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas:
+      [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1478075028657,
+     last_modified: 1545141498218,
+     root_org_info:
+      { id: '8',
+        name: '深圳恒拓高科信息技术有限公司',
+        type: 'O',
+        path: '/8/',
+        display: true } } }
+[2019-02-15 15:21:12.127] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  device_platform: 'ios',
+  id: '440',
+  type: 'EMPLOYEE',
+  org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  gender: 'MALE',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '18620554823',
+  email: 'luojie@foreverht.com',
+  status: 'ACTIVATED',
+  sn: '94',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar:
+   'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions:
+   [ { id: '242794',
+       domain_id: 'workplus',
+       code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       employee_id: '440',
+       org_id: '41449',
+       path: '/8/39347/41449/',
+       type: 'DEPT',
+       job_title: '初级前端工程师',
+       level: 3,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/深圳恒拓高科信息技术有限公司/交付体系/项目部5/',
+       org_name: '项目部5',
+       corp_id: '8',
+       corp_name: '深圳恒拓高科信息技术有限公司' } ],
+  data_schemas:
+   [ { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       en_alias: 'Name',
+       tw_alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       en_alias: 'Position',
+       tw_alias: '職位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       en_alias: 'Senior',
+       tw_alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'rank',
+       property: 'employee_rank_name',
+       type: 'SELECT',
+       name: '职级',
+       alias: '职级',
+       en_alias: 'Rank',
+       tw_alias: '職級',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 7 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       en_alias: 'Mobile',
+       tw_alias: '手機',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       en_alias: 'Email',
+       tw_alias: '郵箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1478075028657,
+  last_modified: 1545141498218,
+  root_org_info:
+   { id: '8',
+     name: '深圳恒拓高科信息技术有限公司',
+     type: 'O',
+     path: '/8/',
+     display: true } }
+[2019-02-15 15:21:12.134] [INFO] console -  ********* session生成成功 ********* 
+[2019-02-15 15:21:24.262] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:21:24.262] [INFO] console - { clientId: '907ed931b41398b0f07c1d551a14160ea6be3889',
+  clientSecret: '07379bd84d0f4785849069bf68ac0cd8',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  sourceType: 'NATIVE' }
+[2019-02-15 15:21:24.262] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:21:24.262] [INFO] console - 使用缓存token { status: 'token ready',
+  token:
+   { status: 0,
+     message: 'ok',
+     result:
+      { access_token:
+         'b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee',
+        issued_time: 1550215271897,
+        expire_time: 1550820071897 } } }
+[2019-02-15 15:21:24.262] [INFO] console - 已经获得token，开始发送请求 b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee
+[2019-02-15 15:21:24.263] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/tickets/9d2249637afb78c99dc3a540e2cf93c7ec4d7630?access_token=b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee',
+  json: true,
+  timeout: 10000 }
+[2019-02-15 15:21:24.351] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     device_platform: 'ios' } }
+[2019-02-15 15:21:24.351] [INFO] console - 使用缓存token { status: 'token ready',
+  token:
+   { status: 0,
+     message: 'ok',
+     result:
+      { access_token:
+         'b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee',
+        issued_time: 1550215271897,
+        expire_time: 1550820071897 } } }
+[2019-02-15 15:21:24.351] [INFO] console - 已经获得token，开始发送请求 b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee
+[2019-02-15 15:21:24.351] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/admin/organizations/c8522121-c038-4de1-8e8e-cb8ab6a6d32f/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=b93237a6fe84bdaf3eac53fd3cf48362e4bd19a59dfd95fb9d550856c34c05ee',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2019-02-15 15:21:24.446] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { id: '440',
+     type: 'EMPLOYEE',
+     domain_id: 'workplus',
+     org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     gender: 'MALE',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '18620554823',
+     email: 'luojie@foreverht.com',
+     status: 'ACTIVATED',
+     sn: '94',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar:
+      'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas:
+      [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1478075028657,
+     last_modified: 1545141498218,
+     root_org_info:
+      { id: '8',
+        name: '深圳恒拓高科信息技术有限公司',
+        type: 'O',
+        path: '/8/',
+        display: true } } }
+[2019-02-15 15:21:24.447] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  device_platform: 'ios',
+  id: '440',
+  type: 'EMPLOYEE',
+  org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  gender: 'MALE',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '18620554823',
+  email: 'luojie@foreverht.com',
+  status: 'ACTIVATED',
+  sn: '94',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar:
+   'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions:
+   [ { id: '242794',
+       domain_id: 'workplus',
+       code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       employee_id: '440',
+       org_id: '41449',
+       path: '/8/39347/41449/',
+       type: 'DEPT',
+       job_title: '初级前端工程师',
+       level: 3,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/深圳恒拓高科信息技术有限公司/交付体系/项目部5/',
+       org_name: '项目部5',
+       corp_id: '8',
+       corp_name: '深圳恒拓高科信息技术有限公司' } ],
+  data_schemas:
+   [ { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       en_alias: 'Name',
+       tw_alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       en_alias: 'Position',
+       tw_alias: '職位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       en_alias: 'Senior',
+       tw_alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'rank',
+       property: 'employee_rank_name',
+       type: 'SELECT',
+       name: '职级',
+       alias: '职级',
+       en_alias: 'Rank',
+       tw_alias: '職級',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 7 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       en_alias: 'Mobile',
+       tw_alias: '手機',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       en_alias: 'Email',
+       tw_alias: '郵箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1478075028657,
+  last_modified: 1545141498218,
+  root_org_info:
+   { id: '8',
+     name: '深圳恒拓高科信息技术有限公司',
+     type: 'O',
+     path: '/8/',
+     display: true } }
+[2019-02-15 15:21:24.450] [INFO] console -  ********* session生成成功 ********* 
+[2019-02-15 15:21:42.391] [INFO] console - Express server listening on :8091, in development mode
+[2019-02-15 15:21:42.400] [INFO] console - mongo连接成功
+[2019-02-15 15:21:42.401] [INFO] console - mongo连接打开
+[2019-02-15 15:21:46.801] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:21:46.801] [INFO] console - { clientId: '907ed931b41398b0f07c1d551a14160ea6be3889',
+  clientSecret: '07379bd84d0f4785849069bf68ac0cd8',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  sourceType: 'NATIVE' }
+[2019-02-15 15:21:46.803] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:21:46.805] [INFO] console - 没有token，直接申请
+[2019-02-15 15:21:46.805] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api4.workplus.io/v1/token',
+  json: true,
+  body:
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'workplus',
+     client_id: '907ed931b41398b0f07c1d551a14160ea6be3889',
+     client_secret: '07379bd84d0f4785849069bf68ac0cd8',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f' } }
+[2019-02-15 15:21:47.036] [INFO] console - 申请token响应是 { status: 0,
+  message: 'ok',
+  result:
+   { access_token:
+      'b6986bd28fa13cd2f3ccfe33155442e01b768c3775348b05d08c72c87143b627',
+     issued_time: 1550215307016,
+     expire_time: 1550820107016 } }
+[2019-02-15 15:21:47.036] [INFO] console - 已经获得token，开始发送请求 b6986bd28fa13cd2f3ccfe33155442e01b768c3775348b05d08c72c87143b627
+[2019-02-15 15:21:47.037] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/tickets/fc48604e64e089395356cae0c5eb6bd1449dabf4?access_token=b6986bd28fa13cd2f3ccfe33155442e01b768c3775348b05d08c72c87143b627',
+  json: true,
+  timeout: 10000 }
+[2019-02-15 15:21:47.137] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     device_platform: 'ios' } }
+[2019-02-15 15:21:47.138] [INFO] console - 使用缓存token { status: 'token ready',
+  token:
+   { status: 0,
+     message: 'ok',
+     result:
+      { access_token:
+         'b6986bd28fa13cd2f3ccfe33155442e01b768c3775348b05d08c72c87143b627',
+        issued_time: 1550215307016,
+        expire_time: 1550820107016 } } }
+[2019-02-15 15:21:47.138] [INFO] console - 已经获得token，开始发送请求 b6986bd28fa13cd2f3ccfe33155442e01b768c3775348b05d08c72c87143b627
+[2019-02-15 15:21:47.138] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/admin/organizations/c8522121-c038-4de1-8e8e-cb8ab6a6d32f/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=b6986bd28fa13cd2f3ccfe33155442e01b768c3775348b05d08c72c87143b627',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2019-02-15 15:21:47.245] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { id: '440',
+     type: 'EMPLOYEE',
+     domain_id: 'workplus',
+     org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     gender: 'MALE',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '18620554823',
+     email: 'luojie@foreverht.com',
+     status: 'ACTIVATED',
+     sn: '94',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar:
+      'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas:
+      [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1478075028657,
+     last_modified: 1545141498218,
+     root_org_info:
+      { id: '8',
+        name: '深圳恒拓高科信息技术有限公司',
+        type: 'O',
+        path: '/8/',
+        display: true } } }
+[2019-02-15 15:21:47.246] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  device_platform: 'ios',
+  id: '440',
+  type: 'EMPLOYEE',
+  org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  gender: 'MALE',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '18620554823',
+  email: 'luojie@foreverht.com',
+  status: 'ACTIVATED',
+  sn: '94',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar:
+   'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions:
+   [ { id: '242794',
+       domain_id: 'workplus',
+       code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       employee_id: '440',
+       org_id: '41449',
+       path: '/8/39347/41449/',
+       type: 'DEPT',
+       job_title: '初级前端工程师',
+       level: 3,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/深圳恒拓高科信息技术有限公司/交付体系/项目部5/',
+       org_name: '项目部5',
+       corp_id: '8',
+       corp_name: '深圳恒拓高科信息技术有限公司' } ],
+  data_schemas:
+   [ { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       en_alias: 'Name',
+       tw_alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       en_alias: 'Position',
+       tw_alias: '職位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       en_alias: 'Senior',
+       tw_alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'rank',
+       property: 'employee_rank_name',
+       type: 'SELECT',
+       name: '职级',
+       alias: '职级',
+       en_alias: 'Rank',
+       tw_alias: '職級',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 7 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       en_alias: 'Mobile',
+       tw_alias: '手機',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       en_alias: 'Email',
+       tw_alias: '郵箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1478075028657,
+  last_modified: 1545141498218,
+  root_org_info:
+   { id: '8',
+     name: '深圳恒拓高科信息技术有限公司',
+     type: 'O',
+     path: '/8/',
+     display: true } }
+[2019-02-15 15:21:47.247] [INFO] console - Session {
+  cookie:
+   { path: '/',
+     _expires: 2019-02-22T07:21:46.799Z,
+     originalMaxAge: 604800000,
+     httpOnly: true } }
+[2019-02-15 15:21:47.253] [INFO] console -  ********* session生成成功 ********* 
+[2019-02-15 15:22:57.547] [INFO] console - Express server listening on :8091, in development mode
+[2019-02-15 15:22:57.555] [INFO] console - mongo连接成功
+[2019-02-15 15:22:57.556] [INFO] console - mongo连接打开
+[2019-02-15 15:22:59.836] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:22:59.836] [INFO] console - { clientId: '907ed931b41398b0f07c1d551a14160ea6be3889',
+  clientSecret: '07379bd84d0f4785849069bf68ac0cd8',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  sourceType: 'NATIVE' }
+[2019-02-15 15:22:59.838] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:22:59.839] [INFO] console - 没有token，直接申请
+[2019-02-15 15:22:59.839] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api4.workplus.io/v1/token',
+  json: true,
+  body:
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'workplus',
+     client_id: '907ed931b41398b0f07c1d551a14160ea6be3889',
+     client_secret: '07379bd84d0f4785849069bf68ac0cd8',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f' } }
+[2019-02-15 15:23:00.020] [INFO] console - 申请token响应是 { status: 0,
+  message: 'ok',
+  result:
+   { access_token:
+      '01d91c1c5216400e53fdd3805a818166507ae03ad2394d46624b82630ebcbdd3',
+     issued_time: 1550215380000,
+     expire_time: 1550820180000 } }
+[2019-02-15 15:23:00.021] [INFO] console - 已经获得token，开始发送请求 01d91c1c5216400e53fdd3805a818166507ae03ad2394d46624b82630ebcbdd3
+[2019-02-15 15:23:00.021] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/tickets/c3a9068fd9391d8c5c92f6aafa920993bbc1137c?access_token=01d91c1c5216400e53fdd3805a818166507ae03ad2394d46624b82630ebcbdd3',
+  json: true,
+  timeout: 10000 }
+[2019-02-15 15:23:00.109] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     device_platform: 'ios' } }
+[2019-02-15 15:23:00.109] [INFO] console - 使用缓存token { status: 'token ready',
+  token:
+   { status: 0,
+     message: 'ok',
+     result:
+      { access_token:
+         '01d91c1c5216400e53fdd3805a818166507ae03ad2394d46624b82630ebcbdd3',
+        issued_time: 1550215380000,
+        expire_time: 1550820180000 } } }
+[2019-02-15 15:23:00.109] [INFO] console - 已经获得token，开始发送请求 01d91c1c5216400e53fdd3805a818166507ae03ad2394d46624b82630ebcbdd3
+[2019-02-15 15:23:00.110] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/admin/organizations/c8522121-c038-4de1-8e8e-cb8ab6a6d32f/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=01d91c1c5216400e53fdd3805a818166507ae03ad2394d46624b82630ebcbdd3',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2019-02-15 15:23:00.206] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { id: '440',
+     type: 'EMPLOYEE',
+     domain_id: 'workplus',
+     org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     gender: 'MALE',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '18620554823',
+     email: 'luojie@foreverht.com',
+     status: 'ACTIVATED',
+     sn: '94',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar:
+      'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas:
+      [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1478075028657,
+     last_modified: 1545141498218,
+     root_org_info:
+      { id: '8',
+        name: '深圳恒拓高科信息技术有限公司',
+        type: 'O',
+        path: '/8/',
+        display: true } } }
+[2019-02-15 15:23:00.207] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  device_platform: 'ios',
+  id: '440',
+  type: 'EMPLOYEE',
+  org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  gender: 'MALE',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '18620554823',
+  email: 'luojie@foreverht.com',
+  status: 'ACTIVATED',
+  sn: '94',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar:
+   'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions:
+   [ { id: '242794',
+       domain_id: 'workplus',
+       code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       employee_id: '440',
+       org_id: '41449',
+       path: '/8/39347/41449/',
+       type: 'DEPT',
+       job_title: '初级前端工程师',
+       level: 3,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/深圳恒拓高科信息技术有限公司/交付体系/项目部5/',
+       org_name: '项目部5',
+       corp_id: '8',
+       corp_name: '深圳恒拓高科信息技术有限公司' } ],
+  data_schemas:
+   [ { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       en_alias: 'Name',
+       tw_alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       en_alias: 'Position',
+       tw_alias: '職位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       en_alias: 'Senior',
+       tw_alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'rank',
+       property: 'employee_rank_name',
+       type: 'SELECT',
+       name: '职级',
+       alias: '职级',
+       en_alias: 'Rank',
+       tw_alias: '職級',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 7 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       en_alias: 'Mobile',
+       tw_alias: '手機',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       en_alias: 'Email',
+       tw_alias: '郵箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1478075028657,
+  last_modified: 1545141498218,
+  root_org_info:
+   { id: '8',
+     name: '深圳恒拓高科信息技术有限公司',
+     type: 'O',
+     path: '/8/',
+     display: true } }
+[2019-02-15 15:23:00.212] [INFO] console - Session {
+  cookie:
+   { path: '/',
+     _expires: 2019-02-22T07:22:59.834Z,
+     originalMaxAge: 604800000,
+     httpOnly: true } }
+[2019-02-15 15:23:00.213] [INFO] console - undefined
+[2019-02-15 15:23:00.213] [INFO] console - undefined
+[2019-02-15 15:23:00.219] [INFO] console -  ********* session生成成功 ********* 
+[2019-02-15 15:24:11.678] [INFO] console - Express server listening on :8091, in development mode
+[2019-02-15 15:24:11.687] [INFO] console - mongo连接成功
+[2019-02-15 15:24:11.688] [INFO] console - mongo连接打开
+[2019-02-15 15:24:25.535] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:24:25.535] [INFO] console - { clientId: '907ed931b41398b0f07c1d551a14160ea6be3889',
+  clientSecret: '07379bd84d0f4785849069bf68ac0cd8',
+  adminServer: 'https://api4.workplus.io/v1',
+  domainId: 'workplus',
+  orgId: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  sourceType: 'NATIVE' }
+[2019-02-15 15:24:25.537] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:24:25.538] [INFO] console - 没有token，直接申请
+[2019-02-15 15:24:25.538] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api4.workplus.io/v1/token',
+  json: true,
+  body:
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'workplus',
+     client_id: '907ed931b41398b0f07c1d551a14160ea6be3889',
+     client_secret: '07379bd84d0f4785849069bf68ac0cd8',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f' } }
+[2019-02-15 15:24:25.767] [INFO] console - 申请token响应是 { status: 0,
+  message: 'ok',
+  result:
+   { access_token:
+      'f304f3a1799bb938ee3d3c5b7c6fb0b0d8a0b9ca6e7bf666e74fdf55372eb084',
+     issued_time: 1550215465746,
+     expire_time: 1550820265746 } }
+[2019-02-15 15:24:25.768] [INFO] console - 已经获得token，开始发送请求 f304f3a1799bb938ee3d3c5b7c6fb0b0d8a0b9ca6e7bf666e74fdf55372eb084
+[2019-02-15 15:24:25.768] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/tickets/20bf066ab82b0d4c550498dcd5ba1b98808d9a5a?access_token=f304f3a1799bb938ee3d3c5b7c6fb0b0d8a0b9ca6e7bf666e74fdf55372eb084',
+  json: true,
+  timeout: 10000 }
+[2019-02-15 15:24:25.867] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+     domain_id: 'workplus',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     device_platform: 'ios' } }
+[2019-02-15 15:24:25.868] [INFO] console - 使用缓存token { status: 'token ready',
+  token:
+   { status: 0,
+     message: 'ok',
+     result:
+      { access_token:
+         'f304f3a1799bb938ee3d3c5b7c6fb0b0d8a0b9ca6e7bf666e74fdf55372eb084',
+        issued_time: 1550215465746,
+        expire_time: 1550820265746 } } }
+[2019-02-15 15:24:25.868] [INFO] console - 已经获得token，开始发送请求 f304f3a1799bb938ee3d3c5b7c6fb0b0d8a0b9ca6e7bf666e74fdf55372eb084
+[2019-02-15 15:24:25.868] [INFO] console - 请求的参数是
+ { url:
+   'https://api4.workplus.io/v1/admin/organizations/c8522121-c038-4de1-8e8e-cb8ab6a6d32f/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=f304f3a1799bb938ee3d3c5b7c6fb0b0d8a0b9ca6e7bf666e74fdf55372eb084',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2019-02-15 15:24:25.976] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'ok',
+  result:
+   { id: '440',
+     type: 'EMPLOYEE',
+     domain_id: 'workplus',
+     org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+     display_name: '罗捷',
+     name: '罗捷',
+     pinyin: 'luojie',
+     initial: 'lj',
+     gender: 'MALE',
+     birthday: '2016-11-04T09:37:19Z',
+     mobile: '18620554823',
+     email: 'luojie@foreverht.com',
+     status: 'ACTIVATED',
+     sn: '94',
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     avatar:
+      'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+     sort_order: 999,
+     senior: false,
+     locked: false,
+     employee_rank: 0,
+     tags: [],
+     positions: [ [Object] ],
+     data_schemas:
+      [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+     properties: [],
+     created: 1478075028657,
+     last_modified: 1545141498218,
+     root_org_info:
+      { id: '8',
+        name: '深圳恒拓高科信息技术有限公司',
+        type: 'O',
+        path: '/8/',
+        display: true } } }
+[2019-02-15 15:24:25.977] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { device_id: '97BABF53-4D38-4E4C-93B5-DDC30A01F4DC',
+  domain_id: 'workplus',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  device_platform: 'ios',
+  id: '440',
+  type: 'EMPLOYEE',
+  org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  display_name: '罗捷',
+  name: '罗捷',
+  pinyin: 'luojie',
+  initial: 'lj',
+  gender: 'MALE',
+  birthday: '2016-11-04T09:37:19Z',
+  mobile: '18620554823',
+  email: 'luojie@foreverht.com',
+  status: 'ACTIVATED',
+  sn: '94',
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  avatar:
+   'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  sort_order: 999,
+  senior: false,
+  locked: false,
+  employee_rank: 0,
+  tags: [],
+  positions:
+   [ { id: '242794',
+       domain_id: 'workplus',
+       code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       employee_id: '440',
+       org_id: '41449',
+       path: '/8/39347/41449/',
+       type: 'DEPT',
+       job_title: '初级前端工程师',
+       level: 3,
+       primary: true,
+       chief: false,
+       display_nodes: [Array],
+       full_name_path: '/深圳恒拓高科信息技术有限公司/交付体系/项目部5/',
+       org_name: '项目部5',
+       corp_id: '8',
+       corp_name: '深圳恒拓高科信息技术有限公司' } ],
+  data_schemas:
+   [ { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'name',
+       property: 'name',
+       type: 'TEXT',
+       name: '姓名',
+       alias: '姓名',
+       en_alias: 'Name',
+       tw_alias: '姓名',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 4 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'positions',
+       property: 'positions',
+       type: 'TEXT',
+       name: '职位',
+       alias: '职位',
+       en_alias: 'Position',
+       tw_alias: '職位',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 5 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'senior',
+       property: 'senior',
+       type: 'RADIO',
+       name: '高管',
+       alias: '高管',
+       en_alias: 'Senior',
+       tw_alias: '高管',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'INVISIBLE',
+       ops_range: 'FINAL',
+       opsable: false,
+       privacy: false,
+       sort_order: 6 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'rank',
+       property: 'employee_rank_name',
+       type: 'SELECT',
+       name: '职级',
+       alias: '职级',
+       en_alias: 'Rank',
+       tw_alias: '職級',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 7 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'mobile',
+       property: 'mobile',
+       type: 'MOBILE_PHONE',
+       name: '手机',
+       alias: '手机',
+       en_alias: 'Mobile',
+       tw_alias: '手機',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 9 },
+     { domain_id: 'workplus',
+       org_code: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+       id: 'email',
+       property: 'email',
+       type: 'EMAIL',
+       name: '邮箱',
+       alias: '邮箱',
+       en_alias: 'Email',
+       tw_alias: '郵箱',
+       options: [],
+       min: -1,
+       max: -1,
+       visible_range: 'ALL',
+       ops_range: 'ADMIN',
+       opsable: false,
+       privacy: false,
+       sort_order: 10 } ],
+  properties: [],
+  created: 1478075028657,
+  last_modified: 1545141498218,
+  root_org_info:
+   { id: '8',
+     name: '深圳恒拓高科信息技术有限公司',
+     type: 'O',
+     path: '/8/',
+     display: true } }
+[2019-02-15 15:24:25.985] [INFO] console -  ********* session生成成功 ********* 
+[2019-02-15 15:24:25.985] [INFO] console - Session {
+  cookie:
+   { path: '/',
+     _expires: 2019-02-22T07:24:25.984Z,
+     originalMaxAge: 604800000,
+     httpOnly: true },
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  domain_id: 'workplus',
+  org_id: 'c8522121-c038-4de1-8e8e-cb8ab6a6d32f',
+  avatar:
+   'Z3JvdXAxL00wMC8wOC82MC9DaTh4Q0ZxbmpFLUFOVUZ1QUFKYWdHaGFCcU00MTkudG1w',
+  nickname: '罗捷',
+  mobile: '18620554823' }
+[2019-02-15 15:24:25.986] [INFO] console - 罗捷
+[2019-02-15 15:24:25.986] [INFO] console - c80250ac61534b178ffb9d001f537da7
+[2019-02-15 15:25:08.900] [INFO] console - Express server listening on :8091, in development mode
+[2019-02-15 15:25:08.911] [INFO] console - mongo连接成功
+[2019-02-15 15:25:08.912] [INFO] console - mongo连接打开
+[2019-02-15 15:54:52.561] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 15:54:52.568] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:54:52.569] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 15:54:52.574] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 15:54:52.581] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:54:52.581] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 15:54:52.582] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:54:52.583] [ERROR] console - (node:57567) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-02-15 15:54:52.584] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:54:52.584] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 15:54:52.589] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 15:54:52.589] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+[2019-02-15 15:54:52.595] [ERROR] console - (node:57567) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2019-02-15 15:55:27.453] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 15:55:27.454] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:55:27.454] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 15:55:27.455] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 15:55:27.462] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:55:27.462] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 15:55:27.462] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:55:27.462] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:55:27.465] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 15:55:27.468] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 15:55:27.471] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+[2019-02-15 15:55:27.653] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 15:55:27.654] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:55:27.654] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 15:55:27.655] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 15:55:27.660] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:55:27.661] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 15:55:27.661] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:55:27.661] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:55:27.662] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 15:55:27.669] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 15:55:27.670] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+[2019-02-15 15:55:33.689] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 15:55:33.690] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:55:33.690] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 15:55:33.691] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 15:55:33.693] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:55:33.693] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 15:55:33.693] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:55:33.693] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:55:33.693] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 15:55:33.696] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 15:55:33.696] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+[2019-02-15 15:55:35.618] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 15:55:35.619] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:55:35.619] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 15:55:35.619] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 15:55:35.630] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 15:55:35.630] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 15:55:35.630] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 15:55:35.630] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 15:55:35.634] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 15:55:35.635] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 15:55:35.639] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+[2019-02-15 16:10:04.801] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 16:10:04.804] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:10:04.804] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 16:10:04.805] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 16:10:04.810] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 16:10:04.810] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 16:10:04.810] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 16:10:04.810] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:10:04.810] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 16:10:04.813] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 16:10:04.813] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
+[2019-02-15 16:16:11.965] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 16:16:11.968] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:16:11.968] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 16:16:11.969] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 16:16:11.971] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 16:16:11.971] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 16:16:11.971] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 16:16:11.971] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:16:11.971] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 16:16:11.976] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 16:16:11.977] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 14)
+[2019-02-15 16:16:12.023] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 16:16:12.026] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:16:12.026] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 16:16:12.028] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 16:16:12.030] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 16:16:12.030] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 16:16:12.030] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 16:16:12.031] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:16:12.031] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 16:16:12.034] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 16:16:12.034] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 16)
+[2019-02-15 16:16:12.093] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 16:16:12.095] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:16:12.095] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 16:16:12.097] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 16:16:12.100] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 16:16:12.100] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 16:16:12.101] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 16:16:12.101] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:16:12.101] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 16:16:12.103] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 16:16:12.103] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 18)
+[2019-02-15 16:17:06.392] [ERROR] console - { AssertionError [ERR_ASSERTION]: user_id不能为空
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:6:3
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+[2019-02-15 16:17:06.393] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:17:06.393] [INFO] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)
+[2019-02-15 16:17:06.393] [ERROR] console - Error: e_params
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10) 'Error: e_params\n    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:12:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)\n    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)\n    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)\n    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)\n    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:275:10)'
+[2019-02-15 16:17:06.397] [INFO] console -  ********* 验证ticket ********* 
+[2019-02-15 16:17:06.397] [ERROR] console - 参数不足 { domainId: undefined, orgId: 'xx' }
+[2019-02-15 16:17:06.397] [INFO] console -  ********* login成功 ********* 
+[2019-02-15 16:17:06.397] [INFO] console - ******** getResFn error ******** 
+[2019-02-15 16:17:06.397] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/roger/Work/bbs/server-client/utils/atwork_tool.js:54:9)
+    at validateUserTicket (/Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:20:22)
+    at /Users/roger/Work/bbs/server-client/apps/auth/getEmployeeInfo.js:23:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at createPromise (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:30:15)
+    at /Users/roger/Work/bbs/server-client/apps/auth/helper.js:36:36
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:65:19)
+    at /Users/roger/Work/bbs/server-client/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/Work/bbs/server-client/node_modules/co/index.js:50:10)
+    at fetchInfo (/Users/roger/Work/bbs/server-client/apps/auth/helper.js:35:5)
+    at login (/Users/roger/Work/bbs/server-client/apps/auth/app.js:18:9)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/Work/bbs/server-client/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/Work/bbs/server-client/node_modules/express/lib/router/index.js:281:22
+[2019-02-15 16:17:06.399] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/roger/Work/bbs/server-client/node_modules/express/lib/response.js:267:15)
+    at fail (/Users/roger/Work/bbs/server-client/utils/handle_res.js:28:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-15 16:17:06.399] [ERROR] console - (node:57567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 20)
+[2019-02-15 16:53:52.634] [INFO] console - done
+[2019-02-15 16:58:10.762] [INFO] console - done
+[2019-02-15 16:59:14.688] [INFO] console - done
+[2019-02-15 17:01:02.954] [INFO] console - done
+[2019-02-15 17:01:18.314] [INFO] console - done
+[2019-02-15 17:07:31.915] [INFO] console - done
+[2019-02-15 17:09:25.537] [INFO] console - done
+[2019-02-15 17:13:04.731] [INFO] console - done
+[2019-02-15 17:15:13.713] [INFO] console - done
+[2019-02-15 17:19:21.629] [INFO] console - done
+[2019-02-15 17:19:54.442] [INFO] console - done
+[2019-02-15 17:49:35.349] [INFO] console - done
+[2019-02-15 17:56:53.058] [INFO] console - done
+[2019-02-15 18:01:08.064] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 18:01:08.065] [INFO] console - condition {}
+[2019-02-15 18:01:08.065] [INFO] console -  ********** getQueryCondition ********** 
+[2019-02-15 18:01:08.066] [INFO] console - 查询条件是 {}
+[2019-02-15 18:01:08.077] [ERROR] console - (node:57567) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-15 18:02:25.461] [INFO] console - done

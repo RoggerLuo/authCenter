@@ -1,0 +1,520 @@
+[2017-06-09 09:33:57.761] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 09:33:57.785] [INFO] console - mongo连接成功
+[2017-06-09 09:33:57.788] [INFO] console - mongo连接打开
+[2017-06-09 09:35:31.865] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 09:35:31.883] [INFO] console - mongo连接成功
+[2017-06-09 09:35:31.888] [INFO] console - mongo连接打开
+[2017-06-09 09:35:39.661] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 09:35:39.675] [INFO] console - mongo连接成功
+[2017-06-09 09:35:39.677] [INFO] console - mongo连接打开
+[2017-06-09 09:35:51.674] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 09:35:51.692] [INFO] console - mongo连接成功
+[2017-06-09 09:35:51.695] [INFO] console - mongo连接打开
+[2017-06-09 10:14:22.637] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:14:22.656] [INFO] console - mongo连接成功
+[2017-06-09 10:14:22.658] [INFO] console - mongo连接打开
+[2017-06-09 10:14:23.597] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:14:23.610] [INFO] console - mongo连接成功
+[2017-06-09 10:14:23.614] [INFO] console - mongo连接打开
+[2017-06-09 10:14:57.763] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:14:57.778] [INFO] console - mongo连接成功
+[2017-06-09 10:14:57.782] [INFO] console - mongo连接打开
+[2017-06-09 10:16:54.290] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:16:54.303] [INFO] console - mongo连接成功
+[2017-06-09 10:16:54.305] [INFO] console - mongo连接打开
+[2017-06-09 10:17:54.246] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:17:54.260] [INFO] console - mongo连接成功
+[2017-06-09 10:17:54.262] [INFO] console - mongo连接打开
+[2017-06-09 10:18:39.525] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:18:39.541] [INFO] console - mongo连接成功
+[2017-06-09 10:18:39.544] [INFO] console - mongo连接打开
+[2017-06-09 10:20:14.834] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:20:14.855] [INFO] console - mongo连接成功
+[2017-06-09 10:20:14.858] [INFO] console - mongo连接打开
+[2017-06-09 10:23:33.423] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:23:33.440] [INFO] console - mongo连接成功
+[2017-06-09 10:23:33.445] [INFO] console - mongo连接打开
+[2017-06-09 10:25:53.735] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:25:53.752] [INFO] console - mongo连接成功
+[2017-06-09 10:25:53.754] [INFO] console - mongo连接打开
+[2017-06-09 10:26:40.718] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:26:40.731] [INFO] console - mongo连接成功
+[2017-06-09 10:26:40.734] [INFO] console - mongo连接打开
+[2017-06-09 10:26:44.722] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:26:44.738] [INFO] console - mongo连接成功
+[2017-06-09 10:26:44.740] [INFO] console - mongo连接打开
+[2017-06-09 10:27:42.198] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:27:42.217] [INFO] console - mongo连接成功
+[2017-06-09 10:27:42.220] [INFO] console - mongo连接打开
+[2017-06-09 10:27:49.848] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:27:49.864] [INFO] console - mongo连接成功
+[2017-06-09 10:27:49.866] [INFO] console - mongo连接打开
+[2017-06-09 10:27:52.968] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:27:52.986] [INFO] console - mongo连接成功
+[2017-06-09 10:27:52.989] [INFO] console - mongo连接打开
+[2017-06-09 10:33:48.172] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:33:48.191] [INFO] console - mongo连接成功
+[2017-06-09 10:33:48.194] [INFO] console - mongo连接打开
+[2017-06-09 10:33:54.940] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:33:54.954] [INFO] console - mongo连接成功
+[2017-06-09 10:33:54.957] [INFO] console - mongo连接打开
+[2017-06-09 10:34:03.009] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:34:03.055] [INFO] console - mongo连接成功
+[2017-06-09 10:34:03.058] [INFO] console - mongo连接打开
+[2017-06-09 10:36:23.593] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:36:23.608] [INFO] console - mongo连接成功
+[2017-06-09 10:36:23.613] [INFO] console - mongo连接打开
+[2017-06-09 10:37:06.665] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:37:06.679] [INFO] console - mongo连接成功
+[2017-06-09 10:37:06.681] [INFO] console - mongo连接打开
+[2017-06-09 10:37:59.658] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:37:59.672] [INFO] console - mongo连接成功
+[2017-06-09 10:37:59.674] [INFO] console - mongo连接打开
+[2017-06-09 10:39:02.801] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:39:02.818] [INFO] console - mongo连接成功
+[2017-06-09 10:39:02.820] [INFO] console - mongo连接打开
+[2017-06-09 10:39:04.898] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:39:04.914] [INFO] console - mongo连接成功
+[2017-06-09 10:39:04.917] [INFO] console - mongo连接打开
+[2017-06-09 10:40:18.889] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:40:18.904] [INFO] console - mongo连接成功
+[2017-06-09 10:40:18.906] [INFO] console - mongo连接打开
+[2017-06-09 10:42:46.720] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:42:46.735] [INFO] console - mongo连接成功
+[2017-06-09 10:42:46.739] [INFO] console - mongo连接打开
+[2017-06-09 10:49:55.894] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:49:55.910] [INFO] console - mongo连接成功
+[2017-06-09 10:49:55.912] [INFO] console - mongo连接打开
+[2017-06-09 10:54:43.781] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 10:54:43.800] [INFO] console - mongo连接成功
+[2017-06-09 10:54:43.803] [INFO] console - mongo连接打开
+[2017-06-09 11:03:57.370] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 11:03:57.386] [INFO] console - mongo连接成功
+[2017-06-09 11:03:57.388] [INFO] console - mongo连接打开
+[2017-06-09 11:21:09.578] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 11:21:09.594] [INFO] console - mongo连接成功
+[2017-06-09 11:21:09.596] [INFO] console - mongo连接打开
+[2017-06-09 11:21:26.467] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 11:21:26.481] [INFO] console - mongo连接成功
+[2017-06-09 11:21:26.483] [INFO] console - mongo连接打开
+[2017-06-09 11:22:28.607] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 11:22:28.620] [INFO] console - mongo连接成功
+[2017-06-09 11:22:28.623] [INFO] console - mongo连接打开
+[2017-06-09 11:23:00.664] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 11:23:00.685] [INFO] console - mongo连接成功
+[2017-06-09 11:23:00.688] [INFO] console - mongo连接打开
+[2017-06-09 11:49:01.735] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 11:49:01.752] [INFO] console - mongo连接成功
+[2017-06-09 11:49:01.755] [INFO] console - mongo连接打开
+[2017-06-09 14:19:47.797] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:19:47.816] [INFO] console - mongo连接成功
+[2017-06-09 14:19:47.821] [INFO] console - mongo连接打开
+[2017-06-09 14:20:05.725] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:20:05.746] [INFO] console - mongo连接成功
+[2017-06-09 14:20:05.750] [INFO] console - mongo连接打开
+[2017-06-09 14:20:16.640] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:20:16.658] [INFO] console - mongo连接成功
+[2017-06-09 14:20:16.661] [INFO] console - mongo连接打开
+[2017-06-09 14:20:43.886] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:20:43.900] [INFO] console - mongo连接成功
+[2017-06-09 14:20:43.902] [INFO] console - mongo连接打开
+[2017-06-09 14:20:55.948] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:20:55.963] [INFO] console - mongo连接成功
+[2017-06-09 14:20:55.965] [INFO] console - mongo连接打开
+[2017-06-09 14:21:21.821] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:21:21.836] [INFO] console - mongo连接成功
+[2017-06-09 14:21:21.838] [INFO] console - mongo连接打开
+[2017-06-09 14:22:00.841] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:22:00.855] [INFO] console - mongo连接成功
+[2017-06-09 14:22:00.857] [INFO] console - mongo连接打开
+[2017-06-09 14:22:37.036] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:22:37.051] [INFO] console - mongo连接成功
+[2017-06-09 14:22:37.054] [INFO] console - mongo连接打开
+[2017-06-09 14:22:49.028] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:22:49.043] [INFO] console - mongo连接成功
+[2017-06-09 14:22:49.045] [INFO] console - mongo连接打开
+[2017-06-09 14:24:10.517] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:24:10.545] [INFO] console - mongo连接成功
+[2017-06-09 14:24:10.550] [INFO] console - mongo连接打开
+[2017-06-09 14:24:37.497] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:24:37.517] [INFO] console - mongo连接成功
+[2017-06-09 14:24:37.520] [INFO] console - mongo连接打开
+[2017-06-09 14:25:12.918] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:25:12.934] [INFO] console - mongo连接成功
+[2017-06-09 14:25:12.937] [INFO] console - mongo连接打开
+[2017-06-09 14:25:18.760] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:25:18.774] [INFO] console - mongo连接成功
+[2017-06-09 14:25:18.776] [INFO] console - mongo连接打开
+[2017-06-09 14:25:21.421] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:25:21.436] [INFO] console - mongo连接成功
+[2017-06-09 14:25:21.438] [INFO] console - mongo连接打开
+[2017-06-09 14:25:35.548] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:25:35.563] [INFO] console - mongo连接成功
+[2017-06-09 14:25:35.565] [INFO] console - mongo连接打开
+[2017-06-09 14:33:28.216] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:33:28.235] [INFO] console - mongo连接成功
+[2017-06-09 14:33:28.238] [INFO] console - mongo连接打开
+[2017-06-09 14:33:36.114] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:33:36.128] [INFO] console - mongo连接成功
+[2017-06-09 14:33:36.130] [INFO] console - mongo连接打开
+[2017-06-09 14:34:03.100] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:34:03.114] [INFO] console - mongo连接成功
+[2017-06-09 14:34:03.116] [INFO] console - mongo连接打开
+[2017-06-09 14:34:12.213] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:34:12.227] [INFO] console - mongo连接成功
+[2017-06-09 14:34:12.229] [INFO] console - mongo连接打开
+[2017-06-09 14:35:36.747] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:35:36.764] [INFO] console - mongo连接成功
+[2017-06-09 14:35:36.766] [INFO] console - mongo连接打开
+[2017-06-09 14:40:22.395] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:40:22.413] [INFO] console - mongo连接成功
+[2017-06-09 14:40:22.416] [INFO] console - mongo连接打开
+[2017-06-09 14:44:56.407] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:44:56.421] [INFO] console - mongo连接成功
+[2017-06-09 14:44:56.423] [INFO] console - mongo连接打开
+[2017-06-09 14:50:25.324] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:50:25.343] [INFO] console - mongo连接成功
+[2017-06-09 14:50:25.346] [INFO] console - mongo连接打开
+[2017-06-09 14:50:48.100] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:50:48.115] [INFO] console - mongo连接成功
+[2017-06-09 14:50:48.118] [INFO] console - mongo连接打开
+[2017-06-09 14:50:49.234] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:50:49.250] [INFO] console - mongo连接成功
+[2017-06-09 14:50:49.253] [INFO] console - mongo连接打开
+[2017-06-09 14:51:19.413] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:51:19.429] [INFO] console - mongo连接成功
+[2017-06-09 14:51:19.432] [INFO] console - mongo连接打开
+[2017-06-09 14:54:23.941] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:54:23.955] [INFO] console - mongo连接成功
+[2017-06-09 14:54:23.957] [INFO] console - mongo连接打开
+[2017-06-09 14:57:05.411] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:57:05.426] [INFO] console - mongo连接成功
+[2017-06-09 14:57:05.429] [INFO] console - mongo连接打开
+[2017-06-09 14:57:21.211] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:57:21.229] [INFO] console - mongo连接成功
+[2017-06-09 14:57:21.231] [INFO] console - mongo连接打开
+[2017-06-09 14:57:46.395] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 14:57:46.411] [INFO] console - mongo连接成功
+[2017-06-09 14:57:46.414] [INFO] console - mongo连接打开
+[2017-06-09 15:09:07.674] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:09:07.690] [INFO] console - mongo连接成功
+[2017-06-09 15:09:07.693] [INFO] console - mongo连接打开
+[2017-06-09 15:10:23.954] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:10:23.968] [INFO] console - mongo连接成功
+[2017-06-09 15:10:23.970] [INFO] console - mongo连接打开
+[2017-06-09 15:11:13.956] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:11:13.972] [INFO] console - mongo连接成功
+[2017-06-09 15:11:13.974] [INFO] console - mongo连接打开
+[2017-06-09 15:12:36.254] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:12:36.268] [INFO] console - mongo连接成功
+[2017-06-09 15:12:36.271] [INFO] console - mongo连接打开
+[2017-06-09 15:13:08.068] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:13:08.083] [INFO] console - mongo连接成功
+[2017-06-09 15:13:08.085] [INFO] console - mongo连接打开
+[2017-06-09 15:13:21.147] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:13:21.160] [INFO] console - mongo连接成功
+[2017-06-09 15:13:21.162] [INFO] console - mongo连接打开
+[2017-06-09 15:23:06.196] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:23:06.216] [INFO] console - mongo连接成功
+[2017-06-09 15:23:06.219] [INFO] console - mongo连接打开
+[2017-06-09 15:23:33.138] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:23:33.976] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:23:33.992] [INFO] console - mongo连接成功
+[2017-06-09 15:23:33.995] [INFO] console - mongo连接打开
+[2017-06-09 15:24:24.092] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:24:24.107] [INFO] console - mongo连接成功
+[2017-06-09 15:24:24.109] [INFO] console - mongo连接打开
+[2017-06-09 15:26:10.436] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:26:10.451] [INFO] console - mongo连接成功
+[2017-06-09 15:26:10.453] [INFO] console - mongo连接打开
+[2017-06-09 15:28:08.869] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:28:08.885] [INFO] console - mongo连接成功
+[2017-06-09 15:28:08.887] [INFO] console - mongo连接打开
+[2017-06-09 15:29:01.149] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:29:01.163] [INFO] console - mongo连接成功
+[2017-06-09 15:29:01.165] [INFO] console - mongo连接打开
+[2017-06-09 15:30:40.338] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:30:40.352] [INFO] console - mongo连接成功
+[2017-06-09 15:30:40.354] [INFO] console - mongo连接打开
+[2017-06-09 15:31:10.350] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:31:10.367] [INFO] console - mongo连接成功
+[2017-06-09 15:31:10.369] [INFO] console - mongo连接打开
+[2017-06-09 15:31:52.349] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 15:31:52.371] [INFO] console - mongo连接成功
+[2017-06-09 15:31:52.374] [INFO] console - mongo连接打开
+[2017-06-09 16:05:10.870] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:05:10.887] [INFO] console - mongo连接成功
+[2017-06-09 16:05:10.890] [INFO] console - mongo连接打开
+[2017-06-09 16:06:56.742] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:06:56.758] [INFO] console - mongo连接成功
+[2017-06-09 16:06:56.761] [INFO] console - mongo连接打开
+[2017-06-09 16:07:56.110] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:07:56.138] [INFO] console - mongo连接成功
+[2017-06-09 16:07:56.140] [INFO] console - mongo连接打开
+[2017-06-09 16:09:45.284] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:09:45.305] [INFO] console - mongo连接成功
+[2017-06-09 16:09:45.307] [INFO] console - mongo连接打开
+[2017-06-09 16:18:28.022] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:18:28.035] [INFO] console - mongo连接成功
+[2017-06-09 16:18:28.038] [INFO] console - mongo连接打开
+[2017-06-09 16:22:19.693] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:22:19.709] [INFO] console - mongo连接成功
+[2017-06-09 16:22:19.712] [INFO] console - mongo连接打开
+[2017-06-09 16:22:30.464] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:22:30.487] [INFO] console - mongo连接成功
+[2017-06-09 16:22:30.492] [INFO] console - mongo连接打开
+[2017-06-09 16:23:30.704] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:23:30.717] [INFO] console - mongo连接成功
+[2017-06-09 16:23:30.719] [INFO] console - mongo连接打开
+[2017-06-09 16:23:39.638] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:23:39.656] [INFO] console - mongo连接成功
+[2017-06-09 16:23:39.659] [INFO] console - mongo连接打开
+[2017-06-09 16:27:25.654] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:27:25.673] [INFO] console - mongo连接成功
+[2017-06-09 16:27:25.677] [INFO] console - mongo连接打开
+[2017-06-09 16:27:31.341] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:27:31.359] [INFO] console - mongo连接成功
+[2017-06-09 16:27:31.362] [INFO] console - mongo连接打开
+[2017-06-09 16:34:23.801] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:34:23.815] [INFO] console - mongo连接成功
+[2017-06-09 16:34:23.817] [INFO] console - mongo连接打开
+[2017-06-09 16:35:02.711] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:35:02.726] [INFO] console - mongo连接成功
+[2017-06-09 16:35:02.728] [INFO] console - mongo连接打开
+[2017-06-09 16:35:05.814] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:35:05.829] [INFO] console - mongo连接成功
+[2017-06-09 16:35:05.832] [INFO] console - mongo连接打开
+[2017-06-09 16:35:12.725] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:35:12.740] [INFO] console - mongo连接成功
+[2017-06-09 16:35:12.743] [INFO] console - mongo连接打开
+[2017-06-09 16:35:53.903] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:35:53.919] [INFO] console - mongo连接成功
+[2017-06-09 16:35:53.923] [INFO] console - mongo连接打开
+[2017-06-09 16:36:52.211] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:36:52.227] [INFO] console - mongo连接成功
+[2017-06-09 16:36:52.230] [INFO] console - mongo连接打开
+[2017-06-09 16:37:29.199] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:37:29.221] [INFO] console - mongo连接成功
+[2017-06-09 16:37:29.227] [INFO] console - mongo连接打开
+[2017-06-09 16:38:32.416] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:38:32.433] [INFO] console - mongo连接成功
+[2017-06-09 16:38:32.435] [INFO] console - mongo连接打开
+[2017-06-09 16:43:26.371] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:43:26.384] [INFO] console - mongo连接成功
+[2017-06-09 16:43:26.386] [INFO] console - mongo连接打开
+[2017-06-09 16:44:23.291] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:44:23.305] [INFO] console - mongo连接成功
+[2017-06-09 16:44:23.307] [INFO] console - mongo连接打开
+[2017-06-09 16:44:31.396] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:44:31.413] [INFO] console - mongo连接成功
+[2017-06-09 16:44:31.415] [INFO] console - mongo连接打开
+[2017-06-09 16:45:38.696] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:45:38.714] [INFO] console - mongo连接成功
+[2017-06-09 16:45:38.716] [INFO] console - mongo连接打开
+[2017-06-09 16:46:46.816] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:46:46.829] [INFO] console - mongo连接成功
+[2017-06-09 16:46:46.831] [INFO] console - mongo连接打开
+[2017-06-09 16:47:01.874] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:47:01.887] [INFO] console - mongo连接成功
+[2017-06-09 16:47:01.889] [INFO] console - mongo连接打开
+[2017-06-09 16:47:50.025] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:47:50.041] [INFO] console - mongo连接成功
+[2017-06-09 16:47:50.043] [INFO] console - mongo连接打开
+[2017-06-09 16:48:59.289] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:48:59.304] [INFO] console - mongo连接成功
+[2017-06-09 16:48:59.307] [INFO] console - mongo连接打开
+[2017-06-09 16:49:00.195] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:49:00.212] [INFO] console - mongo连接成功
+[2017-06-09 16:49:00.214] [INFO] console - mongo连接打开
+[2017-06-09 16:49:14.187] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:49:14.201] [INFO] console - mongo连接成功
+[2017-06-09 16:49:14.204] [INFO] console - mongo连接打开
+[2017-06-09 16:49:22.252] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:49:22.265] [INFO] console - mongo连接成功
+[2017-06-09 16:49:22.268] [INFO] console - mongo连接打开
+[2017-06-09 16:52:42.028] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:52:42.042] [INFO] console - mongo连接成功
+[2017-06-09 16:52:42.044] [INFO] console - mongo连接打开
+[2017-06-09 16:52:46.589] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 16:52:46.618] [ERROR] console - (node:71010) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 16:53:02.222] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 16:55:52.632] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:55:52.652] [INFO] console - mongo连接成功
+[2017-06-09 16:55:52.654] [INFO] console - mongo连接打开
+[2017-06-09 16:59:16.233] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 16:59:16.247] [INFO] console - mongo连接成功
+[2017-06-09 16:59:16.249] [INFO] console - mongo连接打开
+[2017-06-09 16:59:18.519] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 16:59:18.543] [ERROR] console - (node:71237) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 16:59:46.788] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 16:59:48.036] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:01:03.610] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 17:01:03.624] [INFO] console - mongo连接成功
+[2017-06-09 17:01:03.626] [INFO] console - mongo连接打开
+[2017-06-09 17:01:04.962] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:01:04.995] [ERROR] console - (node:71260) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 17:03:56.931] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 17:03:56.945] [INFO] console - mongo连接成功
+[2017-06-09 17:03:56.947] [INFO] console - mongo连接打开
+[2017-06-09 17:12:24.571] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 17:12:24.585] [INFO] console - mongo连接成功
+[2017-06-09 17:12:24.587] [INFO] console - mongo连接打开
+[2017-06-09 17:12:25.892] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:12:25.934] [ERROR] console - (node:71631) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 17:12:26.976] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:12:28.189] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:12:34.537] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:13:01.683] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 17:13:01.700] [INFO] console - mongo连接成功
+[2017-06-09 17:13:01.702] [INFO] console - mongo连接打开
+[2017-06-09 17:13:02.443] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:13:02.503] [ERROR] console - (node:71659) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 17:13:30.544] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 17:13:30.557] [INFO] console - mongo连接成功
+[2017-06-09 17:13:30.559] [INFO] console - mongo连接打开
+[2017-06-09 17:13:31.321] [INFO] console - 创建对象 { url: 'file:///Users/albee/Documents/web/approval/bug-catcher/server/catcher/index.html',
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:13:31.374] [ERROR] console - (node:71682) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 17:13:38.218] [INFO] console - 创建对象 { url: 'file:///Users/albee/Documents/web/approval/bug-catcher/server/catcher/index.html',
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:14:12.048] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById],
+  _id: '593a66c246a1d41803c8dc5b' }
+[2017-06-09 17:15:02.051] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 17:15:02.067] [INFO] console - mongo连接成功
+[2017-06-09 17:15:02.069] [INFO] console - mongo连接打开
+[2017-06-09 17:29:53.784] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:29:53.800] [INFO] console - mongo连接成功
+[2017-06-09 17:29:53.802] [INFO] console - mongo连接打开
+[2017-06-09 17:30:55.902] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:30:55.917] [INFO] console - mongo连接成功
+[2017-06-09 17:30:55.920] [INFO] console - mongo连接打开
+[2017-06-09 17:31:24.963] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:31:25.002] [INFO] console - mongo连接成功
+[2017-06-09 17:31:25.005] [INFO] console - mongo连接打开
+[2017-06-09 17:32:04.902] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:32:04.917] [INFO] console - mongo连接成功
+[2017-06-09 17:32:04.919] [INFO] console - mongo连接打开
+[2017-06-09 17:32:36.468] [INFO] console - 创建对象 { url: 'file:///Users/albee/Documents/web/approval/bug-catcher/server/catcher/index.html',
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:32:36.509] [ERROR] console - (node:71999) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 17:35:28.561] [INFO] console - 创建对象 { url: 'http://localhost/~RogersMac/test.html',
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:36:47.117] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:36:47.145] [INFO] console - mongo连接成功
+[2017-06-09 17:36:47.147] [INFO] console - mongo连接打开
+[2017-06-09 17:37:06.888] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:37:06.902] [INFO] console - mongo连接成功
+[2017-06-09 17:37:06.904] [INFO] console - mongo连接打开
+[2017-06-09 17:37:41.360] [INFO] console - 创建对象 { url: 'http://localhost/~RogersMac/test.html',
+  getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-06-09 17:37:41.388] [ERROR] console - (node:72128) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 17:39:14.292] [INFO] console - 查询条件是 { getBugs: [Function: getBugs],
+  createBug: [Function: createBug],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById],
+  _id: '593a6c6550fa9319c1344073' }
+[2017-06-09 17:52:14.819] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:52:14.839] [INFO] console - mongo连接成功
+[2017-06-09 17:52:14.843] [INFO] console - mongo连接打开
+[2017-06-09 17:54:06.899] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:54:06.916] [INFO] console - mongo连接成功
+[2017-06-09 17:54:06.918] [INFO] console - mongo连接打开
+[2017-06-09 17:56:29.498] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:56:29.512] [INFO] console - mongo连接成功
+[2017-06-09 17:56:29.514] [INFO] console - mongo连接打开
+[2017-06-09 17:56:40.284] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:56:40.303] [INFO] console - mongo连接成功
+[2017-06-09 17:56:40.305] [INFO] console - mongo连接打开
+[2017-06-09 17:57:20.585] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:57:20.608] [INFO] console - mongo连接成功
+[2017-06-09 17:57:20.611] [INFO] console - mongo连接打开
+[2017-06-09 17:57:43.527] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:57:43.549] [INFO] console - mongo连接成功
+[2017-06-09 17:57:43.551] [INFO] console - mongo连接打开
+[2017-06-09 17:58:09.326] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:58:09.355] [INFO] console - mongo连接成功
+[2017-06-09 17:58:09.359] [INFO] console - mongo连接打开
+[2017-06-09 17:58:10.572] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:58:10.589] [INFO] console - mongo连接成功
+[2017-06-09 17:58:10.591] [INFO] console - mongo连接打开
+[2017-06-09 17:58:28.558] [INFO] console - Express server listening on 172.16.1.156:8090, in development mode
+[2017-06-09 17:58:28.574] [INFO] console - mongo连接成功
+[2017-06-09 17:58:28.577] [INFO] console - mongo连接打开
+[2017-06-09 17:58:29.493] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-06-09 17:58:29.519] [ERROR] console - (node:72831) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 17:59:15.857] [INFO] console - mongo连接成功
+[2017-06-09 17:59:15.871] [INFO] console - mongo连接打开
+[2017-06-09 18:12:44.799] [INFO] console - mongo连接成功
+[2017-06-09 18:18:53.692] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 18:18:53.707] [INFO] console - mongo连接成功
+[2017-06-09 18:18:53.709] [INFO] console - mongo连接打开
+[2017-06-09 18:18:57.107] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-06-09 18:18:57.135] [ERROR] console - (node:73700) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-09 18:19:07.733] [INFO] console - Express server listening on localhost:8090, in development mode
+[2017-06-09 18:19:07.748] [INFO] console - mongo连接成功
+[2017-06-09 18:19:07.750] [INFO] console - mongo连接打开
+[2017-06-09 18:19:07.983] [INFO] console - 查询条件是 { getApps: [Function: getApps],
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-06-09 18:19:08.014] [ERROR] console - (node:73729) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html

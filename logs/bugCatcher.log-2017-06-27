@@ -1,0 +1,24 @@
+[2017-06-27 15:39:19.010] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-27 15:39:19.022] [ERROR] console - mongo连接断开
+[2017-06-27 15:39:19.025] [ERROR] console - mongo连接失败MongoError: failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+[2017-06-27 16:16:58.799] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-27 16:16:58.826] [INFO] console - mongo连接成功
+[2017-06-27 16:16:58.841] [INFO] console - mongo连接打开
+[2017-06-27 16:18:19.807] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-27 16:18:19.836] [INFO] console - mongo连接成功
+[2017-06-27 16:18:19.856] [INFO] console - mongo连接打开
+[2017-06-27 16:22:05.482] [INFO] console - Express server listening on :8090, in development mode
+[2017-06-27 16:22:05.506] [INFO] console - mongo连接成功
+[2017-06-27 16:22:05.517] [INFO] console - mongo连接打开
+[2017-06-27 16:24:03.075] [INFO] console - Express server listening on :8090, in production mode
+[2017-06-27 16:24:03.116] [INFO] console - mongo连接成功
+[2017-06-27 16:24:03.142] [INFO] console - mongo连接打开
+[2017-06-27 16:24:28.837] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-27 16:24:28.861] [INFO] console - mongo连接成功
+[2017-06-27 16:24:28.871] [INFO] console - mongo连接打开
+[2017-06-27 16:27:34.375] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-27 16:27:34.402] [INFO] console - mongo连接成功
+[2017-06-27 16:27:34.419] [INFO] console - mongo连接打开
+[2017-06-27 16:34:53.575] [INFO] console - Express server listening on :8090, in product mode
+[2017-06-27 16:34:53.594] [INFO] console - mongo连接成功
+[2017-06-27 16:34:53.605] [INFO] console - mongo连接打开

@@ -1,0 +1,2812 @@
+[2017-08-01 09:56:08.967] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 09:56:09.006] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 09:56:09.106] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 09:56:09.141] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 09:56:09.224] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:09.000Z,
+     '$gte': 2017-07-31T09:56:09.000Z } }
+[2017-08-01 09:56:09.232] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:09.000Z,
+     '$gte': 2017-07-31T09:56:09.000Z } }
+[2017-08-01 09:56:09.247] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:09.000Z,
+     '$gte': 2017-07-31T09:56:09.000Z } }
+[2017-08-01 09:56:09.248] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:09.000Z,
+     '$gte': 2017-07-31T09:56:09.000Z } }
+[2017-08-01 09:56:09.252] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:09.000Z,
+     '$gte': 2017-07-31T09:56:09.000Z } }
+[2017-08-01 09:56:11.171] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 09:56:11.171] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 09:56:11.174] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 09:56:18.154] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-01 09:56:18.165] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 09:56:18.191] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '9f7f57fb7b574bc4bf2144d0e17bc750',
+        refresh_token: '6f2d4a2ade4c47c49206b7bd021cec82',
+        issued_time: 1501494061141,
+        expire_time: 1504086061141,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 09:56:18.195] [INFO] console - 已经获得token，开始发送请求 9f7f57fb7b574bc4bf2144d0e17bc750
+[2017-08-01 09:56:18.198] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/e9be3ab2d9c34be082ce0fe639d2318e?access_token=9f7f57fb7b574bc4bf2144d0e17bc750',
+  json: true,
+  timeout: 10000 }
+[2017-08-01 09:56:18.985] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-01 09:56:18.986] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '9f7f57fb7b574bc4bf2144d0e17bc750',
+        refresh_token: '6f2d4a2ade4c47c49206b7bd021cec82',
+        issued_time: 1501494061141,
+        expire_time: 1504086061141,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 09:56:18.996] [INFO] console - 已经获得token，开始发送请求 9f7f57fb7b574bc4bf2144d0e17bc750
+[2017-08-01 09:56:19.000] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=9f7f57fb7b574bc4bf2144d0e17bc750',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-01 09:56:19.221] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-01 09:56:19.236] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-01 09:56:19.539] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 09:56:19.564] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:19.000Z,
+     '$gte': 2017-07-31T09:56:19.000Z } }
+[2017-08-01 09:56:19.566] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:19.000Z,
+     '$gte': 2017-07-31T09:56:19.000Z } }
+[2017-08-01 09:56:19.569] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:19.000Z,
+     '$gte': 2017-07-31T09:56:19.000Z } }
+[2017-08-01 09:56:19.570] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:19.000Z,
+     '$gte': 2017-07-31T09:56:19.000Z } }
+[2017-08-01 09:56:19.571] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T09:56:19.000Z,
+     '$gte': 2017-07-31T09:56:19.000Z } }
+[2017-08-01 10:07:51.107] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-01 10:07:51.111] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 10:07:51.116] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '9f7f57fb7b574bc4bf2144d0e17bc750',
+        refresh_token: '6f2d4a2ade4c47c49206b7bd021cec82',
+        issued_time: 1501494061141,
+        expire_time: 1504086061141,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 10:07:51.118] [INFO] console - 已经获得token，开始发送请求 9f7f57fb7b574bc4bf2144d0e17bc750
+[2017-08-01 10:07:51.118] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/c0c82c786743437fb0857aed7ba94107?access_token=9f7f57fb7b574bc4bf2144d0e17bc750',
+  json: true,
+  timeout: 10000 }
+[2017-08-01 10:07:51.787] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-01 10:07:51.788] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '9f7f57fb7b574bc4bf2144d0e17bc750',
+        refresh_token: '6f2d4a2ade4c47c49206b7bd021cec82',
+        issued_time: 1501494061141,
+        expire_time: 1504086061141,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 10:07:51.808] [INFO] console - 已经获得token，开始发送请求 9f7f57fb7b574bc4bf2144d0e17bc750
+[2017-08-01 10:07:51.809] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=9f7f57fb7b574bc4bf2144d0e17bc750',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-01 10:07:52.316] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-01 10:07:52.320] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-01 10:07:52.598] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 10:07:52.611] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T10:07:52.000Z,
+     '$gte': 2017-07-31T10:07:52.000Z } }
+[2017-08-01 10:07:52.612] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T10:07:52.000Z,
+     '$gte': 2017-07-31T10:07:52.000Z } }
+[2017-08-01 10:07:52.613] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T10:07:52.000Z,
+     '$gte': 2017-07-31T10:07:52.000Z } }
+[2017-08-01 10:07:52.614] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T10:07:52.000Z,
+     '$gte': 2017-07-31T10:07:52.000Z } }
+[2017-08-01 10:07:52.616] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T10:07:52.000Z,
+     '$gte': 2017-07-31T10:07:52.000Z } }
+[2017-08-01 10:40:50.335] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 10:40:50.363] [INFO] console - mongo连接成功
+[2017-08-01 10:40:50.372] [INFO] console - mongo连接打开
+[2017-08-01 10:46:31.313] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 10:46:31.316] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 10:46:31.338] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 10:46:39.136] [INFO] console - 延长登录时间
+[2017-08-01 10:46:39.663] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 10:46:39.818] [ERROR] console - (node:90317) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-01 10:46:40.029] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T10:46:40.000Z,
+     '$gte': 2017-07-31T10:46:40.000Z } }
+[2017-08-01 10:46:40.044] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T10:46:40.000Z,
+     '$gte': 2017-07-31T10:46:40.000Z } }
+[2017-08-01 10:46:40.055] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T10:46:40.000Z,
+     '$gte': 2017-07-31T10:46:40.000Z } }
+[2017-08-01 10:46:40.061] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T10:46:40.000Z,
+     '$gte': 2017-07-31T10:46:40.000Z } }
+[2017-08-01 10:46:40.063] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T10:46:40.000Z,
+     '$gte': 2017-07-31T10:46:40.000Z } }
+[2017-08-01 10:47:15.178] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 10:47:15.302] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T10:47:15.000Z,
+     '$gte': 2017-07-31T10:47:15.000Z } }
+[2017-08-01 10:47:15.318] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T10:47:15.000Z,
+     '$gte': 2017-07-31T10:47:15.000Z } }
+[2017-08-01 10:47:15.345] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T10:47:15.000Z,
+     '$gte': 2017-07-31T10:47:15.000Z } }
+[2017-08-01 10:47:15.352] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T10:47:15.000Z,
+     '$gte': 2017-07-31T10:47:15.000Z } }
+[2017-08-01 10:47:15.353] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T10:47:15.000Z,
+     '$gte': 2017-07-31T10:47:15.000Z } }
+[2017-08-01 10:55:50.711] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 10:55:50.733] [INFO] console - Error: e_find_no_app
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:105:16
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+[2017-08-01 10:55:50.777] [ERROR] console - Error: e_find_no_app
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:105:16
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12) 'Error: e_find_no_app\n    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:105:16\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at param (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:354:14)\n    at param (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:410:3)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at serveStatic (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:75:16)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)'
+[2017-08-01 10:57:28.280] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 10:57:28.322] [INFO] console - mongo连接成功
+[2017-08-01 10:57:28.339] [INFO] console - mongo连接打开
+[2017-08-01 10:57:49.532] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 10:57:49.537] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 10:57:49.575] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 10:58:20.558] [INFO] console - 延长登录时间
+[2017-08-01 10:58:21.222] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 10:58:21.290] [ERROR] console - (node:91638) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-01 10:58:21.330] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T10:58:21.000Z,
+     '$gte': 2017-07-31T10:58:21.000Z } }
+[2017-08-01 10:58:21.347] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T10:58:21.000Z,
+     '$gte': 2017-07-31T10:58:21.000Z } }
+[2017-08-01 10:58:21.351] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T10:58:21.000Z,
+     '$gte': 2017-07-31T10:58:21.000Z } }
+[2017-08-01 10:58:21.363] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T10:58:21.000Z,
+     '$gte': 2017-07-31T10:58:21.000Z } }
+[2017-08-01 10:58:21.376] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T10:58:21.000Z,
+     '$gte': 2017-07-31T10:58:21.000Z } }
+[2017-08-01 10:59:51.868] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 10:59:51.880] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T10:59:51.000Z,
+     '$gte': 2017-07-31T10:59:51.000Z } }
+[2017-08-01 10:59:51.883] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T10:59:51.000Z,
+     '$gte': 2017-07-31T10:59:51.000Z } }
+[2017-08-01 10:59:51.885] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T10:59:51.000Z,
+     '$gte': 2017-07-31T10:59:51.000Z } }
+[2017-08-01 10:59:51.889] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T10:59:51.000Z,
+     '$gte': 2017-07-31T10:59:51.000Z } }
+[2017-08-01 10:59:51.895] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T10:59:51.000Z,
+     '$gte': 2017-07-31T10:59:51.000Z } }
+[2017-08-01 10:59:56.224] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 10:59:56.225] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 10:59:56.235] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 11:00:01.527] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-01 11:00:01.533] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 11:00:01.547] [INFO] console - 没有token，直接申请
+[2017-08-01 11:00:01.548] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-01 11:00:01.986] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'c1ad07305dea49b1ad91a3b25d166f46',
+     refresh_token: '817ff098508041149c8e19bdd0d06a96',
+     issued_time: 1501556400994,
+     expire_time: 1504148400994,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-01 11:00:01.991] [INFO] console - 已经获得token，开始发送请求 c1ad07305dea49b1ad91a3b25d166f46
+[2017-08-01 11:00:01.995] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/63f97e40bcf84743abef51d2d2628fb2?access_token=c1ad07305dea49b1ad91a3b25d166f46',
+  json: true,
+  timeout: 10000 }
+[2017-08-01 11:00:02.172] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-01 11:00:02.175] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'c1ad07305dea49b1ad91a3b25d166f46',
+        refresh_token: '817ff098508041149c8e19bdd0d06a96',
+        issued_time: 1501556400994,
+        expire_time: 1504148400994,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 11:00:02.179] [INFO] console - 已经获得token，开始发送请求 c1ad07305dea49b1ad91a3b25d166f46
+[2017-08-01 11:00:02.180] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=c1ad07305dea49b1ad91a3b25d166f46',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-01 11:00:02.356] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-01 11:00:02.363] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-01 11:00:02.515] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:00:02.523] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:02.000Z,
+     '$gte': 2017-07-31T11:00:02.000Z } }
+[2017-08-01 11:00:02.525] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:02.000Z,
+     '$gte': 2017-07-31T11:00:02.000Z } }
+[2017-08-01 11:00:02.526] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:02.000Z,
+     '$gte': 2017-07-31T11:00:02.000Z } }
+[2017-08-01 11:00:02.529] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:02.000Z,
+     '$gte': 2017-07-31T11:00:02.000Z } }
+[2017-08-01 11:00:02.531] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:02.000Z,
+     '$gte': 2017-07-31T11:00:02.000Z } }
+[2017-08-01 11:00:13.071] [INFO] console - 延长登录时间
+[2017-08-01 11:00:13.563] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:00:13.582] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:13.000Z,
+     '$gte': 2017-07-31T11:00:13.000Z } }
+[2017-08-01 11:00:13.584] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:13.000Z,
+     '$gte': 2017-07-31T11:00:13.000Z } }
+[2017-08-01 11:00:13.586] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:13.000Z,
+     '$gte': 2017-07-31T11:00:13.000Z } }
+[2017-08-01 11:00:13.587] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:13.000Z,
+     '$gte': 2017-07-31T11:00:13.000Z } }
+[2017-08-01 11:00:13.588] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:00:13.000Z,
+     '$gte': 2017-07-31T11:00:13.000Z } }
+[2017-08-01 11:01:19.203] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 11:01:19.248] [INFO] console - mongo连接成功
+[2017-08-01 11:01:19.259] [INFO] console - mongo连接打开
+[2017-08-01 11:01:24.829] [INFO] console - 延长登录时间
+[2017-08-01 11:01:25.289] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:01:25.465] [ERROR] console - (node:91681) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-01 11:01:25.530] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:25.000Z,
+     '$gte': 2017-07-31T11:01:25.000Z } }
+[2017-08-01 11:01:25.615] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:25.000Z,
+     '$gte': 2017-07-31T11:01:25.000Z } }
+[2017-08-01 11:01:25.618] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:25.000Z,
+     '$gte': 2017-07-31T11:01:25.000Z } }
+[2017-08-01 11:01:25.620] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:25.000Z,
+     '$gte': 2017-07-31T11:01:25.000Z } }
+[2017-08-01 11:01:25.622] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:25.000Z,
+     '$gte': 2017-07-31T11:01:25.000Z } }
+[2017-08-01 11:01:30.619] [INFO] console - 延长登录时间
+[2017-08-01 11:01:31.100] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:01:31.110] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:31.000Z,
+     '$gte': 2017-07-31T11:01:31.000Z } }
+[2017-08-01 11:01:31.111] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:31.000Z,
+     '$gte': 2017-07-31T11:01:31.000Z } }
+[2017-08-01 11:01:31.112] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:31.000Z,
+     '$gte': 2017-07-31T11:01:31.000Z } }
+[2017-08-01 11:01:31.114] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:31.000Z,
+     '$gte': 2017-07-31T11:01:31.000Z } }
+[2017-08-01 11:01:31.116] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:01:31.000Z,
+     '$gte': 2017-07-31T11:01:31.000Z } }
+[2017-08-01 11:02:00.449] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 11:02:00.450] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 11:02:00.461] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 11:02:21.843] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-01 11:02:21.846] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 11:02:21.856] [INFO] console - 没有token，直接申请
+[2017-08-01 11:02:21.857] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-01 11:02:22.175] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '3b98f3603f2c4e56a1d02a4b484efe08',
+     refresh_token: '2c2e8b91aa584ce0baf39a6dc8e46de2',
+     issued_time: 1501556541207,
+     expire_time: 1504148541207,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-01 11:02:22.177] [INFO] console - 已经获得token，开始发送请求 3b98f3603f2c4e56a1d02a4b484efe08
+[2017-08-01 11:02:22.179] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/ecd06bbb7112498b957564aa9c81caa0?access_token=3b98f3603f2c4e56a1d02a4b484efe08',
+  json: true,
+  timeout: 10000 }
+[2017-08-01 11:02:22.347] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-01 11:02:22.349] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '3b98f3603f2c4e56a1d02a4b484efe08',
+        refresh_token: '2c2e8b91aa584ce0baf39a6dc8e46de2',
+        issued_time: 1501556541207,
+        expire_time: 1504148541207,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 11:02:22.353] [INFO] console - 已经获得token，开始发送请求 3b98f3603f2c4e56a1d02a4b484efe08
+[2017-08-01 11:02:22.353] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=3b98f3603f2c4e56a1d02a4b484efe08',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-01 11:02:22.594] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-01 11:02:22.600] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-01 11:02:22.734] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:02:22.748] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:02:22.000Z,
+     '$gte': 2017-07-31T11:02:22.000Z } }
+[2017-08-01 11:02:22.751] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:02:22.000Z,
+     '$gte': 2017-07-31T11:02:22.000Z } }
+[2017-08-01 11:02:22.752] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:02:22.000Z,
+     '$gte': 2017-07-31T11:02:22.000Z } }
+[2017-08-01 11:02:22.753] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:02:22.000Z,
+     '$gte': 2017-07-31T11:02:22.000Z } }
+[2017-08-01 11:02:22.755] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:02:22.000Z,
+     '$gte': 2017-07-31T11:02:22.000Z } }
+[2017-08-01 11:04:01.927] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:04:01.945] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:04:01.000Z,
+     '$gte': 2017-07-31T11:04:01.000Z } }
+[2017-08-01 11:04:01.953] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:04:01.000Z,
+     '$gte': 2017-07-31T11:04:01.000Z } }
+[2017-08-01 11:04:01.954] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:04:01.000Z,
+     '$gte': 2017-07-31T11:04:01.000Z } }
+[2017-08-01 11:04:01.955] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:04:01.000Z,
+     '$gte': 2017-07-31T11:04:01.000Z } }
+[2017-08-01 11:04:01.957] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:04:01.000Z,
+     '$gte': 2017-07-31T11:04:01.000Z } }
+[2017-08-01 11:07:07.833] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:07:07.849] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:07.000Z,
+     '$gte': 2017-07-31T11:07:07.000Z } }
+[2017-08-01 11:07:07.852] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:07.000Z,
+     '$gte': 2017-07-31T11:07:07.000Z } }
+[2017-08-01 11:07:07.854] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:07.000Z,
+     '$gte': 2017-07-31T11:07:07.000Z } }
+[2017-08-01 11:07:07.857] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:07.000Z,
+     '$gte': 2017-07-31T11:07:07.000Z } }
+[2017-08-01 11:07:07.858] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:07.000Z,
+     '$gte': 2017-07-31T11:07:07.000Z } }
+[2017-08-01 11:07:25.935] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:07:25.946] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:25.000Z,
+     '$gte': 2017-07-31T11:07:25.000Z } }
+[2017-08-01 11:07:25.951] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:25.000Z,
+     '$gte': 2017-07-31T11:07:25.000Z } }
+[2017-08-01 11:07:25.952] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:25.000Z,
+     '$gte': 2017-07-31T11:07:25.000Z } }
+[2017-08-01 11:07:25.953] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:25.000Z,
+     '$gte': 2017-07-31T11:07:25.000Z } }
+[2017-08-01 11:07:25.956] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:07:25.000Z,
+     '$gte': 2017-07-31T11:07:25.000Z } }
+[2017-08-01 11:07:43.372] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:07:43.373] [INFO] console - {}
+[2017-08-01 11:07:43.374] [INFO] console - undefined
+[2017-08-01 11:09:43.578] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:09:43.582] [INFO] console - {}
+[2017-08-01 11:09:43.584] [INFO] console - undefined
+[2017-08-01 11:10:17.582] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 11:10:17.616] [INFO] console - mongo连接成功
+[2017-08-01 11:10:17.628] [INFO] console - mongo连接打开
+[2017-08-01 11:10:35.533] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 11:10:35.535] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 11:10:35.559] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 11:10:57.131] [INFO] console - 延长登录时间
+[2017-08-01 11:10:57.619] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:10:57.697] [ERROR] console - (node:91774) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-01 11:10:57.827] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:10:57.000Z,
+     '$gte': 2017-07-31T11:10:57.000Z } }
+[2017-08-01 11:10:57.831] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:10:57.000Z,
+     '$gte': 2017-07-31T11:10:57.000Z } }
+[2017-08-01 11:10:57.840] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:10:57.000Z,
+     '$gte': 2017-07-31T11:10:57.000Z } }
+[2017-08-01 11:10:57.854] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:10:57.000Z,
+     '$gte': 2017-07-31T11:10:57.000Z } }
+[2017-08-01 11:10:57.897] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:10:57.000Z,
+     '$gte': 2017-07-31T11:10:57.000Z } }
+[2017-08-01 11:11:08.913] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:11:08.914] [INFO] console - {}
+[2017-08-01 11:11:08.914] [INFO] console - undefined
+[2017-08-01 11:11:15.786] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:11:15.788] [INFO] console - {}
+[2017-08-01 11:11:15.790] [INFO] console - undefined
+[2017-08-01 11:11:24.244] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:11:24.245] [INFO] console - {}
+[2017-08-01 11:11:24.247] [INFO] console - undefined
+[2017-08-01 11:11:33.432] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:11:33.433] [INFO] console - {}
+[2017-08-01 11:11:33.435] [INFO] console - undefined
+[2017-08-01 11:11:52.748] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:11:52.748] [INFO] console - {}
+[2017-08-01 11:11:52.750] [INFO] console - undefined
+[2017-08-01 11:12:06.405] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:12:06.405] [INFO] console - {}
+[2017-08-01 11:12:06.406] [INFO] console - undefined
+[2017-08-01 11:13:17.734] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:13:17.736] [INFO] console - {}
+[2017-08-01 11:13:17.737] [INFO] console - undefined
+[2017-08-01 11:13:31.721] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:13:31.721] [INFO] console - {}
+[2017-08-01 11:13:31.722] [INFO] console - undefined
+[2017-08-01 11:14:38.161] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 11:14:38.189] [INFO] console - mongo连接成功
+[2017-08-01 11:14:38.205] [INFO] console - mongo连接打开
+[2017-08-01 11:14:57.667] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 11:14:57.669] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 11:14:57.695] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 11:15:08.163] [INFO] console - 延长登录时间
+[2017-08-01 11:15:08.767] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 11:15:08.877] [ERROR] console - (node:91799) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-01 11:15:08.897] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T11:15:08.000Z,
+     '$gte': 2017-07-31T11:15:08.000Z } }
+[2017-08-01 11:15:08.907] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T11:15:08.000Z,
+     '$gte': 2017-07-31T11:15:08.000Z } }
+[2017-08-01 11:15:08.909] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T11:15:08.000Z,
+     '$gte': 2017-07-31T11:15:08.000Z } }
+[2017-08-01 11:15:08.914] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T11:15:08.000Z,
+     '$gte': 2017-07-31T11:15:08.000Z } }
+[2017-08-01 11:15:08.916] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T11:15:08.000Z,
+     '$gte': 2017-07-31T11:15:08.000Z } }
+[2017-08-01 11:15:24.569] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:15:24.570] [INFO] console - {}
+[2017-08-01 11:15:24.570] [INFO] console - undefined
+[2017-08-01 11:22:22.001] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 11:22:22.006] [INFO] console - {}
+[2017-08-01 11:22:22.011] [INFO] console - undefined
+[2017-08-01 13:00:31.833] [INFO] console - mongo重新连接成功
+[2017-08-01 13:00:33.204] [INFO] console - mongo连接打开
+[2017-08-01 15:01:02.828] [INFO] console - 延长登录时间
+[2017-08-01 15:01:03.721] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 15:01:04.243] [INFO] console - 查询条件是 { appId: 597efd224f078354d2f74fb8,
+  createDate: 
+   { '$lte': 2017-08-01T15:01:04.000Z,
+     '$gte': 2017-07-31T15:01:04.000Z } }
+[2017-08-01 15:01:04.288] [INFO] console - 查询条件是 { appId: 5948f154d111ecf4ede78211,
+  createDate: 
+   { '$lte': 2017-08-01T15:01:04.000Z,
+     '$gte': 2017-07-31T15:01:04.000Z } }
+[2017-08-01 15:01:04.290] [INFO] console - 查询条件是 { appId: 5943a979d3490cafcf96c755,
+  createDate: 
+   { '$lte': 2017-08-01T15:01:04.000Z,
+     '$gte': 2017-07-31T15:01:04.000Z } }
+[2017-08-01 15:01:04.302] [INFO] console - 查询条件是 { appId: 594384ecbc451ca89086b3b3,
+  createDate: 
+   { '$lte': 2017-08-01T15:01:04.000Z,
+     '$gte': 2017-07-31T15:01:04.000Z } }
+[2017-08-01 15:01:04.303] [INFO] console - 查询条件是 { appId: 594384aebc451ca89086b3b2,
+  createDate: 
+   { '$lte': 2017-08-01T15:01:04.000Z,
+     '$gte': 2017-07-31T15:01:04.000Z } }
+[2017-08-01 15:04:36.491] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:04:36.496] [INFO] console - {}
+[2017-08-01 15:04:36.498] [INFO] console - undefined
+[2017-08-01 15:05:17.078] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:05:17.091] [INFO] console - {}
+[2017-08-01 15:05:17.093] [INFO] console - undefined
+[2017-08-01 15:05:17.252] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:05:17.253] [INFO] console - {}
+[2017-08-01 15:05:17.259] [INFO] console - undefined
+[2017-08-01 15:06:19.043] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:06:19.045] [INFO] console - {}
+[2017-08-01 15:06:19.047] [INFO] console - undefined
+[2017-08-01 15:06:45.098] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:06:45.104] [INFO] console - {}
+[2017-08-01 15:06:45.116] [INFO] console - undefined
+[2017-08-01 15:16:27.062] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 15:16:27.088] [INFO] console - mongo连接成功
+[2017-08-01 15:16:27.097] [INFO] console - mongo连接打开
+[2017-08-01 15:16:35.722] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:16:35.724] [INFO] console - {} { file: 
+   { fieldName: 'file',
+     originalFilename: 'me.png',
+     path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/E1yf7zFNYoINOF-D781OH04E.png',
+     headers: 
+      { 'content-disposition': 'form-data; name="file"; filename="me.png"',
+        'content-type': 'image/png' },
+     size: 202535,
+     name: 'me.png',
+     type: 'image/png' } }
+[2017-08-01 15:16:35.755] [INFO] console - {}
+[2017-08-01 15:16:35.755] [INFO] console - undefined
+[2017-08-01 15:21:28.466] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 15:21:28.937] [INFO] console - mongo连接成功
+[2017-08-01 15:21:29.213] [INFO] console - mongo连接打开
+[2017-08-01 15:21:34.321] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:21:34.322] [INFO] console - {}
+[2017-08-01 15:21:34.383] [INFO] console - undefined
+[2017-08-01 15:21:49.352] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 15:21:49.402] [INFO] console - mongo连接成功
+[2017-08-01 15:21:49.433] [INFO] console - mongo连接打开
+[2017-08-01 15:21:54.114] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:21:54.114] [INFO] console - {}
+[2017-08-01 15:21:54.190] [INFO] console - { file: 
+   { fieldName: 'file',
+     originalFilename: 'test2.jpg',
+     path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/w82Y-GZ7VLoWc0whAt9V50oH.jpg',
+     headers: 
+      { 'content-disposition': 'form-data; name="file"; filename="test2.jpg"',
+        'content-type': 'image/jpeg' },
+     size: 87715,
+     name: 'test2.jpg',
+     type: 'image/jpeg' } }
+[2017-08-01 15:22:13.189] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 15:22:13.218] [INFO] console - mongo连接成功
+[2017-08-01 15:22:13.227] [INFO] console - mongo连接打开
+[2017-08-01 15:22:17.858] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:22:17.859] [INFO] console - {}
+[2017-08-01 15:22:17.984] [INFO] console - { fieldName: 'file',
+  originalFilename: 'wym.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/2rh6sn1KPnMGINfUHCXsPuPV.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="wym.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 12225,
+  name: 'wym.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 15:25:12.277] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 15:25:12.306] [INFO] console - mongo连接成功
+[2017-08-01 15:25:12.322] [INFO] console - mongo连接打开
+[2017-08-01 15:25:17.637] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:25:17.639] [INFO] console - {}
+[2017-08-01 15:25:17.748] [INFO] console - { fieldName: 'file',
+  originalFilename: 'test2.jpg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/mDJk0nOgs7gcFERZwtlD0IYl.jpg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="test2.jpg"',
+     'content-type': 'image/jpeg' },
+  size: 87715,
+  name: 'test2.jpg',
+  type: 'image/jpeg' }
+[2017-08-01 15:25:17.785] [INFO] console - rename ok
+[2017-08-01 15:25:39.947] [INFO] console - ******uploaduploadupload***************
+[2017-08-01 15:25:39.948] [INFO] console - {}
+[2017-08-01 15:25:39.948] [INFO] console - { fieldName: 'file',
+  originalFilename: '格局逆袭.pdf',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/o_e8LGw_CTotNdjeifK5WYAl.pdf',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="格局逆袭.pdf"',
+     'content-type': 'application/pdf' },
+  size: 48884573,
+  name: '格局逆袭.pdf',
+  type: 'application/pdf' }
+[2017-08-01 15:25:39.956] [INFO] console - rename ok
+[2017-08-01 16:00:05.464] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:00:05.500] [INFO] console - mongo连接成功
+[2017-08-01 16:00:05.522] [INFO] console - mongo连接打开
+[2017-08-01 16:00:15.649] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:00:15.649] [INFO] console - {}
+[2017-08-01 16:00:15.674] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/XiCJnZLUC8D_PsHx-QLRk2h_.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:00:15.705] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:00:15.760] [ERROR] console - ReferenceError: Atwork_Tool is not defined
+    at upload (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:102:2)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Form.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/connect-multiparty/index.js:103:9)
+    at emitNone (events.js:91:20)
+    at Form.emit (events.js:185:7)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/multiparty/index.js:572:12
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-08-01 16:01:11.745] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:01:11.776] [INFO] console - mongo连接成功
+[2017-08-01 16:01:11.790] [INFO] console - mongo连接打开
+[2017-08-01 16:01:45.658] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:01:45.685] [INFO] console - mongo连接成功
+[2017-08-01 16:01:45.704] [INFO] console - mongo连接打开
+[2017-08-01 16:02:05.981] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:02:05.983] [INFO] console - {}
+[2017-08-01 16:02:06.028] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/90ozYfgK6-Wpw10p4LA8fKpJ.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:02:06.035] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:02:06.040] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 16:03:09.796] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:03:09.830] [INFO] console - mongo连接成功
+[2017-08-01 16:03:09.846] [INFO] console - mongo连接打开
+[2017-08-01 16:03:25.956] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:03:25.957] [INFO] console - {}
+[2017-08-01 16:03:25.995] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/QmM1jISSSIg4omeE4lBYGwNm.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:03:26.003] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:03:26.014] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 16:06:04.105] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:06:04.136] [INFO] console - mongo连接成功
+[2017-08-01 16:06:04.146] [INFO] console - mongo连接打开
+[2017-08-01 16:06:18.067] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:06:18.068] [INFO] console - {}
+[2017-08-01 16:06:18.147] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/p_pqJ2LT_XCxcjCR7p9q-QBt.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:06:18.156] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:06:18.163] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 16:06:18.168] [INFO] console - **get atworkInstance**
+[2017-08-01 16:07:35.138] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:07:35.163] [INFO] console - mongo连接成功
+[2017-08-01 16:07:35.175] [INFO] console - mongo连接打开
+[2017-08-01 16:07:46.466] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:07:46.467] [INFO] console - {}
+[2017-08-01 16:07:46.503] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/TlThp9H73ovraOQ-49q0GGs2.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:07:46.510] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:07:46.513] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 16:07:46.548] [INFO] console - **get atworkInstance**
+[2017-08-01 16:07:46.549] [INFO] console - 基尼入uploadFile
+[2017-08-01 16:08:34.460] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:08:34.491] [INFO] console - mongo连接成功
+[2017-08-01 16:08:34.503] [INFO] console - mongo连接打开
+[2017-08-01 16:08:51.262] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:08:51.263] [INFO] console - {}
+[2017-08-01 16:08:51.292] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/0FbRXXwEmZvUDA2u2-OOx72J.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:08:51.296] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:08:51.298] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 16:08:51.308] [INFO] console - **get atworkInstance**
+[2017-08-01 16:10:36.077] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:10:36.102] [INFO] console - mongo连接成功
+[2017-08-01 16:10:36.112] [INFO] console - mongo连接打开
+[2017-08-01 16:10:53.759] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:10:53.759] [INFO] console - {}
+[2017-08-01 16:10:53.785] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/vkSo2uk5mR_fUcMjnZtHUdMW.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:10:53.788] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:10:53.790] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 16:10:53.798] [INFO] console - **get atworkInstance**
+[2017-08-01 16:12:17.072] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:12:17.184] [INFO] console - mongo连接成功
+[2017-08-01 16:12:17.204] [INFO] console - mongo连接打开
+[2017-08-01 16:12:25.956] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:12:25.956] [INFO] console - {}
+[2017-08-01 16:12:25.975] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/KGxEZJG00h9GojjxVJXDiIFj.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:12:25.980] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:12:25.981] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 16:12:25.987] [INFO] console - **get atworkInstance**
+[2017-08-01 16:12:25.988] [INFO] console - check之前
+[2017-08-01 16:12:48.894] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:12:48.918] [INFO] console - mongo连接成功
+[2017-08-01 16:12:48.929] [INFO] console - mongo连接打开
+[2017-08-01 16:12:58.087] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:12:58.088] [INFO] console - {}
+[2017-08-01 16:12:58.109] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/idd8KZc7RqYzHpRBcTou9lwu.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:12:58.112] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:12:58.114] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 16:12:58.119] [INFO] console - **get atworkInstance**
+[2017-08-01 16:12:58.121] [INFO] console - check之前
+[2017-08-01 16:12:58.121] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/idd8KZc7RqYzHpRBcTou9lwu.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:18:52.031] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 16:18:52.066] [INFO] console - mongo连接成功
+[2017-08-01 16:18:52.081] [INFO] console - mongo连接打开
+[2017-08-01 16:19:12.087] [INFO] console - ******uploaduploadupload********
+[2017-08-01 16:19:12.088] [INFO] console - {}
+[2017-08-01 16:19:12.135] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/bdwTNPhiHSZdq0l9o0ITILKN.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:19:12.139] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 16:19:12.143] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 16:19:12.154] [INFO] console - **get atworkInstance**
+[2017-08-01 16:19:12.154] [INFO] console - check之前
+[2017-08-01 16:19:12.155] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/bdwTNPhiHSZdq0l9o0ITILKN.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 16:19:12.157] [INFO] console - check以后就没了？
+[2017-08-01 16:19:12.158] [INFO] console - mimeType
+[2017-08-01 16:19:12.160] [INFO] console - image/jpeg
+[2017-08-01 16:19:12.162] [INFO] console - backData
+[2017-08-01 16:19:12.163] [INFO] console - Promise { <pending> }
+[2017-08-01 16:19:12.171] [INFO] console - 基尼入uploadFile
+[2017-08-01 16:19:12.171] [INFO] console - 13999
+[2017-08-01 16:19:12.181] [INFO] console - 没有token，直接申请
+[2017-08-01 16:19:12.183] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-01 16:19:16.785] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '44d1a0626a544e10a1dd9cb6622886a5',
+     refresh_token: 'b46e8cb06c694a9ba7c8385610c92fc6',
+     issued_time: 1501575556455,
+     expire_time: 1504167556455,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-01 16:19:16.787] [INFO] console - 已经获得token，开始发送请求 44d1a0626a544e10a1dd9cb6622886a5
+[2017-08-01 16:19:16.798] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=13999&access_token=44d1a0626a544e10a1dd9cb6622886a5',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/bdwTNPhiHSZdq0l9o0ITILKN.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-01 16:19:17.289] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQU9ZR0FlRlZ6QUFBMnJ5QTlBTDQ5MS5qcGVn' }
+[2017-08-01 16:19:17.292] [INFO] console - 上传回调
+[2017-08-01 16:19:17.293] [INFO] console - { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQU9ZR0FlRlZ6QUFBMnJ5QTlBTDQ5MS5qcGVn' }
+[2017-08-01 17:42:49.421] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 17:42:49.464] [INFO] console - mongo连接成功
+[2017-08-01 17:42:49.475] [INFO] console - mongo连接打开
+[2017-08-01 17:42:56.836] [INFO] console - ******uploaduploadupload********
+[2017-08-01 17:42:56.836] [INFO] console - { appId: '', father: 'false' }
+[2017-08-01 17:42:56.863] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/CKDkU43u1T52vwI8v-nuiax8.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 17:42:56.864] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 17:42:56.866] [ERROR] console - 参数不足 { domainId: undefined, orgId: undefined }
+[2017-08-01 17:42:56.869] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 17:42:56.869] [INFO] console - Error: e_params
+    at Object.getAtworkInstance (/Users/RogersMac/Sites/Gibbon/server/utils/atwork_tool.js:54:9)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:45:43
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at upload (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:43:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Form.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/connect-multiparty/index.js:103:9)
+    at emitNone (events.js:91:20)
+    at Form.emit (events.js:185:7)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/multiparty/index.js:572:12
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-08-01 17:42:56.884] [ERROR] console - Error: e_params
+    at Object.getAtworkInstance (/Users/RogersMac/Sites/Gibbon/server/utils/atwork_tool.js:54:9)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:45:43
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at upload (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:43:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Form.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/connect-multiparty/index.js:103:9)
+    at emitNone (events.js:91:20)
+    at Form.emit (events.js:185:7)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/multiparty/index.js:572:12
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'Error: e_params\n    at Object.getAtworkInstance (/Users/RogersMac/Sites/Gibbon/server/utils/atwork_tool.js:54:9)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:45:43\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at upload (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:43:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Form.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/node_modules/connect-multiparty/index.js:103:9)\n    at emitNone (events.js:91:20)\n    at Form.emit (events.js:185:7)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/multiparty/index.js:572:12\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-08-01 17:43:07.723] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 17:43:07.723] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 17:43:07.729] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 17:43:10.426] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 17:43:10.426] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-01 17:43:10.432] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-01 17:43:22.872] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-01 17:43:22.876] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 17:43:22.890] [INFO] console - 没有token，直接申请
+[2017-08-01 17:43:22.891] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-01 17:43:23.019] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-01 17:43:23.020] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 17:43:23.023] [WARN] console - 等待token申请完成，无需重新申请
+[2017-08-01 17:43:23.645] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-01 17:43:23.646] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 17:43:23.647] [WARN] console - 等待token申请完成，无需重新申请
+[2017-08-01 17:43:24.244] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'ea809fc66e4b4b5eab2800001dbcf786',
+     refresh_token: '1e5f9e8e93a54da093b43006245a6f1f',
+     issued_time: 1501580603409,
+     expire_time: 1504172603409,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-01 17:43:24.245] [INFO] console - 已经获得token，开始发送请求 ea809fc66e4b4b5eab2800001dbcf786
+[2017-08-01 17:43:24.247] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/de938527c8914d1ba95d2abd745fee76?access_token=ea809fc66e4b4b5eab2800001dbcf786',
+  json: true,
+  timeout: 10000 }
+[2017-08-01 17:43:25.496] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-01 17:43:25.499] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'ea809fc66e4b4b5eab2800001dbcf786',
+        refresh_token: '1e5f9e8e93a54da093b43006245a6f1f',
+        issued_time: 1501580603409,
+        expire_time: 1504172603409,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 17:43:25.500] [INFO] console - 已经获得token，开始发送请求 ea809fc66e4b4b5eab2800001dbcf786
+[2017-08-01 17:43:25.502] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=ea809fc66e4b4b5eab2800001dbcf786',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-01 17:43:25.726] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-01 17:43:25.730] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-01 17:43:26.027] [WARN] console - 等待完毕，使用别人申请到的token ea809fc66e4b4b5eab2800001dbcf786
+[2017-08-01 17:43:26.028] [INFO] console - 已经获得token，开始发送请求 ea809fc66e4b4b5eab2800001dbcf786
+[2017-08-01 17:43:26.029] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/c1b7c72befc34498b72fef4309b1912f?access_token=ea809fc66e4b4b5eab2800001dbcf786',
+  json: true,
+  timeout: 10000 }
+[2017-08-01 17:43:26.652] [WARN] console - 等待完毕，使用别人申请到的token ea809fc66e4b4b5eab2800001dbcf786
+[2017-08-01 17:43:26.652] [INFO] console - 已经获得token，开始发送请求 ea809fc66e4b4b5eab2800001dbcf786
+[2017-08-01 17:43:26.653] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/96da35e293994585945ce6df9602adfd?access_token=ea809fc66e4b4b5eab2800001dbcf786',
+  json: true,
+  timeout: 10000 }
+[2017-08-01 17:43:28.155] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-01 17:43:28.156] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'ea809fc66e4b4b5eab2800001dbcf786',
+        refresh_token: '1e5f9e8e93a54da093b43006245a6f1f',
+        issued_time: 1501580603409,
+        expire_time: 1504172603409,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 17:43:28.158] [INFO] console - 已经获得token，开始发送请求 ea809fc66e4b4b5eab2800001dbcf786
+[2017-08-01 17:43:28.158] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=ea809fc66e4b4b5eab2800001dbcf786',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-01 17:43:35.238] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-01 17:43:35.240] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'ea809fc66e4b4b5eab2800001dbcf786',
+        refresh_token: '1e5f9e8e93a54da093b43006245a6f1f',
+        issued_time: 1501580603409,
+        expire_time: 1504172603409,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 17:43:35.242] [INFO] console - 已经获得token，开始发送请求 ea809fc66e4b4b5eab2800001dbcf786
+[2017-08-01 17:43:35.242] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=ea809fc66e4b4b5eab2800001dbcf786',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-01 17:43:36.529] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-01 17:43:36.535] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-01 17:43:36.630] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-01 17:43:36.632] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-01 17:43:36.836] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 17:43:36.856] [ERROR] console - (node:98218) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-01 17:43:36.882] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 17:43:36.888] [INFO] console - { MissingSchemaError: Schema hasn't been registered for model "Bug".
+Use mongoose.model(name, schema)
+    at Mongoose.model (/Users/RogersMac/Sites/Gibbon/server/node_modules/mongoose/lib/index.js:379:13)
+    at getBugNumberOfTheDay (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:25:28)
+    at appList.map (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:52:10)
+    at Array.map (native)
+    at Object.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:51:29)
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  message: 'Schema hasn\'t been registered for model "Bug".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2017-08-01 17:43:36.960] [ERROR] console - { MissingSchemaError: Schema hasn't been registered for model "Bug".
+Use mongoose.model(name, schema)
+    at Mongoose.model (/Users/RogersMac/Sites/Gibbon/server/node_modules/mongoose/lib/index.js:379:13)
+    at getBugNumberOfTheDay (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:25:28)
+    at appList.map (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:52:10)
+    at Array.map (native)
+    at Object.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:51:29)
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  message: 'Schema hasn\'t been registered for model "Bug".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' } 'MissingSchemaError: Schema hasn\'t been registered for model "Bug".\nUse mongoose.model(name, schema)\n    at Mongoose.model (/Users/RogersMac/Sites/Gibbon/server/node_modules/mongoose/lib/index.js:379:13)\n    at getBugNumberOfTheDay (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:25:28)\n    at appList.map (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:52:10)\n    at Array.map (native)\n    at Object.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:51:29)\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-08-01 17:43:50.649] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 17:43:50.672] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 17:43:50.673] [INFO] console - { MissingSchemaError: Schema hasn't been registered for model "Bug".
+Use mongoose.model(name, schema)
+    at Mongoose.model (/Users/RogersMac/Sites/Gibbon/server/node_modules/mongoose/lib/index.js:379:13)
+    at getBugNumberOfTheDay (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:25:28)
+    at appList.map (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:52:10)
+    at Array.map (native)
+    at Object.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:51:29)
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  message: 'Schema hasn\'t been registered for model "Bug".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2017-08-01 17:43:50.677] [ERROR] console - { MissingSchemaError: Schema hasn't been registered for model "Bug".
+Use mongoose.model(name, schema)
+    at Mongoose.model (/Users/RogersMac/Sites/Gibbon/server/node_modules/mongoose/lib/index.js:379:13)
+    at getBugNumberOfTheDay (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:25:28)
+    at appList.map (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:52:10)
+    at Array.map (native)
+    at Object.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:51:29)
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  message: 'Schema hasn\'t been registered for model "Bug".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' } 'MissingSchemaError: Schema hasn\'t been registered for model "Bug".\nUse mongoose.model(name, schema)\n    at Mongoose.model (/Users/RogersMac/Sites/Gibbon/server/node_modules/mongoose/lib/index.js:379:13)\n    at getBugNumberOfTheDay (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:25:28)\n    at appList.map (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:52:10)\n    at Array.map (native)\n    at Object.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:51:29)\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-08-01 17:43:58.211] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 17:43:58.238] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 17:43:58.238] [INFO] console - { MissingSchemaError: Schema hasn't been registered for model "Bug".
+Use mongoose.model(name, schema)
+    at Mongoose.model (/Users/RogersMac/Sites/Gibbon/server/node_modules/mongoose/lib/index.js:379:13)
+    at getBugNumberOfTheDay (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:25:28)
+    at appList.map (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:52:10)
+    at Array.map (native)
+    at Object.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:51:29)
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  message: 'Schema hasn\'t been registered for model "Bug".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2017-08-01 17:43:58.245] [ERROR] console - { MissingSchemaError: Schema hasn't been registered for model "Bug".
+Use mongoose.model(name, schema)
+    at Mongoose.model (/Users/RogersMac/Sites/Gibbon/server/node_modules/mongoose/lib/index.js:379:13)
+    at getBugNumberOfTheDay (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:25:28)
+    at appList.map (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:52:10)
+    at Array.map (native)
+    at Object.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:51:29)
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  message: 'Schema hasn\'t been registered for model "Bug".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' } 'MissingSchemaError: Schema hasn\'t been registered for model "Bug".\nUse mongoose.model(name, schema)\n    at Mongoose.model (/Users/RogersMac/Sites/Gibbon/server/node_modules/mongoose/lib/index.js:379:13)\n    at getBugNumberOfTheDay (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:25:28)\n    at appList.map (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:52:10)\n    at Array.map (native)\n    at Object.<anonymous> (/Users/RogersMac/Sites/Gibbon/server/daos/application_dao.js:51:29)\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-08-01 17:44:59.149] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 17:44:59.172] [INFO] console - mongo连接成功
+[2017-08-01 17:44:59.182] [INFO] console - mongo连接打开
+[2017-08-01 17:45:00.698] [INFO] console - 查询条件是 { account: undefined }
+[2017-08-01 17:45:00.742] [ERROR] console - (node:98318) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-01 17:51:12.744] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 17:51:12.771] [INFO] console - mongo连接成功
+[2017-08-01 17:51:12.781] [INFO] console - mongo连接打开
+[2017-08-01 17:51:16.947] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-01 17:51:16.992] [ERROR] console - (node:98349) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-01 17:51:33.711] [INFO] console - 创建对象 { name: 'appList逻辑要改，给跪啊啊啊',
+  description: '',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById] }
+[2017-08-01 17:51:33.848] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-01 17:51:53.961] [INFO] console - ******uploaduploadupload********
+[2017-08-01 17:51:53.961] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'false' }
+[2017-08-01 17:51:53.962] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/fkPhmRz5ncw13OWiXGP-4XPX.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 17:51:53.964] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 17:51:53.966] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 17:51:53.974] [INFO] console - 没有token，直接申请
+[2017-08-01 17:51:53.975] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-01 17:51:54.735] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '1c5fc9e1b1e54ae093aaa2cee20b147f',
+     refresh_token: '5e923a8088d344caa0637738e2d9ce7c',
+     issued_time: 1501581114413,
+     expire_time: 1504173114413,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-01 17:51:54.737] [INFO] console - 已经获得token，开始发送请求 1c5fc9e1b1e54ae093aaa2cee20b147f
+[2017-08-01 17:51:54.742] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=13999&access_token=1c5fc9e1b1e54ae093aaa2cee20b147f',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/fkPhmRz5ncw13OWiXGP-4XPX.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-01 17:51:55.534] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQVR6ZUFmYzVlQUFBMnJ5QTlBTDQ3My5qcGVn' }
+[2017-08-01 17:51:55.536] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 17:51:55.537] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:70:24
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-08-01 17:51:55.548] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:70:24
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7) 'Error: e_params\n    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10\n    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)\n    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:70:24\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at process._tickCallback (internal/process/next_tick.js:103:7)'
+[2017-08-01 17:53:08.217] [INFO] console - ******uploaduploadupload********
+[2017-08-01 17:53:08.218] [INFO] console - { appId: '', father: 'false' }
+[2017-08-01 17:53:08.220] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/p1nHWYHHPds1VN65NJ79rzZB.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 17:53:08.223] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 17:53:08.226] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 17:53:08.230] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '1c5fc9e1b1e54ae093aaa2cee20b147f',
+        refresh_token: '5e923a8088d344caa0637738e2d9ce7c',
+        issued_time: 1501581114413,
+        expire_time: 1504173114413,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 17:53:08.231] [INFO] console - 已经获得token，开始发送请求 1c5fc9e1b1e54ae093aaa2cee20b147f
+[2017-08-01 17:53:08.234] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=13999&access_token=1c5fc9e1b1e54ae093aaa2cee20b147f',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/p1nHWYHHPds1VN65NJ79rzZB.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-01 17:53:08.468] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQVQ0Q0FIbFBrQUFBMnJ5QTlBTDQyMC5qcGVn' }
+[2017-08-01 17:53:08.469] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 17:53:08.470] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:70:24
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-08-01 17:53:08.474] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:70:24
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7) 'Error: e_params\n    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10\n    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)\n    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:70:24\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at process._tickCallback (internal/process/next_tick.js:103:7)'
+[2017-08-01 17:55:51.026] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-01 18:00:42.717] [INFO] console - ******uploaduploadupload********
+[2017-08-01 18:00:42.720] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'false' }
+[2017-08-01 18:00:42.725] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/-XPBXl-IFgcEcpYWh14dFjQd.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 18:00:42.738] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 18:00:42.739] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 18:00:42.742] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '1c5fc9e1b1e54ae093aaa2cee20b147f',
+        refresh_token: '5e923a8088d344caa0637738e2d9ce7c',
+        issued_time: 1501581114413,
+        expire_time: 1504173114413,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-01 18:00:42.747] [INFO] console - 已经获得token，开始发送请求 1c5fc9e1b1e54ae093aaa2cee20b147f
+[2017-08-01 18:00:42.752] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=13999&access_token=1c5fc9e1b1e54ae093aaa2cee20b147f',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/-XPBXl-IFgcEcpYWh14dFjQd.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-01 18:00:43.679] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQVVVaUFDbUFmQUFBMnJ5QTlBTDQzNC5qcGVn' }
+[2017-08-01 18:00:43.682] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 18:00:43.682] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:70:24
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-08-01 18:00:43.692] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:70:24
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7) 'Error: e_params\n    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10\n    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)\n    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:70:24\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at process._tickCallback (internal/process/next_tick.js:103:7)'
+[2017-08-01 18:02:40.066] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 18:02:40.098] [INFO] console - mongo连接成功
+[2017-08-01 18:02:40.110] [INFO] console - mongo连接打开
+[2017-08-01 18:02:51.077] [INFO] console - ******uploaduploadupload********
+[2017-08-01 18:02:51.078] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'false' }
+[2017-08-01 18:02:51.112] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/A_woFI7pODrUh7veIVHkVIYV.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 18:02:51.116] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 18:02:51.120] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 18:02:51.131] [INFO] console - 没有token，直接申请
+[2017-08-01 18:02:51.131] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-01 18:02:51.675] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'aa55d5c2b28241c39fc7bf9a1967e26a',
+     refresh_token: '01692275cc99476ea965ae3531545713',
+     issued_time: 1501581771370,
+     expire_time: 1504173771370,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-01 18:02:51.677] [INFO] console - 已经获得token，开始发送请求 aa55d5c2b28241c39fc7bf9a1967e26a
+[2017-08-01 18:02:51.681] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=13999&access_token=aa55d5c2b28241c39fc7bf9a1967e26a',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/A_woFI7pODrUh7veIVHkVIYV.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-01 18:02:52.220] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQVVjaUFaVDVvQUFBMnJ5QTlBTDQ2OS5qcGVn' }
+[2017-08-01 18:02:52.220] [INFO] console - { appId: '59804f25330cf1802efd6fc8',
+  father: 'false',
+  ownerName: undefined,
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: 'horse.jpeg',
+  fileType: 'image/jpeg',
+  fileSize: 13999,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQVVjaUFaVDVvQUFBMnJ5QTlBTDQ2OS5qcGVn' }
+[2017-08-01 18:02:52.222] [INFO] console - ******** getResFn error ******** 
+[2017-08-01 18:02:52.222] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:71:24
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-08-01 18:02:52.231] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10
+    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)
+    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:71:24
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7) 'Error: e_params\n    at /Users/RogersMac/Sites/Gibbon/server/utils/validate.js:18:10\n    at arrayEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:537:11)\n    at Function.forEach (/Users/RogersMac/Sites/Gibbon/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/Gibbon/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:71:24\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at process._tickCallback (internal/process/next_tick.js:103:7)'
+[2017-08-01 18:03:33.845] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-01 18:03:33.878] [INFO] console - mongo连接成功
+[2017-08-01 18:03:33.912] [INFO] console - mongo连接打开
+[2017-08-01 18:03:42.046] [INFO] console - ******uploaduploadupload********
+[2017-08-01 18:03:42.046] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'false' }
+[2017-08-01 18:03:42.070] [INFO] console - { fieldName: 'file',
+  originalFilename: 'horse.jpeg',
+  path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/xIyVh179MiFl93ZWRHOeUX7d.jpeg',
+  headers: 
+   { 'content-disposition': 'form-data; name="file"; filename="horse.jpeg"',
+     'content-type': 'image/jpeg' },
+  size: 13999,
+  name: 'horse.jpeg',
+  type: 'image/jpeg' }
+[2017-08-01 18:03:42.072] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-01 18:03:42.074] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-01 18:03:42.089] [INFO] console - 没有token，直接申请
+[2017-08-01 18:03:42.089] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-01 18:03:42.462] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '3172aee2829f4567bc80d5a6aa8b2867',
+     refresh_token: '40527da2e769490ebee41e8442cc6785',
+     issued_time: 1501581822200,
+     expire_time: 1504173822200,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-01 18:03:42.464] [INFO] console - 已经获得token，开始发送请求 3172aee2829f4567bc80d5a6aa8b2867
+[2017-08-01 18:03:42.467] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=13999&access_token=3172aee2829f4567bc80d5a6aa8b2867',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/xIyVh179MiFl93ZWRHOeUX7d.jpeg',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: { filename: undefined, contentType: 'image/jpeg' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-01 18:03:42.836] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQVVmdUFEeXFMQUFBMnJ5QTlBTDQ0Ny5qcGVn' }
+[2017-08-01 18:03:42.839] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'false',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: 'horse.jpeg',
+  fileType: 'image/jpeg',
+  fileSize: 13999,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yMC9DaTh4Q0ZtQVVmdUFEeXFMQUFBMnJ5QTlBTDQ0Ny5qcGVn',
+  getBugs: [Function: getBugs],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteBugById: [Function: deleteBugById] }
+[2017-08-01 18:03:42.856] [ERROR] console - (node:98625) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html

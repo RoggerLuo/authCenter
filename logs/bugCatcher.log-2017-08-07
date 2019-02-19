@@ -1,0 +1,3275 @@
+[2017-08-07 10:46:16.135] [INFO] console - ******** getResFn error ******** 
+[2017-08-07 10:46:16.161] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-07 10:46:16.294] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-07 10:46:16.331] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:46:16.364] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:46:16.366] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:46:16.367] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:46:16.367] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:46:16.367] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:46:18.757] [INFO] console - ******** getResFn error ******** 
+[2017-08-07 10:46:18.758] [INFO] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+[2017-08-07 10:46:18.760] [ERROR] console - Error: e_log_out
+    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)
+    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13) 'Error: e_log_out\n    at /Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:41:25\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:50:10)\n    at info (/Users/RogersMac/Sites/Gibbon/server/apps/account_app.js:39:5)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:317:13)\n    at /Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/Gibbon/server/node_modules/express/lib/router/index.js:275:10)\n    at SendStream.error (/Users/RogersMac/Sites/Gibbon/server/node_modules/serve-static/index.js:121:7)\n    at emitOne (events.js:96:13)'
+[2017-08-07 10:46:30.722] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-07 10:46:30.730] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 10:46:30.769] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '83fab38e46b4416495f2757a78e5ab96',
+        refresh_token: '2c5c808223534056a67732955a21ab0c',
+        issued_time: 1501837595193,
+        expire_time: 1504429595193,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 10:46:30.811] [INFO] console - 已经获得token，开始发送请求 83fab38e46b4416495f2757a78e5ab96
+[2017-08-07 10:46:30.816] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/6727d95b54a74a62b84e7dcd2adcf080?access_token=83fab38e46b4416495f2757a78e5ab96',
+  json: true,
+  timeout: 10000 }
+[2017-08-07 10:46:30.932] [INFO] console -  ********* 验证ticket ********* 
+[2017-08-07 10:46:30.933] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 10:46:30.934] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '83fab38e46b4416495f2757a78e5ab96',
+        refresh_token: '2c5c808223534056a67732955a21ab0c',
+        issued_time: 1501837595193,
+        expire_time: 1504429595193,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 10:46:30.935] [INFO] console - 已经获得token，开始发送请求 83fab38e46b4416495f2757a78e5ab96
+[2017-08-07 10:46:30.935] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/tickets/f9d70e7b0c924400ac5cc050017a9a17?access_token=83fab38e46b4416495f2757a78e5ab96',
+  json: true,
+  timeout: 10000 }
+[2017-08-07 10:46:33.823] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-07 10:46:33.830] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '83fab38e46b4416495f2757a78e5ab96',
+        refresh_token: '2c5c808223534056a67732955a21ab0c',
+        issued_time: 1501837595193,
+        expire_time: 1504429595193,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 10:46:33.832] [INFO] console - 已经获得token，开始发送请求 83fab38e46b4416495f2757a78e5ab96
+[2017-08-07 10:46:33.833] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=83fab38e46b4416495f2757a78e5ab96',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-07 10:46:34.042] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     client_id: 'c80250ac61534b178ffb9d001f537da7',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb' } }
+[2017-08-07 10:46:34.051] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '83fab38e46b4416495f2757a78e5ab96',
+        refresh_token: '2c5c808223534056a67732955a21ab0c',
+        issued_time: 1501837595193,
+        expire_time: 1504429595193,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 10:46:34.052] [INFO] console - 已经获得token，开始发送请求 83fab38e46b4416495f2757a78e5ab96
+[2017-08-07 10:46:34.052] [INFO] console - 请求的参数是
+ { url: 'https://api3.workplus.io/v1/admin/organizations/e63bf7a5-ce40-4c03-bd08-3204d33034ac/employees/c80250ac61534b178ffb9d001f537da7?type=user&access_token=83fab38e46b4416495f2757a78e5ab96',
+  json: true,
+  Accept: 'application/json',
+  timeout: 10000 }
+[2017-08-07 10:46:34.690] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-07 10:46:34.700] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-07 10:46:34.810] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { domain_id: 'atwork',
+     org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+     display_name: '罗捷',
+     employee_type_id: 140,
+     employee_type: '正式员工',
+     id: 803,
+     name: '罗捷',
+     type: 'EMPLOYEE',
+     sort_order: 999,
+     user_id: 'c80250ac61534b178ffb9d001f537da7',
+     username: '15652815619',
+     nickname: '罗捷',
+     status: 'ACTIVATED',
+     senior: false,
+     gender: 'MALE',
+     pinyin: 'luojie',
+     initial: 'lj',
+     avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+     more_info: {},
+     settings: {},
+     mobile: '15652815619',
+     email: 'luojie.5408@163.com',
+     created: 0,
+     last_modified: 0,
+     expired: 0,
+     disabled: false,
+     root_org_info: { id: 284, name: '' },
+     positions: [ [Object] ],
+     properties: [] } }
+[2017-08-07 10:46:34.812] [INFO] console -  ********* 验证完之后拿回的用户信息 *********  { domain_id: 'atwork',
+  client_id: 'c80250ac61534b178ffb9d001f537da7',
+  org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  device_id: 'pcweb_device_id16c6e823-f44e-453c-ab9e-31a731e339fb',
+  org_code: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  display_name: '罗捷',
+  employee_type_id: 140,
+  employee_type: '正式员工',
+  id: 803,
+  name: '罗捷',
+  type: 'EMPLOYEE',
+  sort_order: 999,
+  user_id: 'c80250ac61534b178ffb9d001f537da7',
+  username: '15652815619',
+  nickname: '罗捷',
+  status: 'ACTIVATED',
+  senior: false,
+  gender: 'MALE',
+  pinyin: 'luojie',
+  initial: 'lj',
+  avatar: 'Z3JvdXAxL00wMC8wMC8yNC9DaTh4Q0ZnY1YxU0FNWU5kQUFHZlE5empZTEU2MTQudG1w',
+  more_info: {},
+  settings: {},
+  mobile: '15652815619',
+  email: 'luojie.5408@163.com',
+  created: 0,
+  last_modified: 0,
+  expired: 0,
+  disabled: false,
+  root_org_info: { id: 284, name: '' },
+  positions: 
+   [ { employee_id: 803,
+       org_id: 284,
+       org_name: '恒拓测试',
+       job_title: '',
+       path: '/284/',
+       type: 'ORG',
+       primary: true,
+       chief: false } ],
+  properties: [] }
+[2017-08-07 10:46:34.907] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-07 10:46:34.926] [INFO] console - 查询条件是 { ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-07 10:46:37.989] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:46:37.993] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:46:37.993] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:46:37.994] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:46:37.994] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:46:37.994] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:51:13.310] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:51:13.317] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:51:13.317] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:51:13.318] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:51:13.318] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:51:13.318] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:52:42.527] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:52:42.570] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:52:42.571] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:52:42.571] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:52:42.573] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:52:42.573] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:53:04.153] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:53:04.158] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:53:04.159] [INFO] console - { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 10:53:04.159] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 10:53:04.159] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:53:04.160] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 10:53:18.327] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:53:18.329] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:53:18.329] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:53:18.329] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:53:18.330] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:53:18.330] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:53:20.087] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:53:20.099] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:53:20.100] [INFO] console - { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 10:53:20.100] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 10:53:20.101] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:53:20.101] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 10:53:22.965] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:53:22.985] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:53:22.985] [INFO] console - { appId: '59804f25330cf1802efd6fc8',
+  father: '5982f03c55cf1f1b32ead86f' }
+[2017-08-07 10:53:22.986] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8',
+  father: '5982f03c55cf1f1b32ead86f' }
+[2017-08-07 10:53:22.986] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:53:22.986] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8',
+  father: '5982f03c55cf1f1b32ead86f' }
+[2017-08-07 10:54:08.572] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:54:08.575] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:54:08.575] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:54:08.575] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:54:08.576] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:54:08.576] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:54:12.774] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:54:12.777] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:54:12.777] [INFO] console - { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 10:54:12.778] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 10:54:12.778] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:54:12.778] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 10:54:37.500] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:54:37.503] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:54:37.503] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:54:37.504] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:54:37.504] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:54:37.504] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:55:15.436] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 10:55:15.439] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:55:15.439] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:55:15.439] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 10:55:15.440] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 10:55:15.440] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 11:02:57.312] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 11:02:57.316] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 11:02:57.316] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 11:02:57.316] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 11:02:57.317] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 11:02:57.317] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 11:21:45.380] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 11:21:45.405] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 11:21:45.405] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 11:21:45.405] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 11:21:45.406] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 11:21:45.406] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 11:53:37.702] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 11:53:37.717] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 11:53:37.717] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 11:53:37.717] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 11:53:37.718] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 11:53:37.718] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:39:43.807] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 14:39:43.817] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:39:43.818] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:39:43.818] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:39:43.819] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:39:43.819] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:40:00.664] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 14:40:00.667] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:40:00.667] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:40:00.668] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:40:00.668] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:40:00.669] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:40:19.672] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 14:40:19.675] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:40:19.677] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:40:19.677] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:40:19.678] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:40:19.680] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:40:57.698] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 14:40:57.703] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:40:57.703] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:40:57.703] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:40:57.704] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:40:57.704] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:50:20.412] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 14:50:20.424] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:50:20.425] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:50:20.425] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:50:20.425] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:50:20.426] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:55:07.431] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 14:55:07.438] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:55:07.440] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:55:07.440] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:55:07.441] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:55:07.441] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:56:06.709] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 14:56:06.714] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:56:06.717] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:56:06.721] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 14:56:06.721] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 14:56:06.721] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:07:23.221] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:07:23.235] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:07:23.235] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:07:23.236] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:07:23.236] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:07:23.236] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:08:15.975] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:08:15.980] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:08:15.980] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:08:15.981] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:08:15.982] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:08:15.982] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:10:10.155] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:10:10.169] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:10:10.170] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:10:10.170] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:10:10.170] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:10:10.171] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:11:56.337] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:11:56.340] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:11:56.340] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:11:56.341] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:11:56.342] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:11:56.342] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:02.478] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:13:02.483] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:13:02.483] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:02.483] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:02.484] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:13:02.484] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:21.987] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:13:22.045] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:13:22.046] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:22.046] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:22.046] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:13:22.046] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:43.858] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:13:43.865] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:13:43.866] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:43.866] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:43.866] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:13:43.867] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:48.160] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:13:48.179] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:13:48.179] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:48.180] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:13:48.180] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:13:48.181] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:24:27.109] [INFO] console - ********uploaduploadupload********
+[2017-08-07 15:24:27.124] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-07 15:24:27.132] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:24:27.138] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '83fab38e46b4416495f2757a78e5ab96',
+        refresh_token: '2c5c808223534056a67732955a21ab0c',
+        issued_time: 1501837595193,
+        expire_time: 1504429595193,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:24:27.143] [INFO] console - 已经获得token，开始发送请求 83fab38e46b4416495f2757a78e5ab96
+[2017-08-07 15:24:27.148] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=203463&access_token=83fab38e46b4416495f2757a78e5ab96',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/kD9PAMxn3GF1CS8iwrZRPvjT.docx',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-07 15:24:30.176] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8yRi9DaTh4Q0ZtSUZaMkFaTU9RQUFNYXgyQWdKZDA3MC5kb2N4' }
+[2017-08-07 15:24:30.177] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'root',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: '流程大师调研报告.docx',
+  fileType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+  fileSize: 203463,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8yRi9DaTh4Q0ZtSUZaMkFaTU9RQUFNYXgyQWdKZDA3MC5kb2N4',
+  isOnthedisk: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir] }
+[2017-08-07 15:24:30.322] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:24:30.331] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:24:30.332] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:24:30.333] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:24:30.333] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:24:30.334] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:25:29.771] [INFO] console - 删除条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  _id: '598815ae35109d13a8e6c491',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-07 15:25:29.805] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:25:29.814] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:25:29.814] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:25:29.814] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:25:29.815] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:25:29.815] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:33:13.586] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 15:33:13.606] [INFO] console - mongo连接成功
+[2017-08-07 15:33:13.616] [INFO] console - mongo连接打开
+[2017-08-07 15:33:18.104] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:33:18.156] [ERROR] console - (node:8050) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 15:33:18.184] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:33:18.185] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:33:18.188] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:33:18.197] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:33:18.198] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:33:18.214] [INFO] console - ******** getResFn error ******** 
+[2017-08-07 15:33:18.214] [INFO] console - ReferenceError: ctx is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:86:59
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-08-07 15:33:18.223] [ERROR] console - ReferenceError: ctx is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:86:59
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'ReferenceError: ctx is not defined\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:86:59\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-08-07 15:33:42.310] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 15:33:42.332] [INFO] console - mongo连接成功
+[2017-08-07 15:33:42.340] [INFO] console - mongo连接打开
+[2017-08-07 15:33:44.085] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:33:44.126] [ERROR] console - (node:8052) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 15:33:44.149] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:33:44.150] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:33:44.151] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:33:44.153] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:33:44.153] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:33:44.179] [INFO] console - ******** getResFn error ******** 
+[2017-08-07 15:33:44.179] [INFO] console - ReferenceError: ctx is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:86:59
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-08-07 15:33:44.187] [ERROR] console - ReferenceError: ctx is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:86:59
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'ReferenceError: ctx is not defined\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:86:59\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-08-07 15:35:01.599] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:35:01.611] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:35:01.612] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:35:01.612] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:35:01.613] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:35:01.613] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:35:01.623] [INFO] console - ******** getResFn error ******** 
+[2017-08-07 15:35:01.623] [INFO] console - ReferenceError: ctx is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:86:59
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-08-07 15:35:01.628] [ERROR] console - ReferenceError: ctx is not defined
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:86:59
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9) 'ReferenceError: ctx is not defined\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:86:59\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/RogersMac/Sites/Gibbon/server/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-08-07 15:35:08.769] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 15:35:08.792] [INFO] console - mongo连接成功
+[2017-08-07 15:35:08.801] [INFO] console - mongo连接打开
+[2017-08-07 15:35:17.718] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 15:35:17.742] [INFO] console - mongo连接成功
+[2017-08-07 15:35:17.752] [INFO] console - mongo连接打开
+[2017-08-07 15:35:21.025] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:35:21.064] [ERROR] console - (node:8058) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 15:35:21.082] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:35:21.084] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:35:21.085] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:35:21.086] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:35:21.087] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:35:21.132] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:35:21.139] [INFO] console - 没有token，直接申请
+[2017-08-07 15:35:21.140] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 15:35:21.653] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'f078d7af0aa845c18368fb6c4ac6ec90',
+     refresh_token: '381233880809499a9946df6271ff76b2',
+     issued_time: 1502091308031,
+     expire_time: 1504683308031,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 15:35:21.659] [INFO] console - ******** getResFn error ******** 
+[2017-08-07 15:35:21.660] [INFO] console - ReferenceError: iconMap is not defined
+    at list.map.el (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:95:20)
+    at Array.map (native)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:93:21
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-08-07 15:35:21.684] [ERROR] console - ReferenceError: iconMap is not defined
+    at list.map.el (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:95:20)
+    at Array.map (native)
+    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:93:21
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7) 'ReferenceError: iconMap is not defined\n    at list.map.el (/Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:95:20)\n    at Array.map (native)\n    at /Users/RogersMac/Sites/Gibbon/server/apps/detail_app.js:93:21\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/Gibbon/server/node_modules/co/index.js:65:19)\n    at process._tickCallback (internal/process/next_tick.js:103:7)'
+[2017-08-07 15:35:58.182] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 15:35:58.203] [INFO] console - mongo连接成功
+[2017-08-07 15:35:58.214] [INFO] console - mongo连接打开
+[2017-08-07 15:36:02.621] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:36:02.659] [ERROR] console - (node:8060) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 15:36:02.673] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:36:02.673] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:36:02.674] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:36:02.674] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:36:02.675] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:36:02.688] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:36:02.697] [INFO] console - 没有token，直接申请
+[2017-08-07 15:36:02.698] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 15:36:03.406] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+     refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+     issued_time: 1502091349734,
+     expire_time: 1504683349734,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 15:36:20.616] [INFO] console - ********uploaduploadupload********
+[2017-08-07 15:36:20.617] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-07 15:36:20.618] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:36:20.621] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+        refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+        issued_time: 1502091349734,
+        expire_time: 1504683349734,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:36:20.622] [INFO] console - 已经获得token，开始发送请求 740a6e34f5a34a60a3c963d8be801d6d
+[2017-08-07 15:36:20.632] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=203463&access_token=740a6e34f5a34a60a3c963d8be801d6d',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/_wVQXPS5dFTjXCy3swX8BNG4.docx',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-07 15:36:21.772] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdHU0FDbE8zQUFNYXgyQWdKZDA4NS5kb2N4' }
+[2017-08-07 15:36:21.777] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'root',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: '流程大师调研报告.docx',
+  fileType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+  fileSize: 203463,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdHU0FDbE8zQUFNYXgyQWdKZDA4NS5kb2N4',
+  isOnthedisk: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir] }
+[2017-08-07 15:36:21.909] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:36:21.913] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:36:21.914] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:36:21.915] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:36:21.915] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:36:21.916] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:36:21.927] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:36:21.928] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+        refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+        issued_time: 1502091349734,
+        expire_time: 1504683349734,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:37:18.310] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:37:18.332] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:37:18.333] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:37:18.334] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:37:18.335] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:37:18.335] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:37:18.343] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:37:18.345] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+        refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+        issued_time: 1502091349734,
+        expire_time: 1504683349734,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:37:38.027] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:37:38.031] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:37:38.032] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:37:38.032] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:37:38.033] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:37:38.033] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:37:38.041] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:37:38.044] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+        refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+        issued_time: 1502091349734,
+        expire_time: 1504683349734,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:37:51.683] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:37:51.694] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:37:51.695] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:37:51.695] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:37:51.696] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:37:51.696] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:37:51.701] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:37:51.702] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+        refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+        issued_time: 1502091349734,
+        expire_time: 1504683349734,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:39:28.459] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:39:28.474] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:39:28.475] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:39:28.475] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:39:28.476] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:39:28.477] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:39:28.485] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:39:28.491] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+        refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+        issued_time: 1502091349734,
+        expire_time: 1504683349734,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:40:21.676] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:40:21.693] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:40:21.693] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:40:21.694] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:40:21.701] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:40:21.701] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:40:21.710] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:40:21.712] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+        refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+        issued_time: 1502091349734,
+        expire_time: 1504683349734,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:41:13.368] [INFO] console - ********uploaduploadupload********
+[2017-08-07 15:41:13.371] [INFO] console -  ********* 上传媒体库 ********* 
+[2017-08-07 15:41:13.372] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:41:13.376] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+        refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+        issued_time: 1502091349734,
+        expire_time: 1504683349734,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:41:13.379] [INFO] console - 已经获得token，开始发送请求 740a6e34f5a34a60a3c963d8be801d6d
+[2017-08-07 15:41:13.384] [INFO] console - 请求的参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/medias?&file_size=33757&access_token=740a6e34f5a34a60a3c963d8be801d6d',
+  formData: 
+   { file: 
+      { value: 
+         ReadStream {
+           _readableState: [Object],
+           readable: true,
+           domain: null,
+           _events: [Object],
+           _eventsCount: 1,
+           _maxListeners: undefined,
+           path: '/var/folders/36/0rltrnxs7xd9k59ssmzy_wsc0000gn/T/J02lsfchE8fmhzPY4B7uStHO.xlsx',
+           fd: null,
+           flags: 'r',
+           mode: 438,
+           start: undefined,
+           end: undefined,
+           autoClose: true,
+           pos: undefined,
+           bytesRead: 0 },
+        options: 
+         { filename: undefined,
+           contentType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' } } },
+  json: true,
+  timeout: 10000 }
+[2017-08-07 15:41:13.913] [INFO] console - 
+服务器响应是
+ { status: 0,
+  message: 'Everything is ok.',
+  result: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 15:41:13.913] [INFO] console - 创建对象 { appId: '59804f25330cf1802efd6fc8',
+  father: 'root',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileName: '流程大师功能优先级.xlsx',
+  fileType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+  fileSize: 33757,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4',
+  isOnthedisk: false,
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir] }
+[2017-08-07 15:41:14.006] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:41:14.016] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:41:14.016] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:41:14.017] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:41:14.017] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:41:14.017] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:41:14.026] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:41:14.026] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '740a6e34f5a34a60a3c963d8be801d6d',
+        refresh_token: '7427f3b52cd34626a01bdf36d1878214',
+        issued_time: 1502091349734,
+        expire_time: 1504683349734,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:41:47.194] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 15:41:47.217] [INFO] console - mongo连接成功
+[2017-08-07 15:41:47.228] [INFO] console - mongo连接打开
+[2017-08-07 15:41:50.532] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:41:50.578] [ERROR] console - (node:8077) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 15:41:50.630] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:41:50.632] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:41:50.633] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:41:50.633] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:41:50.633] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:41:50.689] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:41:50.700] [INFO] console - 没有token，直接申请
+[2017-08-07 15:41:50.701] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 15:41:53.238] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+     refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+     issued_time: 1502091699579,
+     expire_time: 1504683699579,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 15:44:16.029] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:44:16.050] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:44:16.050] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:44:16.051] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:44:16.052] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:44:16.052] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:44:16.076] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:44:16.105] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:44:20.719] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:44:20.725] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:44:20.725] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:44:20.726] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:44:20.726] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:44:20.727] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:44:20.732] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:44:20.733] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:44:34.754] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:44:34.761] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:44:34.761] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:44:34.762] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:44:34.765] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:44:34.765] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:44:34.776] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:44:34.777] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:45:22.930] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:45:22.953] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:45:22.954] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:45:22.954] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:45:22.955] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:45:22.955] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:45:22.963] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:45:22.965] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:46:06.496] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:46:06.500] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:46:06.500] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:46:06.501] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:46:06.501] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:46:06.501] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:46:06.507] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:46:06.591] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:47:30.376] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:47:30.381] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:47:30.381] [INFO] console - { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 15:47:30.383] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 15:47:30.383] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:47:30.383] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 15:47:30.387] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:47:30.388] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:47:33.544] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:47:33.550] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:47:33.550] [INFO] console - { appId: '59804f25330cf1802efd6fc8',
+  father: '5982f03c55cf1f1b32ead86f' }
+[2017-08-07 15:47:33.551] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8',
+  father: '5982f03c55cf1f1b32ead86f' }
+[2017-08-07 15:47:33.555] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:47:33.556] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8',
+  father: '5982f03c55cf1f1b32ead86f' }
+[2017-08-07 15:47:33.559] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:47:33.559] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:47:35.087] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:47:35.097] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:47:35.097] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:47:35.098] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:47:35.098] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:47:35.098] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:47:35.102] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:47:35.102] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:49:03.831] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:49:03.838] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:49:03.838] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:49:03.839] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:49:03.839] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:49:03.839] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:49:03.846] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:49:03.847] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:50:08.615] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:50:08.626] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:50:08.627] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:50:08.627] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:50:08.628] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:50:08.628] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:50:08.632] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:50:08.634] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:52:18.213] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:52:18.219] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:52:18.219] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:52:18.220] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:52:18.220] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:52:18.220] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:52:18.224] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:52:18.224] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:52:43.384] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:52:43.388] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:52:43.396] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:52:43.397] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:52:43.397] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:52:43.397] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:52:43.401] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:52:43.402] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:53:21.265] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:53:21.269] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:53:21.269] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:53:21.269] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:53:21.270] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:53:21.270] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:53:21.274] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:53:21.274] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:53:57.543] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:53:57.548] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:53:57.548] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:53:57.548] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:53:57.549] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:53:57.549] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:53:57.555] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:53:57.556] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:54:07.041] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:54:07.044] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:54:07.044] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:54:07.045] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:54:07.045] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:54:07.047] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:54:07.062] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:54:07.065] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:54:26.880] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:54:26.884] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:54:26.884] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:54:26.885] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:54:26.885] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:54:26.885] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:54:26.889] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:54:26.890] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:55:35.978] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:55:35.987] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:55:35.987] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:55:35.988] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:55:35.988] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:55:35.988] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:55:35.992] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:55:35.993] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:57:38.421] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:57:38.435] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:57:38.435] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:57:38.436] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:57:38.436] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:57:38.436] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:57:38.441] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:57:38.442] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:57:43.174] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:57:43.178] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:57:43.178] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:57:43.178] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:57:43.179] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:57:43.179] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:57:43.185] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:57:43.185] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:58:24.022] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:58:24.035] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:58:24.035] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:58:24.036] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:58:24.036] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:58:24.037] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:58:24.041] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:58:24.042] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:59:41.875] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 15:59:41.886] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:59:41.886] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:59:41.886] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:59:41.887] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 15:59:41.887] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 15:59:41.907] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:59:41.912] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:59:44.577] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 15:59:44.578] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'aa0a3d1ca8904746b026601a1cbdd67c',
+        refresh_token: '7695f06282a3478cbefab80e5c92d3fb',
+        issued_time: 1502091699579,
+        expire_time: 1504683699579,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 15:59:45.827] [INFO] console - done
+[2017-08-07 16:04:55.148] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:04:55.174] [INFO] console - mongo连接成功
+[2017-08-07 16:04:55.183] [INFO] console - mongo连接打开
+[2017-08-07 16:05:00.304] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:05:00.330] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:05:00.335] [ERROR] console - (node:8174) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:05:00.339] [INFO] console - 没有token，直接申请
+[2017-08-07 16:05:00.340] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:05:00.578] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '7a0570d0ecb74a94bb65f4b815fabddb',
+     refresh_token: '171c185a9e0b46539adc11141d6d2bdf',
+     issued_time: 1502093086943,
+     expire_time: 1504685086943,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 16:05:00.933] [INFO] console - done
+[2017-08-07 16:05:37.370] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:05:37.394] [INFO] console - mongo连接成功
+[2017-08-07 16:05:37.406] [INFO] console - mongo连接打开
+[2017-08-07 16:05:39.363] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:05:39.388] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:05:39.393] [ERROR] console - (node:8178) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:05:39.397] [INFO] console - 没有token，直接申请
+[2017-08-07 16:05:39.398] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:05:39.448] [INFO] console - datadatadatadatadatadata
+[2017-08-07 16:05:39.448] [INFO] console - { _id: 59881999966f171f7ccd5f0a,
+  __v: 0,
+  link: '',
+  isOnthedisk: false,
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4',
+  fileSize: '33757',
+  fileType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+  fileName: '流程大师功能优先级.xlsx',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  appId: '59804f25330cf1802efd6fc8',
+  father: 'root',
+  createDate: 2017-08-07T07:41:13.915Z }
+[2017-08-07 16:05:39.792] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'f0117f36d633466789d2c03eaef76e3b',
+     refresh_token: '637f554663714fc9938ef440354b03c9',
+     issued_time: 1502093126156,
+     expire_time: 1504685126156,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 16:05:40.109] [INFO] console - done
+[2017-08-07 16:06:33.816] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:06:33.843] [INFO] console - mongo连接成功
+[2017-08-07 16:06:33.857] [INFO] console - mongo连接打开
+[2017-08-07 16:06:41.937] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:06:41.965] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:06:41.973] [ERROR] console - (node:8179) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:06:41.978] [INFO] console - 没有token，直接申请
+[2017-08-07 16:06:41.979] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:06:42.033] [INFO] console - datadatadatadatadatadata
+[2017-08-07 16:06:42.033] [INFO] console - 流程大师功能优先级.xlsx
+[2017-08-07 16:06:43.496] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'cf7ea015e45c45b698645ea74acd416d',
+     refresh_token: '82e3b45214894cb192181a20178d68c8',
+     issued_time: 1502093189863,
+     expire_time: 1504685189863,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 16:06:43.831] [INFO] console - done
+[2017-08-07 16:07:52.346] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:07:52.376] [INFO] console - mongo连接成功
+[2017-08-07 16:07:52.392] [INFO] console - mongo连接打开
+[2017-08-07 16:07:53.943] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:07:53.973] [ERROR] console - (node:8180) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:08:17.395] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdHU0FDbE8zQUFNYXgyQWdKZDA4NS5kb2N4' }
+[2017-08-07 16:09:33.516] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:09:33.567] [INFO] console - mongo连接成功
+[2017-08-07 16:09:33.579] [INFO] console - mongo连接打开
+[2017-08-07 16:09:36.619] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 16:09:36.664] [ERROR] console - (node:8181) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:09:36.686] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 16:09:36.687] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 16:09:36.688] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 16:09:36.688] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 16:09:36.688] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 16:09:36.709] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:09:36.717] [INFO] console - 没有token，直接申请
+[2017-08-07 16:09:36.718] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:09:37.074] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '0b4e04b4b8274c5bbe93ad68ad24afe3',
+     refresh_token: 'c8aba18ee2c44b17a46ee066bf55b6ff',
+     issued_time: 1502093363436,
+     expire_time: 1504685363436,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 16:09:38.946] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:09:38.950] [INFO] console - 流程大师功能优先级.xlsx
+[2017-08-07 16:10:51.656] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:10:51.681] [INFO] console - mongo连接成功
+[2017-08-07 16:10:51.694] [INFO] console - mongo连接打开
+[2017-08-07 16:10:53.693] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:10:53.730] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:10:53.736] [ERROR] console - (node:8183) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:10:53.742] [INFO] console - 没有token，直接申请
+[2017-08-07 16:10:53.743] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:10:53.801] [INFO] console - 流程大师功能优先级.xlsx
+[2017-08-07 16:10:56.065] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '1f58d2f6da0841a2984f143b6cf3f9c1',
+     refresh_token: 'fd20a10e32c244d8a3d898399e642bd8',
+     issued_time: 1502093442425,
+     expire_time: 1504685442425,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 16:10:56.330] [INFO] console - done
+[2017-08-07 16:11:51.793] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:11:51.816] [INFO] console - mongo连接成功
+[2017-08-07 16:11:51.825] [INFO] console - mongo连接打开
+[2017-08-07 16:11:53.280] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:11:53.306] [ERROR] console - (node:8200) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:11:53.313] [INFO] console - 流程大师功能优先级.xlsx
+[2017-08-07 16:11:53.314] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:11:53.329] [INFO] console - 没有token，直接申请
+[2017-08-07 16:11:53.329] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:11:53.564] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '5939ae5af00b4e1ca0ae4099ea99bd27',
+     refresh_token: '0774ad6b7c1d444b9e4c2133b2f3628a',
+     issued_time: 1502093499925,
+     expire_time: 1504685499925,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 16:13:02.797] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:13:02.868] [INFO] console - mongo连接成功
+[2017-08-07 16:13:02.907] [INFO] console - mongo连接打开
+[2017-08-07 16:13:04.219] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:13:04.246] [ERROR] console - (node:8201) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:13:04.254] [INFO] console - 流程大师功能优先级.xlsx
+[2017-08-07 16:13:04.255] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:13:04.270] [INFO] console - 没有token，直接申请
+[2017-08-07 16:13:04.271] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:13:04.471] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '5598249a2de243a5b5157dd1328bb53b',
+     refresh_token: 'd34f21fffeca47f58be426d575e9afef',
+     issued_time: 1502093570832,
+     expire_time: 1504685570832,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 16:13:04.623] [INFO] console - done
+[2017-08-07 16:13:12.943] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdHU0FDbE8zQUFNYXgyQWdKZDA4NS5kb2N4' }
+[2017-08-07 16:13:12.947] [INFO] console - 流程大师调研报告.docx
+[2017-08-07 16:13:12.949] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:13:12.950] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '5598249a2de243a5b5157dd1328bb53b',
+        refresh_token: 'd34f21fffeca47f58be426d575e9afef',
+        issued_time: 1502093570832,
+        expire_time: 1504685570832,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 16:13:13.359] [INFO] console - done
+[2017-08-07 16:13:23.396] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:13:23.419] [INFO] console - mongo连接成功
+[2017-08-07 16:13:23.430] [INFO] console - mongo连接打开
+[2017-08-07 16:13:26.488] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:13:26.519] [ERROR] console - (node:8203) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:13:26.539] [INFO] console - 流程大师功能优先级.xlsx
+[2017-08-07 16:13:26.540] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:13:26.547] [INFO] console - 没有token，直接申请
+[2017-08-07 16:13:26.547] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:13:26.763] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '906ab05160ce46a4872f24f7582fdd9d',
+     refresh_token: '5ee63f9f50b14abea13fe6d6332afbe1',
+     issued_time: 1502093593118,
+     expire_time: 1504685593118,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 16:16:50.646] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:16:50.684] [INFO] console - mongo连接成功
+[2017-08-07 16:16:50.697] [INFO] console - mongo连接打开
+[2017-08-07 16:16:56.815] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:16:56.842] [ERROR] console - (node:8286) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:16:56.850] [INFO] console - %E6%B5%81%E7%A8%8B%E5%A4%A7%E5%B8%88%E5%8A%9F%E8%83%BD%E4%BC%98%E5%85%88%E7%BA%A7.xlsx
+[2017-08-07 16:16:56.852] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:16:56.859] [INFO] console - 没有token，直接申请
+[2017-08-07 16:16:56.859] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:16:57.086] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: 'c7bcd0c1265047c280def3849e18c306',
+     refresh_token: '7d3c5076bb754557b140dcf0b7bf518e',
+     issued_time: 1502093803439,
+     expire_time: 1504685803439,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 16:16:57.267] [INFO] console - done
+[2017-08-07 16:17:01.247] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdHU0FDbE8zQUFNYXgyQWdKZDA4NS5kb2N4' }
+[2017-08-07 16:17:01.263] [INFO] console - %E6%B5%81%E7%A8%8B%E5%A4%A7%E5%B8%88%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.docx
+[2017-08-07 16:17:01.266] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:17:01.274] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'c7bcd0c1265047c280def3849e18c306',
+        refresh_token: '7d3c5076bb754557b140dcf0b7bf518e',
+        issued_time: 1502093803439,
+        expire_time: 1504685803439,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 16:17:01.777] [INFO] console - done
+[2017-08-07 16:17:16.127] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdZaUFiTjVIQUFDRDNXa2V4NTg2Ni54bHN4' }
+[2017-08-07 16:17:16.144] [INFO] console - %E6%B5%81%E7%A8%8B%E5%A4%A7%E5%B8%88%E5%8A%9F%E8%83%BD%E4%BC%98%E5%85%88%E7%BA%A7.xlsx
+[2017-08-07 16:17:16.145] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:17:16.146] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'c7bcd0c1265047c280def3849e18c306',
+        refresh_token: '7d3c5076bb754557b140dcf0b7bf518e',
+        issued_time: 1502093803439,
+        expire_time: 1504685803439,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 16:17:16.331] [INFO] console - done
+[2017-08-07 16:17:29.126] [INFO] console - 查询条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  mediaId: 'Z3JvdXAxL00wMC8wNi8zMC9DaTh4Q0ZtSUdHU0FDbE8zQUFNYXgyQWdKZDA4NS5kb2N4' }
+[2017-08-07 16:17:29.131] [INFO] console - %E6%B5%81%E7%A8%8B%E5%A4%A7%E5%B8%88%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.docx
+[2017-08-07 16:17:29.132] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:17:29.133] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: 'c7bcd0c1265047c280def3849e18c306',
+        refresh_token: '7d3c5076bb754557b140dcf0b7bf518e',
+        issued_time: 1502093803439,
+        expire_time: 1504685803439,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 16:17:29.648] [INFO] console - done
+[2017-08-07 16:35:27.485] [INFO] console - Express server listening on :8090, in development mode
+[2017-08-07 16:35:27.566] [INFO] console - mongo连接成功
+[2017-08-07 16:35:27.596] [INFO] console - mongo连接打开
+[2017-08-07 16:54:58.448] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 16:54:58.528] [ERROR] console - (node:8445) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-08-07 16:54:58.561] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 16:54:58.563] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 16:54:58.564] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 16:54:58.565] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 16:54:58.566] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 16:54:58.588] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 16:54:58.603] [INFO] console - 没有token，直接申请
+[2017-08-07 16:54:58.604] [INFO] console - 申请token参数是
+ { method: 'POST',
+  url: 'https://api3.workplus.io/v1/token',
+  json: true,
+  body: 
+   { grant_type: 'client_credentials',
+     scope: 'app',
+     domain_id: 'atwork',
+     client_id: 'P4ezEc4FkB4IUIiK0Eg_3h',
+     client_secret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+     org_id: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac' } }
+[2017-08-07 16:54:58.940] [INFO] console - 申请token响应是 { status: 0,
+  message: 'Everything is ok.',
+  result: 
+   { access_token: '00f1b2656caf45fe8659dbc66647460b',
+     refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+     issued_time: 1502096085255,
+     expire_time: 1504688085255,
+     client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } }
+[2017-08-07 17:04:42.758] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:04:42.770] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:04:42.771] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:04:42.771] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:04:42.772] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:04:42.772] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:04:42.798] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:04:42.802] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:15:00.272] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:15:00.292] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:15:00.293] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:15:00.294] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:15:00.294] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:15:00.295] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:15:00.310] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:15:00.312] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:22:38.384] [INFO] console - 创建对象 { fileName: 'sss',
+  father: 'root',
+  appId: '59804f25330cf1802efd6fc8',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileType: 'dir',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-07 17:22:38.581] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:22:38.587] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:22:38.589] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:22:38.592] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:22:38.592] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:22:38.594] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:22:38.605] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:22:38.608] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:22:41.731] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:22:41.736] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:22:41.736] [INFO] console - { appId: '59804f25330cf1802efd6fc8',
+  father: '5988315ea8788a20fd72d324' }
+[2017-08-07 17:22:41.737] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8',
+  father: '5988315ea8788a20fd72d324' }
+[2017-08-07 17:22:41.737] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:22:41.738] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8',
+  father: '5988315ea8788a20fd72d324' }
+[2017-08-07 17:22:41.741] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:22:41.742] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:22:44.051] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:22:44.054] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:22:44.054] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:22:44.055] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:22:44.055] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:22:44.055] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:22:44.062] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:22:44.063] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:23:27.763] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:23:27.767] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:23:27.768] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:27.768] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:27.768] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:23:27.769] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:27.785] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:23:27.786] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:23:41.585] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:23:41.605] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:23:41.606] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:41.628] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:41.628] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:23:41.628] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:41.635] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:23:41.643] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:23:51.320] [INFO] console - 创建对象 { fileName: 'sdff',
+  father: 'root',
+  appId: '59804f25330cf1802efd6fc8',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileType: 'dir',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-07 17:23:51.427] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:23:51.431] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:23:51.431] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:51.432] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:51.433] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:23:51.433] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:51.439] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:23:51.440] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:23:57.712] [INFO] console - 创建对象 { link: '33',
+  fileName: 'asdf123123',
+  father: 'root',
+  appId: '59804f25330cf1802efd6fc8',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileType: 'link',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-07 17:23:57.766] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:23:57.769] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:23:57.769] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:57.769] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:57.770] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:23:57.770] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:23:57.775] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:23:57.776] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:24:10.586] [INFO] console - 删除条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  _id: '598831a7a8788a20fd72d325',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-07 17:24:10.620] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:24:10.624] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:24:10.625] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:24:10.625] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:24:10.627] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:24:10.627] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:24:10.637] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:24:10.638] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:24:12.805] [INFO] console - 删除条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  _id: '5988315ea8788a20fd72d324',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-07 17:24:12.831] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:24:12.834] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:24:12.835] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:24:12.835] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:24:12.836] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:24:12.836] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:24:12.840] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:24:12.841] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:37:29.573] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:37:29.648] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:37:29.649] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:37:29.650] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:37:29.650] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:37:29.651] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:37:29.655] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:37:29.657] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:42:58.109] [INFO] console - 创建对象 { link: 'www',
+  fileName: 'asdfbaidu',
+  father: 'root',
+  appId: '59804f25330cf1802efd6fc8',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileType: 'link',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-07 17:42:58.169] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:42:58.180] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:42:58.180] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:42:58.183] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:42:58.183] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:42:58.184] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:42:58.188] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:42:58.189] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:43:07.992] [INFO] console - 创建对象 { link: 'www.baidu.com',
+  fileName: 'asdfbaidu',
+  father: 'root',
+  appId: '59804f25330cf1802efd6fc8',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileType: 'link',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-07 17:43:08.065] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:43:08.070] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:43:08.070] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:43:08.070] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:43:08.073] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:43:08.073] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:43:08.087] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:43:08.107] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:44:00.648] [INFO] console - 删除条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  _id: '59883622a8788a20fd72d327',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-07 17:44:00.723] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:44:00.729] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:44:00.731] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:44:00.731] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:44:00.732] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:44:00.732] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:44:00.740] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:44:00.741] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:44:02.831] [INFO] console - 删除条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  _id: '598831ada8788a20fd72d326',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-07 17:44:02.861] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:44:02.866] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:44:02.866] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:44:02.866] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:44:02.867] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:44:02.867] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:44:02.879] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:44:02.880] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:44:13.670] [INFO] console - 创建对象 { link: 'www.baidu.com',
+  fileName: '2222',
+  father: 'root',
+  appId: '59804f25330cf1802efd6fc8',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileType: 'link',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-07 17:44:13.742] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:44:13.746] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:44:13.746] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:44:13.747] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:44:13.747] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:44:13.747] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:44:13.751] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:44:13.751] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:46:36.119] [INFO] console - 创建对象 { link: 'http://baidu.com',
+  fileName: '测试',
+  father: 'root',
+  appId: '59804f25330cf1802efd6fc8',
+  ownerName: '罗捷',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7',
+  fileType: 'link',
+  fileSize: '',
+  getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId] }
+[2017-08-07 17:46:36.182] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:46:36.196] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:46:36.196] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:46:36.196] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:46:36.197] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:46:36.197] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:46:36.202] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:46:36.205] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:46:49.385] [INFO] console - 删除条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  _id: '5988366da8788a20fd72d329',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-07 17:46:49.422] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:46:49.438] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:46:49.440] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:46:49.443] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:46:49.443] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:46:49.443] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:46:49.453] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:46:49.454] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:46:51.183] [INFO] console - 删除条件是 { getList: [Function: getList],
+  createFile: [Function: createFile],
+  getBugById: [Function: getBugById],
+  deleteFile: [Function: deleteFile],
+  createDir: [Function: createDir],
+  getFileNameByMediaId: [Function: getFileNameByMediaId],
+  _id: '5988362ba8788a20fd72d328',
+  ownerId: 'c80250ac61534b178ffb9d001f537da7' }
+[2017-08-07 17:46:51.202] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:46:51.204] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:46:51.204] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:46:51.205] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:46:51.205] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:46:51.205] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:46:51.211] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:46:51.214] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:48:03.412] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:48:03.422] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:48:03.422] [INFO] console - { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 17:48:03.423] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 17:48:03.423] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:48:03.423] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8',
+  father: '5982ee3655cf1f1b32ead86d' }
+[2017-08-07 17:48:03.427] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:48:03.429] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }
+[2017-08-07 17:48:06.075] [INFO] console - 查询条件是 { getApps: { [Function: createPromise] __generatorFunction__: [Function] },
+  createApp: [Function: createApp],
+  getAppById: [Function: getAppById],
+  getAppByName: [Function: getAppByName],
+  deleteAppById: [Function: deleteAppById],
+  updateAppById: [Function: updateAppById],
+  _id: '59804f25330cf1802efd6fc8' }
+[2017-08-07 17:48:06.078] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:48:06.078] [INFO] console - { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:48:06.079] [INFO] console - condition { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:48:06.079] [INFO] console -  ********** getQueryCondition ********** 
+[2017-08-07 17:48:06.079] [INFO] console - 查询条件是 { appId: '59804f25330cf1802efd6fc8', father: 'root' }
+[2017-08-07 17:48:06.086] [INFO] console - { clientId: 'P4ezEc4FkB4IUIiK0Eg_3h',
+  clientSecret: '0HDMeZfmf7uJvn6oPqIohFjwnazfR480',
+  adminServer: 'https://api3.workplus.io/v1',
+  domainId: 'atwork',
+  orgId: 'e63bf7a5-ce40-4c03-bd08-3204d33034ac',
+  sourceType: 'NATIVE' }
+[2017-08-07 17:48:06.087] [INFO] console - 使用缓存token { status: 'token ready',
+  token: 
+   { status: 0,
+     message: 'Everything is ok.',
+     result: 
+      { access_token: '00f1b2656caf45fe8659dbc66647460b',
+        refresh_token: '5c9fc309f7f949bfb5c9ad76ea043f5b',
+        issued_time: 1502096085255,
+        expire_time: 1504688085255,
+        client_id: '4b587d2e-58eb-4dc9-bb36-2a03e8978b2b' } } }

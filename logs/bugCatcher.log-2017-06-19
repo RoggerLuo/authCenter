@@ -1,0 +1,528 @@
+[2017-06-19 15:56:49.700] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-19 15:56:49.746] [INFO] console - mongo连接成功
+[2017-06-19 15:56:49.758] [INFO] console - mongo连接打开
+[2017-06-19 15:58:48.695] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-19 15:58:48.728] [INFO] console - mongo连接成功
+[2017-06-19 15:58:48.742] [INFO] console - mongo连接打开
+[2017-06-19 15:59:37.771] [INFO] console - iamin
+[2017-06-19 15:59:37.786] [INFO] console - 创建对象 {}
+[2017-06-19 15:59:37.825] [ERROR] console - (node:58768) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-19 16:01:34.051] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:01:34.052] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:25:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+[2017-06-19 16:01:34.066] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:25:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3) 'Error: e_params\n    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15\n    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18\n    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:25:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)'
+[2017-06-19 16:07:10.386] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:07:10.389] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:25:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+[2017-06-19 16:07:10.424] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:25:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3) 'Error: e_params\n    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15\n    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18\n    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:25:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)'
+[2017-06-19 16:08:31.028] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-19 16:08:31.071] [INFO] console - mongo连接成功
+[2017-06-19 16:08:31.093] [INFO] console - mongo连接打开
+[2017-06-19 16:08:57.263] [INFO] console - { mobile: '123' }
+[2017-06-19 16:08:57.307] [INFO] console - {}
+[2017-06-19 16:08:57.308] [INFO] console - { mobile: '123' }
+[2017-06-19 16:08:57.311] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:08:57.311] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:30:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+[2017-06-19 16:08:57.327] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:30:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3) 'Error: e_params\n    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15\n    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18\n    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:30:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)'
+[2017-06-19 16:09:44.924] [INFO] console - { mobile: '123' }
+[2017-06-19 16:09:44.925] [INFO] console - {}
+[2017-06-19 16:09:44.925] [INFO] console - { mobile: '123' }
+[2017-06-19 16:09:44.928] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:09:44.929] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:30:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+[2017-06-19 16:09:44.939] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:30:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3) 'Error: e_params\n    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15\n    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18\n    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:30:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)'
+[2017-06-19 16:10:12.655] [INFO] console - { mobile: '123' }
+[2017-06-19 16:10:12.656] [INFO] console - {}
+[2017-06-19 16:10:12.657] [INFO] console - { mobile: '123' }
+[2017-06-19 16:10:12.659] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:10:12.659] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:30:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+[2017-06-19 16:10:12.663] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:30:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3) 'Error: e_params\n    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15\n    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18\n    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:30:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:22:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)'
+[2017-06-19 16:12:22.591] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-19 16:12:22.612] [INFO] console - mongo连接成功
+[2017-06-19 16:12:22.626] [INFO] console - mongo连接打开
+[2017-06-19 16:12:34.354] [INFO] console - iamin
+[2017-06-19 16:12:34.355] [INFO] console - {}
+[2017-06-19 16:12:34.376] [INFO] console - 创建对象 {}
+[2017-06-19 16:12:34.391] [ERROR] console - (node:58923) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-19 16:12:34.420] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:12:34.421] [INFO] console - { MongoError: E11000 duplicate key error index: bugCatcher.accounts.$username_1_mobile_1 dup key: { : "", : "" }
+    at Function.MongoError.create (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js:139:22)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'E11000 duplicate key error index: bugCatcher.accounts.$username_1_mobile_1 dup key: { : "", : "" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error index: bugCatcher.accounts.$username_1_mobile_1 dup key: { : "", : "" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+[2017-06-19 16:12:34.439] [ERROR] console - { MongoError: E11000 duplicate key error index: bugCatcher.accounts.$username_1_mobile_1 dup key: { : "", : "" }
+    at Function.MongoError.create (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js:139:22)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'E11000 duplicate key error index: bugCatcher.accounts.$username_1_mobile_1 dup key: { : "", : "" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error index: bugCatcher.accounts.$username_1_mobile_1 dup key: { : "", : "" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] } 'MongoError: E11000 duplicate key error index: bugCatcher.accounts.$username_1_mobile_1 dup key: { : "", : "" }\n    at Function.MongoError.create (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)\n    at toError (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js:139:22)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/collection.js:669:23\n    at handleCallback (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js:120:56)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:465:9\n    at handleCallback (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/utils.js:120:56)\n    at resultHandler (/Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:413:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)'
+[2017-06-19 16:13:51.965] [ERROR] console - SyntaxError: Unexpected token ' in JSON at position 6
+    at Object.parse (native)
+    at parse (/Users/RogersMac/Sites/bug-catcher/server/node_modules/body-parser/lib/types/json.js:88:17)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/Users/RogersMac/Sites/bug-catcher/server/node_modules/raw-body/index.js:262:16)
+    at done (/Users/RogersMac/Sites/bug-catcher/server/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/Users/RogersMac/Sites/bug-catcher/server/node_modules/raw-body/index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-06-19 16:14:29.166] [INFO] console - iamin
+[2017-06-19 16:14:29.166] [INFO] console - { username: 'test3', mobile: '1233', password: '1234' }
+[2017-06-19 16:14:29.168] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:14:29.169] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:17:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at register (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:14:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+[2017-06-19 16:14:29.181] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:17:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at register (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:14:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5) 'Error: e_params\n    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15\n    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18\n    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:17:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at register (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:14:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)'
+[2017-06-19 16:14:49.121] [INFO] console - iamin
+[2017-06-19 16:14:49.122] [INFO] console - { username: 'test3', mobile: '1233', password: '1234' }
+[2017-06-19 16:14:49.123] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:14:49.124] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:17:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at register (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:14:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+[2017-06-19 16:14:49.130] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:17:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at register (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:14:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5) 'Error: e_params\n    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15\n    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18\n    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:17:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at register (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:14:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)'
+[2017-06-19 16:17:04.486] [INFO] console - iamin
+[2017-06-19 16:17:04.487] [INFO] console - { username: 'test3', mobile: '1233', password: '1234' }
+[2017-06-19 16:17:04.487] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:17:04.488] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:17:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at register (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:14:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+[2017-06-19 16:17:04.491] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:17:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at register (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:14:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5) 'Error: e_params\n    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15\n    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18\n    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:17:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at register (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:14:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)'
+[2017-06-19 16:19:10.978] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-19 16:19:11.006] [INFO] console - mongo连接成功
+[2017-06-19 16:19:11.014] [INFO] console - mongo连接打开
+[2017-06-19 16:19:22.609] [INFO] console - iamin
+[2017-06-19 16:19:22.609] [INFO] console - { username: 'test3', mobile: '1233', password: '1234' }
+[2017-06-19 16:19:22.633] [INFO] console - 创建对象 { username: 'test3', mobile: '1233', password: '1234' }
+[2017-06-19 16:19:22.647] [ERROR] console - (node:58948) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2017-06-19 16:19:57.634] [INFO] console - { password: '1234', mobile: '1233' }
+[2017-06-19 16:19:57.635] [INFO] console - { password: '1234' }
+[2017-06-19 16:19:57.635] [INFO] console - { mobile: '1233' }
+[2017-06-19 16:19:57.639] [INFO] console - ******** getResFn error ******** 
+[2017-06-19 16:19:57.641] [INFO] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:33:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:25:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)
+[2017-06-19 16:19:57.648] [ERROR] console - Error: e_params
+    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15
+    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18
+    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)
+    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)
+    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:33:20
+    at next (native)
+    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5
+    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)
+    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:25:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3) 'Error: e_params\n    at /Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:18:10\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4944:15\n    at baseForOwn (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:3001:24)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:4913:18\n    at Function.forEach (/Users/RogersMac/Sites/bug-catcher/server/node_modules/lodash/lodash.js:9359:14)\n    at Object.isParamsLost (/Users/RogersMac/Sites/bug-catcher/server/utils/validate.js:13:11)\n    at /Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:33:20\n    at next (native)\n    at onFulfilled (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:65:19)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:54:5\n    at co (/Users/RogersMac/Sites/bug-catcher/server/node_modules/co/index.js:50:10)\n    at login (/Users/RogersMac/Sites/bug-catcher/server/apps/account_app.js:25:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:281:22\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:354:14)\n    at param (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:410:3)\n    at next (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/RogersMac/Sites/bug-catcher/server/node_modules/express/lib/router/index.js:174:3)'
+[2017-06-19 16:20:11.738] [INFO] console - Express server listening on 172.16.1.178:8090, in development mode
+[2017-06-19 16:20:11.764] [INFO] console - mongo连接成功
+[2017-06-19 16:20:11.772] [INFO] console - mongo连接打开
+[2017-06-19 16:21:17.677] [INFO] console - { password: '1234', mobile: '1233' }
+[2017-06-19 16:21:17.701] [INFO] console - { password: '1234' }
+[2017-06-19 16:21:17.703] [INFO] console - { mobile: '1233' }
+[2017-06-19 16:21:17.706] [INFO] console - 查询条件是 { mobile: '1233' }
+[2017-06-19 16:21:17.718] [ERROR] console - (node:58952) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
