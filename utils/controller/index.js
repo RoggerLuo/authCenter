@@ -5,12 +5,25 @@ function fail(errorCode,message){
     error.name = errorCode
     throw error 
 }
+const integretyCheck = function(requires, params) {
+	requires = requires || []
+    params = params || {}
+    requires.forEach(name=>{
+        if(params[name] === undefined) {
+            console.log('==========================')
+            console.log('missing parameter:'+name)
+            console.log('==========================')
+			fail(1000,'missing parameter:'+name)
+        }
+    })
+}
 module.exports = {
-    controller: _generator => function(req, res){
+    controller: (paramsList=[],_generator) => function(req, res){
         const client = handleRes.getResFn(res)
         co(function*(){
             let rs
             try{
+                integretyCheck(paramsList,{...req.query,...req.body,...req.params})
                 rs = yield _generator({req,res,fail})
             }catch(err){
                 client.fail(err)
