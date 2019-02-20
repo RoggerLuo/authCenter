@@ -1,22 +1,5 @@
 const co = require('co')
 const handleRes = require('./handle_res.js')
-function fail(errorCode,message){
-    const error = new Error(message)
-    error.name = errorCode
-    throw error 
-}
-const integretyCheck = function(requires, params) {
-	requires = requires || []
-    params = params || {}
-    requires.forEach(name=>{
-        if(params[name] === undefined) {
-            console.log('==========================')
-            console.log('missing parameter:'+name)
-            console.log('==========================')
-			fail(1000,'missing parameter:'+name)
-        }
-    })
-}
 module.exports = {
     controller: (paramsList=[],_generator) => function(req, res){
         const client = handleRes.getResFn(res)
@@ -32,5 +15,36 @@ module.exports = {
             client.success(rs||null)
         })
     },
-    delay: timeout => new Promise(resolve => setTimeout(resolve,timeout)),    
+    delay: timeout => new Promise(resolve => setTimeout(resolve,timeout)),
+}
+function toSimpleObject(mongooseObj) {
+	if (!mongooseObj) {
+		return mongooseObj
+	}
+	if (mongooseObj instanceof Array) {
+		return mongooseObj.map(obj => obj.toObject());
+	} else {
+        if(mongooseObj.toObject) {
+            return mongooseObj.toObject()
+        } else {
+            return null
+        }
+	}
+}
+function integretyCheck(requires, params) {
+	requires = requires || []
+    params = params || {}
+    requires.forEach(name=>{
+        if(params[name] === undefined) {
+            console.log('==========================')
+            console.log('missing parameter:'+name)
+            console.log('==========================')
+			fail(1000,'missing parameter:'+name)
+        }
+    })
+}
+function fail(errorCode,message){
+    const error = new Error(message)
+    error.name = errorCode
+    throw error 
 }

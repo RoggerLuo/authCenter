@@ -16,7 +16,7 @@ const config = () => {
                 // "48d8d92803364212b84976e0f7c6c08a",
             },
             mongo: {
-              uri: 'mongodb://localhost/userAutoCenter',
+              uri: 'mongodb://localhost/authCenter',
               opts: {
                 user: '',
                 pass: '',

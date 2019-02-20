@@ -4,7 +4,7 @@ const app = require('./app')
 
 router.post('/register',app.register)
 // router.delete('/logout',app.logout );
-// router.post('/login',app.login)
+router.post('/login',app.login)
 
 
 // router.get('/', app.getList)
