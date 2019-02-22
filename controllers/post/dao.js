@@ -1,42 +1,11 @@
-const mongoose = require("mongoose")
-const wrap = require('../../utils/toSimpleObject')
-const _ops = require('../../utils/ops')
-require('./model')
-const _model = mongoose.model("post")
-const ops = _ops.bind(_model)()
-const create = params => ops.insertOne({...params})
-const getList = (params={}) => {
-    const condition = getQueryCondition(params)
-	console.log(' ********** getQueryCondition ********** ')
-	console.log('condition', condition)
-	console.log(' ********** getQueryCondition ********** ')
-	const sort = {_id: -1}
-	return ops.find(condition).sort(sort).exec()
-}
-const deleteOne = function({_id}){
-	const condition = {_id}
-	return ops.findOneAndRemove(condition).exec()
-}
-const find = (condition) => { 
-    return ops.find(condition).exec() 
-}
-
-// const Db_Tool = require('../../utils/db_tool')
-// const getCreatDateCondition = require('../../utils/tools').getCreatDateCondition
-// const getQueryCondition = function({url,type,appId,...params}){
-//     const condition = {}
-//     if(appId) condition.appId = appId
-// 	if(url) condition.url = url		
-//     if(type) condition.type = type
-//     if(params.from || params.to){
-// 		condition.createDate = getCreatDateCondition(params.from, params.to)
-// 	}
-// 	return condition
-// }
-
+const {getDao,toObject} = require('../../utils/dao')
+const dao = getDao(require('./model'))
 module.exports = {
-	getList:wrap(getList),
-	create:wrap(create),
-	find:wrap(find),
-	deleteOne:wrap(deleteOne)
+    ...dao,
+    incrementReadNumber(_id){
+        const update = {"$inc": {readNumber: 1}}
+        return dao.operations.findOneAndUpdate({_id}, update, {new: true}).exec().then(toObject) 
+    },
+    updateThumb:(_id,thumbNumber) => dao.updateOne({_id},{thumbNumber}),
+    getSubjectId: postId => dao.findOne({_id:postId}).then(data=>data.subjectId)
 }

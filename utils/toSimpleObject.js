@@ -11,7 +11,7 @@ const toSimpleObject = function(mongooseObj) {
             return null
         }
 	}
-};
+}
 const wrap = func => params => {
     return func(params).then(toSimpleObject)
 }

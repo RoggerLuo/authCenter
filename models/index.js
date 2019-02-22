@@ -1,4 +1,4 @@
-require('./subject')
+// require('./subject')
 
 // require('./account_model')
 // require('./application_model')

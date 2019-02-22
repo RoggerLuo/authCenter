@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const app = require('../apps/subject')
+const app = require('../controllers/subject')
 const isAppExisted = require('../utils/validate').isAppExisted
 
 router.get('/', app.getList)

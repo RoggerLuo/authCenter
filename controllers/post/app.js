@@ -1,59 +1,70 @@
-const co = require('co')
-// const mongoose = require('mongoose')
 const HandleRes = require('../../utils/handle_res')
 const Validate = require('../../utils/validate')
 const dao = require('./dao')
-const userId = 'abcde'
-
-const create = function(req, res){
-	const client = HandleRes.getResFn(res)
-	co(function*(){
-		let rParams = [ 'title', 'content', 'images', 'subjectId' ]
-        yield Validate.isParamsLost(rParams, req.body)
-        req.body.images = JSON.parse(req.body.images) // 为了解析数组
-		let entry = yield dao.create({
-            ...req.body,
-            authorId:userId,
-            createTime:Date.now()
+const thumbApp = require('../thumb/app')
+const {getAuthor} = require('../auth/dao')
+const {getSubject,updatePostCount,updatePopularity} = require('../subject/dao')
+const {controller} = require('../../utils/controller')
+const userId = 'c80250ac61534b178ffb9d001f537da7'
+/* post error code basic: 2 */
+module.exports = {
+    getList: controller(['subjectId'],function*({req}){
+        const {startIndex,pageSize} = req.query
+        const condition = {subjectId:req.query.subjectId}
+        const {count,data} = yield dao.paginationFind(condition,{startIndex,pageSize})
+        const authors = yield data.map(el=>getAuthor(el.authorId))
+        const thumbStatus = yield data.map(el=>thumbApp.isThumbed({postId:req.params._id,userId}))
+        const subjectInfo = yield getSubject(req.query.subjectId)
+        data.forEach((el,ind)=>{
+            el.authorInfo = authors[ind]
+            el.thumbStatus = thumbStatus[ind]
+            delete el.authorid
         })
-		client.success({_id: entry._id})
-	}).catch(client.fail)
-}
-const getList = function(req, res){
-    const client = HandleRes.getResFn(res)    
-    co(function*(){
-        let rParams = [ 'subjectId' ]
-		yield Validate.isParamsLost(rParams, req.query)
-		// let condition = {}//{ownerId:req.session.userId}
-		const data = yield dao.getList(req.query)
-		client.success(data)
-	}).catch(client.fail)
+        return {total:count,data,subjectInfo}
+    }),
+    create: controller([ 'title', 'content', 'images', 'subjectId' ],function*({req, res}){
+        let entry = yield dao.create({...req.body, authorId:userId, createTime: Date.now()})
+        const len = yield dao.count({subjectId:req.body.subjectId})
+        yield updatePostCount(req.body.subjectId,len)
+        yield updatePopularity(req.body.subjectId)
+        return {_id: entry._id}
+    }),
+    getOne: controller(['_id'],function*({req}){
+        let post = yield dao.incrementReadNumber(req.params._id) // 阅读+1
+        if(post) {
+            post.thumbStatus = yield thumbApp.isThumbed({postId:req.params._id,userId})
+            post.authorInfo = yield getAuthor(userId)
+        }
+        return post
+    }),
+    deleteOne: controller(['_id'],function*({req,fail}){
+        const rs = yield dao.findOne({_id:req.params._id})
+        if(rs === null) fail(240,'post does not exist')
+        const subjectId = yield dao.getSubjectId(req.params._id)
+        yield dao.deleteOne(req.params)
+
+        const len = yield dao.count({subjectId})
+        yield updatePostCount(subjectId,len)
+        return 'ok'
+    }),
 }
 
-const getOne = function(req, res){
+
+
+
+
+// const co = require('co')
+const updateAppById = function(req, res){
 	const client = HandleRes.getResFn(res);
 	co(function*(){
-        let rParams = [ '_id' ]
-        yield Validate.isParamsLost(rParams, req.params)
-        let posts = yield dao.find(req.params)
-        if(posts.length===0){
-            client.success(null)
-        }else{
-            // 阅读 +1
-            const post = posts[0]
-            client.success(post)
-        }
-	}).catch(client.fail)
-}
-const deleteOne = function(req, res){
-	const client = HandleRes.getResFn(res)
-	co(function*(){
-		let rParams = [ '_id' ]
-		yield Validate.isParamsLost(rParams, req.params)
-		yield dao.deleteOne(req.params)
-		client.success('ok')
-	}).catch(client.fail)
-}
+		let rParams = [ 'id', 'name' ];
+		let params = Object.assign({}, req.params, req.body);
+		yield Validate.isParamsLost(rParams, params);
+		let app = yield ApplicationDao.updateAppById(req.params.id, req.body.name);
+		client.success({appKey: app._id});
+	}).catch(client.fail);
+};
+
 
 
 
@@ -110,40 +121,3 @@ const getpostAdmin = function(req, res){
 		client.success(mockData)
 	}).catch(client.fail)
 }
-module.exports = {
-	getList,
-    create,
-    getOne,
-    deleteOne,
-	// getAppById,
-	// getAppByName,
-	// updateAppById,
-	// deleteOne,
-	// categorize,
-	// getbannedusers,
-	// getbannedusersadd,
-	// getpostAdmin,
-	// getpostdetails
-}
-
-
-// const dao = require('../daos/post')
-
-// router.get('/', app.getList)
-// router.post('/',app.create)
-// router.get('/:_id', app.get)
-// router.delete('/:_id',app.deleteOne)
-// router.get('/search', app.search) 
-
-    // title:def.string,
-    // content:def.string,
-    // readNumber:def.number,
-    // thumbNumber:def.number,
-    // replyNumber:def.number,
-    // createTime:def.number,
-    // images:[],
-    // subjectId:{
-    //     type: mongoose.Schema.Types.ObjectId,
-    //     ref: "subject"
-    // }
-// const uuid = require('node-uuid')
