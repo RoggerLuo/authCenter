@@ -8,10 +8,10 @@ const {isLoggedIn,fetchInfo} = require('./helper')
 // const router = require("koa-router")();
 const AccountModel = require('./model');
 var jwt = require('jsonwebtoken');
-// const key = require('../config/secret-key');
+// const encrypt_key = require('../config/secret-key');
 const md5 = require('md5');
-const {controller,delay} = require('../../utils/controller')
-const key = 'b296c7ec-a441-46cb-948a-30a1514084ef'
+const {controller} = require('../../utils/controller')
+const encrypt_key = 'b296c7ec-a441-46cb-948a-30a1514084ef'
 function guid() { 
     function S4() { 
         return (((1+Math.random())*0x10000)|0).toString(16).substring(1); 
@@ -30,7 +30,7 @@ const register = controller(['username','password'],function*({req,fail}){
     if(isDuplicatedUsername) {
         fail(113,'duplicated username')
     }
-    requestAccount.password = md5(key + requestAccount.password);
+    requestAccount.password = md5(encrypt_key + requestAccount.password);
     requestAccount.user_id = guid()
     let result = yield AccountModel.create(requestAccount);
     if (result) {
@@ -58,14 +58,14 @@ const login = controller(['username','password'],function*({req,fail}){ //async 
     if (!requestAccount.password || requestAccount.password.length < 6) {
         fail(112,'length of password need >= 6')
     }
-    requestAccount.password = md5(key + requestAccount.password);
+    requestAccount.password = md5(encrypt_key + requestAccount.password);
     let account = yield AccountModel.findOne(requestAccount);
     if (account) {
         // let cert = fs.readFileSync(path.resolve(__dirname, '../config/jwt.pem'));
         let userToken = jwt.sign({
                 _id: account._id,
                 username: account.username
-            },key)
+            },encrypt_key)
             // , cert,
             // {
             //     algorithm: 'RS256',
@@ -78,19 +78,17 @@ const login = controller(['username','password'],function*({req,fail}){ //async 
 
 })
 //登陆鉴权测试接口
-router.get('/test', async (ctx) => {
-    userToken = ctx.request.get('Authorization');
-    let cert = fs.readFileSync(path.resolve(__dirname, '../config/jwt_pub.pem'));
-
-    try {
-        const decoded = await jwt.verify(userToken, cert);
-        ctx.body = response.createOKResponse(decoded);
-    } catch (e) {
-        ctx.throw(401, 'need authorization')
-    }
-});
 module.exports = {
     login,
-    // logout,
-    register
+    register,
+    test: controller([],function*({req,fail}){
+        const userToken = req.query.token
+        try {
+            const decoded = yield jwt.verify(userToken, encrypt_key)
+            return decoded
+        } catch (e) {
+            fail(401, 'authorization failed')
+        }
+    
+    })
 }

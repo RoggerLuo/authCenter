@@ -3,7 +3,7 @@ const router = express.Router()
 const app = require('./app')
 
 router.post('/register',app.register)
-// router.delete('/logout',app.logout );
+router.get('/test',app.test );
 router.post('/login',app.login)
 
 

@@ -1,0 +1,140 @@
+[2019-02-20 18:11:25.457] [INFO] console - Express server listening on :8093, in development mode
+[2019-02-20 18:11:25.482] [INFO] console - mongo连接成功
+[2019-02-20 18:11:25.486] [INFO] console - mongo连接打开
+[2019-02-20 18:12:12.139] [INFO] console - Express server listening on :8093, in development mode
+[2019-02-20 18:12:12.148] [INFO] console - mongo连接成功
+[2019-02-20 18:12:12.151] [INFO] console - mongo连接打开
+[2019-02-20 18:12:35.604] [INFO] console - ******** getResFn error ******** 
+[2019-02-20 18:12:35.606] [INFO] console - { 111: length of username need >= 3
+    at fail (/Users/roger/ML/auth-server/utils/controller/index.js:47:19)
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:24:9
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at /Users/roger/ML/auth-server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/ML/auth-server/node_modules/co/index.js:50:10)
+    at toPromise (/Users/roger/ML/auth-server/node_modules/co/index.js:118:63)
+    at next (/Users/roger/ML/auth-server/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:69:7)
+    at /Users/roger/ML/auth-server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/ML/auth-server/node_modules/co/index.js:50:10)
+    at /Users/roger/ML/auth-server/utils/controller/index.js:6:9
+    at Layer.handle [as handle_request] (/Users/roger/ML/auth-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/ML/auth-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/ML/auth-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/ML/auth-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:174:3) name: 111 }
+[2019-02-20 18:12:35.615] [ERROR] console - { 111: length of username need >= 3
+    at fail (/Users/roger/ML/auth-server/utils/controller/index.js:47:19)
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:24:9
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at /Users/roger/ML/auth-server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/ML/auth-server/node_modules/co/index.js:50:10)
+    at toPromise (/Users/roger/ML/auth-server/node_modules/co/index.js:118:63)
+    at next (/Users/roger/ML/auth-server/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:69:7)
+    at /Users/roger/ML/auth-server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/roger/ML/auth-server/node_modules/co/index.js:50:10)
+    at /Users/roger/ML/auth-server/utils/controller/index.js:6:9
+    at Layer.handle [as handle_request] (/Users/roger/ML/auth-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/roger/ML/auth-server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/roger/ML/auth-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/roger/ML/auth-server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:174:3) name: 111 } '111: length of username need >= 3\n    at fail (/Users/roger/ML/auth-server/utils/controller/index.js:47:19)\n    at /Users/roger/ML/auth-server/controllers/auth/app.js:24:9\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)\n    at /Users/roger/ML/auth-server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/ML/auth-server/node_modules/co/index.js:50:10)\n    at toPromise (/Users/roger/ML/auth-server/node_modules/co/index.js:118:63)\n    at next (/Users/roger/ML/auth-server/node_modules/co/index.js:99:29)\n    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:69:7)\n    at /Users/roger/ML/auth-server/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/roger/ML/auth-server/node_modules/co/index.js:50:10)\n    at /Users/roger/ML/auth-server/utils/controller/index.js:6:9\n    at Layer.handle [as handle_request] (/Users/roger/ML/auth-server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/roger/ML/auth-server/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/roger/ML/auth-server/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/roger/ML/auth-server/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/roger/ML/auth-server/node_modules/express/lib/router/index.js:174:3)'
+[2019-02-20 18:12:35.620] [ERROR] console - (node:36664) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-02-20 18:12:40.270] [ERROR] console - (node:36664) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-20 18:13:19.959] [INFO] console - ******** getResFn error ******** 
+[2019-02-20 18:13:19.961] [INFO] console - Error: duplicated username
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:31:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-02-20 18:13:19.964] [ERROR] console - Error: duplicated username
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:31:15
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11) 'Error: duplicated username\n    at /Users/roger/ML/auth-server/controllers/auth/app.js:31:15\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)\n    at process._tickCallback (internal/process/next_tick.js:61:11)'
+[2019-02-20 18:14:26.814] [INFO] console - Express server listening on :8093, in development mode
+[2019-02-20 18:14:26.823] [INFO] console - mongo连接成功
+[2019-02-20 18:14:26.825] [INFO] console - mongo连接打开
+[2019-02-20 18:14:29.064] [ERROR] console - (node:36711) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-20 18:14:29.070] [INFO] console - ******** getResFn error ******** 
+[2019-02-20 18:14:29.072] [INFO] console - { 113: duplicated username
+    at fail (/Users/roger/ML/auth-server/utils/controller/index.js:47:19)
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:30:9
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11) name: 113 }
+[2019-02-20 18:14:29.080] [ERROR] console - { 113: duplicated username
+    at fail (/Users/roger/ML/auth-server/utils/controller/index.js:47:19)
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:30:9
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11) name: 113 } '113: duplicated username\n    at fail (/Users/roger/ML/auth-server/utils/controller/index.js:47:19)\n    at /Users/roger/ML/auth-server/controllers/auth/app.js:30:9\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)\n    at process._tickCallback (internal/process/next_tick.js:61:11)'
+[2019-02-20 18:14:29.082] [ERROR] console - (node:36711) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-02-20 18:15:11.938] [INFO] console - Express server listening on :8093, in development mode
+[2019-02-20 18:15:11.953] [INFO] console - mongo连接成功
+[2019-02-20 18:15:11.954] [INFO] console - mongo连接打开
+[2019-02-20 18:15:12.839] [ERROR] console - (node:36745) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-20 18:19:39.884] [INFO] console - Express server listening on :8093, in development mode
+[2019-02-20 18:19:39.893] [INFO] console - mongo连接成功
+[2019-02-20 18:19:39.895] [INFO] console - mongo连接打开
+[2019-02-20 18:19:59.316] [INFO] console - Express server listening on :8093, in development mode
+[2019-02-20 18:19:59.325] [INFO] console - mongo连接成功
+[2019-02-20 18:19:59.327] [INFO] console - mongo连接打开
+[2019-02-20 18:20:06.329] [ERROR] console - (node:36916) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-20 18:20:06.336] [INFO] console - ******** getResFn error ******** 
+[2019-02-20 18:20:06.338] [INFO] console - ReferenceError: jwt is not defined
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:64:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-02-20 18:20:06.346] [ERROR] console - ReferenceError: jwt is not defined
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:64:25
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11) 'ReferenceError: jwt is not defined\n    at /Users/roger/ML/auth-server/controllers/auth/app.js:64:25\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)\n    at process._tickCallback (internal/process/next_tick.js:61:11)'
+[2019-02-20 18:20:06.351] [ERROR] console - (node:36916) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-02-20 18:23:31.268] [INFO] console - Express server listening on :8093, in development mode
+[2019-02-20 18:23:31.277] [INFO] console - mongo连接成功
+[2019-02-20 18:23:31.279] [INFO] console - mongo连接打开
+[2019-02-20 18:23:45.008] [INFO] console - Express server listening on :8093, in development mode
+[2019-02-20 18:23:45.019] [INFO] console - mongo连接成功
+[2019-02-20 18:23:45.027] [INFO] console - mongo连接打开
+[2019-02-20 18:23:50.781] [ERROR] console - (node:37073) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-20 18:23:50.788] [INFO] console - ******** getResFn error ******** 
+[2019-02-20 18:23:50.790] [INFO] console - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/roger/ML/auth-server/node_modules/jsonwebtoken/sign.js:101:20)
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:65:29
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-02-20 18:23:50.797] [ERROR] console - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/roger/ML/auth-server/node_modules/jsonwebtoken/sign.js:101:20)
+    at /Users/roger/ML/auth-server/controllers/auth/app.js:65:29
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)
+    at process._tickCallback (internal/process/next_tick.js:61:11) 'Error: secretOrPrivateKey must have a value\n    at Object.module.exports [as sign] (/Users/roger/ML/auth-server/node_modules/jsonwebtoken/sign.js:101:20)\n    at /Users/roger/ML/auth-server/controllers/auth/app.js:65:29\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/roger/ML/auth-server/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/roger/ML/auth-server/node_modules/mpromise/lib/promise.js:234:18)\n    at process._tickCallback (internal/process/next_tick.js:61:11)'
+[2019-02-20 18:23:50.799] [ERROR] console - (node:37073) [DEP0079] DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated
+[2019-02-20 18:28:22.567] [INFO] console - Express server listening on :8093, in development mode
+[2019-02-20 18:28:22.576] [INFO] console - mongo连接成功
+[2019-02-20 18:28:22.578] [INFO] console - mongo连接打开
+[2019-02-20 18:28:26.699] [ERROR] console - (node:37124) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
