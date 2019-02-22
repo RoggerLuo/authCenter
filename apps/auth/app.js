@@ -1,14 +1,9 @@
 const co = require('co')
 const HandleRes = require('../../utils/handle_res')
 const Validate = require('../../utils/validate')
-// const AccountDao = require('../daos/account_dao')
-const {isLoggedIn,fetchInfo} = require('./helper')
 
-// const response = require('../util/response-util');
-// const router = require("koa-router")();
 const AccountModel = require('./model');
 var jwt = require('jsonwebtoken');
-// const encrypt_key = require('../config/secret-key');
 const md5 = require('md5');
 const {controller} = require('../../utils/controller')
 const encrypt_key = 'b296c7ec-a441-46cb-948a-30a1514084ef'
