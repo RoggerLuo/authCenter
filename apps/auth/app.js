@@ -2,25 +2,23 @@ const AccountModel = require('./model')
 var jwt = require('jsonwebtoken')
 const md5 = require('md5')
 const {controller} = require('../../utils/controller')
-const encrypt_key = 'b296c7ec-a441-46cb-948a-30a1514084ef'
+const encrypt_key = '30a1514084ef'
 module.exports = {
     login: controller(['username','password'],function*({req,fail}){
-        let requestAccount = req.body
-        if (!requestAccount.username || requestAccount.username.length < 3) {
+        let params = req.body
+        if (!params.username || params.username.length < 3) {
             fail(111,'length of username need >= 3')
         }
-        if (!requestAccount.password || requestAccount.password.length < 6) {
+        if (!params.password || params.password.length < 6) {
             fail(112,'length of password need >= 6')
         }
-        requestAccount.password = md5(encrypt_key + requestAccount.password)
-        let account = yield AccountModel.findOne(requestAccount)
+        params.password = md5(encrypt_key + params.password)
+        let account = yield AccountModel.findOne(params)
         if (account) {
             let userToken = jwt.sign(
-                {
-                    _id: account._id,
-                    username: account.username
-                },
-                encrypt_key
+                {u:params.username}, // 只有使用对象
+                encrypt_key,
+                { expiresIn: '100h' } // 才能设置过期时间
             )
             return userToken
         } else {
@@ -28,20 +26,25 @@ module.exports = {
         }
     }),
     register: controller(['username','password'],function*({req,fail}){
-        let requestAccount = req.body
-        if (!requestAccount.username || requestAccount.username.length < 3) {
+        let params = req.body
+        if (!params.username || params.username.length < 3) {
             fail(111,'length of username need >= 3')
         }
-        if (!requestAccount.password || requestAccount.password.length < 6) {
+        if (!params.username || params.username.length > 15) {
+            fail(1112,'length of username need <= 15')
+        }
+        if (!params.password || params.password.length < 6) {
             fail(112,'length of password need >= 6')
         }
-        const isDuplicatedUsername = yield AccountModel.findOne({'username': requestAccount.username})
+        if (!params.password || params.password.length > 30) {
+            fail(1122,'length of password need <= 30')
+        }
+        const isDuplicatedUsername = yield AccountModel.findOne({'username': params.username})
         if(isDuplicatedUsername) {
             fail(113,'duplicated username')
         }
-        requestAccount.password = md5(encrypt_key + requestAccount.password)
-        requestAccount.user_id = guid()
-        let result = yield AccountModel.create(requestAccount)
+        params.password = md5(encrypt_key + params.password)
+        let result = yield AccountModel.create(params)
         if (result) {
             return result
         } else {
@@ -58,9 +61,3 @@ module.exports = {
         }
     })
 }
-function guid() { 
-    function S4() { 
-        return (((1+Math.random())*0x10000)|0).toString(16).substring(1) 
-    } 
-    return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4()) 
-} 
