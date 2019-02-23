@@ -4,7 +4,9 @@ v1.use('/auth', require('../apps/auth'))
 // v1.use('/subject', require('../apps/subject'))
 // v1.use('/subject-follow', require('../apps/subjectFollow'))
 
-// v1.use('/post', require('../apps/post'))
+v1.use('/note', require('../apps/note'))
+v1.use('/note-star', require('../apps/noteStar'))
+
 // v1.use('/post-top', require('../apps/postTop'))
 // v1.use('/post-recommend', require('../apps/postRecommend'))
 

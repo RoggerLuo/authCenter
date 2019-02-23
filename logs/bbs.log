@@ -216,3 +216,89 @@
 [2019-02-23 11:46:21.700] [INFO] console - Express server listening on :8999, in development mode
 [2019-02-23 11:46:21.739] [INFO] console - mongo连接成功
 [2019-02-23 11:46:21.741] [INFO] console - mongo连接打开
+[2019-02-23 12:28:54.146] [INFO] console - Express server listening on :8999, in development mode
+[2019-02-23 12:28:54.160] [INFO] console - mongo连接成功
+[2019-02-23 12:28:54.163] [INFO] console - mongo连接打开
+[2019-02-23 12:31:28.677] [INFO] console - Express server listening on :8999, in development mode
+[2019-02-23 12:31:28.695] [INFO] console - mongo连接成功
+[2019-02-23 12:31:28.700] [INFO] console - mongo连接打开
+[2019-02-23 12:31:36.862] [ERROR] console - (node:58638) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-23 12:31:36.867] [INFO] console - ******** getResFn error ******** 
+[2019-02-23 12:31:36.869] [INFO] console - { 114: wrong username or password
+    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
+    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 }
+[2019-02-23 12:31:36.877] [ERROR] console - { 114: wrong username or password
+    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
+    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 } '114: wrong username or password\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
+[2019-02-23 12:33:40.398] [INFO] console - ******** getResFn error ******** 
+[2019-02-23 12:33:40.401] [INFO] console - { 114: wrong username or password
+    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
+    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 }
+[2019-02-23 12:33:40.406] [ERROR] console - { 114: wrong username or password
+    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
+    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 } '114: wrong username or password\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
+[2019-02-23 12:33:46.921] [INFO] console - Express server listening on :8999, in development mode
+[2019-02-23 12:33:46.933] [INFO] console - mongo连接成功
+[2019-02-23 12:33:46.935] [INFO] console - mongo连接打开
+[2019-02-23 12:33:47.634] [ERROR] console - (node:58953) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-23 12:33:47.638] [INFO] console - ******** getResFn error ******** 
+[2019-02-23 12:33:47.639] [INFO] console - { 114: incorrect username or password
+    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
+    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 }
+[2019-02-23 12:33:47.647] [ERROR] console - { 114: incorrect username or password
+    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
+    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 } '114: incorrect username or password\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
+[2019-02-23 12:34:54.919] [INFO] console - ******** getResFn error ******** 
+[2019-02-23 12:34:54.922] [INFO] console - { 114: incorrect username or password
+    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
+    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 }
+[2019-02-23 12:34:54.928] [ERROR] console - { 114: incorrect username or password
+    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
+    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
+    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 } '114: incorrect username or password\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
+[2019-02-23 12:37:48.886] [ERROR] console - (node:58953) [DEP0016] DeprecationWarning: 'GLOBAL' is deprecated, use 'global'
+[2019-02-23 12:37:48.889] [ERROR] console - (node:58953) [DEP0016] DeprecationWarning: 'root' is deprecated, use 'global'
+[2019-02-23 12:39:03.086] [INFO] console - Express server listening on :8999, in development mode
+[2019-02-23 12:39:03.101] [INFO] console - mongo连接成功
+[2019-02-23 12:39:03.105] [INFO] console - mongo连接打开
+[2019-02-23 12:40:30.930] [ERROR] console - (node:59607) [DEP0016] DeprecationWarning: 'GLOBAL' is deprecated, use 'global'
+[2019-02-23 12:40:30.935] [ERROR] console - (node:59607) [DEP0016] DeprecationWarning: 'root' is deprecated, use 'global'

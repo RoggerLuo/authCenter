@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-const modelName = "post"
+const modelName = "note"
 mongoose.model(modelName, new mongoose.Schema({
     content: String,
     modifyTime: Number,

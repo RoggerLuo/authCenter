@@ -7,37 +7,37 @@ module.exports = {
     login: controller(['username','password'],function*({req,fail}){
         let params = req.body
         if (!params.username || params.username.length < 3) {
-            fail(111,'length of username need >= 3')
+            fail(111,'username length should >= 3')
         }
         if (!params.password || params.password.length < 6) {
-            fail(112,'length of password need >= 6')
+            fail(112,'password length should >= 6')
         }
         params.password = md5(encrypt_key + params.password)
         let account = yield AccountModel.findOne(params)
         if (account) {
             let userToken = jwt.sign(
-                {u:params.username}, // 只有使用对象
+                {username:params.username}, // 只有使用对象
                 encrypt_key,
                 { expiresIn: '100h' } // 才能设置过期时间
             )
             return userToken
         } else {
-            fail(114, 'wrong username or password')
+            fail(114,'incorrect username or password')
         }
     }),
     register: controller(['username','password'],function*({req,fail}){
         let params = req.body
         if (!params.username || params.username.length < 3) {
-            fail(111,'length of username need >= 3')
+            fail(111,'username length should >= 3')
         }
         if (!params.username || params.username.length > 15) {
-            fail(1112,'length of username need <= 15')
+            fail(1112,'username length should <= 15')
         }
         if (!params.password || params.password.length < 6) {
-            fail(112,'length of password need >= 6')
+            fail(112,'password length should >= 6')
         }
         if (!params.password || params.password.length > 30) {
-            fail(1122,'length of password need <= 30')
+            fail(1122,'password length should <= 30')
         }
         const isDuplicatedUsername = yield AccountModel.findOne({'username': params.username})
         if(isDuplicatedUsername) {

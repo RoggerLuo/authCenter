@@ -7,5 +7,4 @@ router.get('/:_id', app.getOne)
 router.delete('/:_id',app.deleteOne)
 
 
-
 module.exports = router
