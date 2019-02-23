@@ -3,7 +3,7 @@ const router = express.Router()
 const app = require('./app')
 router.post('/',app.create)
 router.get('/', app.getList)
-router.get('/:_id', app.getOne)
+router.post('/:_id', app.updateOne)
 router.delete('/:_id',app.deleteOne)
 
 

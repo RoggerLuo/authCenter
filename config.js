@@ -3,7 +3,7 @@ const config = () => {
         return {
             port: 8999,
             mongo: {
-              uri: 'mongodb://localhost/authCenter',
+              uri: 'mongodb://localhost/flow4',
               opts: {
                 user: '',
                 pass: '',

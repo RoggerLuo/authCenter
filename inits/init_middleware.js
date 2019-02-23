@@ -32,20 +32,24 @@ module.exports = function (app) {
   // }
 
   app.all('*', function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", req.headers.origin);
+    res.header('Access-Control-Allow-Credentials', true);
+    res.header("Access-Control-Allow-Headers", "Content-Type, X-Requested-With,Content-Length,Authorization,Accept,Cookie,Cache-Control,Pragma,expire-day");
+    res.header('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE, OPTIONS');
     const isLoginOrRegister = req.url.indexOf('/auth/login')!==-1||req.url.indexOf('/auth/register')!==-1
-    if(!req.headers.token && !isLoginOrRegister) {
-      res.send("authorization failed")
-      return
-    }
-    co(function*(){
-      const {username} = yield verify(req.headers.token)
-      req.headers.username = username
-      res.header("Access-Control-Allow-Origin", req.headers.origin);
-      res.header('Access-Control-Allow-Credentials', true);
-      res.header("Access-Control-Allow-Headers", "Content-Type, X-Requested-With,Content-Length,Authorization,Accept,Cookie,Cache-Control,Pragma,expire-day");
-      res.header('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE, OPTIONS');
+    if(isLoginOrRegister) {
       next()  
-    })
+    }else{
+      if(!req.headers.token) {
+        res.send("authorization failed")
+      }else{
+        co(function*(){
+          const {username} = yield verify(req.headers.token)
+          req.headers.username = username
+          next()  
+        })    
+      }
+    }
   });
   // app.use('/', express.static(path.join(__dirname, '../public')));
   // app.use('/uploadRepo', express.static('uploadRepo')) //path.join(__dirname,

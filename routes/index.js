@@ -3,9 +3,14 @@ const v1 = express()
 v1.use('/auth', require('../apps/auth'))
 // v1.use('/subject', require('../apps/subject'))
 // v1.use('/subject-follow', require('../apps/subjectFollow'))
+v1.use('/history', require('../apps/history'))
 
 v1.use('/note', require('../apps/note'))
+v1.use('/search', require('../apps/search'))
+
 v1.use('/note-star', require('../apps/noteStar'))
+v1.use('/statistic', require('../apps/statistic'))
+v1.use('/tag', require('../apps/tag'))
 
 // v1.use('/post-top', require('../apps/postTop'))
 // v1.use('/post-recommend', require('../apps/postRecommend'))

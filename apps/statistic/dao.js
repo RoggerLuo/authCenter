@@ -13,12 +13,12 @@ module.exports = {
     *incrementCreateCount(username){
         const condition = yield existOrCreate(username)
         const update = {"$inc": {createCount: 1}}
-        return dao.operations.findOneAndUpdate(condition, update, {new: true}).exec()
+        return yield dao.operations.findOneAndUpdate(condition, update, {new: true}).exec()
     },
-    incrementModifyCount(username){
+    *incrementModifyCount(username){
         const condition = yield existOrCreate(username)
         const update = {"$inc": {modifyCount: 1}}
-        return dao.operations.findOneAndUpdate(condition, update, {new: true}).exec()
+        return yield dao.operations.findOneAndUpdate(condition, update, {new: true}).exec()
     },
 }
 function getToday(){

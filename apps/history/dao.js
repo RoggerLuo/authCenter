@@ -3,7 +3,11 @@ const dao = getDao(require('./model'))
 module.exports = {
     ...dao,
     *addHistory({username,name}){
-        return yield dao.create({name,username,createTime:Date.now()})
+        const exist = yield dao.findOne({name,username})
+        if(exist) {
+            yield dao.updateOne({name,username},{createTime:Date.now()})
+        }else {
+            yield dao.create({name,username,createTime:Date.now()})
+        }
     }
 }
-

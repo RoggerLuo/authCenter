@@ -52,7 +52,7 @@ module.exports = {
         }
     }),
     verify: controller([],function*({req,fail}){ //登陆鉴权测试接口
-        const userToken = req.query.token
+        const userToken = req.headers.token
         try {
             const decoded = yield jwt.verify(userToken, encrypt_key)
             return decoded
