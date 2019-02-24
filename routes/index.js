@@ -7,6 +7,7 @@ v1.use('/history', require('../apps/history'))
 
 v1.use('/note', require('../apps/note'))
 v1.use('/search', require('../apps/search'))
+v1.use('/similar', require('../apps/similar'))
 
 v1.use('/note-star', require('../apps/noteStar'))
 v1.use('/statistic', require('../apps/statistic'))

@@ -3,7 +3,41 @@ const statisticDao = require('../statistic/dao')
 const historyDao = require('../history/dao')
 const {controller} = require('../../utils/controller')
 /* error code basic: 1 */
+
+var http = require('http');
+var querystring = require('querystring');
+function postReq(content){
+    var contents = querystring.stringify({content})
+    var options = {
+        host:'192.168.1.2',
+        port:'6664',
+        path:'/wordscut',
+        method:'POST',
+        headers:{
+            'Content-Type':'application/x-www-form-urlencoded',
+            'Content-Length':contents.length
+        }
+    }    
+    return new Promise((resolve)=>{
+        var req = http.request(options, function(res){
+            res.setEncoding('utf8')
+            res.on('data',function(data){
+                console.log("data:",data)   //一段html代码
+                resolve(data)
+            })
+        })
+        req.write(contents)
+        req.end
+    })
+}
+
 module.exports = {
+    similar: controller(['_id'],function*({req}){
+        const username = req.headers.username
+        const _id = req.params._id
+        
+
+    }),
     search: controller(['keywords'],function*({req}){
         const username = req.headers.username
         const {startIndex,pageSize} = req.query
@@ -41,8 +75,9 @@ module.exports = {
     create: controller(['content'],function*({req}){
         const username = req.headers.username
         const content = req.body.content
+        const wordList = yield postReq(content)
         const createTime = Date.now()
-        const entry = yield dao.create({content, username, createTime, modifyTime: createTime,status:0})
+        const entry = yield dao.create({content, username, createTime, modifyTime: createTime,status:0,wordList})
         yield statisticDao.incrementCreateCount(username)
         return entry
     }),

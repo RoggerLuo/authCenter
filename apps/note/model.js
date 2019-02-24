@@ -6,6 +6,7 @@ mongoose.model(modelName, new mongoose.Schema({
     createTime: Number,
     username: String,
     starred: Boolean,
-    status: Number
+    status: Number,
+    wordList: []
 }))
 module.exports=modelName

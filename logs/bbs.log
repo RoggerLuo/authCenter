@@ -1,737 +1,88 @@
-[2019-02-23 11:14:29.825] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 11:14:29.851] [INFO] console - mongo连接成功
-[2019-02-23 11:14:29.854] [INFO] console - mongo连接打开
-[2019-02-23 11:14:52.077] [ERROR] console - (node:47891) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 11:20:11.034] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 11:20:11.058] [INFO] console - mongo连接成功
-[2019-02-23 11:20:11.060] [INFO] console - mongo连接打开
-[2019-02-23 11:20:16.910] [ERROR] console - (node:48641) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 11:20:24.266] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 11:20:24.269] [INFO] console - { 113: duplicated username
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:40:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 113 }
-[2019-02-23 11:20:24.277] [ERROR] console - { 113: duplicated username
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:40:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 113 } '113: duplicated username\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:40:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 11:22:43.713] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 11:22:43.748] [INFO] console - mongo连接成功
-[2019-02-23 11:22:43.751] [INFO] console - mongo连接打开
-[2019-02-23 11:22:49.132] [ERROR] console - (node:48961) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 11:33:33.184] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 11:33:33.225] [INFO] console - mongo连接成功
-[2019-02-23 11:33:33.227] [INFO] console - mongo连接打开
-[2019-02-23 11:33:47.398] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 11:33:47.423] [INFO] console - mongo连接成功
-[2019-02-23 11:33:47.426] [INFO] console - mongo连接打开
-[2019-02-23 11:33:51.202] [ERROR] console - (node:50402) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 11:33:51.209] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 11:33:51.211] [INFO] console - Error: invalid expiresIn option for string payload
-    at Object.module.exports [as sign] (/Users/rogersmac/ML/authCenter/node_modules/jsonwebtoken/sign.js:128:22)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:18:33
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9)
-[2019-02-23 11:33:51.219] [ERROR] console - Error: invalid expiresIn option for string payload
-    at Object.module.exports [as sign] (/Users/rogersmac/ML/authCenter/node_modules/jsonwebtoken/sign.js:128:22)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:18:33
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) 'Error: invalid expiresIn option for string payload\n    at Object.module.exports [as sign] (/Users/rogersmac/ML/authCenter/node_modules/jsonwebtoken/sign.js:128:22)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:18:33\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 11:34:39.026] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 11:34:39.028] [INFO] console - Error: invalid expiresIn option for string payload
-    at Object.module.exports [as sign] (/Users/rogersmac/ML/authCenter/node_modules/jsonwebtoken/sign.js:128:22)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:18:33
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9)
-[2019-02-23 11:34:39.033] [ERROR] console - Error: invalid expiresIn option for string payload
-    at Object.module.exports [as sign] (/Users/rogersmac/ML/authCenter/node_modules/jsonwebtoken/sign.js:128:22)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:18:33
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) 'Error: invalid expiresIn option for string payload\n    at Object.module.exports [as sign] (/Users/rogersmac/ML/authCenter/node_modules/jsonwebtoken/sign.js:128:22)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:18:33\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 11:34:55.647] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 11:34:55.676] [INFO] console - mongo连接成功
-[2019-02-23 11:34:55.679] [INFO] console - mongo连接打开
-[2019-02-23 11:35:00.622] [ERROR] console - (node:50556) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 11:36:02.842] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 11:36:02.845] [INFO] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:62:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3) name: 401 }
-[2019-02-23 11:36:02.853] [ERROR] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:62:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3) name: 401 } '401: authorization failed\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:62:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3)'
-[2019-02-23 11:36:04.974] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 11:36:04.977] [INFO] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:62:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3) name: 401 }
-[2019-02-23 11:36:04.982] [ERROR] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:62:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3) name: 401 } '401: authorization failed\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:62:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3)'
-[2019-02-23 11:36:18.487] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 11:36:18.489] [INFO] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:62:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3) name: 401 }
-[2019-02-23 11:36:18.493] [ERROR] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:62:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3) name: 401 } '401: authorization failed\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:62:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3)'
-[2019-02-23 11:46:21.700] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 11:46:21.739] [INFO] console - mongo连接成功
-[2019-02-23 11:46:21.741] [INFO] console - mongo连接打开
-[2019-02-23 12:28:54.146] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 12:28:54.160] [INFO] console - mongo连接成功
-[2019-02-23 12:28:54.163] [INFO] console - mongo连接打开
-[2019-02-23 12:31:28.677] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 12:31:28.695] [INFO] console - mongo连接成功
-[2019-02-23 12:31:28.700] [INFO] console - mongo连接打开
-[2019-02-23 12:31:36.862] [ERROR] console - (node:58638) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 12:31:36.867] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 12:31:36.869] [INFO] console - { 114: wrong username or password
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 }
-[2019-02-23 12:31:36.877] [ERROR] console - { 114: wrong username or password
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 } '114: wrong username or password\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 12:33:40.398] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 12:33:40.401] [INFO] console - { 114: wrong username or password
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 }
-[2019-02-23 12:33:40.406] [ERROR] console - { 114: wrong username or password
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 } '114: wrong username or password\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 12:33:46.921] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 12:33:46.933] [INFO] console - mongo连接成功
-[2019-02-23 12:33:46.935] [INFO] console - mongo连接打开
-[2019-02-23 12:33:47.634] [ERROR] console - (node:58953) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 12:33:47.638] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 12:33:47.639] [INFO] console - { 114: incorrect username or password
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 }
-[2019-02-23 12:33:47.647] [ERROR] console - { 114: incorrect username or password
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 } '114: incorrect username or password\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 12:34:54.919] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 12:34:54.922] [INFO] console - { 114: incorrect username or password
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 }
-[2019-02-23 12:34:54.928] [ERROR] console - { 114: incorrect username or password
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 114 } '114: incorrect username or password\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:25:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 12:37:48.886] [ERROR] console - (node:58953) [DEP0016] DeprecationWarning: 'GLOBAL' is deprecated, use 'global'
-[2019-02-23 12:37:48.889] [ERROR] console - (node:58953) [DEP0016] DeprecationWarning: 'root' is deprecated, use 'global'
-[2019-02-23 12:39:03.086] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 12:39:03.101] [INFO] console - mongo连接成功
-[2019-02-23 12:39:03.105] [INFO] console - mongo连接打开
-[2019-02-23 12:40:30.930] [ERROR] console - (node:59607) [DEP0016] DeprecationWarning: 'GLOBAL' is deprecated, use 'global'
-[2019-02-23 12:40:30.935] [ERROR] console - (node:59607) [DEP0016] DeprecationWarning: 'root' is deprecated, use 'global'
-[2019-02-23 20:32:53.864] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 20:32:53.883] [INFO] console - mongo连接成功
-[2019-02-23 20:32:53.885] [INFO] console - mongo连接打开
-[2019-02-23 20:33:19.836] [ERROR] console - (node:10418) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): authorization failed
-[2019-02-23 20:33:19.837] [ERROR] console - (node:10418) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-[2019-02-23 20:33:49.327] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 20:33:49.341] [INFO] console - mongo连接成功
-[2019-02-23 20:33:49.344] [INFO] console - mongo连接打开
-[2019-02-23 20:33:52.586] [ERROR] console - (node:10546) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): authorization failed
-[2019-02-23 20:33:52.587] [ERROR] console - (node:10546) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-[2019-02-23 20:34:26.007] [ERROR] console - (node:10546) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 4): authorization failed
-[2019-02-23 20:35:29.664] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 20:35:29.685] [INFO] console - mongo连接成功
-[2019-02-23 20:35:29.689] [INFO] console - mongo连接打开
-[2019-02-23 20:35:45.027] [ERROR] console - (node:10730) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): authorization failed
-[2019-02-23 20:35:45.028] [ERROR] console - (node:10730) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-[2019-02-23 20:36:01.346] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 20:36:01.359] [INFO] console - mongo连接成功
-[2019-02-23 20:36:01.361] [INFO] console - mongo连接打开
-[2019-02-23 20:36:02.037] [ERROR] console - (node:10792) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): authorization failed
-[2019-02-23 20:36:02.038] [ERROR] console - (node:10792) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-[2019-02-23 20:38:46.461] [ERROR] console - (node:10792) [DEP0016] DeprecationWarning: 'GLOBAL' is deprecated, use 'global'
-[2019-02-23 20:38:46.464] [ERROR] console - (node:10792) [DEP0016] DeprecationWarning: 'root' is deprecated, use 'global'
-[2019-02-23 20:38:46.467] [ERROR] console - (node:10792) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 4): authorization failed
-[2019-02-23 20:40:57.421] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 20:40:57.433] [INFO] console - mongo连接成功
-[2019-02-23 20:40:57.436] [INFO] console - mongo连接打开
-[2019-02-23 20:41:27.986] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 20:41:27.999] [INFO] console - mongo连接成功
-[2019-02-23 20:41:28.002] [INFO] console - mongo连接打开
-[2019-02-23 20:41:28.385] [ERROR] console - Error: Can't set headers after they are sent.
-    at validateHeader (_http_outgoing.js:494:11)
-    at ServerResponse.setHeader (_http_outgoing.js:501:3)
-    at expressInit (/Users/rogersmac/ML/authCenter/node_modules/express/lib/middleware/init.js:30:42)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:317:13)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at query (/Users/rogersmac/ML/authCenter/node_modules/express/lib/middleware/query.js:45:5)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:317:13)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/application.js:174:10)
-[2019-02-23 20:41:29.633] [ERROR] console - Error: Can't set headers after they are sent.
-    at validateHeader (_http_outgoing.js:494:11)
-    at ServerResponse.setHeader (_http_outgoing.js:501:3)
-    at expressInit (/Users/rogersmac/ML/authCenter/node_modules/express/lib/middleware/init.js:30:42)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:317:13)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at query (/Users/rogersmac/ML/authCenter/node_modules/express/lib/middleware/query.js:45:5)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:317:13)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:275:10)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:174:3)
-    at Function.handle (/Users/rogersmac/ML/authCenter/node_modules/express/lib/application.js:174:10)
-[2019-02-23 20:42:13.600] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 20:42:13.612] [INFO] console - mongo连接成功
-[2019-02-23 20:42:13.615] [INFO] console - mongo连接打开
-[2019-02-23 20:50:11.942] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 20:50:11.954] [INFO] console - mongo连接成功
-[2019-02-23 20:50:11.957] [INFO] console - mongo连接打开
-[2019-02-23 20:51:03.302] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 20:51:03.327] [INFO] console - mongo连接成功
-[2019-02-23 20:51:03.331] [INFO] console - mongo连接打开
-[2019-02-23 20:51:09.904] [ERROR] console - (node:12389) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:05:24.197] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 21:05:24.200] [INFO] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:60:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13) name: 401 }
-[2019-02-23 21:05:24.208] [ERROR] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:60:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13) name: 401 } '401: authorization failed\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:60:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)'
-[2019-02-23 21:06:05.071] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 21:06:05.073] [INFO] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:60:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13) name: 401 }
-[2019-02-23 21:06:05.077] [ERROR] console - { 401: authorization failed
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:60:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13) name: 401 } '401: authorization failed\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/auth/app.js:60:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at toPromise (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:118:63)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:99:29)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:69:7)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)'
-[2019-02-23 21:06:26.277] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:06:26.292] [INFO] console - mongo连接成功
-[2019-02-23 21:06:26.295] [INFO] console - mongo连接打开
-[2019-02-23 21:07:50.084] [INFO] console - ==========================
-[2019-02-23 21:07:50.086] [INFO] console - missing parameter:content
-[2019-02-23 21:07:50.089] [INFO] console - ==========================
-[2019-02-23 21:07:50.091] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 21:07:50.094] [INFO] console - { 1000: missing parameter:content
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at requires.forEach.name (/Users/rogersmac/ML/authCenter/utils/controller/index.js:42:4)
-    at Array.forEach (<anonymous>)
-    at integretyCheck (/Users/rogersmac/ML/authCenter/utils/controller/index.js:37:14)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:9:17
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22 name: 1000 }
-[2019-02-23 21:07:50.100] [ERROR] console - { 1000: missing parameter:content
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at requires.forEach.name (/Users/rogersmac/ML/authCenter/utils/controller/index.js:42:4)
-    at Array.forEach (<anonymous>)
-    at integretyCheck (/Users/rogersmac/ML/authCenter/utils/controller/index.js:37:14)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:9:17
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22 name: 1000 } '1000: missing parameter:content\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at requires.forEach.name (/Users/rogersmac/ML/authCenter/utils/controller/index.js:42:4)\n    at Array.forEach (<anonymous>)\n    at integretyCheck (/Users/rogersmac/ML/authCenter/utils/controller/index.js:37:14)\n    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:9:17\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22'
-[2019-02-23 21:08:02.716] [INFO] console - 创建对象 { content: 'test',
+[2019-02-24 10:52:01.842] [INFO] console - Express server listening on :8999, in development mode
+[2019-02-24 10:52:01.868] [INFO] console - mongo连接成功
+[2019-02-24 10:52:01.871] [INFO] console - mongo连接打开
+[2019-02-24 10:54:12.349] [INFO] console - 需要更新的对象是 { _id: '5c714a69495c670c3f231911' } { '$set': { starred: true } }
+[2019-02-24 10:54:12.365] [ERROR] console - (node:36473) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-24 10:54:37.020] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>408 Request Timeout</title>
+</head><body>
+<h1>Request Timeout</h1>
+<p>Server timeout waiting for the HTTP request from the client.</p>
+</body></html>
+
+[2019-02-24 10:55:49.551] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-02-24 10:57:34.462] [INFO] console - Express server listening on :8999, in development mode
+[2019-02-24 10:57:34.475] [INFO] console - mongo连接成功
+[2019-02-24 10:57:34.478] [INFO] console - mongo连接打开
+[2019-02-24 10:58:15.600] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /wordscut was not found on this server.</p>
+</body></html>
+
+[2019-02-24 10:58:15.607] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-02-24 10:58:15.621] [ERROR] console - (node:37119) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-24 10:58:15.748] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /wordscut was not found on this server.</p>
+</body></html>
+
+[2019-02-24 10:58:15.751] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-02-24 10:58:28.715] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /wordscut was not found on this server.</p>
+</body></html>
+
+[2019-02-24 10:59:45.932] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-02-24 10:59:49.918] [INFO] console - Express server listening on :8999, in development mode
+[2019-02-24 10:59:49.932] [INFO] console - mongo连接成功
+[2019-02-24 10:59:49.934] [INFO] console - mongo连接打开
+[2019-02-24 11:00:08.701] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /wordscut was not found on this server.</p>
+</body></html>
+
+[2019-02-24 11:01:37.345] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-02-24 11:01:37.357] [ERROR] console - (node:37395) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-24 11:02:50.268] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /wordscut was not found on this server.</p>
+</body></html>
+
+[2019-02-24 11:02:50.272] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-02-24 11:18:39.199] [INFO] console - Express server listening on :8999, in development mode
+[2019-02-24 11:18:39.212] [INFO] console - mongo连接成功
+[2019-02-24 11:18:39.215] [INFO] console - mongo连接打开
+[2019-02-24 11:18:43.812] [INFO] console - data: ["我", "爱", "北京", "天安", "天安门"]
+[2019-02-24 11:18:43.825] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-02-24 11:18:43.843] [ERROR] console - (node:39574) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-24 11:18:59.433] [INFO] console - data: ["我", "爱", "北京", "天安", "天安门"]
+[2019-02-24 11:19:04.883] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-02-24 11:22:19.636] [INFO] console - Express server listening on :8999, in development mode
+[2019-02-24 11:22:19.651] [INFO] console - mongo连接成功
+[2019-02-24 11:22:19.655] [INFO] console - mongo连接打开
+[2019-02-24 11:22:30.191] [INFO] console - data: ["test", "我", "爱", "北京", "天安", "天安门"]
+[2019-02-24 11:22:30.196] [INFO] console - 创建对象 { content: 'test我爱北京天安门',
   username: 'roger',
-  createTime: 1550927282716,
-  modifyTime: 1550927282716 }
-[2019-02-23 21:08:02.733] [ERROR] console - (node:13950) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:08:59.397] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:08:59.409] [INFO] console - mongo连接成功
-[2019-02-23 21:08:59.412] [INFO] console - mongo连接打开
-[2019-02-23 21:09:08.763] [INFO] console - 需要更新的对象是 { _id: undefined } { '$set': { content: 'test22', modifyTime: 1550927348763 } }
-[2019-02-23 21:09:08.775] [ERROR] console - (node:14214) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:09:33.089] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:11:52.303] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:11:52.322] [INFO] console - mongo连接成功
-[2019-02-23 21:11:52.326] [INFO] console - mongo连接打开
-[2019-02-23 21:12:00.311] [ERROR] console - (node:14530) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:12:00.345] [INFO] console - 需要更新的对象是 { _id: '5c7145b2dad2ae7e36d9d1cd' } { '$set': { content: 'test22', modifyTime: 1550927514255 } }
-[2019-02-23 21:12:07.252] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:12:46.154] [INFO] console - 需要更新的对象是 { _id: '5c7145b2dad2ae7e36d9d1cd' } { '$set': { status: 1 } }
-[2019-02-23 21:12:50.552] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:13:20.169] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:13:20.183] [INFO] console - mongo连接成功
-[2019-02-23 21:13:20.186] [INFO] console - mongo连接打开
-[2019-02-23 21:13:23.402] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-23 21:13:23.422] [ERROR] console - (node:14704) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:26:07.957] [INFO] console - 创建对象 { content: 'test',
-  username: 'roger',
-  createTime: 1550928367957,
-  modifyTime: 1550928367957 }
-[2019-02-23 21:26:13.195] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-23 21:26:21.365] [INFO] console - 创建对象 { content: 'test',
-  username: 'roger',
-  createTime: 1550928381365,
-  modifyTime: 1550928381365 }
-[2019-02-23 21:26:26.703] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-23 21:27:26.854] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:27:26.868] [INFO] console - mongo连接成功
-[2019-02-23 21:27:26.871] [INFO] console - mongo连接打开
-[2019-02-23 21:27:40.088] [INFO] console - 创建对象 { content: 'test',
-  username: 'roger',
-  createTime: 1550928460088,
-  modifyTime: 1550928460088,
-  status: 0 }
-[2019-02-23 21:27:40.104] [ERROR] console - (node:16140) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:27:42.617] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-23 21:28:09.775] [INFO] console - 创建对象 { content: 'abc阿丽塔',
-  username: 'roger',
-  createTime: 1550928489775,
-  modifyTime: 1550928489775,
-  status: 0 }
-[2019-02-23 21:38:17.090] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:38:17.109] [INFO] console - mongo连接成功
-[2019-02-23 21:38:17.114] [INFO] console - mongo连接打开
-[2019-02-23 21:38:41.344] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:38:41.360] [INFO] console - mongo连接成功
-[2019-02-23 21:38:41.363] [INFO] console - mongo连接打开
-[2019-02-23 21:39:12.098] [INFO] console - 查询条件是 { username: 'roger', content: { '$regex': /abc/i } }
-[2019-02-23 21:39:12.116] [ERROR] console - (node:17378) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:39:12.133] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 21:39:12.134] [INFO] console - TypeError: historyDao is not a function
-    at kw.map.name (/Users/rogersmac/ML/authCenter/apps/note/app.js:15:34)
-    at Array.map (<anonymous>)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:15:22
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9)
-[2019-02-23 21:39:12.141] [ERROR] console - TypeError: historyDao is not a function
-    at kw.map.name (/Users/rogersmac/ML/authCenter/apps/note/app.js:15:34)
-    at Array.map (<anonymous>)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:15:22
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) 'TypeError: historyDao is not a function\n    at kw.map.name (/Users/rogersmac/ML/authCenter/apps/note/app.js:15:34)\n    at Array.map (<anonymous>)\n    at /Users/rogersmac/ML/authCenter/apps/note/app.js:15:22\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 21:39:56.850] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:39:56.863] [INFO] console - mongo连接成功
-[2019-02-23 21:39:56.865] [INFO] console - mongo连接打开
-[2019-02-23 21:39:57.524] [INFO] console - 查询条件是 { username: 'roger', content: { '$regex': /abc/i } }
-[2019-02-23 21:39:57.538] [ERROR] console - (node:17519) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:39:57.547] [INFO] console - 创建对象 { name: 'abc', username: 'roger', createTime: 1550929197547 }
-[2019-02-23 21:40:57.819] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:40:57.832] [INFO] console - mongo连接成功
-[2019-02-23 21:40:57.835] [INFO] console - mongo连接打开
-[2019-02-23 21:40:58.325] [INFO] console - 查询条件是 { username: 'roger', content: { '$regex': /abc/i } }
-[2019-02-23 21:40:58.345] [ERROR] console - (node:17634) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:40:58.360] [INFO] console - 创建对象 { name: 'abc', username: 'roger', createTime: 1550929258360 }
-[2019-02-23 21:43:23.428] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:43:23.440] [INFO] console - mongo连接成功
-[2019-02-23 21:43:23.443] [INFO] console - mongo连接打开
-[2019-02-23 21:43:24.340] [INFO] console - 查询条件是 { username: 'roger', content: { '$regex': /abc/i } }
-[2019-02-23 21:43:24.358] [ERROR] console - (node:17924) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:43:24.379] [INFO] console - 创建对象 { name: 'abc', username: 'roger', createTime: 1550929404379 }
-[2019-02-23 21:43:32.635] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:45:27.179] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:45:27.192] [INFO] console - mongo连接成功
-[2019-02-23 21:45:27.196] [INFO] console - mongo连接打开
-[2019-02-23 21:46:01.756] [INFO] console - 查询条件是 { username: 'roger', content: { '$regex': /abc/i } }
-[2019-02-23 21:46:01.777] [ERROR] console - (node:18148) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:46:01.798] [INFO] console - 创建对象 { name: 'abc', username: 'roger', createTime: 1550929561798 }
-[2019-02-23 21:46:03.086] [INFO] console - 查询条件是 { username: 'roger', content: { '$regex': /abc/i } }
-[2019-02-23 21:46:03.095] [INFO] console - 需要更新的对象是 { name: 'abc', username: 'roger' } { '$set': { createTime: 1550929563095 } }
-[2019-02-23 21:46:06.375] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:46:16.061] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:46:16.073] [INFO] console - mongo连接成功
-[2019-02-23 21:46:16.075] [INFO] console - mongo连接打开
-[2019-02-23 21:46:20.189] [INFO] console - 查询条件是 { username: 'roger', content: { '$regex': /abc/i } }
-[2019-02-23 21:46:20.210] [ERROR] console - (node:18244) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:46:20.231] [INFO] console - 需要更新的对象是 { name: 'abc', username: 'roger' } { '$set': { createTime: 1550929580231 } }
-[2019-02-23 21:46:25.377] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:46:30.827] [INFO] console - 查询条件是 { username: 'roger', content: { '$regex': /abc/i } }
-[2019-02-23 21:46:30.849] [INFO] console - 需要更新的对象是 { name: 'abc', username: 'roger' } { '$set': { createTime: 1550929590849 } }
-[2019-02-23 21:46:33.762] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:47:02.864] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-23 21:47:48.691] [INFO] console - 需要更新的对象是 { _id: undefined } { '$set': { starred: true } }
-[2019-02-23 21:47:53.638] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-23 21:48:18.294] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:48:18.308] [INFO] console - mongo连接成功
-[2019-02-23 21:48:18.311] [INFO] console - mongo连接打开
-[2019-02-23 21:48:33.284] [INFO] console - 需要更新的对象是 { _id: '5c714a69495c670c3f231911' } { '$set': { starred: true } }
-[2019-02-23 21:48:33.304] [ERROR] console - (node:18462) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:48:42.337] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-23 21:48:56.081] [INFO] console - 需要更新的对象是 { _id: '5c714a69495c670c3f231911' } { '$set': { starred: false } }
-[2019-02-23 21:49:01.573] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-23 21:50:14.820] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:50:14.833] [INFO] console - mongo连接成功
-[2019-02-23 21:50:14.836] [INFO] console - mongo连接打开
-[2019-02-23 21:50:15.179] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:50:15.200] [ERROR] console - (node:18701) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:50:16.297] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:50:31.344] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:51:19.850] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:51:19.869] [INFO] console - mongo连接成功
-[2019-02-23 21:51:19.872] [INFO] console - mongo连接打开
-[2019-02-23 21:51:31.251] [INFO] console - 创建对象 { content: 'test3',
-  username: 'roger',
-  createTime: 1550929891251,
-  modifyTime: 1550929891251,
-  status: 0 }
-[2019-02-23 21:51:31.268] [ERROR] console - (node:18819) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:51:31.297] [INFO] console - 创建对象 { date: 1550851200, username: 'roger' }
-[2019-02-23 21:51:31.388] [INFO] console - 需要更新的对象是 { date: 1550851200, username: 'roger' } { '$inc': { createCount: 1 } }
-[2019-02-23 21:51:33.959] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:52:06.019] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-23 21:52:12.281] [INFO] console - 需要更新的对象是 { _id: '5c714fe398d10483495d9926' } { '$set': { content: 'test22', modifyTime: 1550929932279 } }
-[2019-02-23 21:52:12.289] [INFO] console - 需要更新的对象是 { date: 1550851200, username: 'roger' } { '$inc': { modifyCount: 1 } }
-[2019-02-23 21:52:17.325] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:53:26.989] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:53:27.002] [INFO] console - mongo连接成功
-[2019-02-23 21:53:27.004] [INFO] console - mongo连接打开
-[2019-02-23 21:53:30.235] [ERROR] console - (node:19048) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:53:30.237] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 21:53:30.238] [INFO] console - { CastError: Cast to ObjectId failed for value "5c7145b2dad2ae7e36d9d1cd2" at path "_id"
-    at new CastError (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/error/cast.js:19:11)
-    at ObjectId.cast (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/schema/objectid.js:147:13)
-    at ObjectId.castForQuery (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/schema/objectid.js:187:15)
-    at cast (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/cast.js:208:32)
-    at model.Query.Query.cast (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:2653:10)
-    at model.Query.Query.findOne (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:1284:10)
-    at /Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:2230:21
-    at new Promise.ES6 (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/promise.js:45:3)
-    at model.Query.exec (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:2223:10)
-    at Object.findOne (/Users/rogersmac/ML/authCenter/utils/dao/index.js:19:59)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:32:33
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-  message: 'Cast to ObjectId failed for value "5c7145b2dad2ae7e36d9d1cd2" at path "_id"',
-  name: 'CastError',
-  kind: 'ObjectId',
-  value: '5c7145b2dad2ae7e36d9d1cd2',
-  path: '_id',
-  reason: undefined }
-[2019-02-23 21:53:30.246] [ERROR] console - { CastError: Cast to ObjectId failed for value "5c7145b2dad2ae7e36d9d1cd2" at path "_id"
-    at new CastError (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/error/cast.js:19:11)
-    at ObjectId.cast (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/schema/objectid.js:147:13)
-    at ObjectId.castForQuery (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/schema/objectid.js:187:15)
-    at cast (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/cast.js:208:32)
-    at model.Query.Query.cast (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:2653:10)
-    at model.Query.Query.findOne (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:1284:10)
-    at /Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:2230:21
-    at new Promise.ES6 (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/promise.js:45:3)
-    at model.Query.exec (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:2223:10)
-    at Object.findOne (/Users/rogersmac/ML/authCenter/utils/dao/index.js:19:59)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:32:33
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-  message: 'Cast to ObjectId failed for value "5c7145b2dad2ae7e36d9d1cd2" at path "_id"',
-  name: 'CastError',
-  kind: 'ObjectId',
-  value: '5c7145b2dad2ae7e36d9d1cd2',
-  path: '_id',
-  reason: undefined } 'CastError: Cast to ObjectId failed for value "5c7145b2dad2ae7e36d9d1cd2" at path "_id"\n    at new CastError (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/error/cast.js:19:11)\n    at ObjectId.cast (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/schema/objectid.js:147:13)\n    at ObjectId.castForQuery (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/schema/objectid.js:187:15)\n    at cast (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/cast.js:208:32)\n    at model.Query.Query.cast (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:2653:10)\n    at model.Query.Query.findOne (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:1284:10)\n    at /Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:2230:21\n    at new Promise.ES6 (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/promise.js:45:3)\n    at model.Query.exec (/Users/rogersmac/ML/authCenter/node_modules/mongoose/lib/query.js:2223:10)\n    at Object.findOne (/Users/rogersmac/ML/authCenter/utils/dao/index.js:19:59)\n    at /Users/rogersmac/ML/authCenter/apps/note/app.js:32:33\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)'
-[2019-02-23 21:53:59.652] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 21:53:59.655] [INFO] console - { 4011: note does not exist
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:38:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 4011 }
-[2019-02-23 21:53:59.659] [ERROR] console - { 4011: note does not exist
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:38:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 4011 } '4011: note does not exist\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/note/app.js:38:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 21:54:03.012] [INFO] console - ******** getResFn error ******** 
-[2019-02-23 21:54:03.014] [INFO] console - { 4011: note does not exist
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:38:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 4011 }
-[2019-02-23 21:54:03.018] [ERROR] console - { 4011: note does not exist
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:38:13
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) name: 4011 } '4011: note does not exist\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at /Users/rogersmac/ML/authCenter/apps/note/app.js:38:13\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-23 21:55:08.636] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:55:08.651] [INFO] console - mongo连接成功
-[2019-02-23 21:55:08.654] [INFO] console - mongo连接打开
-[2019-02-23 21:55:10.703] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:55:10.721] [ERROR] console - (node:19253) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-23 21:55:50.894] [INFO] console - 创建对象 { name: 'tagname', username: 'roger', createTime: 1550930150894 }
-[2019-02-23 21:55:57.151] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:56:12.364] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:56:22.303] [INFO] console - 删除条件是 { _id: '5c7150e6d6b166354b69245a' }
-[2019-02-23 21:56:25.893] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:57:25.676] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-23 21:57:25.690] [INFO] console - mongo连接成功
-[2019-02-23 21:57:25.694] [INFO] console - mongo连接打开
-[2019-02-23 21:57:46.563] [INFO] console - 查询条件是 { username: 'roger' }
-[2019-02-23 21:57:46.585] [ERROR] console - (node:19490) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+  createTime: 1550978550196,
+  modifyTime: 1550978550196,
+  status: 0,
+  wordList: '["test", "我", "爱", "北京", "天安", "天安门"]' }
+[2019-02-24 11:22:30.210] [ERROR] console - (node:40086) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-02-24 11:22:30.356] [INFO] console - 创建对象 { date: 1550937600, username: 'roger' }
+[2019-02-24 11:22:30.444] [INFO] console - 需要更新的对象是 { date: 1550937600, username: 'roger' } { '$inc': { createCount: 1 } }
