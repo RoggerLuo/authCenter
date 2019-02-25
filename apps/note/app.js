@@ -35,8 +35,29 @@ module.exports = {
     similar: controller(['_id'],function*({req}){
         const username = req.headers.username
         const _id = req.params._id
-        
-
+        const condition = {username, status:0}
+        const data = yield dao.find(condition)
+        const note = yield dao.findOne({_id})
+        const wordList = note.wordList
+        const returnList = []
+        data.forEach(_note=>{
+            if(_note._id.toString()===note._id.toString()) return
+            let count = 0
+            const match_list = []
+            _note.wordList.forEach(word=>{
+                if(wordList.indexOf(word)!==-1) {
+                    count+=1
+                    match_list.push(word)
+                }
+            })
+            if(count>0){
+                _note.count = count
+                _note.match_list=match_list
+                returnList.push(_note)
+            }
+        })
+        returnList.sort((a,b)=>b.count-a.count)
+        return returnList
     }),
     search: controller(['keywords'],function*({req}){
         const username = req.headers.username
@@ -75,7 +96,8 @@ module.exports = {
     create: controller(['content'],function*({req}){
         const username = req.headers.username
         const content = req.body.content
-        const wordList = yield postReq(content)
+        const _wordList = yield postReq(content)
+        const wordList = JSON.parse(_wordList)
         const createTime = Date.now()
         const entry = yield dao.create({content, username, createTime, modifyTime: createTime,status:0,wordList})
         yield statisticDao.incrementCreateCount(username)
