@@ -1,7 +1,8 @@
 const config = () => {
-    if(process.env.NODE_ENV === 'development'){
+    // if(process.env.NODE_ENV === 'development'){
         return {
             port: 8999,
+
             mongo: {
               uri: 'mongodb://localhost/flow4',
               opts: {
@@ -13,6 +14,8 @@ const config = () => {
                 }
               }
             },
+
+
             log4js: {
               appenders: [{
                 type: 'console'
@@ -25,6 +28,6 @@ const config = () => {
               replaceConsole: true
             }
         }
-    }
+    // }
 }
 module.exports = config();
