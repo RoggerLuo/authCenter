@@ -99,7 +99,7 @@ module.exports = {
         const _wordList = yield postReq(content)
         const wordList = JSON.parse(_wordList)
         const createTime = Date.now()
-        const entry = yield dao.create({content, username, createTime, modifyTime: createTime,status:0,wordList})
+        const entry = yield dao.create({content, username, createTime, modifyTime: createTime,starred:false,status:0,wordList})
         yield statisticDao.incrementCreateCount(username)
         return entry
     }),
