@@ -9,7 +9,8 @@ var querystring = require('querystring');
 function postReq(content){
     var contents = querystring.stringify({content})
     var options = {
-        host:'192.168.1.2',
+        // host:'192.168.1.2',
+        host:'0.0.0.0',
         port:'6664',
         path:'/wordscut',
         method:'POST',
