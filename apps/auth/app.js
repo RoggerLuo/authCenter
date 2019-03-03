@@ -30,8 +30,8 @@ module.exports = {
         if (!params.username || params.username.length < 3) {
             fail(111,'username length should >= 3')
         }
-        if (!params.username || params.username.length > 15) {
-            fail(1112,'username length should <= 15')
+        if (!params.username || params.username.length > 50) {
+            fail(1112,'username length should <= 50')
         }
         if (!params.password || params.password.length < 6) {
             fail(112,'password length should >= 6')
