@@ -75,8 +75,11 @@ module.exports = {
         }
     }),
     getList: controller([],function*({req}){
-        const {startIndex,pageSize} = req.query
+        const {startIndex,pageSize,star} = req.query
         const condition = {username: req.headers.username,status:0}
+        if(star==='true') {
+            condition.starred = true
+        }
         const {count,data} = yield dao.paginationFind(condition,{startIndex,pageSize})
         return {total:count,data}
     }),
