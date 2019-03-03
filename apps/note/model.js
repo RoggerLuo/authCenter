@@ -1,6 +1,7 @@
 const mongoose = require("mongoose")
+const {getDao} = require('../../utils/dao')
 const modelName = "note"
-mongoose.model(modelName, new mongoose.Schema({
+const prototype = {
     content: String,
     modifyTime: Number,
     createTime: Number,
@@ -8,5 +9,6 @@ mongoose.model(modelName, new mongoose.Schema({
     starred: Boolean,
     status: Number,
     wordList: []
-}))
-module.exports=modelName
+}
+mongoose.model(modelName, new mongoose.Schema(prototype))
+module.exports = getDao(modelName)

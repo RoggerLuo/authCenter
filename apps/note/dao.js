@@ -1,5 +1,5 @@
-const {getDao} = require('../../utils/dao')
-const dao = getDao(require('./model'))
+const dao = require('./model')
+//const {toObject} = require('../../utils/dao')
 module.exports = {
     ...dao,
 }
