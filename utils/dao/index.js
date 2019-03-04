@@ -22,26 +22,6 @@ function getModelMethods(_model){
         findOne: condition => ops.findOne({...condition}).exec().then(toObject), 
         deleteOne: condition => ops.findOneAndRemove(condition).exec().then(toObject),
         updateOne:(condition,params) => ops.findOneAndUpdate(condition, {"$set": params}, {new: true}).exec(),
-        count: condition => ops.count(condition).exec(),
-        * paginationFind(condition,{startIndex,pageSize,...options}){
-            const basic = ops.find(condition)
-
-            if(startIndex) startIndex = parseInt(startIndex)
-            if(pageSize) pageSize = parseInt(pageSize)
-            if(startIndex!==undefined) basic.skip(startIndex)
-            if(pageSize!==undefined) basic.limit(pageSize)
-
-            const {sort} = options
-            if(sort!==undefined) basic.sort(sort)
-
-            const [count,data] = yield [
-                ops.count(condition),
-                basic.exec().then(toObject)
-            ]
-            return {count,data}
-        },
-        * findPagination(condition,{startIndex,pageSize,...options}){ // 换个名字
-            return yield paginationFind(condition,{startIndex,pageSize,...options})
-        }
+        count: condition => ops.count(condition).exec()
     }
 }

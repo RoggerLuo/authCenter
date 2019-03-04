@@ -62,12 +62,15 @@ module.exports = {
     }),
     search: controller(['keywords'],function*({req}){
         const username = req.headers.username
-        const {startIndex,pageSize} = req.query
+        let {startIndex,pageSize} = req.query
+        if(startIndex) startIndex = parseInt(startIndex)
+        if(pageSize) { pageSize = parseInt(pageSize) } else { pageSize=10}
+
         const kw = req.query.keywords.split(',')
         if(kw[0]) {
             const reg = RegExp(kw[0],"i")
             const condition = {username: req.headers.username,content:{$regex:reg}}
-            const {count,data} = yield dao.paginationFind(condition,{startIndex,pageSize})
+            const [count,data] = yield [dao.count(condition),dao.find(condition,{skip:startIndex,limit:pageSize})]
             yield kw.map(name => historyDao.addHistory({name,username}))
             return {total:count,data}
         }else{
@@ -75,7 +78,10 @@ module.exports = {
         }
     }),
     getList: controller([],function*({req}){
-        const {startIndex,pageSize,star,reverse} = req.query
+        let {startIndex,pageSize,star,reverse} = req.query
+        if(startIndex) startIndex = parseInt(startIndex)
+        if(pageSize) { pageSize = parseInt(pageSize) } else { pageSize=10}
+
         const condition = {username: req.headers.username,status:0}
         if(star==='true') {
             condition.starred = true
@@ -84,7 +90,7 @@ module.exports = {
         if(reverse=='true') {
             sort = 1
         }
-        const {count,data} = yield dao.paginationFind(condition,{startIndex,pageSize,sort:{modifyTime:sort}})
+        const [count,data] = yield [dao.count(condition),dao.find(condition,{skip:startIndex,limit:pageSize,sort:{modifyTime:sort}})]
         return {total:count,data}
     }),
     updateOne: controller(['_id','content'],function*({req,fail}){
