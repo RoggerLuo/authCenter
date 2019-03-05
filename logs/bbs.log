@@ -1,232 +1,41 @@
-[2019-02-24 10:52:01.842] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 10:52:01.868] [INFO] console - mongo连接成功
-[2019-02-24 10:52:01.871] [INFO] console - mongo连接打开
-[2019-02-24 10:54:12.349] [INFO] console - 需要更新的对象是 { _id: '5c714a69495c670c3f231911' } { '$set': { starred: true } }
-[2019-02-24 10:54:12.365] [ERROR] console - (node:36473) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 10:54:37.020] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>408 Request Timeout</title>
-</head><body>
-<h1>Request Timeout</h1>
-<p>Server timeout waiting for the HTTP request from the client.</p>
-</body></html>
-
-[2019-02-24 10:55:49.551] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 10:57:34.462] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 10:57:34.475] [INFO] console - mongo连接成功
-[2019-02-24 10:57:34.478] [INFO] console - mongo连接打开
-[2019-02-24 10:58:15.600] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordscut was not found on this server.</p>
-</body></html>
-
-[2019-02-24 10:58:15.607] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 10:58:15.621] [ERROR] console - (node:37119) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 10:58:15.748] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordscut was not found on this server.</p>
-</body></html>
-
-[2019-02-24 10:58:15.751] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 10:58:28.715] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordscut was not found on this server.</p>
-</body></html>
-
-[2019-02-24 10:59:45.932] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 10:59:49.918] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 10:59:49.932] [INFO] console - mongo连接成功
-[2019-02-24 10:59:49.934] [INFO] console - mongo连接打开
-[2019-02-24 11:00:08.701] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordscut was not found on this server.</p>
-</body></html>
-
-[2019-02-24 11:01:37.345] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:01:37.357] [ERROR] console - (node:37395) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:02:50.268] [INFO] console - data: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /wordscut was not found on this server.</p>
-</body></html>
-
-[2019-02-24 11:02:50.272] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:18:39.199] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:18:39.212] [INFO] console - mongo连接成功
-[2019-02-24 11:18:39.215] [INFO] console - mongo连接打开
-[2019-02-24 11:18:43.812] [INFO] console - data: ["我", "爱", "北京", "天安", "天安门"]
-[2019-02-24 11:18:43.825] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:18:43.843] [ERROR] console - (node:39574) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:18:59.433] [INFO] console - data: ["我", "爱", "北京", "天安", "天安门"]
-[2019-02-24 11:19:04.883] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:22:19.636] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:22:19.651] [INFO] console - mongo连接成功
-[2019-02-24 11:22:19.655] [INFO] console - mongo连接打开
-[2019-02-24 11:22:30.191] [INFO] console - data: ["test", "我", "爱", "北京", "天安", "天安门"]
-[2019-02-24 11:22:30.196] [INFO] console - 创建对象 { content: 'test我爱北京天安门',
-  username: 'roger',
-  createTime: 1550978550196,
-  modifyTime: 1550978550196,
-  status: 0,
-  wordList: '["test", "我", "爱", "北京", "天安", "天安门"]' }
-[2019-02-24 11:22:30.210] [ERROR] console - (node:40086) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:22:30.356] [INFO] console - 创建对象 { date: 1550937600, username: 'roger' }
-[2019-02-24 11:22:30.444] [INFO] console - 需要更新的对象是 { date: 1550937600, username: 'roger' } { '$inc': { createCount: 1 } }
-[2019-02-24 11:35:41.754] [INFO] console - data: ["test", "北京", "天安", "天安门"]
-[2019-02-24 11:35:41.760] [INFO] console - 创建对象 { content: 'test我爱北京天安门',
-  username: 'roger',
-  createTime: 1550979341760,
-  modifyTime: 1550979341760,
-  status: 0,
-  wordList: '["test", "北京", "天安", "天安门"]' }
-[2019-02-24 11:35:41.789] [INFO] console - 需要更新的对象是 { date: 1550937600, username: 'roger' } { '$inc': { createCount: 1 } }
-[2019-02-24 11:47:50.567] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:47:50.602] [INFO] console - mongo连接成功
-[2019-02-24 11:47:50.613] [INFO] console - mongo连接打开
-[2019-02-24 11:48:11.792] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:48:11.832] [ERROR] console - (node:44897) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:48:44.614] [INFO] console - ==========================
-[2019-02-24 11:48:44.617] [INFO] console - missing parameter:_id
-[2019-02-24 11:48:44.619] [INFO] console - ==========================
-[2019-02-24 11:48:44.623] [INFO] console - ******** getResFn error ******** 
-[2019-02-24 11:48:44.626] [INFO] console - { 1000: missing parameter:_id
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at requires.forEach.name (/Users/rogersmac/ML/authCenter/utils/controller/index.js:42:4)
-    at Array.forEach (<anonymous>)
-    at integretyCheck (/Users/rogersmac/ML/authCenter/utils/controller/index.js:37:14)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:9:17
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22 name: 1000 }
-[2019-02-24 11:48:44.633] [ERROR] console - { 1000: missing parameter:_id
-    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)
-    at requires.forEach.name (/Users/rogersmac/ML/authCenter/utils/controller/index.js:42:4)
-    at Array.forEach (<anonymous>)
-    at integretyCheck (/Users/rogersmac/ML/authCenter/utils/controller/index.js:37:14)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:9:17
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)
-    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22 name: 1000 } '1000: missing parameter:_id\n    at fail (/Users/rogersmac/ML/authCenter/utils/controller/index.js:47:19)\n    at requires.forEach.name (/Users/rogersmac/ML/authCenter/utils/controller/index.js:42:4)\n    at Array.forEach (<anonymous>)\n    at integretyCheck (/Users/rogersmac/ML/authCenter/utils/controller/index.js:37:14)\n    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:9:17\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at /Users/rogersmac/ML/authCenter/node_modules/co/index.js:54:5\n    at new Promise (<anonymous>)\n    at co (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:50:10)\n    at /Users/rogersmac/ML/authCenter/utils/controller/index.js:6:9\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/rogersmac/ML/authCenter/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/rogersmac/ML/authCenter/node_modules/express/lib/router/index.js:281:22'
-[2019-02-24 11:49:11.387] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:49:11.403] [INFO] console - mongo连接成功
-[2019-02-24 11:49:11.406] [INFO] console - mongo连接打开
-[2019-02-24 11:49:11.969] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:49:12.001] [ERROR] console - (node:45070) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:49:31.230] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:49:31.245] [INFO] console - mongo连接成功
-[2019-02-24 11:49:31.250] [INFO] console - mongo连接打开
-[2019-02-24 11:49:31.480] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:49:31.501] [ERROR] console - (node:45125) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:51:01.546] [INFO] console - data: ["test", "北京", "天安", "梦"]
-[2019-02-24 11:51:18.418] [INFO] console - 创建对象 { content: 'test北京天安梦',
-  username: 'roger',
-  createTime: 1550980278418,
-  modifyTime: 1550980278418,
-  status: 0,
-  wordList: '["test", "北京", "天安", "梦"]' }
-[2019-02-24 11:51:18.454] [INFO] console - 需要更新的对象是 { date: 1550937600, username: 'roger' } { '$inc': { createCount: 1 } }
-[2019-02-24 11:51:43.160] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:51:43.277] [INFO] console - mongo连接成功
-[2019-02-24 11:51:43.295] [INFO] console - mongo连接打开
-[2019-02-24 11:51:56.046] [INFO] console - data: ["test", "北京", "天安", "梦"]
-[2019-02-24 11:52:07.956] [INFO] console - 创建对象 { content: 'test北京天安梦',
-  username: 'roger',
-  createTime: 1550980327956,
-  modifyTime: 1550980327956,
-  status: 0,
-  wordList: [ 'test', '北京', '天安', '梦' ] }
-[2019-02-24 11:52:07.989] [ERROR] console - (node:45402) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:52:08.034] [INFO] console - 需要更新的对象是 { date: 1550937600, username: 'roger' } { '$inc': { createCount: 1 } }
-[2019-02-24 11:52:27.835] [INFO] console - data: ["北京", "天安", "天安门"]
-[2019-02-24 11:52:27.841] [INFO] console - 创建对象 { content: '我爱北京天安门',
-  username: 'roger',
-  createTime: 1550980347841,
-  modifyTime: 1550980347841,
-  status: 0,
-  wordList: [ '北京', '天安', '天安门' ] }
-[2019-02-24 11:52:27.859] [INFO] console - 需要更新的对象是 { date: 1550937600, username: 'roger' } { '$inc': { createCount: 1 } }
-[2019-02-24 11:53:24.857] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:54:39.019] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:56:38.926] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:56:38.977] [INFO] console - mongo连接成功
-[2019-02-24 11:56:38.982] [INFO] console - mongo连接打开
-[2019-02-24 11:56:41.814] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:56:41.868] [ERROR] console - (node:46035) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:56:41.901] [INFO] console - ******** getResFn error ******** 
-[2019-02-24 11:56:41.904] [INFO] console - TypeError: match_list.append is not a function
-    at data.forEach._note.wordList.forEach.word (/Users/rogersmac/ML/authCenter/apps/note/app.js:49:32)
-    at Array.forEach (<anonymous>)
-    at data.forEach._note (/Users/rogersmac/ML/authCenter/apps/note/app.js:46:28)
-    at Array.forEach (<anonymous>)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:43:14
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9)
-[2019-02-24 11:56:41.933] [ERROR] console - TypeError: match_list.append is not a function
-    at data.forEach._note.wordList.forEach.word (/Users/rogersmac/ML/authCenter/apps/note/app.js:49:32)
-    at Array.forEach (<anonymous>)
-    at data.forEach._note (/Users/rogersmac/ML/authCenter/apps/note/app.js:46:28)
-    at Array.forEach (<anonymous>)
-    at /Users/rogersmac/ML/authCenter/apps/note/app.js:43:14
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)
-    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)
-    at process._tickCallback (internal/process/next_tick.js:180:9) 'TypeError: match_list.append is not a function\n    at data.forEach._note.wordList.forEach.word (/Users/rogersmac/ML/authCenter/apps/note/app.js:49:32)\n    at Array.forEach (<anonymous>)\n    at data.forEach._note (/Users/rogersmac/ML/authCenter/apps/note/app.js:46:28)\n    at Array.forEach (<anonymous>)\n    at /Users/rogersmac/ML/authCenter/apps/note/app.js:43:14\n    at Generator.next (<anonymous>)\n    at onFulfilled (/Users/rogersmac/ML/authCenter/node_modules/co/index.js:65:19)\n    at newTickHandler (/Users/rogersmac/ML/authCenter/node_modules/mpromise/lib/promise.js:234:18)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)'
-[2019-02-24 11:57:03.189] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:57:03.203] [INFO] console - mongo连接成功
-[2019-02-24 11:57:03.207] [INFO] console - mongo连接打开
-[2019-02-24 11:57:03.547] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:57:03.570] [ERROR] console - (node:46104) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:57:47.514] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:57:47.531] [INFO] console - mongo连接成功
-[2019-02-24 11:57:47.535] [INFO] console - mongo连接打开
-[2019-02-24 11:57:48.307] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:57:48.331] [ERROR] console - (node:46235) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 11:58:33.971] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 11:58:34.008] [INFO] console - mongo连接成功
-[2019-02-24 11:58:34.020] [INFO] console - mongo连接打开
-[2019-02-24 11:58:35.743] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 11:58:35.765] [ERROR] console - (node:46342) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 14:00:59.361] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 14:00:59.377] [INFO] console - mongo连接成功
-[2019-02-24 14:00:59.381] [INFO] console - mongo连接打开
-[2019-02-24 14:01:00.648] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 14:01:00.673] [ERROR] console - (node:59096) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-[2019-02-24 14:02:25.485] [INFO] console - Express server listening on :8999, in development mode
-[2019-02-24 14:02:25.501] [INFO] console - mongo连接成功
-[2019-02-24 14:02:25.503] [INFO] console - mongo连接打开
-[2019-02-24 14:02:27.128] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
-[2019-02-24 14:02:27.163] [ERROR] console - (node:59289) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-03-05 21:48:35.494] [INFO] console - Express server listening on :8999, in development mode
+[2019-03-05 21:49:36.216] [INFO] console - Express server listening on :8999, in development mode
+[2019-03-05 21:49:41.670] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:49:41.690] [ERROR] console - (node:77902) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-03-05 21:50:28.559] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:50:51.769] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:50:51.780] [ERROR] console - mongo连接断开
+[2019-03-05 21:50:51.783] [ERROR] console - mongo连接失败MongoError: connect ETIMEDOUT 192.16.1.2:6666
+[2019-03-05 21:50:59.987] [INFO] console - Express server listening on :8999, in development mode
+[2019-03-05 21:51:16.721] [INFO] console - Express server listening on :8999, in development mode
+[2019-03-05 21:51:16.739] [INFO] console - mongo连接成功
+[2019-03-05 21:51:16.742] [INFO] console - mongo连接打开
+[2019-03-05 21:51:21.217] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:51:21.236] [ERROR] console - (node:78185) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-03-05 21:51:45.292] [INFO] console - Express server listening on :8999, in development mode
+[2019-03-05 21:51:45.320] [INFO] console - mongo连接成功
+[2019-03-05 21:51:45.325] [INFO] console - mongo连接打开
+[2019-03-05 21:51:50.749] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:51:50.770] [ERROR] console - (node:78282) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-03-05 21:51:53.818] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:55:39.277] [INFO] console - Express server listening on :8999, in development mode
+[2019-03-05 21:55:39.296] [INFO] console - mongo连接成功
+[2019-03-05 21:55:39.305] [INFO] console - mongo连接打开
+[2019-03-05 21:55:44.687] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:55:44.707] [ERROR] console - (node:78912) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-03-05 21:56:42.559] [INFO] console - Express server listening on :8999, in development mode
+[2019-03-05 21:56:42.583] [INFO] console - mongo连接成功
+[2019-03-05 21:56:42.587] [INFO] console - mongo连接打开
+[2019-03-05 21:56:43.790] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:56:43.809] [ERROR] console - (node:79079) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-03-05 21:57:32.660] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:58:30.803] [INFO] console - Express server listening on :8999, in development mode
+[2019-03-05 21:58:30.856] [INFO] console - mongo连接成功
+[2019-03-05 21:58:30.861] [INFO] console - mongo连接打开
+[2019-03-05 21:58:34.179] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:58:34.199] [ERROR] console - (node:79382) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2019-03-05 21:59:38.027] [INFO] console - Express server listening on :8999, in development mode
+[2019-03-05 21:59:38.048] [INFO] console - mongo连接成功
+[2019-03-05 21:59:38.051] [INFO] console - mongo连接打开
+[2019-03-05 21:59:38.453] [INFO] console - 查询条件是 { username: 'roger', status: 0 }
+[2019-03-05 21:59:38.476] [ERROR] console - (node:79567) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html

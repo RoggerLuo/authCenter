@@ -33,6 +33,26 @@ function postReq(content){
 }
 
 module.exports = {
+    keywords: controller([],function*({req}){
+        const limit = req.query.limit
+        const username = req.headers.username
+        const condition = {username, status:0}
+        const data = yield dao.find(condition)
+        const kwMap = {}
+        data.forEach(entry=>{
+            entry.wordList.forEach(word=>{
+                if(kwMap[word]){
+                    kwMap[word]+=1
+                }else{
+                    kwMap[word]=1
+                }
+            })
+        })
+        const arr = Object.entries(kwMap)
+        arr.sort((a,b)=>b[1]-a[1])
+        const wordArr = arr.map(el=>el[0])
+        return wordArr.slice(0,limit||20)
+    }),
     similar: controller(['_id'],function*({req}){
         const username = req.headers.username
         const _id = req.params._id
