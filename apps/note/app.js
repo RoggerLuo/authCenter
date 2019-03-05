@@ -90,7 +90,9 @@ module.exports = {
 
         const data = yield dao.find(condition)
         const finalData = data.filter(entry=>{
-            return entry.matchList.some(word=>kwArr.indexOf(word)!==-1)
+            if(entry.matchList) {
+                return entry.matchList.some(word=>kwArr.indexOf(word)!==-1)
+            }
         })
         return finalData.slice(startIndex,startIndex+pageSize)
     }),
