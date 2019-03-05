@@ -80,6 +80,20 @@ module.exports = {
         returnList.sort((a,b)=>b.count-a.count)
         return returnList
     }),
+    searchKeyword: controller(['keywords'],function*({req}){
+        const username = req.headers.username
+        let {startIndex,pageSize} = req.query
+        if(startIndex) startIndex = parseInt(startIndex)
+        if(pageSize) { pageSize = parseInt(pageSize) } else { pageSize=10}
+        const kwArr = req.body.keywords.split(',')
+        const condition = {username: req.headers.username}
+
+        const data = yield dao.find(condition)
+        const finalData = data.filter(entry=>{
+            return entry.matchList.some(word=>kwArr.indexOf(word)!==-1)
+        })
+        return finalData.slice(startIndex,startIndex+pageSize)
+    }),
     search: controller(['keywords'],function*({req}){
         const username = req.headers.username
         let {startIndex,pageSize} = req.query
