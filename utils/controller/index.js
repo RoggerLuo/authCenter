@@ -12,7 +12,11 @@ module.exports = {
                 client.fail(err)
                 return
             }
-            client.success(rs||null)
+            if(rs===undefined) {
+                client.success(null)
+            }else{
+                client.success(rs)
+            }
         })
     },
     delay: timeout => new Promise(resolve => setTimeout(resolve,timeout)),
