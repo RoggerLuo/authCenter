@@ -85,7 +85,7 @@ module.exports = {
         let {startIndex,pageSize} = req.query
         if(startIndex) {startIndex = parseInt(startIndex||0)} else {startIndex=0}
         if(pageSize) { pageSize = parseInt(pageSize) } else { pageSize=10}
-        const kwArr = req.body.keywords.split(',')
+        const kwArr = req.query.keywords.split(',')
         const condition = {username: req.headers.username}
 
         const data = yield dao.find(condition)
