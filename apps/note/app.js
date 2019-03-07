@@ -144,7 +144,17 @@ module.exports = {
         const _id = req.params._id
         const exist = yield dao.findOne({_id})
         if(exist) {
-            yield dao.updateOne({_id},{content,modifyTime})
+            // 更新 wordList
+            const _wordListStr = yield postReq(content)
+            const _wordList = JSON.parse(_wordListStr)
+            const wordList = [] 
+            _wordList.forEach(el=>{
+                if(wordList.indexOf(el) === -1) {
+                    wordList.push(el)
+                }
+            })
+
+            yield dao.updateOne({_id},{content,modifyTime,wordList})
             yield statisticDao.incrementModifyCount(username)
             return 'ok'    
         }else{
