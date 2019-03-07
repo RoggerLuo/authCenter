@@ -61,6 +61,21 @@ module.exports = {
         })
         return returnArr
     }),
+    searchKeyword: controller(['keywords'],function*({req}){
+        const username = req.headers.username
+        let {startIndex,pageSize} = req.query
+        if(startIndex) {startIndex = parseInt(startIndex||0)} else {startIndex=0}
+        if(pageSize) { pageSize = parseInt(pageSize) } else { pageSize=10}
+        const kwArr = req.query.keywords.split(',')
+        const condition = {username,status:0}
+        const data = yield dao.find(condition,{sort:{modifyTime:-1}})
+        const finalData = data.filter(entry=>{
+            if(entry.wordList) {
+                return entry.wordList.some(word=>kwArr.indexOf(word)!==-1)
+            }
+        })
+        return finalData.slice(startIndex,startIndex+pageSize)
+    }),
     similar: controller(['_id'],function*({req}){
         const username = req.headers.username
         const _id = req.params._id
@@ -88,22 +103,7 @@ module.exports = {
         returnList.sort((a,b)=>b.count-a.count)
         return returnList
     }),
-    searchKeyword: controller(['keywords'],function*({req}){
-        const username = req.headers.username
-        let {startIndex,pageSize} = req.query
-        if(startIndex) {startIndex = parseInt(startIndex||0)} else {startIndex=0}
-        if(pageSize) { pageSize = parseInt(pageSize) } else { pageSize=10}
-        const kwArr = req.query.keywords.split(',')
-        const condition = {username: req.headers.username}
-
-        const data = yield dao.find(condition)
-        const finalData = data.filter(entry=>{
-            if(entry.wordList) {
-                return entry.wordList.some(word=>kwArr.indexOf(word)!==-1)
-            }
-        })
-        return finalData.slice(startIndex,startIndex+pageSize)
-    }),
+    
     search: controller(['keywords'],function*({req}){
         const username = req.headers.username
         let {startIndex,pageSize} = req.query
