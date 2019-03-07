@@ -40,11 +40,15 @@ module.exports = {
         const data = yield dao.find(condition)
         const kwMap = {}
         data.forEach(entry=>{
+            let factor = 1
+            if(entry.modifyTime > (Date.now() - 1000*60*60*24*7) ) {
+                factor = 2
+            }
             entry.wordList.forEach(word=>{
                 if(kwMap[word]){
-                    kwMap[word]+=1
+                    kwMap[word] += factor
                 }else{
-                    kwMap[word]=1
+                    kwMap[word] = factor
                 }
             })
         })
@@ -146,8 +150,14 @@ module.exports = {
     create: controller(['content'],function*({req}){
         const username = req.headers.username
         const content = req.body.content
-        const _wordList = yield postReq(content)
-        const wordList = JSON.parse(_wordList)
+        const _wordListStr = yield postReq(content)
+        const _wordList = JSON.parse(_wordListStr)
+        const wordList = [] 
+        _wordList.forEach(el=>{
+            if(wordList.indexOf(el) === -1) {
+                wordList.push(el)
+            }
+        })
         const createTime = Date.now()
         const entry = yield dao.create({content, username, createTime, modifyTime: createTime,starred:false,status:0,wordList})
         yield statisticDao.incrementCreateCount(username)
