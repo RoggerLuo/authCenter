@@ -55,7 +55,11 @@ module.exports = {
         const arr = Object.entries(kwMap)
         arr.sort((a,b)=>b[1]-a[1])
         const wordArr = arr.map(el=>el[0])
-        return wordArr.slice(0,limit||20)
+        const returnArr = wordArr.slice(0,limit||20)
+        returnArr.sort(function() {
+            return .5 - Math.random()
+        })
+        return returnArr
     }),
     similar: controller(['_id'],function*({req}){
         const username = req.headers.username
