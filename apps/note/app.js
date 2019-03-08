@@ -55,10 +55,10 @@ module.exports = {
         const arr = Object.entries(kwMap)
         arr.sort((a,b)=>b[1]-a[1])
         const wordArr = arr.map(el=>el[0])
-        const returnArr = wordArr.slice(0,limit||20)
-        returnArr.sort(function() {
-            return .5 - Math.random()
-        })
+        const returnArr = wordArr.slice(0,limit||24)
+        // returnArr.sort(function() {
+        //     return .5 - Math.random()
+        // })
         return returnArr
     }),
     searchKeyword: controller(['keywords'],function*({req}){
