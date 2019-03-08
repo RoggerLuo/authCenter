@@ -18,7 +18,7 @@ module.exports = {
             let userToken = jwt.sign(
                 {username:params.username}, // 只有使用对象
                 encrypt_key,
-                { expiresIn: '100h' } // 才能设置过期时间
+                // { expiresIn: '100h' } // 才能设置过期时间， 不设置就是永久
             )
             return userToken
         } else {
