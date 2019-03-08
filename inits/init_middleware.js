@@ -36,7 +36,7 @@ module.exports = function (app) {
     res.header('Access-Control-Allow-Credentials', true);
     res.header("Access-Control-Allow-Headers", "Content-Type, X-Requested-With,Content-Length,Authorization,Accept,Cookie,Cache-Control,Pragma,expire-day");
     res.header('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE, OPTIONS');
-    const isLoginOrRegister = req.url.indexOf('/auth/login')!==-1||req.url.indexOf('/auth/register')!==-1
+    const isLoginOrRegister = req.url.indexOf('/auth/verify')!==-1||req.url.indexOf('/auth/login')!==-1||req.url.indexOf('/auth/register')!==-1
     if(isLoginOrRegister) {
       next()  
     }else{
