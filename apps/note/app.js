@@ -55,7 +55,7 @@ module.exports = {
         const arr = Object.entries(kwMap)
         arr.sort((a,b)=>b[1]-a[1])
         const wordArr = arr.map(el=>el[0])
-        const returnArr = wordArr.slice(0,limit||24)
+        const returnArr = wordArr.filter(el=>el.length>1).slice(0,limit||24)
         // returnArr.sort(function() {
         //     return .5 - Math.random()
         // })
