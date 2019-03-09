@@ -44,9 +44,13 @@ module.exports = function (app) {
         res.send("authorization failed")
       }else{
         co(function*(){
-          const {username} = yield verify(req.headers.token)
-          req.headers.username = username
-          next()  
+            try{
+                const {username} = yield verify(req.headers.token)
+                req.headers.username = username
+                next()  
+            }catch(e){
+                res.send(e.message)
+            }
         })    
       }
     }
