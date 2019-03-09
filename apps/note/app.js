@@ -110,16 +110,20 @@ module.exports = {
         if(startIndex) startIndex = parseInt(startIndex)
         if(pageSize) { pageSize = parseInt(pageSize) } else { pageSize=10}
 
-        const kw = req.query.keywords.split(',')
-        if(kw[0]) {
-            const reg = RegExp(kw[0],"i")
-            const condition = {status:0,username: req.headers.username,content:{$regex:reg}}
-            const [count,data] = yield [dao.count(condition),dao.find(condition,{skip:startIndex,limit:pageSize,sort:{modifyTime:-1}})]
-            yield kw.map(name => historyDao.addHistory({name,username}))
-            return {total:count,data}
-        }else{
-            return {total:0,data:[]}
-        }
+        const kw = req.query.keywords.split(' ')
+        const andArr = kw.map(el=>{
+            const reg = RegExp(el,"i")
+            return {content:{$regex:reg}}
+        })
+        // if(kw[0]) {
+        // const reg = RegExp(kw[0],"i")            
+        const condition = {status:0,username: req.headers.username,$and:andArr}
+        const [count,data] = yield [dao.count(condition),dao.find(condition,{skip:startIndex,limit:pageSize,sort:{modifyTime:-1}})]
+        yield kw.map(name => historyDao.addHistory({name,username}))
+        return {total:count,data}
+        // }else{
+        //     return {total:0,data:[]}
+        // }
     }),
     getList: controller([],function*({req}){
         let {startIndex,pageSize,star,reverse} = req.query
