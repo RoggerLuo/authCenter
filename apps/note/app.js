@@ -113,8 +113,8 @@ module.exports = {
         const kw = req.query.keywords.split(',')
         if(kw[0]) {
             const reg = RegExp(kw[0],"i")
-            const condition = {username: req.headers.username,content:{$regex:reg}}
-            const [count,data] = yield [dao.count(condition),dao.find(condition,{skip:startIndex,limit:pageSize})]
+            const condition = {status:0,username: req.headers.username,content:{$regex:reg}}
+            const [count,data] = yield [dao.count(condition),dao.find(condition,{skip:startIndex,limit:pageSize,sort:{modifyTime:-1}})]
             yield kw.map(name => historyDao.addHistory({name,username}))
             return {total:count,data}
         }else{
