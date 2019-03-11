@@ -71,7 +71,8 @@ module.exports = {
         const data = yield dao.find(condition,{sort:{modifyTime:-1}})
         const finalData = data.filter(entry=>{
             if(entry.wordList) {
-                return entry.wordList.some(word=>kwArr.indexOf(word)!==-1)
+                return !kwArr.some(el=>entry.wordList.indexOf(el) === -1)
+                // return entry.wordList.some(word=>kwArr.indexOf(word)!==-1)
             }
         })
         return finalData.slice(startIndex,startIndex+pageSize)
@@ -101,7 +102,7 @@ module.exports = {
             }
         })
         returnList.sort((a,b)=>b.count-a.count)
-        return returnList
+        return returnList.slice(0,10)
     }),
     
     search: controller(['keywords'],function*({req}){
