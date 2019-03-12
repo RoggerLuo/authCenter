@@ -4,7 +4,7 @@ const config = () => {
         port: 8999,
 
         mongo: {
-            uri: 'mongodb://localhost:5556/flow4',
+            uri: 'mongodb://192.168.1.2:6666/flow4',
             opts: {
             user: '',
             pass: '',
