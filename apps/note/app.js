@@ -28,7 +28,7 @@ function postReq(content){
             })
         })
         req.write(contents)
-        req.end
+        req.end()
     })
 }
 
