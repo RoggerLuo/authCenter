@@ -5,7 +5,7 @@
   "main": "app.js",
   "license": "ISC",
   "dependencies": {
-    "adm-zip": "^0.4.7",
+    "adm-zip": "^0.4.11",
     "atwork": "*",
     "body-parser": "^1.15.2",
     "co": "^4.6.0",
