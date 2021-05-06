@@ -27,7 +27,7 @@
     "morgan": "^1.7.0",
     "multer": "^1.2.0",
     "node-uuid": "^1.4.7",
-    "ua-parser-js": "^0.7.12",
+    "ua-parser-js": "^0.7.24",
     "unzip": "^0.1.11",
     "unzip-zhcn": "^1.0.3",
     "workplus-escape": "^1.0.2"
